@@ -1,0 +1,24 @@
+{% extends "d3b_generic_chart.html" %}
+
+{% block serviceresult %}
+<style>
+
+.main text {
+    font: 10px sans-serif;	
+}
+
+.axis line, .axis path {
+    shape-rendering: crispEdges;
+    stroke: black;
+    fill: none;
+}
+
+.node circle {
+	  fill: #899;
+	  stroke: #344;
+	  stroke-width: 1px;
+	}
+</style>
+{{ result | safe }}
+
+{% endblock %}

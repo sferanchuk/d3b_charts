@@ -1,0 +1,14 @@
+{% extends "d3b_generic_form.html" %}
+
+{% block serviceform %}
+
+<form action="/{{service}}/{{ job }}/" method="post" novalidate>
+    {% csrf_token %} 
+    {{ form.as_p }}
+    <input type="submit" name="command" value="Submit" />
+    <input type="submit" name="command" value="Download as PNG" />
+    <input type="submit" name="command" value="Download as CSV" />
+</form>
+
+{% endblock %}
+

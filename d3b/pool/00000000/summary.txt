@@ -1,0 +1,1 @@
+{"taxtype": "none", "numvolumes": 2, "maxlevel": 8, "name": "arthritis_euk", "volumes": ["e5812", "e5878"]}

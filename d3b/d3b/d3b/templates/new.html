@@ -1,0 +1,22 @@
+{% extends "d3b_generic.html" %}
+
+{% block bodytitle %}
+{{ header }}
+<ul>
+{% for choice in choices %}
+    <li>{{ choice }}</li>
+{% endfor %}
+</ul>
+{% endblock %}
+
+{% block bodycontent %}
+<form action="/" method="post" enctype="multipart/form-data">
+    {% csrf_token %} 
+    {{ form.as_p }}
+    <input type="submit" value="Submit" />
+</form>
+<p>
+links to test datasets: [ <a href="summary/00000001">osteomyelitis (QIIME)</a> ] [ <a href="summary/00000000">arthritis_euk (custom)</a> ]
+{% endblock %}
+
+

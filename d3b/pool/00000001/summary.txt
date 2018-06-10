@@ -1,0 +1,1 @@
+{"taxtype": "qiime", "numvolumes": 9, "maxlevel": 7, "name": "osteomyelitis", "volumes": ["ostPr01", "ostBR17", "ostBR18", "ostBR19", "ostPr21", "ostBR14", "ostBR15", "ostPr22", "ostPr10"]}

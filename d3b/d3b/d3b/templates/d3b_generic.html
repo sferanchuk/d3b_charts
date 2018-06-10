@@ -1,0 +1,38 @@
+{% load static %}
+<html>
+<head>
+
+   <title>D3b {{title}} {{service}}</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+   
+		
+   
+   <style>
+   body, html { background-color: #dfcd9f;  font-size: 14px; font-family:Arial,Helvetica,Verdana,sans-serif;}
+   input { font-size: 90%; }
+   a:link, a:visited, a:hover, a:active {text-decoration: none; font-style:oblique; font-weight: normal; padding: 0;color: #814115; }
+	.indextable td { padding: 2px 5px 2px 5px; }
+	.levellabel {font-size:150%;text-decoration: underline;}
+	.columnheader {font-style:oblique; font-size:120%;}
+	.rowheader {font-style:oblique; font-weight: bold; }
+	</style>
+   
+{% for script in jscripts %}
+	<script src="/static/{{ script }}"></script>
+{% endfor %}
+   
+   
+</head>
+<body>
+<div style="color: #725d3e; font-size:140%; padding:5px;">
+<a href="/"><b>D3b charts</b></a>
+</div>
+<div style="font-size:140%; padding:5px; color: #473827;">
+{% block bodytitle %}{% endblock %} 
+</div>
+<div style="padding:5px; color: #38332f;">
+{% block bodycontent %}{% endblock %} 
+</div>
+</body>
+</html>
