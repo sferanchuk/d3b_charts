@@ -22,8 +22,8 @@ import matplotlib
 matplotlib.use('Agg')
 import skbio.diversity as skdiv
 import pandas as pd
-import statsmodels.api as sm
-from statsmodels.formula.api import ols
+#import statsmodels.api as sm
+#from statsmodels.formula.api import ols
 
 import d3bf
 

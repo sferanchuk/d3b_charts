@@ -84,6 +84,33 @@ elif fmethod == "CA (skbio)":
 	alabels = [ "%4.2f" % ordres.eigvals[ "CA1" ], "%4.2f" % ordres.eigvals[ "CA2" ] ]
 	lcoords = [ ordres.samples[ "CA1" ].tolist(), ordres.samples[ "CA2" ].tolist() ]
 	
+print """
+<style>
+.axis line, .axis path {
+    shape-rendering: crispEdges;
+    stroke: black;
+    fill: none;
+}
+
+circle {
+    fill: steelblue;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 100px;					
+    height: 16px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: #f4f2ec;	
+    border: 1px solid #7E713D;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+</style>
+"""
+
 
 
 		

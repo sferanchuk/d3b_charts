@@ -10,3 +10,4 @@ pip install "scikit-bio<0.5"
 deactivate
 #wget https://d3js.org/d3.v3.min.js
 #wget https://d3js.org/d3.v4.min.js
+#wget https://github.com/benfred/venn.js/blob/master/venn.js

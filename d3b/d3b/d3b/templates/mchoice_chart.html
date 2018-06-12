@@ -1,0 +1,56 @@
+{% extends "d3b_generic_form.html" %}
+
+{% block serviceform %}
+
+<form action="/{{service}}/{{ job }}/" method="post" novalidate>
+    {% csrf_token %} 
+    {{ form.as_p }}
+    <br>
+    <input type="submit" name="command" value="Submit" class="submitbutton" />
+    <input type="submit" name="command" value="Download as PNG" class="auxbutton"/>
+    <input type="submit" name="command" value="Download as SVG" class="auxbutton"/>
+</form>
+
+<script>
+
+var tags = {{ tags | safe }};
+
+function settagvalues()
+{
+	var group = document.getElementById("id_dgroup").value;
+	if ( group == "none" ) group = "name";
+	var samples = document.getElementById( "id_samples" ).options;
+	var i;
+	var prevlength = samples.length;
+	for ( i = 0; i < prevlength; i++ ) samples.remove( 0 );
+	var vhash = tags[ group ];
+	var values = [];
+	for ( var volume in vhash )
+	{
+		var csample = vhash[ volume ];
+		var j;
+		for ( j = 0; j < values.length; j++ )
+		{
+			if ( values[j] == csample )
+			{
+				break;
+			}
+		}
+		if ( j < values.length ) continue;
+		values.push( csample );
+		var copt = document.createElement("OPTION");
+		copt.text = csample;
+		copt.value = csample;
+		if ( values.length <= 3 ) copt.selected = true;
+		samples.add( copt );
+	}
+}
+</script>
+
+{% endblock %}
+
+{% block serviceresult %}
+
+{{ result | safe }}
+
+{% endblock %}

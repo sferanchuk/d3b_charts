@@ -4,7 +4,7 @@
 
    <title>D3b {{title}} {{service}}</title>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-   
+   {{ extracss | safe }}
    
 		
    
@@ -21,11 +21,14 @@
 	select { font-size: 80%; background-color: #9bacbc; border: 1px solid #49737f; border-radius: 4px; }
 	.siteheader a { color: #064770; font-size:160%; padding:5px;  }
 	.servicedupl { font-size: 110%; color: #064770; }
+	#id_samples { font-size: 80%; background-color: #cccccc; border: 1px solid #49737f; border-radius: 4px; }
+	option:checked { background: #9bacbc; }
 	</style>
    
 {% for script in jscripts %}
 	<script src="/static/{{ script }}"></script>
 {% endfor %}
+	{{ extrascripts | safe }}
    
    
 </head>

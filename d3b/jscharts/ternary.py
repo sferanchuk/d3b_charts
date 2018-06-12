@@ -41,6 +41,7 @@ aenorm = np.sum( aedata, axis=1 )
 aedata /= aenorm.reshape( len(edata), 1 )
 
 if len( samples ) != 3:
+	print "Exactly 3 samples should be selected"
 	sys.exit( 1 )
 s = [ [], [], [] ]
 s[0] = aedata[ gtags[ samples[0] ] ]
@@ -64,6 +65,34 @@ for k in range( len( ssum ) ):
 	snames.append( kdnames[ knorder[ k ] ] )
 	sgnames.append( kgnames[ knorder[ k ] ] )
 
+print """
+<style>
+.axis line, .axis path {
+    shape-rendering: crispEdges;
+    stroke: black;
+    fill: none;
+}
+
+circle {
+    fill: steelblue;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 100px;					
+    height: 16px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: #f4f2ec;	
+    border: 1px solid #7E713D;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+</style>
+"""
+
+
 if resolution == "high":
 	print "<svg width=\"2400\" height=\"2400\" id=\"normal\"></svg>"
 else:
@@ -73,7 +102,7 @@ print "var data1 =  %s;" % json.dumps( sval[0] )
 print "var data2 =  %s;" % json.dumps( sval[1] )
 print "var data3 =  %s;" % json.dumps( sval[2] )
 print "var alabels = %s;" % json.dumps( snames ) 
-print "var agroups = %s;" % json.dumps( sgnames ) 
+print "var agroups = %s;" % json.dumps( [ gn if len( gn ) > 0 else "Unassigned" for gn in sgnames ] ) 
 print "var tlabels = %s;" % json.dumps( samples ) 
 
 print """

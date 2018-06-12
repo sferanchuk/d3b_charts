@@ -34,4 +34,5 @@ urlpatterns = [
 	url( r'^venn/(?P<job>[0-9a-f]+)/$', views.venn, name='venn' ),
 	url( r'^ternary/(?P<job>[0-9a-f]+)/$', views.ternary, name='ternary' ),
 	url( r'^whittaker/(?P<job>[0-9a-f]+)/$', views.whittaker, name='whittaker' ),
+	url( r'^pca_sp/(?P<job>[0-9a-f]+)/$', views.pca_sp, name='pca_sp' ),
 ]

@@ -48,6 +48,35 @@ aedata /= aenorm.reshape( len(edata), 1 )
 rev = 0
 cdata = d3bf.calc_distances( edata, aedata, dmethod, kdata, knorder, rev )
 
+print """
+<style>
+.axis line, .axis path {
+    shape-rendering: crispEdges;
+    stroke: black;
+    fill: none;
+}
+
+
+.link {
+   fill: none;
+   stroke: #555;
+   stroke-width: 4px;
+ }
+
+
+.node circle {
+	  fill: #333;
+	  stroke: #333;
+	  stroke-width: 1px;
+	}
+
+.node line, .node path {
+    shape-rendering: crispEdges;
+    stroke: black;
+    fill: none;
+}
+</style>
+"""
 if resolution == "high":
 	print "<svg width=\"2400\" height=\"%d\" id=\"normal\"></svg>" % ( len( kdict ) * 40 )
 else:

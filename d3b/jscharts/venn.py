@@ -39,6 +39,10 @@ edata = d3bf.load_edata( data, ilevel, ml, kdict, findex, gtags )
 
 ptnum = [ "proportional-presence", "proportional-abundance", "interactive-presence" ].index( ptype )
 
+if ( ptnum == 0 or ptnum == 1 ) and not ( len( samples ) == 2 or len( samples ) == 3 ):
+	print "2 or 3 samples should be selected for proportional Venn diagram"
+	sys.exit( 0 )
+
 if ( ptnum == 0 or ptnum == 1 ) and ( len( samples ) == 2 or len( samples ) == 3 ):
 	if ptnum == 1:
 		aedata = np.array( edata, dtype=float )

@@ -25,7 +25,7 @@ SECRET_KEY = 'w(28*%dacg*u8u=7vaurv=5yinoi#u*##s1rv__6081#1s4a0s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ "cuda", "cuda.bri-shur.com", "piter", "secure.bri-shur.com" ]
+ALLOWED_HOSTS = [ "cuda", "cuda.bri-shur.com", "piter", "secure.bri-shur.com", "localhost", "127.0.0.1" ]
 
 
 # Application definition

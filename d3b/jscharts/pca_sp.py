@@ -219,6 +219,34 @@ for k in sspec:
 	spgroups.append( kgnames[ knorder[k] ] )
 	for i in range( ncomp ):
 		spcoords[i].append( pcacomp[ i ][ k ] )
+print """
+<style>
+.axis line, .axis path {
+    shape-rendering: crispEdges;
+    stroke: black;
+    fill: none;
+}
+
+circle {
+    fill: steelblue;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 100px;					
+    height: 16px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: #f4f2ec;	
+    border: 1px solid #7E713D;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+</style>
+"""
+
+
 	
 if resolution == "high":
 	print "<table><tr><td><svg width=\"1200\" height=\"1200\" id=\"ssamples\"></svg>"

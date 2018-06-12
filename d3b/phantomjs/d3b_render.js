@@ -1,0 +1,46 @@
+
+var fs = require('fs');
+var system = require('system');
+var args = system.args;
+var page = require('webpage').create();
+
+page.onError = function (msg, trace) {
+    console.log(msg);
+    trace.forEach(function(item) {
+        console.log('  ', item.file, ':', item.line);
+    });
+  phantom.exit(1);
+};
+
+page.onConsoleMessage = function(msg, lineNum, sourceId) {
+  console.log('CONSOLE: ' + msg + ' (from line #' + lineNum + ' in "' + sourceId + '")');
+};
+
+phantom.onError = function(msg, trace) {
+  console.log( msg );
+    trace.forEach(function(item) {
+        console.log('  ', item.file, ':', item.line);
+    });
+  phantom.exit(1);
+};
+
+function getFileUrl(str) {
+  var pathName = fs.absolute(str).replace(/\\/g, '/');
+  // Windows drive letter must be prefixed with a slash
+  if (pathName[0] !== "/") {
+    pathName = "/" + pathName;
+  }
+  return encodeURI("file://" + pathName);
+};
+
+//var fileUrl = getFileUrl("lastres.log");
+
+page.open( getFileUrl( args[1] ), function(status) {
+  console.log("Status: " + status);
+  if(status === "success") {
+    page.render( args[2] );
+  }
+  phantom.exit();
+});
+
+

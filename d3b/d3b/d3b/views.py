@@ -10,6 +10,11 @@ from . import forms as dforms
 import json
 
 # Create your views here.
+jvenn_site = "http://jvenn.toulouse.inra.fr/app/"
+jvenn_css = ""
+#"\n".join( [ "<link href=\"" + jvenn_site + "css/" + css + ".css\" rel=\"stylesheet\">" for css in [ "bootstrap",  "bootstrap-responsive", "bootstrap-colorpicker.min" ] ] )
+#jvenn_css = "\n".join( [ "<link href=\"" + jvenn_site + "css/" + css + ".css\" rel=\"stylesheet\">" for css in [ "bootstrap", "prettify", "bootstrap-responsive", "bootstrap-colorpicker.min" ] ] )
+jvenn_js = "\n".join( [	"<script type=\"text/javascript\" src=\"" + jvenn_site + "js/" + js + ".js\"></script>" for js in [ "jquery.min", "bootstrap.min", "bootstrap-colorpicker.min", "canvas2svg", "jvenn.min" ] ] )
 
 def handle_uploaded_file(f):
 	with open( 'pool/d3btestdata.txt', 'wb+') as destination:
@@ -30,9 +35,11 @@ def new(request):
 
 def format_params( form ):
 	params = ""
+	print form.data
 	for field in list( form.declared_fields ):
-		value = form.data[ field ]
-		params += field + "=" + value + "&"
+		values = form.data.getlist( field )
+		for value in values:
+			params += field + "=" + value + "&"
 	return params[:-1]
 
 def run_script( form, job, script ):
@@ -60,8 +67,9 @@ def generic_view( request, job, service, formclass, **kwargs ):
 	template = kwargs.get( 'template', "default_service" if len( jscripts ) == 0 else "default_chart" )
 	outname = jobtitle + "_" + service
 	result = "select parameters and press <i>Submit</i><br>"
+	tags = controls.run_script( "", job, "tags" )
 	if request.method == 'POST':
-		form = formclass( request.POST, request.FILES, job_id=job )
+		form = formclass( request.POST, request.FILES, job_id = job, tags_dict = tags )
 		if not service in [ "indices", "summary", "anova" ]:
 			outname += "_" + form.data[ 'level' ]
 		if "command" in form.data and form.data[ "command" ] != "Submit":
@@ -83,9 +91,12 @@ def generic_view( request, job, service, formclass, **kwargs ):
 		print script
 		result = run_script( form, job, script  )
 	else:
-		form = formclass( job_id=job )
+		form = formclass( job_id=job, tags_dict = tags )
 	template = loader.get_template( template + '.html' )
-	context = { 'job': job, 'title' : jobtitle, 'service' : service, 'servicename' : servicename, 'result' : result, 'form' : form , 'outname' : outname, 'jscripts' : jscripts }
+	context = { 'job': job, 'title' : jobtitle, 'service' : service, 'servicename' : servicename, 'result' : result, 'form' : form , 'outname' : outname, 'jscripts' : jscripts, 'tags' : tags }
+	if service == "venn" and request.method == 'POST' and form.data[ "ptype" ] == "interactive-presence":
+		context[ 'extracss' ] = jvenn_css
+		context[ 'extrascripts' ] = jvenn_js
 	return HttpResponse( template.render( context, request ) )
 
 def tags(request,job):
@@ -107,26 +118,28 @@ def permanova(request,job):
 	return generic_view( request, job, "permanova", dforms.Permanova, servicename = "Variance of distances" )
 
 def pca(request,job):
-	return generic_view( request, job, "pca", dforms.GenericForm )
+	return generic_view( request, job, "pca", dforms.PCA, jscripts = [ "d3.v3.min.js" ]  )
 
 def tree(request,job):
-	return generic_view( request, job, "tree", dforms.GenericForm )
+	return generic_view( request, job, "tree", dforms.Tree, jscripts = [ "d3.v3.min.js" ] )
 
 def heatmap(request,job):
 	return generic_view( request, job, "heatmap", dforms.Heatmap, jscripts = [ "d3.v3.min.js" ] )
 
 def venn(request,job):
-	return generic_view( request, job, "venn", dforms.GenericForm )
+	return generic_view( request, job, "venn", dforms.Venn, template = "mchoice_chart", jscripts = [ "d3.v3.min.js", "venn.js" ] )
 
 def ternary(request,job):
-	return generic_view( request, job, "ternary", dforms.GenericForm )
+	return generic_view( request, job, "ternary", dforms.Ternary, template = "mchoice_chart", jscripts = [ "d3.v3.min.js" ] )
 
 def bubbles(request,job):
 	return generic_view( request, job, "bubbles", dforms.BubbleChart, script="bubble", jscripts = [ "d3.v4.min.js" ] )
 
 def whittaker(request,job):
-	return generic_view( request, job, "pca", dforms.GenericForm )
+	return generic_view( request, job, "whittaker", dforms.Whittaker, jscripts = [ "d3.v4.min.js" ] )
 
+def pca_sp(request,job):
+	return generic_view( request, job, "pca_sp", dforms.PCA2P, servicename = "Two-panel PCA", jscripts = [ "d3.v3.min.js" ] )
 
 if False:
 	jobtitle = job_name( job )
