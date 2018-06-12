@@ -13,7 +13,6 @@ import collections
 
 import d3bf
 
-
 form = cgi.FieldStorage()
 id = "emap"
 dgroup = form.getvalue( "dgroup", "none" )
@@ -57,6 +56,34 @@ for rnum in range( len( edata ) ):
 		minsize = csrow[ rind ] 
 	minsizes.append( minsize )
 
+print """
+<style>
+circle {
+  fill: rgb(31, 119, 180);
+  fill-opacity: .25;
+  stroke: rgb(31, 119, 180);
+  stroke-width: 1px;
+}
+
+.leaf circle {
+  fill: #ff7f0e;
+  fill-opacity: 1;
+}
+
+text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.node {
+  font: 10px sans-serif;
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 2px;
+}
+</style>
+"""
 
 if dprestype == "bubble":
 	if resolution == "high":
@@ -71,6 +98,7 @@ else:
 		print "<div width=\"960\" height=\"960\" id=\"normal\"></div>"
 #	print "<div width=960 height=500 id=normal></div>"
 #	print "<div width=2000 height=1200 id=highres></div>"
+
 print "<script type=\"text/javascript\">"
 print "var height = 600;"
 print "var outfn = \"bubble_%s_%d_%s\";" % ( id, ilevel, dgroup ) 

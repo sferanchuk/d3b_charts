@@ -16,6 +16,11 @@
 	.levellabel {font-size:150%;text-decoration: underline;}
 	.columnheader {font-style:oblique; font-size:120%;}
 	.rowheader {font-style:oblique; font-weight: bold; }
+	.auxbutton { font-size: 90%; font-style:oblique; background-color: #9bacbc; border: 1px solid #49737f; border-radius: 4px;  }
+	.submitbutton { font-size: 90%; font-style:oblique; font-weight: bold; background-color: #9bacbc; border: 1px solid #49737f; border-radius: 4px; }
+	select { font-size: 80%; background-color: #9bacbc; border: 1px solid #49737f; border-radius: 4px; }
+	.siteheader a { color: #064770; font-size:160%; padding:5px;  }
+	.servicedupl { font-size: 110%; color: #064770; }
 	</style>
    
 {% for script in jscripts %}
@@ -25,8 +30,9 @@
    
 </head>
 <body>
-<div style="color: #725d3e; font-size:140%; padding:5px;">
-<a href="/"><b>D3b charts</b></a>
+<div class="siteheader">
+<a href="/">D3b charts</a>
+<br>
 </div>
 <div style="font-size:140%; padding:5px; color: #473827;">
 {% block bodytitle %}{% endblock %} 

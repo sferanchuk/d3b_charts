@@ -4,14 +4,19 @@ from __future__ import unicode_literals
 import os
 import time
 import hashlib
+from django.conf import settings
 
 dataroot = "pool/"
-scriptsroot = "../../jscharts/"
+scriptsroot = "jscharts/"
+phantomjs = "phantomjs/"
+staticjs = "d3b/static/"
+
 
 def submit_job( fn, jobname ):
+	abspath = os.path.abspath( "." ) + "/"
 	job = hashlib.md5( str( time.time() ) ).hexdigest()
-	os.mkdir( dataroot + job )
-	with open( dataroot + job + '/emap.txt', 'wt+') as destination:
+	os.mkdir( abspath + dataroot + job )
+	with open( abspath + dataroot + job + '/emap.txt', 'wt+') as destination:
 		for chunk in f.chunks():
 			destination.write(chunk)
 	with open( dataroot + job + '/name', 'wt+') as destination:
@@ -20,12 +25,70 @@ def submit_job( fn, jobname ):
 	return job
 
 def run_script( params, job, script ):
-	os.chdir( dataroot + job )
+	abspath = settings.BASE_DIR + '/'
+	os.chdir( abspath + dataroot + job )
 	os.putenv( "QUERY_STRING", params )
-	res = os.popen( "python " + scriptsroot + script + ".py" ).read()
-	os.chdir( "../.." )
+	cmd = "python " + abspath + scriptsroot + script + ".py 2>python.err"
+	print params
+	print cmd
+	res = os.popen( cmd ).read()
+	with open( "python.err" ) as f:
+		res += f.read()
+	os.chdir( abspath )
 	return res
 
+def render_png( params, job, script, host, jscripts ):
+	abspath = settings.BASE_DIR + '/'
+	os.chdir( abspath + dataroot + job )
+	os.putenv( "QUERY_STRING", params + "&resolution=high" )
+	res = os.popen( "python " + abspath + scriptsroot + script + ".py" ).read()
+	fo = open( "lastres.html", "w" )
+	fo.write( "<html><head>\n" )
+	host = "file://" + abspath + staticjs
+	for jscript in jscripts:
+		fo.write( "<script src=\"%s\"></script>\n" % ( host + jscript ) )
+	fo.write( "</head><body>\n" )
+	fo.write( res )
+	fo.write( "</body></html>" )
+	fo.close()
+	cmd = abspath + phantomjs + "phantomjs " + abspath + phantomjs + "d3b_render.js lastres.html lastres.png >phantomjs.log 2>phantomjs.err"
+	print cmd
+	os.system( cmd )
+	pngres = ""
+	if os.path.isfile( "lastres.png" ):
+		with open( "lastres.png" ) as f:
+			pngres = f.read()
+		os.remove( "lastres.png" )
+	os.chdir( abspath )
+	return pngres
+
+def render_svg( params, job, script, host, jscripts ):
+	abspath = settings.BASE_DIR + '/'
+	os.chdir( abspath + dataroot + job )
+	os.putenv( "QUERY_STRING", params + "&resolution=high" )
+	res = os.popen( "python " + abspath + scriptsroot + script + ".py" ).read()
+	fo = open( "lastres.html", "w" )
+	fo.write( "<html><head>\n" )
+	host = "file://" + abspath + staticjs
+	for jscript in jscripts:
+		fo.write( "<script src=\"%s\"></script>\n" % ( host + jscript ) )
+	fo.write( "</head><body>\n" )
+	fo.write( res )
+	fo.write( "</body></html>" )
+	fo.close()
+	cmd = abspath + phantomjs + "phantomjs " + abspath + phantomjs + "d3b_savepage.js lastres.html lastres_rendered.html >phantomjs.log 2>phantomjs.err"
+	print cmd
+	os.system( cmd )
+	svgres = ""
+	if os.path.isfile( "lastres_rendered.html" ):
+		with open( "lastres_rendered.html" ) as f:
+			htmlres = f.read()
+			svgbeg = htmlres.find( "<svg" )
+			svgend = htmlres.rfind( "</svg>" )
+			if svgbeg != -1 and svgend != -1:
+				svgres = htmlres[ svgbeg : svgend + 6 ]
+	os.chdir( abspath )
+	return svgres
 			
 
 ss = """

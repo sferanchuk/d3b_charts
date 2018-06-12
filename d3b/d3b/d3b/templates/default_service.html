@@ -5,7 +5,8 @@
 <form action="/{{service}}/{{ job }}/" method="post" novalidate>
     {% csrf_token %} 
     {{ form.as_p }}
-    <input type="submit" value="Submit" />
+    <br>
+    <input type="submit" value="Submit" class="submitbutton" />
 </form>
 
 {% endblock %}

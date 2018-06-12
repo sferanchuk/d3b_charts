@@ -59,8 +59,8 @@ function exportbiom( tasktype )
 <form action="/{{service}}/{{ job }}/" method="post" novalidate>
     {% csrf_token %} 
     {{ form.as_p }}
-    <input type="submit" value="Submit" />
-    <button type="button" onclick="exportTableToCSV( '{{outname}}.tsv')" style="font-size: 85%;">Export to TSV</button><br><br>
+    <input type="submit" value="Submit" class="submitbutton" />
+    <button type="button" onclick="exportTableToCSV( '{{outname}}.tsv')" class="auxbutton" >Export to TSV</button><br><br>
 </form>
 
 

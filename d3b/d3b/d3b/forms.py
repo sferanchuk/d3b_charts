@@ -88,6 +88,12 @@ class Heatmap( GenericForm ):
 	taxlabels = forms.ChoiceField( label = "Labels for taxonomy", choices = [ ( "no", "No" ), ( "yes", "Yes" ) ] )
 																		  
 class BubbleChart( GenericForm ):
-	ptype = forms.ChoiceField( choices = [ ( "AA", "aa" ), ( "BB", "bb" ) ] )
-
-    
+	level = VChoiceField()
+	dfilter = VChoiceField( label="Samples filter" )
+	spfilter = VChoiceField( label="Taxonomy filter" )
+	dgroup = VChoiceField( label="Samples grouping" )
+	dnorm = forms.ChoiceField( label = "Units", choices = [ ( "percent", "Percents" ), ( "count", "Counts" ) ] )
+	dglabels = forms.ChoiceField( label = "Group labels", choices = [ ( "no", "No" ), ( "yes", "Yes" ) ] )
+	dplabels = forms.ChoiceField( label = "Percent labels", choices = [ ( "no", "No" ), ( "yes", "Yes" ) ] )
+	dlegend = forms.ChoiceField( label = "Show legend", choices = [ ( "no", "No" ), ( "yes", "Yes" ) ] )
+	dprestype = forms.ChoiceField( label = "Presentation type", choices = [ ( "bubble", "Bubble chart" ), ( "treemap", "Treemap" ) ] )

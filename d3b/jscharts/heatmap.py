@@ -209,6 +209,27 @@ for cid in kdnames.values():
 		maxidsize = len( cid )
 smallrect = []
 
+print """
+<style>
+
+.main text {
+    font: 10px sans-serif;	
+}
+
+.axis line, .axis path {
+    shape-rendering: crispEdges;
+    stroke: black;
+    fill: none;
+}
+
+.node circle {
+	  fill: #899;
+	  stroke: #344;
+	  stroke-width: 1px;
+	}
+</style>
+"""
+
 print "<div id=\"tt\" class=\"tooltip\" style=\"opacity:0; position: absolute; text-align: center; width: 100px; height: 16px; padding: 2px; font: 12px sans-serif; background: #f4f2ec; border: 1px solid #7E713D; border-radius: 8px; pointer-events: none;\"></div>"
 if resolution == "high":
 	print "<svg width=\"2400\" height=\"%d\" id=\"normal\"></svg>" % ( len( kdict ) * 40 + 600 )
