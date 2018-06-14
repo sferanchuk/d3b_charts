@@ -8,6 +8,7 @@ from django import forms
 from . import controls
 from . import forms as dforms
 import json
+import urllib
 
 # Create your views here.
 jvenn_site = "http://jvenn.toulouse.inra.fr/app/"
@@ -100,7 +101,22 @@ def generic_view( request, job, service, formclass, **kwargs ):
 	return HttpResponse( template.render( context, request ) )
 
 def tags(request,job):
-	return generic_view( request, job, "tags", dforms.GenericForm )
+	jobtitle = job_name( job )
+	service = 'tags'
+	servicename = 'Define tags'
+	tags = controls.run_script( "", job, "tags" )
+	if request.method == 'POST':
+		print request.POST[ 'jstags' ]
+		newtags = controls.run_script( "newtags=" + urllib.unquote_plus( request.POST[ 'jstags' ] ), job, "tags" )
+		tags = newtags.replace( "u'", "'" )
+	ptags = json.loads( tags )
+	ptkeys = ptags.keys()
+	ptkeys.remove( "name" )
+	ptkeys.remove( "none" )
+	volumes = ptags[ 'name' ]
+	template = loader.get_template( 'tags.html' )
+	context = { 'job': job, 'title' : jobtitle, 'service' : service, 'servicename' : servicename, 'tags' : tags, 'ptkeys' : ptkeys, 'volumes' : json.dumps( volumes ), 'pvolumes' : volumes }
+	return HttpResponse( template.render( context, request ) )
 
 def taxonomy(request,job):
 	return generic_view( request, job, "taxonomy", dforms.GenericForm )

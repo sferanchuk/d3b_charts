@@ -303,6 +303,35 @@ def calc_distances( edata, aedata, dmethod, kdata, knorder, rev ):
 			cdata[j][i] = cdata[i][j]
 #	print cdata
 	return cdata
+
+def print_popupstyle():
+	print """
+<style>
+.axis line, .axis path {
+    shape-rendering: crispEdges;
+    stroke: black;
+    fill: none;
+}
+
+circle {
+    fill: steelblue;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 100px;					
+    height: 16px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: #f4f2ec;	
+    border: 1px solid #7E713D;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+</style>
+"""
+
 	
 def print_drawscatter():
 	print """
