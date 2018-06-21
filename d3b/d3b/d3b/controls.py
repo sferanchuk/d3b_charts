@@ -47,7 +47,7 @@ def render_png( params, job, script, host, jscripts ):
 	host = "file://" + abspath + staticjs
 	for jscript in jscripts:
 		fo.write( "<script src=\"%s\"></script>\n" % ( host + jscript ) )
-	fo.write( "</head><body>\n" )
+	fo.write( "</head><body style=\"background-color:#f2f2f2;\">\n" )
 	fo.write( res )
 	fo.write( "</body></html>" )
 	fo.close()

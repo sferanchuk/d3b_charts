@@ -180,6 +180,6 @@ class PCA2P( GenericForm ):
 	shape = VChoiceField( label="Shape" )
 	labels = VChoiceField( label="Labels" )
 	pc1 = forms.ChoiceField( label = "PC1", choices = [ ( str( v ), str( v ) ) for v in range( 1, 5 ) ] )
-	pc2 = forms.ChoiceField( label = "PC1", choices = [ ( str( v ), str( v ) ) for v in range( 2, 6 ) ] )
+	pc2 = forms.ChoiceField( label = "PC2", choices = [ ( str( v ), str( v ) ) for v in range( 2, 6 ) ] )
 
 						 

@@ -15,10 +15,19 @@ import csv
 sfname = "emap_filters.txt"
 reslist = { "none": [ "0", "" ] }
 
+form = cgi.FieldStorage()
+nsfdata = form.getvalue( "newfilters", "" )
+if len( nsfdata ) > 0:
+	newfilters = json.loads( nsfdata )
+	with open( sfname, "w" ) as f:
+		for sfilter in newfilters:
+			nlist = ";".join( newfilters[ sfilter ][1].strip().split() )
+			f.write( "%s\t%s\t%s\n" % ( sfilter, newfilters[ sfilter ][ 0 ], nlist ) )
+
 if os.path.isfile( sfname ):
 	sfreader = csv.reader(open( sfname, "r"), delimiter='\t')
 	sfdata = list( sfreader )
 	for j in range( 0, len( sfdata ) ):
 		if len( sfdata[j] ) == 3:
-			reslist[ sfdata[j][0] ] = sfdata[j][ 1 : ]
+			reslist[ sfdata[j][0] ] = [ sfdata[j][ 1 ], sfdata[j][2].replace( ";", "\n" ) ]
 print json.dumps( reslist )

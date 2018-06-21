@@ -65,34 +65,8 @@ for k in range( len( ssum ) ):
 	snames.append( kdnames[ knorder[ k ] ] )
 	sgnames.append( kgnames[ knorder[ k ] ] )
 
-print """
-<style>
-.axis line, .axis path {
-    shape-rendering: crispEdges;
-    stroke: black;
-    fill: none;
-}
-
-circle {
-    fill: steelblue;
-}
-
-div.tooltip {	
-    position: absolute;			
-    text-align: center;			
-    width: 100px;					
-    height: 16px;					
-    padding: 2px;				
-    font: 12px sans-serif;		
-    background: #f4f2ec;	
-    border: 1px solid #7E713D;		
-    border-radius: 8px;			
-    pointer-events: none;			
-}
-</style>
-"""
-
-
+d3bf.print_popupstyle()
+	
 if resolution == "high":
 	print "<svg width=\"2400\" height=\"2400\" id=\"normal\"></svg>"
 else:

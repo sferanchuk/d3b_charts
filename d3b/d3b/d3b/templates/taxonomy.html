@@ -1,0 +1,377 @@
+{% extends "d3b_generic_form.html" %}
+
+{% block serviceform %}
+
+<script>
+
+
+var spfilters = {{ taxfilters | safe }};
+var modified = 0;
+
+function set_modified()
+{
+	if ( modified == 0 )
+	{
+		//document.body.setAttribute( "onbeforeunload", "return onbeforeunload()" );
+		modified = 1;
+		var cfname = document.getElementById( "cfmod" );
+		cfname.value = "(modified)";
+	}
+}
+
+
+function addnewfilter()
+{
+	var flist = document.getElementById("flist");
+	var nfname0 = document.getElementById("fnew").value;
+	var nfname = String( nfname0 ).replace(/^\s+|\s+$/g, '');
+	if ( nfname.length == 0 ) return;
+	document.getElementById("fnew").value = "";
+	var newdiv = document.createElement("div");
+	newdiv.id = "sf_" + nfname;
+	newdiv.style.fontWeight = "bold";
+	var tnbd = document.createTextNode( "X" );
+    var btnd = document.createElement("BUTTON");	
+	btnd.appendChild( tnbd );
+	btnd.addEventListener( "click", function() { deletefilter( nfname ); } );
+	btnd.style.fontSize = "90%";
+	newdiv.appendChild( btnd );	
+	var tnsp = document.createTextNode( " " );	
+	newdiv.appendChild( tnsp );
+	var tnb = document.createTextNode( "edit" );
+    var btn = document.createElement("BUTTON");	
+	btn.appendChild( tnb );
+	btn.addEventListener( "click", function() { openfilter( nfname ); } );
+	btn.style.fontSize = "90%";
+	newdiv.appendChild( btn );	
+	var tn = document.createTextNode( " " + nfname + " " );	
+	newdiv.appendChild( tn );
+	flist.appendChild( newdiv );
+	var fdata = document.getElementById("taxitems").value;
+	var fflag = document.getElementById("reverse0").checked ? "0" : "1";
+	spfilters[ nfname ] = [ fflag, fdata ];
+	var cfname = document.getElementById( "cfname" );
+	cfname.value = nfname;
+	set_modified();
+}
+
+function openfilter( cfilter )
+{
+	document.getElementById("taxitems").value = spfilters[ cfilter ][ 1 ];
+	document.getElementById("reverse" + spfilters[ cfilter ][ 0 ] ).checked = true;
+	var cfname = document.getElementById( "cfname" );
+	cfname.value = cfilter;
+}
+
+
+function deletefilter( cfilter )
+{
+	if ( cfilter == "none" ) return;
+	if ( confirm( "Delete filter [" + cfilter + "]?" ) != true ) return;
+	var cfdiv = document.getElementById( "sf_" + cfilter );
+	var flist = document.getElementById("flist");
+	flist.removeChild( cfdiv )
+	delete spfilters[ cfilter ];
+	set_modified();
+}
+
+function updatecurfilter()
+{
+	var cfname = document.getElementById( "cfname" );
+	var cfilter = cfname.value;
+	if ( cfilter == "none" ) return;
+	var fdata = document.getElementById("taxitems").value;
+	var fflag = document.getElementById("reverse0").checked ? "0" : "1";
+	spfilters[ cfilter ] = [ fflag, fdata ];
+	set_modified();
+}
+
+function savefilters()
+{
+	fv = JSON.stringify( spfilters );
+	var jsfilters = document.getElementById( "jsfilters" );
+	jsfilters.value = fv;
+	document.getElementById( "savefilters" ).submit();
+}
+
+function resettaxitems()
+{
+	document.getElementById( "taxitems" ).value = "";
+}
+
+
+
+
+</script>
+
+<div class="description">
+Define taxonomy filters
+(as list of keywords)<br><br>
+</div>
+
+<table><tr><td width="300" valign="top" id="flist">
+<i>Defined filters:</i><br><br>
+<div id="sf_none" style="font-weight: bold;">
+<button type="button" onclick="deletefilter('none')" style="font-size: 90%;color:#999;">X</button> 
+<button type="button" onclick="openfilter('none')" style="font-size: 90%;">view</button> 
+none
+</div>
+{% for cfilter in pfkeys %}
+	<div id="sf_{{cfilter}}" style="font-weight: bold;">
+	<button type="button" onclick="deletefilter('{{cfilter}}')" style="font-size: 90%;">X</button> 
+	<button type="button" onclick="openfilter('{{cfilter}}')" style="font-size: 90%;">edit</button> 
+	{{ cfilter }}
+	</div>
+{% endfor %}
+
+<td valign="top">
+
+Selected filter: <input type=text id="cfname" name="cfname" value="none" readonly class="taginputlabel"><br><br>
+List of keywords (taxonomic groups):<br>
+<textarea id="taxitems" rows="10" cols="40" class="taginput"></textarea><br>
+<button type="button" onclick="resettaxitems()" class="auxbutton">Reset list</button>
+<br><br>
+<input id="reverse1" type="radio" name="reverse" value="1"> Select only groups in the list<br>
+<input id="reverse0" type="radio" name="reverse" value="0" checked> Select all except groups in the list<br>
+<br>
+<button type="button" onclick="updatecurfilter()" style="font-size: 90%;">Update values</button><br>
+<br>
+</table>
+New filter name <input type=text id="fnew" name="fnew" class="taginput">
+<button type="button" onclick="addnewfilter()" class="auxbutton">Add new filter</button><br><br><br>
+<form  id="savefilters" action="/taxonomy/{{ job }}/" method="post" novalidate>
+    {% csrf_token %} 
+<input name="jsfilters" id="jsfilters" type="hidden" value="" >
+<button type="button" onclick="savefilters()" class="submitbutton"><b>Save changes</b></button> 
+<input type=text id="cfmod" name="cfname" value="" readonly class="tagmodlabel"><br><br>
+</form>
+<br>
+</table><br>
+
+{% endblock %}
+
+
+
+{% block serviceresult %}
+
+<div style="color:#444;font-style:oblique;font-size: 90%;">
+Click on the name of taxonomic group to add it to the list<br>
+Click on the circle to expand/collapse the group<br>
+</div>
+<svg id="taxa" width="960" height="640"></svg>
+<script>
+var treeData = {{ treedata | safe }};
+
+var i = 0;
+
+var val_id = "#taxa";
+var svg0 = d3.select( val_id ),
+    diameter = +svg0.attr("width");
+var fs = diameter / 100;
+var margin = { top: 4 * fs, right: 1.5 * fs, bottom: 4 * fs, left: 8 * fs }
+    
+var width = diameter - margin.left - margin.right;
+var height = +svg0.attr( "height" ) - margin.top - margin.bottom;
+
+var ctreewidth = 0.8 * width;
+var treewidth = ctreewidth;
+
+var tree = d3.layout.tree()
+	.size([height, ctreewidth ])
+	.separation(function(a, b) {
+			return 1;
+           });
+           
+var diagonal = d3.svg.diagonal()
+	.projection(function(d) { return [d.y, d.x]; });
+
+
+var svg = svg0.append("g")
+	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	
+var taxitems = document.getElementById("taxitems");
+var newfname = document.getElementById("fnew");
+
+root = treeData[ treeData.length - 1 ];
+
+var maxlevel = 0;
+
+function initcollapse( d, clevel, tlevel ) 
+{
+	if ( clevel > maxlevel ) maxlevel = clevel;
+	if (d.children) 
+	{
+		var i;
+		if ( clevel >= tlevel )
+		{
+			d._children = d.children;
+			for ( i = 0; i < d._children.length; i++ )
+			{
+				initcollapse( d._children[i], clevel + 1, tlevel );
+			}
+			d.children = null;
+		}
+		else
+		{
+			for ( i = 0; i < d.children.length; i++ )
+			{
+				initcollapse( d.children[i], clevel + 1, tlevel );
+			}
+		}
+		d.x0 = d.x;
+	}
+}
+
+initcollapse( root, 0, 2 );
+ 
+root.x0 = height / 2;
+root.y0 = 0;
+ 
+function collapse( d ) 
+{
+	if ( d.children ) 
+	{
+		d._children = d.children;
+		d._children.forEach(collapse);
+		d.children = null;
+	}
+}
+var node_ids = [];
+
+function update(source) 
+{
+	var nodes = tree.nodes(root).reverse(),
+		links = tree.links(nodes);
+	
+	node_ids = [];
+	nodes.forEach(function(d) 
+	{ 
+		if ( d.depth == 0 ) 
+		{ 
+			d.y = 0 
+		} 
+		else 
+		{ 
+			d.y = d.depth * ctreewidth / maxlevel; 
+		} 
+		node_ids.push( d.name );
+	});
+	var chue = 0.3;
+	var csat = 0.3;
+	var labelSize = 0;
+
+	var node = svg.selectAll("g.node")
+		.data(nodes, function(d) { d.id = d.name; return d.vid || (d.vid = ++i); });
+
+	var nodeEnter = node.enter().append("g")
+		.attr( "class", "node" )
+		.attr( "id", function(d) { return d.name; } )
+		.attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; } );
+
+	nodeEnter.append("circle")
+		.attr("r", 1e-6 )
+		.style("fill", d3.hsl( chue, 0.45, 0.3 ) )
+		.on("click", clickcircle );
+
+	nodeEnter.append("text")
+		.attr("dy", function(d) { return d.children ? ".90em" : ".35em"; } )
+		.attr("x", function(d) { return d.children ? -13 : 7; } )
+		.attr("text-anchor", function(d) { return d.children ? "end" : "start"; } )
+		.attr( "dx", ".35em" )
+		.style("font", fs * 1.2 + "px sans-serif" )
+		.style("fill", function(d) { return d.children ? "#777" : "black"; } )
+		.style("fill-opacity", 1e-6 )
+		.text(function(d) { return d.title;	} )
+		.on("click", clicktext );
+	
+	var duration = 500;
+	
+	var nodeUpdate = node.transition()
+			.duration(duration)
+			.attr( "transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; } );
+
+	nodeUpdate.select("text")
+		.style("fill-opacity", 1)
+		.attr( "x", function(d) { return d.children ? -13 : 7; } )
+		.attr("dy", function(d) { return d.children ? ".90em" : ".35em"; } )
+		.style("fill", function(d) { return d.children ? "#777" : "black"; } )
+		.attr( "text-anchor", function(d) { return d.children ? "end" : "start"; } );
+		
+	nodeUpdate.select("circle")
+		.attr("r", fs * 0.5 )
+		.style("fill", function(d) { return d._children ? d3.hsl( chue, 0.45, 0.3 ) : d3.hsl( chue, 0.45, 0.8 ); } );
+		
+	var nodeExit = node.exit().transition()
+		.duration(duration)
+		.attr( "transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; } )
+		.remove();
+
+	nodeExit.select("circle")
+		.attr("r", 1e-6);
+		//.remove();
+
+	nodeExit.select("text")
+		.attr( "text-anchor", function(d) { return "end"; } )
+		.style("fill", function(d) { return "black"; } )
+		.style("fill-opacity", 1e-6);
+
+	var link = svg.selectAll("path.link")
+		.data(links, function(d) { return d.target.vid; });
+
+	link.enter().insert("path", "g")
+		.attr("class", "link")
+		.attr("d", diagonal)
+		.attr("stroke", "black")
+		.attr("stroke-width", fs * 0.17 +"px")
+		.attr("shape-rendering", "auto")
+		.attr("fill", "none");   
+
+	link.transition()
+		.duration(duration)
+		.attr("d", diagonal);
+		
+	link.exit().transition()
+		.duration(duration)
+		.attr("d", function(d) {
+			var o = {x: source.x, y: source.y};
+			return diagonal({source: o, target: o});
+		})
+		.remove();
+
+	nodes.forEach(function(d) {
+		d.x0 = d.x;
+		d.y0 = d.y;
+	});
+		
+}
+
+function clickcircle( pn ) 
+{
+	if ( pn.children) {
+		pn._children = pn.children;
+		pn.children = null;
+	} else {
+		pn.children = pn._children;
+		pn._children = null;
+	}
+	update( pn );
+}
+
+function clicktext( pn ) 
+{
+	if ( taxitems.value.length == 0 && newfname.value.length == 0 )
+	{
+		newfname.value = pn.title;
+	}
+	taxitems.value += pn.title + "\n";
+}
+
+update(root);
+
+</script>
+<br><br>
+</div>
+
+{% endblock %}
+
+

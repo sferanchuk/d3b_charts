@@ -152,7 +152,7 @@ print "] };"
 print "var ordlist = %s;" % json.dumps( ordlist )
 print """
 
-var margin = {top: 100, right: 15, bottom: 100, left: 60};
+//var margin = {top: 100, right: 15, bottom: 100, left: 60};
 
 root = d3.hierarchy(root)
       .sum(function(d) { return d.size; })
@@ -167,21 +167,13 @@ if dprestype == "bubble":
 	print """
 
 var svg0 = d3.select( val_id );
-var diameter = +svg0.attr("width") - margin.top - margin.bottom;
-
-if ( diameter > 1500 )
-{
-	svg0.append("rect")
-		.attr("width", "100%")
-		.attr("height", "100%")
-		.attr("fill", "white");
-}
-
+var diameter = +svg0.attr("width") * 0.75;
+var fs = diameter / 100;
+margin = { top: 8 * fs, right: 2 * fs, bottom: 12 * fs, left: 8 * fs };
 
 var svg = svg0.append("g")
 	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
    
-var fs = diameter / 100;
 
    var g = svg.append("g").attr("transform", "translate(2,2)"),
     format = d3.format(",d");
