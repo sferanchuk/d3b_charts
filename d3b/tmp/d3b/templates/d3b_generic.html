@@ -1,0 +1,53 @@
+{% load static %}
+<html>
+<head>
+
+   <title>D3b {{title}} {{service}}</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   {{ extracss | safe }}
+   
+		
+   
+   <style>
+   body, html { background-color: #ebdebe;  font-size: 14px; font-family:Arial,Helvetica,Verdana,sans-serif;}
+   input { font-size: 90%; }
+   a:link, a:visited, a:hover, a:active {text-decoration: none; font-style:oblique; font-weight: normal; padding: 0;color: #814115; }
+	.indextable td { padding: 2px 5px 2px 5px; }
+	.levellabel {font-size:150%;text-decoration: underline;}
+	.columnheader {font-style:oblique; font-size:120%;}
+	.rowheader {font-style:oblique; font-weight: bold; }
+	.auxbutton { font-size: 80%; }
+	.submitbutton { font-size: 100%; font-style:oblique; font-weight: bold;  }
+	.submitbuttonold { font-size: 100%; font-style:oblique; font-weight: bold; background-color: #9bacbc; border: 1px solid #898989; border-radius: 4px; }
+	select { font-size: 80%; background-color: #d5dade;  }
+	.taginput { font-size: 80%; background-color: #dae0f2; border: 1px solid #898989;  }
+	.taginputlabel { font-size: 120%; background-color: #ebdebe; border: 0px solid #898989; color: #38332f; font-weight: bold; }
+	.tagmodlabel { font-size: 100%; background-color: #ebdebe; border: 0px solid #898989; color: #a14120; font-weight: bold; }
+	.siteheader a { color: #085d91; font-size:160%; padding:5px;  }
+	.servicedupl { font-size: 110%; color: #085d91; }
+	#id_samples { font-size: 80%; background-color: #d5dade; }
+	.description { font-size:90%; color:#8b5b37; }
+	
+	</style>
+   
+{% for script in jscripts %}
+	<script src="/static/{{ script }}"></script>
+{% endfor %}
+	{{ extrascripts | safe }}
+   
+   
+</head>
+
+<body>
+<div class="siteheader">
+<a href="/">D3b charts</a>
+<br>
+</div>
+<div style="font-size:140%; padding:5px; color: #473827;">
+{% block bodytitle %}{% endblock %} 
+</div>
+<div style="padding:5px; color: #38332f;">
+{% block bodycontent %}{% endblock %} 
+</div>
+</body>
+</html>

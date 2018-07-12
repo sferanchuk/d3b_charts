@@ -15,6 +15,7 @@ import d3bf
 
 form = cgi.FieldStorage()
 id = "emap"
+d3bf.chdir( form.getvalue( "datapath" ) )
 dgroup = form.getvalue( "dgroup", "none" )
 dglabels = form.getvalue( "dglabels", "no" )
 dtlabels = form.getvalue( "dtlabels", "no" )

@@ -17,6 +17,7 @@ import d3bf
 
 form = cgi.FieldStorage()
 id = "emap"
+d3bf.chdir( form.getvalue( "datapath" ) )
 dgroup = form.getvalue( "dgroup", "none" )
 dfilter = form.getvalue( "dfilter", "none" )
 spfilter = d3bf.loadfilters( "emap_filters.txt", form.getvalue( "spfilter", "none" ) )
@@ -45,23 +46,21 @@ if True:
 		( nedata, nkdict ) = d3bf.select_toptax( edata, kdict, inumbest )
 		edata = nedata
 		nknorder = []
-		naedata = [ [] for k in xrange( len( nkdict ) ) ]
+		naedata = []#[ [] for k in xrange( len( nkdict ) ) ]
 		taedata = aedata.transpose()
 		for cknum in range( len( knorder ) ):
 			ckey = knorder[ cknum ]
 			if ckey in nkdict:
 				nknorder.append( ckey )
-				naedata[ nkdict[ ckey ] ] = taedata[ kdict[ ckey ] ].tolist()
+				naedata.append( taedata[ kdict[ ckey ] ].tolist() )
 		aedata = np.array( naedata ).transpose()
 		kdict = nkdict
 		knorder = nknorder
-			
-
 
 	if dorder == "taxonomy":
 		korder = map( itemgetter(1), sorted( kdict.items() ) )
 	elif dorder in gtags:
-		korder = sorted(range(len(kdict)), key=lambda k: edata[ gtags[ dorder ] ][k], reverse=True )
+		korder = sorted(range(len(kdict)), key=lambda k: aedata[ gtags[ dorder ] ][k], reverse=True )
 	else:
 		korder = range( len( kdict ) )
 		
@@ -78,7 +77,7 @@ if True:
 			print "<td class=\"speciesrow\">" + kdata[ ckey ][ si ]
 		for cgtag in d3bf.sorted_alnum( gtags.keys() ):
 			if dnorm == "percent":
-				print "<td>" + "%.1f" % ( 100. * aedata[ gtags[ cgtag ] ][ kdict[ ckey ] ] )
+				print "<td>" + "%.1f" % ( 100. * aedata[ gtags[ cgtag ] ][ ind ] )
 			else:
 				print "<td>" + str( edata[ gtags[ cgtag ] ][ kdict[ ckey ] ] )
 	print "</table>"

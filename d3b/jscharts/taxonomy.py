@@ -8,6 +8,7 @@ cgitb.enable()
 import csv
 import json
 import os.path
+import d3bf
 
 import os
 import csv
@@ -16,7 +17,10 @@ sfname = "emap_filters.txt"
 reslist = { "none": [ "0", "" ] }
 
 form = cgi.FieldStorage()
+d3bf.chdir( form.getvalue( "datapath" ) )
+
 nsfdata = form.getvalue( "newfilters", "" )
+
 if len( nsfdata ) > 0:
 	newfilters = json.loads( nsfdata )
 	with open( sfname, "w" ) as f:

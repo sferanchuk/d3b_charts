@@ -1,0 +1,42 @@
+{% extends "d3b_generic.html" %}
+
+{% block bodytitle %}
+
+<i>dataset:</i> {{title}}
+<br>
+<i>page:</i> {{ servicename }} 
+<br><br>
+{% endblock %}
+
+{% block bodycontent %}
+<table><tr><td width=300 valign="top" style="font-size:90%">
+<span style="text-decoration:underline">Choices for the dataset</span><br>
+<a href=/summary/{{job}}>Summary</a><br><br>
+<i>Settings:</i><br>
+<a href=/tags/{{job}}>Subsets of samples ("tags")</a><br>
+<a href=/taxonomy/{{job}}>Taxonomic groups</a><br><br>
+<i>Tables:</i><br>
+<a href=/table/{{job}}>Matrix of abundancies</a><br>
+<a href=/indices/{{job}}>Alpha-diversity</a><br>
+<a href=/anova/{{job}}>Variance of diversity</a><br>
+<a href=/permanova/{{job}}>Variance of distances</a><br><br>
+<i>Charts:</i><br>
+<a href=/pca/{{job}}>PCA/Ordination</a><br>
+<a href=/tree/{{job}}>Dendrogramm/Tree</a><br>
+<a href=/heatmap/{{job}}>Heatmap</a><br>
+<a href=/venn/{{job}}>Venn diagramm</a><br>
+<a href=/ternary/{{job}}>Ternary diagramm</a><br>
+<a href=/bubbles/{{job}}>Bubble chart</a><br>
+<a href=/whittaker/{{job}}>Whittaker chart</a><br>
+<a href=/pca_sp/{{job}}>Two-panel PCA</a><br>
+<td valign="top">
+{% block serviceform %}{% endblock %}
+</table>
+<br><br>
+<div class=servicedupl>
+<i>page:</i> {{ servicename }} 
+</div>
+<br>
+{% block serviceresult %}{% endblock %}
+
+{% endblock %}

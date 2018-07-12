@@ -46,7 +46,8 @@ if False:
 	pc2 = form.getvalue( "pc2", "2" )
 	ptype = "species"
 
-
+form = cgi.FieldStorage()
+d3bf.chdir( form.getvalue( "datapath" ) )
 ( data, volumes, mn, ml ) = d3bf.loaddata( "emap.txt" )
 ilevel = ml + 1 
 excludelist = []

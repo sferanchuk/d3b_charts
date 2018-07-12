@@ -24,6 +24,7 @@ import d3bf
 
 form = cgi.FieldStorage()
 id = "emap"
+d3bf.chdir( form.getvalue( "datapath" ) )
 labels = form.getvalue( "labels", "name" )
 dfilter = form.getvalue( "dfilter", "none" )
 spfilter = d3bf.loadfilters( "emap_filters.txt", form.getvalue( "spfilter", "none" ) )

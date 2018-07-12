@@ -31,6 +31,7 @@ import collections
 import d3bf
 
 form = cgi.FieldStorage()
+d3bf.chdir( form.getvalue( "datapath" ) )
 dfilter = form.getvalue( "dfilter", "none" )
 spfilter = d3bf.loadfilters( "emap_filters.txt", form.getvalue( "spfilter", "none" ) )
 level = form.getvalue( "level" )

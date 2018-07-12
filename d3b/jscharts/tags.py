@@ -15,7 +15,7 @@ import d3bf
 
 form = cgi.FieldStorage()
 id = "emap"
-
+d3bf.chdir( form.getvalue( "datapath" ) )
 tagdata = form.getvalue( "newtags", "" )
 
 if len( tagdata ) > 0:

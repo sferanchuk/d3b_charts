@@ -14,6 +14,9 @@ import collections
 import d3bf
 import os
 
+form = cgi.FieldStorage()
+d3bf.chdir( form.getvalue( "datapath" ) )
+
 if os.path.isfile( "summary.txt" ):
     with open( "summary.txt" ) as f:
 	print f.read()
@@ -21,7 +24,6 @@ if os.path.isfile( "summary.txt" ):
 
 with open( "name" ) as f:
     name=f.read()
-form = cgi.FieldStorage()
 id = "emap"
 dgroup = form.getvalue( "dgroup", "none" )
 dglabels = form.getvalue( "dglabels", "no" )
@@ -44,7 +46,7 @@ resolution = form.getvalue( "resolution", "low" )
 taxtype = "none"
 if ml == 7 and "Bacteria" in kdnames.values():
     taxtype = "qiime"
-rv = json.dumps( { "name": name, "maxlevel": ml, "taxtype": taxtype, "numvolumes": len( volumes ), "volumes": volumes } )
+rv = json.dumps( { "name": name, "maxlevel": ml + 1, "taxtype": taxtype, "numvolumes": len( volumes ), "volumes": volumes } )
 with open( "summary.txt", "w" ) as f:
     f.write( rv )
 print rv

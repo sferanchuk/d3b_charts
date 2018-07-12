@@ -75,7 +75,7 @@ class GenericForm( forms.Form ):
 
 class Table( GenericForm ):
 	level = VChoiceField()
-	dnorm = forms.ChoiceField( label = "Units", choices = [ ( "count", "Counts" ), ( "percent", "Percents" ) ] )
+	dtype = forms.ChoiceField( label = "Units", choices = [ ( "count", "Counts" ), ( "percent", "Percents" ) ] )
 	dorder = VChoiceField( label="Sort order", choices = [ ( "none", "Unchanged" ), ( "taxonomy", "Taxonomy" ) ] )
 	dfilter = VChoiceField( label="Samples filter" )
 	spfilter = VChoiceField( label="Taxonomy filter" )

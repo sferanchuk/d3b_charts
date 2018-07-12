@@ -6,6 +6,7 @@ cgitb.enable()
 import csv
 import numpy as np
 import json
+import os
 import os.path
 import collections
 from operator import itemgetter
@@ -16,11 +17,8 @@ import re
 import skbio
 import skbio.diversity as skdiv
 
-def sorted_alnum( l ):
-    convert = lambda text: int(text) if text.isdigit() else text
-    alphanum_key = lambda key: [convert(c) for c in re.split('([0-9]+)', key)]
-    return sorted(l, key = alphanum_key)
-
+def chdir( datapath ):
+	os.chdir( datapath )
 
 def loaddata( fname ):
 	reader = csv.reader(open( fname, "r"), delimiter='\t')
@@ -29,13 +27,25 @@ def loaddata( fname ):
 	for i in range( 0, len( data[0] ) ):
 		if len( data[0][i] ) > 0:
 			mn = i
-			c0 = data[0][i][0]
-			if c0 >= '0' and c0 <= '9':
-				ml = i
-			else:
+			c0 = data[0][i]
+			c00 = c0[0]
+			cf = 0
+			if c00 >= '0' and c00 <= '9':
+				if len( c0 ) == 1 or ( len( c0 ) == 2 and c0[1] >= 0 and c0[1] <= '9' ):
+					if int( c0 ) == i + 1:
+						if cf == 0:
+							ml = i
+						if cf != 2:
+							cf = 1
+			if cf == 0 or cf == 2:
 				volumes.append( data[0][i] )
+				cf = 2
 	return ( data, volumes, mn, ml )
 
+def sorted_alnum( l ):
+    convert = lambda text: int(text) if text.isdigit() else text
+    alphanum_key = lambda key: [convert(c) for c in re.split('([0-9]+)', key)]
+    return sorted(l, key = alphanum_key)
 
 def loadtags( tfname, volumes ):
 	tags = {}
@@ -66,7 +76,8 @@ def loadfilters( sfname, spfilter ):
 			if sfdata[j][0] == spfilter and len( sfdata[j] ) == 3:
 				reverse = int( sfdata[j][1] )
 				splist = sfdata[j][2].split( ";" )
-				splist.remove( "" )
+				if "" in splist:
+					splist.remove( "" )
 				return ( splist, reverse )
 	return ( [], 0 )
 

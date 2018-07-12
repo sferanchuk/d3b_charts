@@ -29,6 +29,7 @@ import skbio.stats.ordination as ordination
 import d3bf
 
 form = cgi.FieldStorage()
+d3bf.chdir( form.getvalue( "datapath" ) )
 dmethod = form.getvalue( "dmethod", "Pearson" )
 dfilter = form.getvalue( "dfilter", "none" )
 spfilter = d3bf.loadfilters( "emap_filters.txt", form.getvalue( "spfilter", "none" ) )
