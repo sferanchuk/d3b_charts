@@ -13,10 +13,11 @@ in the conjunction with other python packages intended to be used in big data an
 
 ## Installation
 
-package should be available as python2 package
-consider use virtualenv to install the package
+after copyng the distribution package, 
+under Linux run:
 
-run '...' to download 2-nd party software
+cd d3b
+./install.sh
 
 ## Usage
 

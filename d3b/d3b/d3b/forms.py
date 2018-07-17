@@ -35,7 +35,7 @@ class GenericForm( forms.Form ):
 		cvolumes = [ ( v, v ) for v in summary[ 'volumes' ] ]
 		levelnames = { "qiime" : [ "Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species", "OTU" ] }
 		if summary[ "taxtype" ] != "none": 
-			clevels = [ ( str(k), levelnames[ summary[ "taxtype" ] ][ k - 1 ] + " (" + str( k ) + ")" ) for k in range( 1, summary[ 'maxlevel' ] + 2 ) ]
+			clevels = [ ( str(k), levelnames[ summary[ "taxtype" ] ][ k - 1 ] + " (" + str( k ) + ")" ) for k in range( 1, summary[ 'maxlevel' ] + 1 ) ]
 		else:
 			clevels = [ ( str(k), str(k) ) for k in range( 1, summary[ 'maxlevel' ] + 1 ) ]
 		ctags = [ ( v, v ) for v in tags.keys() ]
@@ -45,6 +45,8 @@ class GenericForm( forms.Form ):
 		
 		if 'level' in self.fields:
 			self.fields[ 'level' ].widget.choices += clevels 
+			self.initial[ 'level' ] = [ clevels[ min( summary[ 'maxlevel' ] - 1, 3 ) ][0] ]
+			#self.fields[ 'level' ].widget.initial = [ clevels[ min( summary[ 'maxlevel' ], 3 ) ][1] ]
 		for fieldname in [ 'dorder', 'volume' ]:
 			if fieldname in self.fields:
 				self.fields[ fieldname ].widget.choices += cvolumes
@@ -54,8 +56,13 @@ class GenericForm( forms.Form ):
 		for fieldname in [ 'dfilter', 'color', 'shape', 'dgroup', 'order1', 'order2', 'labels' ]:
 			if fieldname in self.fields:
 				self.fields[ fieldname ].widget.choices += ctags
+				if fieldname in [ 'labels' ]:
+					self.initial[ fieldname ] = [ 'name' ]
+				else:
+					self.initial[ fieldname ] = [ 'none' ]
 		for fieldname in [ 'spfilter', 'spshow' ]:
 			if fieldname in self.fields:
+				self.initial[ fieldname ] = [ 'none' ]
 				self.fields[ fieldname ].widget.choices += ctaxfilters
 		if 'samples' in self.fields:
 			ctag = 'name'
@@ -68,10 +75,8 @@ class GenericForm( forms.Form ):
 			snames = set( tags[ ctag ] )
 			print snames
 			self.fields[ 'samples' ].widget.choices = [ ( v, v ) for v in snames ]
+			self.fields[ fieldname ].widget.initial = ( 'name', 'name' )
 			
-					
-			
-				
 
 class Table( GenericForm ):
 	level = VChoiceField()
@@ -101,7 +106,6 @@ class Permanova( GenericForm ):
 	dgroup = VChoiceField( label="Samples grouping" )
 	pmethod = forms.ChoiceField( label="Method", choices = [ ( "permanova", "Permanova" ), ( "anosim", "Anosim" ) ] )
 	cunits = forms.ChoiceField( label = "Units", choices = [ ( "probability", "p-value" ), ( "log-probability", "-log( p-value )" ) ] )
-
 
 class PCA( GenericForm ):
 	level = VChoiceField()
@@ -143,7 +147,7 @@ class BubbleChart( GenericForm ):
 	dgroup = VChoiceField( label="Samples grouping" )
 	dnorm = forms.ChoiceField( label = "Units", choices = [ ( "percent", "Percents" ), ( "count", "Counts" ) ] )
 	dglabels = forms.ChoiceField( label = "Group labels", choices = [ ( "no", "No" ), ( "yes", "Yes" ) ] )
-	dplabels = forms.ChoiceField( label = "Percent labels", choices = [ ( "no", "No" ), ( "yes", "Yes" ) ] )
+	dtlabels = forms.ChoiceField( label = "Percent labels", choices = [ ( "no", "No" ), ( "yes", "Yes" ) ] )
 	dlegend = forms.ChoiceField( label = "Show legend", choices = [ ( "no", "No" ), ( "yes", "Yes" ) ] )
 	dprestype = forms.ChoiceField( label = "Presentation type", choices = [ ( "bubble", "Bubble chart" ), ( "treemap", "Treemap" ) ] )
 

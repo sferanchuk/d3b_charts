@@ -24,7 +24,8 @@ def loaddata( fname ):
 	reader = csv.reader(open( fname, "r"), delimiter='\t')
 	data = list(reader)
 	volumes = []
-	for i in range( 0, len( data[0] ) ):
+	ml = 0
+	for i in range( 1, len( data[0] ) ):
 		if len( data[0][i] ) > 0:
 			mn = i
 			c0 = data[0][i]
@@ -131,9 +132,10 @@ def loadtaxonomy( data, ml, spfilter, ilevel ):
 		reverse = spfilter[1]
 	dgnames = []
 	minglevel = 0 if ml < 2 else 1
-	maxglevel = max( 4, ilevel - 2 )
+	maxglevel = max( 7, ilevel - 2 )
 	nkgnames = [ {} for x in xrange( minglevel, maxglevel ) ]
 	ndgnames = [ [] for x in xrange( minglevel, maxglevel ) ]
+	
 	
 	for d in data[1:]:
 		if len( d ) < len( data[0] ):
@@ -159,7 +161,7 @@ def loadtaxonomy( data, ml, spfilter, ilevel ):
 			kdict[ ckey ] = cm
 			kdnames[ ckey ] = ckname
 			kgnames[ ckey ] = cgname
-			for k in range( maxglevel - minglevel ):
+			for k in range( min( maxglevel, len( d ) ) - minglevel ):
 				dkey = d[ k + minglevel ]
 				nkgnames[ k ][ ckey ] = dkey
 				if not dkey in ndgnames[k]:
@@ -168,9 +170,10 @@ def loadtaxonomy( data, ml, spfilter, ilevel ):
 			knorder.append( ckey )
 			kdata[ ckey ] = d[0:ilevel] 
 	for k in range( 0, maxglevel - minglevel ):
-		if k + minglevel < len( ndgnames ) and len( ndgnames[ k + minglevel ] ) > 2:
+		if k < len( ndgnames ) and len( ndgnames[ k ] ) >= 3:
 			break
-	return ( kdict, kdnames, nkgnames[k], knorder, kdata )
+	return ( kdict, kdnames, nkgnames[ k ], knorder, kdata )
+	#return ( kdict, kdnames, kgnames, knorder, kdata )
 
 def select_toptax( edata, kdict, num_best ):
 	if num_best > 0 and num_best < len( edata[0] ):

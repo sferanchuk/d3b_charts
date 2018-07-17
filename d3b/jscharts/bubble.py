@@ -34,7 +34,9 @@ resolution = form.getvalue( "resolution", "low" )
 ( tags, tkeys ) = d3bf.loadtags( "emap_tags.txt", volumes )
 ( findex, gtags ) = d3bf.processtags( volumes, tags, dfilter, dgroup )
 ilevel = int( level ) 
+
 ( kdict, kdnames, kgnames, knorder, kdata ) = d3bf.loadtaxonomy( data, ml, spfilter, ilevel )
+
 edata = d3bf.load_edata( data, ilevel, ml, kdict, findex, gtags )
 
 aedata = np.array( edata, dtype=float )
@@ -167,41 +169,38 @@ function draw( val_id ) {
 if dprestype == "bubble":
 	print """
 
-var svg0 = d3.select( val_id );
-var diameter = +svg0.attr("width") * 0.75;
-var fs = diameter / 100;
-margin = { top: 8 * fs, right: 2 * fs, bottom: 12 * fs, left: 8 * fs };
+	var svg0 = d3.select( val_id );
+	var diameter = +svg0.attr("width") * 0.75;
+	var fs = diameter / 100;
+	margin = { top: 8 * fs, right: 2 * fs, bottom: 16 * fs, left: 8 * fs };
 
-var svg = svg0.append("g")
-	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-   
+	var svg = svg0.append("g")
+		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-   var g = svg.append("g").attr("transform", "translate(2,2)"),
-    format = d3.format(",d");
+	var g = svg.append("g").attr("transform", "translate(2,2)"),
+	format = d3.format(",d");
 
-  
+	var pack = d3.pack()
+		.size([diameter - 4, diameter - 4]);
 
-  var pack = d3.pack()
-    .size([diameter - 4, diameter - 4]);
+	var maxbottom = 0;
 
+	var node = g.selectAll(".node")
+		.data(pack(root).descendants())
+		.enter().append("g")
+			.attr("class", function(d) { return d.children ? "node" : "leaf node"; })
+			.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
 
-  var maxbottom = 0;
+	node.append("title")
+		.style("font", tfont )
+		.style( "text-anchor", "middle" )
+		.text(function(d) { return d.data.name; });
 
-  var node = g.selectAll(".node")
-    .data(pack(root).descendants())
-    .enter().append("g")
-      .attr("class", function(d) { return d.children ? "node" : "leaf node"; })
-      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
-
-  node.append("title")
-	  .style("font", tfont )
-	  .style( "text-anchor", "middle" )
-      .text(function(d) { return d.data.name; });
-
-  node.append("circle")
-      .attr("r", function(d) { return d.r; })
-      .style( "stroke", "rgb(31, 119, 180)" )
-	  .style( "stroke-width", function(d) { 
+	node.append("circle")
+		.attr("r", function(d) { return d.r; })
+		.style( "stroke", "rgb(31, 119, 180)" )
+		.style( "stroke-width", function(d) 
+		{ 
 			if ( d.data.name == "root" ) 
 			{
 				return "0px";
@@ -214,8 +213,9 @@ var svg = svg0.append("g")
 			{
 				maxbottom = Math.max( maxbottom, d.y + d.r ); 				
 				return "1px"; 
-			} } )
-      .style( "fill-opacity", function(d) { 
+		} } )
+		.style( "fill-opacity", function(d) 
+		{ 
 			if ( d.data.name == "root" ) 
 			{
 				return "0.0";
@@ -225,8 +225,9 @@ var svg = svg0.append("g")
 				return "0.0";
 			}
 			else return "0.5"; 
-			})
-      .style("fill", function(d) { 
+		})
+		.style("fill", function(d) 
+		{ 
 			if ( d.data.name == "root" ) 
 			{
 				return d3.hsl( 0.3, 0.3, 0.1 );
@@ -236,86 +237,91 @@ var svg = svg0.append("g")
 				return d3.hsl( 0.3, 0.3, 0.2 );
 			}
 			else return color(d.data.order); 
-			});
+		});
 			
-  var smap = d3.scaleOrdinal().domain( [ 1, 2, 3, 4, 5 ] ).range( [ 1., 1.2, 1.25, 1.3, 1.33 ] );
-  function ssmap( v ) {	if ( v <= 5 ) return smap( v );	return 1000; }
-  var maxfs = fs * 0.2 * Math.sqrt( 8. / fs );
-  var minfs = maxfs * 0.5;
+	var smap = d3.scaleOrdinal().domain( [ 1, 2, 3, 4, 5 ] ).range( [ 1., 1.2, 1.25, 1.3, 1.33 ] );
+	function ssmap( v ) {	if ( v <= 5 ) return smap( v );	return 1000; }
+	var maxfs = fs * 0.2 * Math.sqrt( 8. / fs );
+	var minfs = maxfs * 0.5;
   
-  
-  node.filter(function(d) { return !d.children; }).append("text")
-      .attr("dy", "0.3em")
-      //.style("font", function(d) { return Math.max( fs * Math.sqrt( d.r * ( 8. / fs) ) * 0.3, ( 2. / ssmap( d.data.sname.length ) ) * fs * 1.5 )  + "px sans-serif"; } ) //sans-serif"; } )
-      .style("font", function(d) 
-      {
-			var curfs = maxfs * Math.sqrt( d.r );
-			var lenfs = 3.5 * d.r / d.data.sname.length;
-			return Math.max( 0.7 * curfs, Math.min( curfs, lenfs ) ) + "px sans-serif"; 
-	  } )
-	  .style( "text-anchor", "middle" )
-      //.text(function(d) { var s = d.r * 2.7 / fs; if ( d.data.sname.length < s ) return d.data.sname; else return ""; }),
-      .text(function(d) { return d.data.sname; })
-      .each(function(d,i) {
+	function scaledsize( radius, textlength, dimparam )
+	{
+		var curfs = maxfs * Math.sqrt( radius );
+		var lenfs = 5 * dimparam * radius / textlength;
+		return Math.max( dimparam * curfs, Math.min( curfs, lenfs ) ); 
+	}
+
+	node.filter(function(d) { return !d.children; }).append("text")
+		.attr( "dy", function(d) { return -0.2 * scaledsize( d.r, 1, 0.7 ) + "px"; } ) 
+		.style( "font", function(d) { return scaledsize( d.r, d.data.sname.length, 0.7 ) + "px sans-serif"; } )
+		.style( "text-anchor", "middle" )
+		.text( function(d) { return d.data.sname; } )
+		.each(function(d,i) 
+		{
+			d.drawtext = true;
 			var thisWidth = this.getComputedTextLength();
 			if ( thisWidth > 1.95 * d.r )
 			{
 				this.remove();
+				d.drawtext = false;
 			}
 		}
-       );
-    
+		);
+
   
-  if ( dglabels == "yes" )
-  {
+	if ( dglabels == "yes" )
+	{
 		node.filter(function(d) { return d.children && d.data.name != "root"; }).append("text")
 			.attr("dy", function( d ) { return ( d.r + fs * 2 ); } )
 			.attr("dx", fs )
-			.style("font", fs * 1.5 + "px sans-serif" )
+			.style("font", fs * 2. + "px sans-serif" )
 			.style("font-weigth", "bolder" )
 			.style( "text-anchor", "middle" )
-			.text(function(d) { return d.data.sname; });
-  }
-  if ( dtlabels == "yes" )
-  {
+			.text(function(d) { return d.data.sname; } 
+			);
+	}
+	if ( dtlabels == "yes" )
+	{
 		node.filter(function(d) { return !d.children; }).append("text")
-			.attr("dy", 2 * fs )
-			.attr("dx", 0 )
-			.style("font", fs + "px sans-serif" )
-			.style("font-weigth", "bolder" )
+			.attr( "dy", function(d) { return 0.8 * scaledsize( d.r, 1, 0.7 ) + "px"; } ) 
+			.style( "font", function(d) { return scaledsize( d.r, 1, 0.7 ) + "px sans-serif"; } )
+			.style( "font-weigth", "bolder" )
 			.style( "text-anchor", "middle" )
-			.text(function(d) { var s = d.r * 2.7 / fs; if ( d.data.sname.length < s ) return d.data.percent; else return ""; });
-  }
+			.text(function(d) { return d.drawtext ? d.data.percent : ""; } 
+			);
+	}
 
 	
-  if ( dlegend == "yes" )
-  {
-	var cellwidth = fs * 11;
-	var cellheight = fs * 1.3;
-	var height = Math.min( diameter + cellheight * 4, maxbottom + cellheight * 6 );
-	svg.selectAll(".coco1")
-      .data( ordlist )
-      .enter().append("text")
-      .attr("class", "coco1")
-      .attr("x", function(d,i) { return i * cellwidth; })
-      .attr("y", height + 3 * cellheight )
-      .style("font", 1.5 * fs + "px sans-serif" )
-      .style("text-anchor", "start" ) 
-	  .text(function(d) { return d;});      
+	if ( dlegend == "yes" )
+	{
+		var cellwidth = fs * 11;
+		var cellheight = fs * 1.3;
+		var height = Math.min( diameter + cellheight * 4, maxbottom + cellheight * 6 );
+		svg.selectAll(".coco1")
+			.data( ordlist )
+			.enter().append("text")
+			.attr("class", "coco1")
+			.attr("x", function(d,i) { return i * cellwidth; } )
+			.attr("y", function(d,i) { return height + 5 * cellheight + ( i % 2 ) * fs * 1.8; } )
+			.style("font", 1.6 * fs + "px sans-serif" )
+			.style("text-anchor", "start" ) 
+			.text(function(d) { return d;}
+			);      
 
-	svg.selectAll(".coco3")
-      .data( ordlist )
-      .enter().append("rect")
-      .attr("class", "coco3")
-      .attr("x", function(d,i) { return i * cellwidth; })
-      .attr("y", height )
-	  .attr("width", cellwidth )
-      .attr("height", cellheight )
-      .style("stroke",  "black")
-      .style("stroke-width", "0.5px" )
-      .style("fill-opacity", 0.5 )
-      .style("fill", function(d) { return color( d ); } );
-   }
+		svg.selectAll(".coco3")
+			.data( ordlist )
+			.enter().append("rect")
+			.attr("class", "coco3")
+			.attr("x", function(d,i) { return i * cellwidth; })
+			.attr("y", height + 2 * cellheight )
+			.attr("width", cellwidth )
+			.attr("height", cellheight )
+			.style("stroke",  "black")
+			.style("stroke-width", "0.5px" )
+			.style("fill-opacity", 0.5 )
+			.style("fill", function(d) { return color( d ); } 
+			);
+	}
 
       
 """

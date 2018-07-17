@@ -38,17 +38,16 @@ def submit_job( reqf, jobname ):
 def run_script( params, job, script ):
 	abspath = settings.BASE_DIR + '/'
 	jobpath = abspath + dataroot + job
-	os.putenv( "QUERY_STRING", params + "&datapath=" + jobpath )
+	nparams = params
+	if len( nparams ) > 0:
+		nparams += "&" 
+	nparams += "&datapath=" + jobpath
+	os.putenv( "QUERY_STRING", nparams )
 	if False:
 		cmd = abspath + scriptsroot + "runscript.py " + jobpath + " " + script + " regular"
 		res = os.popen( cmd ).read()
-	#cmd = abspath + env + "/bin/python2 " + abspath + scriptsroot + script + ".py"
-	cmd = "python " + abspath + scriptsroot + script + ".py"
+	cmd = "python " + abspath + scriptsroot + script + ".py" + " 2>python.err"
 	res = os.popen( cmd ).read()
-	#print res
-	#with open( "python.err" ) as f:
-	#	res += f.read()
-	#os.chdir( abspath )
 	return res
 
 def render_png( params, job, script, host, jscripts ):
@@ -105,41 +104,3 @@ def render_svg( params, job, script, host, jscripts ):
 	return svgres
 			
 
-ss = """
-
-<?php
-
-include "std_include.php";
-
-$name = $_POST[ 'name' ];
-$datatype = $_POST['datatype'];
-if (!isset( $_POST['input'] ) ) exit();
-$input = $_POST['input'];
-$job = md5( microtime() );
-system( "mkdir pool/$job" );
-system( "chmod 777 pool/$job" );
-write_name( $job, $name );
-$tag = substr( $input, 1, 3 );
-$tag1 = substr( $input, 0, 1 );
-chdir( "pool/$job" );
-if ( $tag == "HDF" || $tag1 == "{" || !is_numeric( $tag1 ) )
-{
-	$fd = fopen( "input.biom", "w" );
-	fwrite( $fd, $input );
-	fclose( $fd );
-	system( "python ../../aux/biom2emap.py input.biom >emap.txt" );
-}
-else
-{
-	$fd = fopen( "emap.txt", "w" );
-	$sinp = explode( "\n", $input );
-	foreach ( $sinp as $k=>$v )
-	{
-		fwrite( $fd, rtrim( $v ) . "\t\n" );
-	}
-	fclose( $fd );
-}
-exec( "python ../../emap/init_tags.py" );
-echo "Job id: ".$job;
-?>
-"""

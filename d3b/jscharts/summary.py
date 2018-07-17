@@ -22,6 +22,8 @@ if os.path.isfile( "summary.txt" ):
 	print f.read()
 	sys.exit( 0 )
 
+print >>sys.stderr, form.getvalue( "datapath" )
+
 with open( "name" ) as f:
     name=f.read()
 id = "emap"

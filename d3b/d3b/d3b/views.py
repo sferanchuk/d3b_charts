@@ -10,7 +10,6 @@ from . import forms as dforms
 import json
 import urllib
 
-# Create your views here.
 jvenn_site = "http://jvenn.toulouse.inra.fr/app/"
 jvenn_css = ""
 #"\n".join( [ "<link href=\"" + jvenn_site + "css/" + css + ".css\" rel=\"stylesheet\">" for css in [ "bootstrap",  "bootstrap-responsive", "bootstrap-colorpicker.min" ] ] )
@@ -171,14 +170,3 @@ def whittaker(request,job):
 def pca_sp(request,job):
 	return generic_view( request, job, "pca_sp", dforms.PCA2P, servicename = "Two-panel PCA", jscripts = [ "d3.v3.min.js" ] )
 
-if False:
-	jobtitle = job_name( job )
-	result = ""
-	if request.method == 'POST':
-		form = dforms.BubbleChart(request.POST, request.FILES)
-		result = run_script( form, job, "bubble"  )
-	else:
-		form = dforms.BubbleChart()
-	template = loader.get_template('bubbles.html')
-	context = { 'job': job, 'title' : jobtitle, 'service' :  'bubbles', 'servicename' : 'Bubble chart', 'result' : result, 'form' : form  }
-#	return HttpResponse( template.render( context, request ) )
