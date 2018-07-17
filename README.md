@@ -13,11 +13,8 @@ in the conjunction with other python packages intended to be used in big data an
 
 ## Installation
 
-after copyng the distribution package, 
-under Linux run:
-
-cd d3b
-./install.sh
+after copyng the distribution package, under Linux, cd to installation directory (d3b_charts),
+then cd to d3b directory and run install.sh
 
 ## Usage
 
