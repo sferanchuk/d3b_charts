@@ -28,7 +28,7 @@ download_file( "https://d3js.org/d3.v4.min.js", "d3b/static/d3.v4.min.js" )
 download_file( "https://github.com/benfred/venn.js/blob/master/venn.js", "d3b/static/venn.js" )
 				
 				
-def download_phantomjs:
+def download_phantomjs():
 	if platform.system() == "Windows":
 		download_file( "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-windows.zip", "phantomjs-2.1.1.zip" )
 	elif platform.system() == "Linux":
