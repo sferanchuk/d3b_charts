@@ -24,3 +24,5 @@ Upload the data file on a start page of the application. This will create the li
 The interactive tools for the provided data table become available from that link.
 
 Use links on a start page for a several sample data series to test the service.
+
+Modify ALLOWED_HOSTS variable in d3b/settings.py to open access from remote clients
