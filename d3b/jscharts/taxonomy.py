@@ -25,7 +25,7 @@ if len( nsfdata ) > 0:
 	newfilters = json.loads( nsfdata )
 	with open( sfname, "w" ) as f:
 		for sfilter in newfilters:
-			nlist = ";".join( newfilters[ sfilter ][1].strip().split() )
+			nlist = ";".join( newfilters[ sfilter ][1].strip().split( "\n" ) )
 			f.write( "%s\t%s\t%s\n" % ( sfilter, newfilters[ sfilter ][ 0 ], nlist ) )
 
 if os.path.isfile( sfname ):

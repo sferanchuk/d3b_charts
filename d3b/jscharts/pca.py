@@ -77,12 +77,12 @@ elif fmethod.find( "PCA" ) != -1:
 elif fmethod.find( "PCoA" ) != -1:
 	M = pd.DataFrame( np.array( cdata ), site_ids, site_ids )
 	ordres = ordination.pcoa( M )
-	alabels = [ "%4.2f" % ordres.eigvals[ "PC1" ], "%4.2f" % ordres.eigvals[ "PC2" ] ]
+	alabels = [ "%5.3f" % ordres.eigvals[ "PC1" ], "%5.3f" % ordres.eigvals[ "PC2" ] ]
 	lcoords = [ ordres.samples[ "PC1" ].tolist(), ordres.samples[ "PC2" ].tolist() ]
 elif fmethod == "CA (skbio)":
 	M = pd.DataFrame( np.array( cdata ), site_ids, site_ids )
 	ordres = ordination.ca( M )
-	alabels = [ "%4.2f" % ordres.eigvals[ "CA1" ], "%4.2f" % ordres.eigvals[ "CA2" ] ]
+	alabels = [ "%5.3f" % ordres.eigvals[ "CA1" ], "%5.3f" % ordres.eigvals[ "CA2" ] ]
 	lcoords = [ ordres.samples[ "CA1" ].tolist(), ordres.samples[ "CA2" ].tolist() ]
 	
 print """

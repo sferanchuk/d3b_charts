@@ -12,7 +12,7 @@ import csv
 import numpy as np
 #from sklearn import manifold
 #from sklearn import decomposition
-#import scipy.stats as stats
+import scipy.stats as stats
 #from scipy.spatial import distance
 import json
 import os.path
@@ -30,6 +30,7 @@ order2 = form.getvalue( "order2", "none" )
 labels = form.getvalue( "labels", "none" )
 taxlabels = form.getvalue( "taxlabels", "no" )
 dfilter = form.getvalue( "dfilter", "none" )
+dgroup = form.getvalue( "dgroup", "none" )
 spfilter = d3bf.loadfilters( "emap_filters.txt", form.getvalue( "spfilter", "none" ) )
 datatype = form.getvalue( "dtype", "count" )
 level = form.getvalue( "level" )
@@ -37,42 +38,51 @@ numbest = form.getvalue( "numbest", "inf" )
 numhighlight = form.getvalue( "numhighlight", "all" )
 spshow = form.getvalue( "spshow", "none" )
 customtax = form.getvalue( "spcustom", "[]" )
+shist = form.getvalue( "shist", "none" )
+shisttag = form.getvalue( "shisttag", "none" )
 resolution = form.getvalue( "resolution", "low" )
 splist = customtax if spshow == "custom" else json.dumps( d3bf.loadfilters( "emap_filters.txt", spshow )[0] )
 
 ( data, volumes, mn, ml ) = d3bf.loaddata( "emap.txt" )
 ( tags, tkeys ) = d3bf.loadtags( "emap_tags.txt", volumes )
-#( findex, gtags ) = d3bf.processtags( volumes, tags, dfilter, dgroup )
-ilevel = int( level ) 
+ilevel = int( level )
 ( kdict, kdnames, kgnames, knorder, kdata ) = d3bf.loadtaxonomy( data, ml, spfilter, ilevel )
 valhighlight = 0. if numhighlight == "all" else 0.01 * float( numhighlight[:-1] )
 
-( findex, mtags ) = d3bf.processtags_m( volumes, tags, dfilter )
-( edata, site_ids, species_ids ) = d3bf.load_edata_m( data, ilevel, mn, ml, kdict, volumes, findex, kdnames )
-
+if dgroup != "none":
+	( findex, gtags ) = d3bf.processtags( volumes, tags, dfilter, dgroup )
+	edata = d3bf.load_edata( data, ilevel, ml, kdict, findex, gtags )
+	stags = gtags
+	site_ids = sorted( gtags.keys(), key = lambda k: gtags[k] )
+else:
+	( findex, mtags ) = d3bf.processtags_m( volumes, tags, dfilter )
+	( edata, site_ids, species_ids ) = d3bf.load_edata_m( data, ilevel, mn, ml, kdict, volumes, findex, kdnames )
+	stags = {}
+	for j in range( len( edata ) ):
+		key = ""
+		if order1 != "none":
+			key = key + mtags[ order1 ][ j ]
+		if order2 != "none":
+			key = key + mtags[ order2 ][ j ]
+		if labels != "none":
+			key = key + mtags[ labels ][ j ]
+		key = key + mtags[ "name" ][j]
+		stags[ key ] = j
+		
 aedata = np.array( edata, dtype=float )
 aenorm = np.sum( aedata, axis=1 )
 maxdata = np.amax( aedata )
 aedata /= aenorm.reshape( len(edata), 1 )
-ataxsum = np.sum( aedata, axis=0 )
 
-stags = {}
-for j in range( len( edata ) ):
-	key = ""
-	if order1 != "none":
-		key = key + mtags[ order1 ][ j ]
-	if order2 != "none":
-		key = key + mtags[ order2 ][ j ]
-	if labels != "none":
-		key = key + mtags[ labels ][ j ]
-	key = key + mtags[ "name" ][j]
-	stags[ key ] = j
 	
 ftlist = []
 ftindex = []
 ostags = collections.OrderedDict( sorted( stags.items() ) )
 for k, j in ostags.iteritems():
-	ftlist.append( mtags[ labels ][ j ] if labels != "none" else mtags[ "name" ][j] )
+	if dgroup == "none" and labels != "none":
+		ftlist.append( mtags[ labels ][ j ] )
+	else:
+		ftlist.append( site_ids[j] )
 	ftindex.append( site_ids[j] )
 	
 
@@ -134,8 +144,15 @@ if datatype == "z-score":
 				v = ( float( aedata[i][k] ) - rmean[k] ) / rmdisp[k]
 			zrow.append( v )
 		zedata.append( zrow )
-			
+		
+if datatype == "percent-quantile":
+	aedata = d3bf.quantileNormalize( aedata )
+	for col in range( len( aedata ) ):
+		norm = sum( edata[col] )
+		for i in range( len( aedata[ col ] ) ):
+			edata[ col ][ i ] = aedata[ col ][ i ] * norm
 
+ataxsum = np.sum( aedata, axis=0 )
 treedict = {}
 nodecnt = 0
 knindex = {}
@@ -224,7 +241,7 @@ print "var nsamples = " + str( len( edata) ) + ";"
 print "var maxidsize = " + str( maxidsize ) + ";"
 print "var taxlabels = \"" + taxlabels + "\";"
 print "var datal =  %s;" % json.dumps( ftlist )
-print "var datatype =  \"%s\";" % datatype
+print "var datatype =  \"%s\";" % datatype 
 print "var htnorm =  %s;" % json.dumps( aesnorm )
 if resolution == "high":
 	print "var minrectsize = 30;"
@@ -252,7 +269,7 @@ for ikey in knindex.keys():
 		ii = site_ids.index( ftindex[i] )
 		if datatype == "z-score":
 			v = zedata[ ii ][ inum ]
-		elif datatype == "percent":
+		elif datatype == "percent" or datatype == "percent-quantile":
 			v = aedata[ ii ][ inum ] * 100.
 		else:
 			v = edata[ ii ][ inum ]
@@ -268,13 +285,132 @@ print "};"
 
 if datatype == "z-score":
 	print "var cdomain = [ -10., -1.2, -0.5, 0., 0.9, 2.2, 10. ]; var cdscale = 1;"
-elif datatype == "percent":
+elif datatype == "percent" or datatype == "percent-quantile":
 	print "var cdomain = [ 0., 0.01, 0.25, 1., 5., 25., 100. ]; var cdscale = 1;"
 else:
 	print "var cdomain = [ 0, 1, 3, 10, 50, 200, 50000 ]; var cdscale = 0;"
 	
 print "var smallrect = %s;" % json.dumps( smallrect )
 print "var splist = %s;" % splist
+
+
+if shist != "none":
+	if dgroup != "none":
+		( dummy, mtags ) = d3bf.processtags_m( volumes, tags, dfilter )
+		( dedata, dsite_ids, dspecies_ids ) = d3bf.load_edata_m( data, ilevel, mn, ml, kdict, volumes, findex, kdnames )
+		daedata = np.array( dedata, dtype=float )
+		daenorm = np.sum( daedata, axis=1 )
+		daedata /= daenorm.reshape( len(dedata), 1 )
+	else:
+		dedata = edata
+		daedata = aedata
+		daenorm = aenorm
+	pvdata = {}
+	shtag = mtags[ shisttag ]
+	shvalues = list( set( shtag ) )
+	if "" in shvalues:
+		shvalues.remove( "" )
+	tsums = [ 0 ] * len( shvalues )
+	maxpv = 50.
+	for i in range( len( dedata ) ):
+		itn = shtag[ i ]
+		if itn == "":
+			continue
+		tsums[ shvalues.index( itn ) ] += int( daenorm[i] )
+	for ikey in knindex.keys():
+		inum = kdict[ knindex[ ikey ] ]
+		tlists = [ [] for k in xrange( len( shvalues ) ) ]
+		tnlists = [ [] for k in xrange( len( shvalues ) ) ]
+		for i in range( len( dedata ) ):
+			itn = shtag[ i ]
+			if itn == "":
+				continue
+			tlists[ shvalues.index( itn ) ].append( dedata[i][ inum ] )
+			tnlists[ shvalues.index( itn ) ].append( daedata[i][ inum ] )
+		score = 0
+		if shist == "best-fisher":
+			for n1 in range( len( tlists ) ):
+				if len( tlists[n1] ) < 1:
+					continue
+				for n2 in range( n1 ):
+					if len( tlists[n2] ) < 1:
+						continue
+					ctable = [ [ 0, 0 ], [ 0, 0 ] ]
+					ctable[ 0 ][ 0 ] = sum( tlists[n1] )
+					ctable[ 0 ][ 1 ] = sum( tlists[n1] ) + sum( tlists[n2] )
+					ctable[ 1 ][ 0 ] = tsums[ n1 ]
+					ctable[ 1 ][ 1 ] = tsums[ n1 ] + tsums[ n2 ]
+					try:
+						oddsratio, pvalue = stats.fisher_exact( ctable )
+						tpvalue = min( -math.log( pvalue ), maxpv ) if pvalue > 0 else maxpv
+						if oddsratio > 1:
+							tpvalue = -tpvalue
+						if abs( tpvalue ) > abs( score ):
+							score = tpvalue 
+					except:
+						score = 0
+		elif shist == "anova":
+			try:
+				( fstat, pvalue ) = stats.f_oneway( *tnlists )
+				tpvalue = min( -math.log( pvalue ), maxpv ) if pvalue > 0 else maxpv
+				score = max( score, tpvalue )
+			except:
+				score = 0
+		elif shist == "best-ttest":
+			try:
+				for i in range( len( tnlists ) ):
+					for j in range( i ):
+						( tstat, pvalue ) = stats.ttest_ind( tnlists[ i ], tnlists[ j ] )
+						tpvalue = min( -math.log( pvalue ), maxpv ) if pvalue > 0 else maxpv
+						if tstat > 0:
+							tpvalue = -tpvalue
+						if abs( tpvalue ) > abs( score ):
+							score = tpvalue 
+			except:
+				score = 0
+		elif shist == "best-wilcoxon":
+			try:
+				for i in range( len( tnlists ) ):
+					for j in range( i ):
+						( stat, pvalue ) = stats.mannwhitneyu( tnlists[ i ], y=tnlists[ j ], use_continuity=False, alternative='two-sided' )
+						tpvalue = min( -math.log( pvalue ), maxpv ) if pvalue > 0 else maxpv
+						nx = len( tnlists[i] )
+						ny = len( tnlists[j] )
+						ntot = nx + ny
+						umean = nx * ( nx - 1 ) * 0.5  #ntot * ( ntot - 1 ) * 0.5 - ny * ( ny -  1 ) * 0.5
+						if stat > umean:
+							tpvalue = -tpvalue
+						if abs( tpvalue ) > abs( score ):
+							score = tpvalue 
+			except:
+				score = 0
+
+		elif shist == "best-chisquare":
+			try:
+				for i in range( len( tnlists ) ):
+					for j in range( i ):
+						tsum_ij = tsums[i] + tsums[j]
+						r_sum = float( sum( tlists[i] ) + sum( tlists[j] ) ) / tsum_ij
+						f_obs = [ float( sum( tlists[i] ) ) / tsums[i], float( sum( tlists[j] ) ) / tsums[j] ]
+						f_exp = [ tsums[i] * r_sum / tsum_ij, tsums[ j ] * r_sum / tsum_ij ]  
+						( stat, pvalue ) = stats.chisquare( tnlists[ i ], f_exp=tnlists[ j ] )
+						tpvalue = min( -math.log( pvalue ), maxpv ) if pvalue > 0 else maxpv
+						if f_obs[0] > f_exp[0]:
+							tpvalue = -tpvalue
+						if abs( tpvalue ) > abs( score ):
+							score = tpvalue 
+			except:
+				score = 0
+
+
+		pvdata[ ikey ] = score
+	pvnorm = max( max( pvdata.values() ), -min( pvdata.values() ) )
+	npvdata = {}
+	for key in pvdata:
+		npvdata[ key ] = pvdata[ key ] / pvnorm
+	print "var pvData = %s;" % json.dumps( npvdata )
+	print "var pvNorm = %g;" % pvnorm;
+	
 
 print """
 // ************** Generate the tree diagram	 *****************
@@ -292,7 +428,7 @@ var svg0 = d3.select( val_id ),
     //.attr('id', "mainsvg" ),
     diameter = +svg0.attr("width");
 var fs = diameter / 100;
-var margin = { top: 10 * fs, right: 1.5 * fs, bottom: 10 * fs, left: 10 * fs }
+var margin = { top: 10 * fs, right: 1.5 * fs, bottom: 10 * fs, left: 11 * fs }
     
 var width = diameter - margin.left - margin.right;
 var height = +svg0.attr( "height" ) - margin.top - margin.bottom;
@@ -384,7 +520,7 @@ function update(source) {
 			for ( ii = 0; ii < crow.length; ii++ )
 			{
 				var v = crow[ii];
-				if ( datatype == "percent" ) v = ( 100 * crow[ii] ) / htnorm[ii];
+				if ( datatype == "percent" || datatype == "percent-quantile" ) v = ( 100 * crow[ii] ) / htnorm[ii];
 				else if ( datatype == "z-score" ) v = ( ( crow[ii] / htnorm[ii] )  - mean ) / mdisp;
 				ndata.push( [ d.x, ii, v, "", crow[ii], sfactor ] );
 			}
@@ -546,7 +682,7 @@ function update(source) {
 				.duration(500)		
 				.style("opacity", 0);	
 		});
-	  
+		
 	var vldata = [];
 	for ( i = 0; i < datal.length; i++ )
 	{
@@ -564,10 +700,10 @@ function update(source) {
 
 	if ( taxlabels == "yes" )
 	{
-		var vtdata = [ "Phylum", "Class", "Order", "Family", "Genus", "Species", "Otu" ];
-		var vtaltdata = [ "Phylum", "Class", "Order", "Family", "Genus", "Species", "", "", "Reference", "", "Otu" ];
+		var vtdata = [ "Phylum", "Class", "Order", "Family", "Genus", "Species", "OTU" ];
+		var vtaltdata = [ "Phylum", "Class", "Order", "Family", "Genus", "Species", "", "", "Reference", "", "OTU" ];
 		var cvtdata = vtdata.slice( 0, ilevel - 1 );
-		if ( ilevel > vtdata.length ) cvtdata = vtaltdata.slice( 0, ilevel - 1 );
+		if ( ilevel - 1 > vtdata.length ) cvtdata = vtaltdata.slice( 0, ilevel );
 		svg.selectAll(".toto")
 		.data( cvtdata )
 		.enter().append("text")
@@ -624,6 +760,64 @@ function update(source) {
       .style("stroke", "black")
       .style("fill", function(d) { return colorScale( d[1] ); } );
 
+	if ( pvData )
+	{
+		var pvbeg = hmbeg + datal.length * rectw + 1.5 * fs;
+		var pvsize = 3 * fs;
+		var phdata = [];
+		var pvheight = 0.3 * recth;
+		nodes.forEach(function(d) 
+		{ 
+			if ( d.depth == maxlevel )
+			{
+				nindex[ d.name ] = d.x;
+				if ( d.name in pvData )
+				{
+					var pval = pvData[ d.name ];
+					phdata.push( [ d.x, pval ] );
+				}
+			}
+		} );
+		svg.selectAll(".cocoh")
+		      .data( phdata )
+		      .enter().append("rect")
+		      .attr( "class", "cocoh")
+		      .attr("x", pvbeg )
+		      .attr("y", function( d ) { return d[0] - 0.5 * pvheight; } )
+		      .attr("width", function( d ) { return Math.abs( d[1] ) * pvsize; } )
+		      .attr( "height", pvheight )
+			  //.attr("dx", ".71em")
+		      //.attr( "dy", -0.5 * pvheight )
+		      .style("stroke", "black")
+		      .style("fill", function( d ) { return ( d[1] > 0 ) ? d3.hsl( chue, csat, 0.8) : d3.hsl( chue, csat, 0.3 ); } )
+			.on("mouseover", function(d) {		
+				div.transition()		
+					.duration(200)		
+					.style("opacity", .9);		
+				div	.html( "pv = " + Math.exp( -Math.abs( d[1] * pvNorm ) ).toFixed( 3 ) )	
+					.style("left", (d3.event.pageX) + "px")		
+					.style("top", (d3.event.pageY - 28) + "px");	
+				})					
+			.on("mouseout", function(d) {		
+				div.transition()		
+					.duration(500)		
+					.style("opacity", 0);	
+			});
+		var pvmax = d3.max( phdata, function(d) { return Math.abs( d[1] * pvNorm ); } );
+		var pvthresholds = [ 0.05, 0.01, 0.001 ];
+		var refpv = pvthresholds[0];
+		for ( var pi = 1; pi < pvthresholds.length; pi++  )
+		{
+			if ( pvmax * 0.5 >  - Math.log( pvthresholds[ pi ] ) ) refpv = pvthresholds[ pi ];
+		}
+		var refxpos = pvbeg - Math.log( refpv ) * pvsize / pvNorm;
+		var rline = "M" + refxpos + " " + "0" + " L" + refxpos + " " + height;	
+		svg.append( "path" ).attr("d", rline).style("stroke-width", "1px").style("stroke","red" );
+		svg.append( "text" ).attr("x", refxpos + fs ).attr( "y", 0 ).text( refpv ).style("font", fs * 1.2 + "px sans-serif" ).attr("text-anchor", "start" );
+
+	}
+		
+		 
 
 }
 

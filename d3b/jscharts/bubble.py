@@ -42,6 +42,8 @@ edata = d3bf.load_edata( data, ilevel, ml, kdict, findex, gtags )
 aedata = np.array( edata, dtype=float )
 aenorm = np.sum( aedata, axis=1 )
 aedata /= aenorm.reshape( len(edata), 1 )
+if dnorm == "percent-quantile":
+	aedata = d3bf.quantileNormalize( aedata )
 
 minsizes = []
 for rnum in range( len( edata ) ):
@@ -88,7 +90,7 @@ text {
 </style>
 """
 
-if dprestype == "bubble":
+if dprestype == "bubble" or dprestype == "bars":
 	if resolution == "high":
 		print "<svg width=\"2400\" height=\"2400\" id=\"normal\"></svg>"
 	else:
@@ -113,12 +115,13 @@ print "var dlegend = \"" + dlegend + "\";"
 #print "var maxdata = " + str( int( aenorm ) ) + ";"
 #print "var nsamples = " + str( len( edata) ) + ";"
 #print "var maxidsize = " + str( maxidsize ) + ";"
-print "var root =  { name: \"root\", children: ["
+print "var rroot =  { name: \"root\", children: ["
 gsize = len( gtags )
 gscnt = 0
 ksize = len( edata[0] )
 ordlist = []
-for gkey in gtags:
+for gnum in sorted( gtags.values() ):
+	gkey = gtags.keys()[ gtags.values().index( gnum ) ]
 	print "{ sname: \"%s\", children: [ " % gkey
 	kcnt = 0
 	others_sum = 0.
@@ -127,7 +130,7 @@ for gkey in gtags:
 		if csize <= minsizes[ gscnt ]:
 			others_sum += csize
 		else:
-			if dnorm == "percent":
+			if dnorm == "percent" or dnorm == "percent-quantile":
 				csize = int( 10000 * aedata[ gscnt ][ kdict[ ckey ] ] )
 			dname = kdnames[ ckey ]
 			dratio = aedata[ gscnt ][ kdict[ ckey ] ]
@@ -157,7 +160,7 @@ print """
 
 //var margin = {top: 100, right: 15, bottom: 100, left: 60};
 
-root = d3.hierarchy(root)
+root = d3.hierarchy(rroot)
       .sum(function(d) { return d.size; })
       .sort(function(a, b) { return b.value - a.value; });
 
@@ -325,6 +328,292 @@ if dprestype == "bubble":
 
       
 """
+elif dprestype == "bars":
+	print """
+
+	var svg0 = d3.select( val_id );
+	var diameter = +svg0.attr("width") * 0.75;
+	var fs = diameter / 100;
+	var margin = { top: 8 * fs, right: 2 * fs, bottom: 16 * fs, left: 4 * fs };
+
+	var svg = svg0.append("g")
+		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	var rectdata = [];
+	var labeldata = [];
+	var x = margin.left;
+	var labelsize = diameter * 0.5;
+	var ysize = diameter * 0.8;
+	var xbsize = ( diameter * 0.6 ) / rroot.children.length;
+	console.log( rroot );
+	for ( var i = 0; i < rroot.children.length; i++ )
+	{
+	
+		var sample = rroot.children[ i ];
+		var sum = 0;
+		for ( var j = 0; j < sample.children.length; j++ )
+		{
+			sum += sample.children[ j ].size;
+		}
+		//console.log( sum );
+		//console.log( root[ "children" ][ i ][ "children" ] );
+		//console.log( sample );
+		var y = margin.top;
+		for ( var j = 0; j < sample.children.length; j++ )
+		{
+			var width = sample.children[j].size * ysize / sum; 
+			rectdata.push( [ x, width, y, sample.children[ j ].order, sample.children[ j ].percent ] );
+			y += width;
+		}
+		labeldata.push( sample.sname );
+		x += xbsize;
+	}
+	
+	console.log( rectdata.length );
+	console.log( labeldata.length );
+		
+	svg.selectAll(".momo1")
+		.data( rectdata )
+		.enter().append("rect")
+		.attr("class", "momo1")
+		.attr("x", function(d) { return d[0]; } )
+		.attr("y", function(d) { return d[2]; } )
+		.attr("height", function(d) { return d[1]; } )
+		.attr("width", xbsize * 0.8 )
+		.style("stroke",  "black")
+		.style("stroke-width", "0.5px" )
+		.style("fill-opacity", 0.5 )
+		.style("fill", function(d) { return color( d[3] ); } 
+		);
+
+	svg.selectAll(".momo1m")
+		.data( rectdata )
+		.enter().append("text")
+		.attr("class", "momo1m")
+		.attr("x", function(d) { return d[0]; } )
+		.attr("y", function(d) { return d[2] + 1.4 * fs; } )
+		.style("font", 1.6 * fs + "px sans-serif" )
+		.style("text-anchor", "start" ) 
+		.text(function(d) { return d[4];}
+		);
+
+	svg.selectAll(".momo2")
+		.data( labeldata )
+		.enter().append("text")
+		.attr("class", "momo2")
+		.attr("x", function(d,i) { return xbsize * i + margin.left; } )
+		.attr("y", function(d,i) { return ysize + 2.5 * fs + margin.top; } )
+		.style("font", 2 * fs + "px sans-serif" )
+		.style("text-anchor", "start" ) 
+		.text(function(d) { return d;}
+		);      
+	
+	
+	if ( dlegend == "yes" )
+	{
+		var cellheight = ysize / ordlist.length;
+		var cellwidth = fs * 1.3;
+		var bwidth = diameter * 0.7;
+		svg.selectAll(".coco1")
+			.data( ordlist )
+			.enter().append("text")
+			.attr("class", "coco1")
+			.attr("x", function(d,i) { return bwidth + cellwidth + fs; } )
+			.attr("y", function(d,i) { return margin.top + i * cellheight + 2 * fs; } )
+			.style("font", 1.6 * fs + "px sans-serif" )
+			.style("text-anchor", "start" ) 
+			.text(function(d) { return d;}
+			);      
+
+		svg.selectAll(".coco3")
+			.data( ordlist )
+			.enter().append("rect")
+			.attr("class", "coco3")
+			.attr("x", function(d,i) { return bwidth; })
+			.attr("y", function(d,i) { return margin.top + i * cellheight; } )
+			.attr("width", cellwidth )
+			.attr("height", cellheight )
+			.style("stroke",  "black")
+			.style("stroke-width", "0.5px" )
+			.style("fill-opacity", 0.5 )
+			.style("fill", function(d) { return color( d ); } 
+			);
+	}
+
+      
+"""
+elif dprestype == "treemapslice":
+	print """
+
+	var svg0 = d3.select( val_id );
+	var diameter = +svg0.attr("width") * 0.75;
+	var fs = diameter / 100;
+	var margin = { top: 8 * fs, right: 2 * fs, bottom: 16 * fs, left: 8 * fs };
+
+	var svg = svg0.append("g")
+		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+	var g = svg.append("g").attr("transform", "translate(2,2)"),
+	format = d3.format(",d");
+
+	var hroot = d3.hierarchy(root);
+	//hroot.sum(d => d.value);
+	
+	var treemap = d3.treemap()
+		.size([diameter - 4, diameter - 4]);
+	treemap.tile( d3[ 'treemapSliceDice' ] );
+	var tdata = treemap(root);
+
+	var maxbottom = 0;
+
+	var node = g.selectAll(".node")
+		.data(tdata.descendants())
+		.enter().append("g")
+			.attr("class", function(d) { return d.children ? "node" : "leaf node"; })
+			.attr("transform", function(d) { return "translate(" + d.x0 + "," + d.y0 + ")"; });
+
+
+	var border = fs;
+	node.append("rect")
+		.attr('width', d => Math.max(0, d.x1 - d.x0 - 2 * border ) + "px" )
+		.attr('height', d => d.y1 - d.y0)
+		.attr('dx', border )
+		.style( "stroke", "rgb(31, 119, 180)" )
+		.style( "stroke-width", function(d) 
+		{ 
+			if ( d.data.name == "root" ) 
+			{
+				return "0px";
+			}
+			else if ( d.children )
+			{
+				return "1px";
+			}
+			else 
+			{
+				//maxbottom = Math.max( maxbottom, d.y + d.r ); 				
+				return "1px"; 
+		} } )
+		.style( "fill-opacity", function(d) 
+		{ 
+			if ( d.data.name == "root" ) 
+			{
+				return "0.0";
+			}
+			else if ( d.children )
+			{
+				return "0.0";
+			}
+			else return "0.5"; 
+		})
+		.style("fill", function(d) 
+		{ 
+			/*
+			if ( d.data.name == "root" ) 
+			{
+				return d3.hsl( 0.3, 0.3, 0.1 );
+			}
+			else if ( d.children )
+			{
+				return d3.hsl( 0.3, 0.3, 0.2 );
+			}
+			else 
+			*/
+			return color(d.data.order); 
+		});
+			
+	/*
+	var smap = d3.scaleOrdinal().domain( [ 1, 2, 3, 4, 5 ] ).range( [ 1., 1.2, 1.25, 1.3, 1.33 ] );
+	function ssmap( v ) {	if ( v <= 5 ) return smap( v );	return 1000; }
+	var maxfs = fs * 0.2 * Math.sqrt( 8. / fs );
+	var minfs = maxfs * 0.5;
+  
+	function scaledsize( radius, textlength, dimparam )
+	{
+		var curfs = maxfs * Math.sqrt( radius );
+		var lenfs = 5 * dimparam * radius / textlength;
+		return Math.max( dimparam * curfs, Math.min( curfs, lenfs ) ); 
+	}
+	*/
+
+	node.filter(function(d) { return !d.children; }).append("text")
+		//.attr( "dy", function(d) { return -0.2 * scaledsize( d.r, 1, 0.7 ) + "px"; } ) 
+		.style( "font", function(d) { return 0.2 * fs + "px sans-serif"; } )
+		.style( "text-anchor", "right" )
+		.text( function(d) { return d.data.sname; } );
+		/*
+		.each(function(d,i) 
+		{
+			d.drawtext = true;
+			var thisWidth = this.getComputedTextLength();
+			if ( thisWidth > 1.95 * d.r )
+			{
+				this.remove();
+				d.drawtext = false;
+			}
+		}
+		);
+		*/
+
+  
+	if ( dglabels == "yes" )
+	{
+		node.filter(function(d) { return d.children && d.data.name != "root"; }).append("text")
+			.attr("dy", function( d ) { return ( d.y1 + fs * 2 ); } )
+			.attr("dx", fs )
+			.style("font", fs * 2. + "px sans-serif" )
+			.style("font-weigth", "bolder" )
+			.style( "text-anchor", "start" )
+			.text(function(d) { return d.data.sname; } 
+			);
+	}
+	
+	if ( dtlabels == "yes" )
+	{
+		node.filter(function(d) { return !d.children; }).append("text")
+			.attr( "dx", function(d) { return 1.2 * border + "px"; } ) 
+			.attr( "dy", function(d) { return 1.5 * fs + "px"; } ) 
+			.style( "font", function(d) { fs + "px sans-serif"; } )
+			.style( "font-weigth", "bolder" )
+			.style( "text-anchor", "start" )
+			.text(function(d) { return d.data.percent; } 
+			);
+	}
+	
+	
+	if ( dlegend == "yes" )
+	{
+		var cellwidth = fs * 11;
+		var cellheight = fs * 1.3;
+		var height = diameter + cellheight * 4;
+		svg.selectAll(".coco1")
+			.data( ordlist )
+			.enter().append("text")
+			.attr("class", "coco1")
+			.attr("x", function(d,i) { return i * cellwidth; } )
+			.attr("y", function(d,i) { return height + 5 * cellheight + ( i % 3 ) * fs * 1.8; } )
+			.style("font", 1.6 * fs + "px sans-serif" )
+			.style("text-anchor", "start" ) 
+			.text(function(d) { return d;}
+			);      
+
+		svg.selectAll(".coco3")
+			.data( ordlist )
+			.enter().append("rect")
+			.attr("class", "coco3")
+			.attr("x", function(d,i) { return i * cellwidth; })
+			.attr("y", height + 2 * cellheight )
+			.attr("width", cellwidth )
+			.attr("height", cellheight )
+			.style("stroke",  "black")
+			.style("stroke-width", "0.5px" )
+			.style("fill-opacity", 0.5 )
+			.style("fill", function(d) { return color( d ); } 
+			);
+	}
+
+      
+"""
 else:
 	print """
        
@@ -339,7 +628,8 @@ else:
   width = +div.attr( "width" );
   height = +div.attr( "height" );
 
-  var treemap = d3.treemap().size([width, height]).padding( 2 );	
+  var treemap = d3.treemap().size([width, height]).padding( 2 );
+  //treemap.tile( d3[ 'treemapSliceDice' ] )
   var tree = treemap(root);
   
     

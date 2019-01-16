@@ -2,9 +2,6 @@
 
 # Turn on debug mode.
 import sys
-tfp = '/home/sferanchuk/.local/lib/python2.7/site-packages'
-if tfp in sys.path:
-	sys.path.remove( tfp )
 import cgi
 import cgitb
 cgitb.enable()
@@ -18,9 +15,10 @@ import json
 import os.path
 import collections
 import math
-import matplotlib
-matplotlib.use('Agg')
+#import matplotlib
+#matplotlib.use('Agg')
 import skbio.diversity as skdiv
+import skbio.stats as skstats
 import pandas as pd
 #import statsmodels.api as sm
 #from statsmodels.formula.api import ols
@@ -35,41 +33,27 @@ dgroup = form.getvalue( "dgroup", "none" )
 dfilter = form.getvalue( "dfilter", "none" )
 spfilter = d3bf.loadfilters( "emap_filters.txt", form.getvalue( "spfilter", "none" ) )
 level = form.getvalue( "level" )
-xscale = form.getvalue( "xscale", "linear" )
-yscale = form.getvalue( "yscale", "linear" )
+#xscale = form.getvalue( "xscale", "linear" )
+#yscale = form.getvalue( "yscale", "linear" )
 curvetype = form.getvalue( "curvetype", "direct" )
 dmarks = form.getvalue( "dmarks", "no" )
 regression = form.getvalue( "regression", "no" )
 resolution = form.getvalue( "resolution", "low" )
+color = form.getvalue( "color", "none" )
+shape = form.getvalue( "shape", "none" )
+ptype = form.getvalue( "ptype", "none" )
 
 ( data, volumes, mn, ml ) = d3bf.loaddata( "emap.txt" )
 ( tags, tkeys ) = d3bf.loadtags( "emap_tags.txt", volumes )
-( findex, gtags ) = d3bf.processtags( volumes, tags, dfilter, dgroup )
 ilevel = int( level ) 
 ( kdict, kdnames, kgnames, knorder, kdata ) = d3bf.loadtaxonomy( data, ml, spfilter, ilevel )
-edata = d3bf.load_edata( data, ilevel, ml, kdict, findex, gtags )
-
-dlengths = []
-gscnt = 0
-for gkey in gtags:
-	sedata = sorted( edata[ gscnt ], reverse=True )
-	if 0 in sedata:
-		dlengths.append( sedata.index( 0 ) )
-	else:
-		dlengths.append( len( sedata ) )
-	gscnt += 1
-		
-		
-if xscale == "logarithmic":
-	dmaxx = [ math.log( x ) for x in dlengths ]
-elif xscale == "sqr-log":
-	dmaxx = [ math.log( x ) * math.log( x ) for x in dlengths ]
+( findex, gtags ) = d3bf.processtags( volumes, tags, dfilter, dgroup )
+if dgroup != "none":
+	edata = d3bf.load_edata( data, ilevel, ml, kdict, findex, gtags )
 else:
-	dmaxx = dlengths
-	
-maxx = max( dmaxx )
-	
-print maxx
+	( findex, mtags ) = d3bf.processtags_m( volumes, tags, dfilter )
+	( edata, site_ids, species_ids ) = d3bf.load_edata_m( data, ilevel, mn, ml, kdict, volumes, findex, kdnames )
+
 
 def calc_regression( cedata ):
 	sitot = sorted( cedata, reverse=True )
@@ -191,106 +175,148 @@ def calc_jakovenko( cedata, cmaxx ):
 	dbest += [ mxres, myres ]
 	return ( xres, yres, npbest, npcbest, npvbest )
 
-colflag = 1 if ( dmarks == "color" or dmarks == "both" ) else 0
-shapeflag = 1 if ( ( dmarks == "shape" or dmarks == "both" ) and len( edata ) < 5 ) else 0
+def calc_rarefaction( si ): 
+	n_indiv = sum( si )
+	n_otu = len( si )
+	#def rcount( sn, n, x, i ):
+		#return sn -  np.sum( comb( n-x, i, exact = False ) ) / comb( n, i, exact = False ) 
+		#print >>sys.stderr, ( x, n, i, sn )
+	#	return sn -  sum( [ comb( n-xk, i, exact = False ) for xk in x ] )  / comb( n, i, exact = False ) 
+	def subsample( si, i ):
+		ssi = skstats.subsample_counts( si, i )
+		return np.count_nonzero( ssi )
 
-(a,b) = calc_regression( edata[0] )		
+	#def errfn(p, n, y):
+	#	return ( ( ( p[0] * n / (p[1] + n ) ) - y ) ** 2 ).sum()
+	#	#return ( ( p[0] * ( 1. - np.exp( n / p[1] ) ) - y ) ** 2 ).sum()
+	
+	i_step = max( n_indiv / 200, 1 )
+	num_repeats = max( 2000 / i_step, 1 ) 
+	print >>sys.stderr, ( i_step, num_repeats )
+	S_max_guess = n_otu
+	B_guess = int( round( n_otu / 2 ) )
+	params_guess = ( S_max_guess, B_guess )
+	xvals = np.arange( 1, n_indiv, i_step )
+	ymtx = np.empty( ( num_repeats, len( xvals ) ), dtype=int )
+	for i in range( num_repeats ):
+		ymtx[i] = np.asarray( [ subsample( si, n ) for n in xvals ], dtype=int )
+	yvals = ymtx.mean(0)
+	return ( xvals.tolist(), yvals.tolist() )
+
+colflag = 1 if ( dmarks == "color" or dmarks == "both" ) else 0
+shapeflag = 1 if ( ( dmarks == "shape" or dmarks == "both" ) and len( edata ) <= 5 ) else 0
+
+#(a,b) = calc_regression( edata[0] )		
 #curvetupe = "direct"
 if resolution == "high":
 	print "<svg width=\"1800\" height=\"1800\" id=\"normal\"></svg>"
 else:
 	print "<svg width=\"800\" height=\"800\" id=\"normal\"></svg>"
 print "<script type=\"text/javascript\">"
-print "var data =  [ "
-gsize = len( gtags )
-gbeg = 1
-gscnt = 0
-for gkey in gtags:
-	sedata = sorted( edata[ gscnt ], reverse=True )
-	for i in range( len( sedata ) ):
-		v = sedata[i]
-		if v > 0:
-			vy = v
-			if yscale == "logarithmic":
-				vy = math.log( v )
-			vx = i + 1
-			if xscale == "logarithmic":
-				vx = math.log( i + 1 )
-			elif xscale == "sqr-log":
-				vx = math.log( i + 1 ) * math.log( i + 1 )
-			vb = ","
-			if gbeg == 1:
-				vb = " "
-				gbeg = 0
-			ckey = gkey if colflag == 1 else ""
-			skey = gkey if shapeflag == 1 else ""
-			print "%s[ %g, %g, \"%s\", \"%s\" ]" % ( vb, dmaxx[ gscnt ] - vx, vy, ckey, skey )
-	gscnt = gscnt + 1
 
-print "];"
+ldata = []
+rdata = []
 
-npres = {}
+xscale = "---"
+yscale = "---"
 
-print "var rdata = [ "
-gbeg = 1
-gscnt = 0
-for gkey in gtags:
-	rx = []
-	ry = []
-	r2x = []
-	r2y = []
-	if regression != "no":
-		( rx, ry ) = calc_regression( edata[ gscnt ] )
-	if regression == "2 parts":
-		( r2x, r2y, nbest, npbest, npvbest  ) = calc_jakovenko( edata[ gscnt ], dmaxx[ gscnt ] )
-		npres[ gkey ] = [ nbest, npbest, npvbest ]
-	vb = ","
-	if gbeg == 1:
-		vb = " "
-		gbeg = 0
-	print "%s { rx: %s, ry: %s, r2x: %s, r2y: %s }" % ( vb, json.dumps( rx ), json.dumps( ry ), json.dumps( r2x ), json.dumps( r2y ) )
-	gscnt = gscnt + 1
+gtvalues = sorted( gtags.values() )
+for gscnt in range( len( gtvalues ) ):
+	gnum = gtvalues[ gscnt ]
+	gtag = gtags.keys()[ gtags.values().index( gnum ) ]
+	setot = sorted( edata[ gscnt ], reverse=True )
+	if 0 in setot:
+		zind = setot.index( 0 )
+		sedata = setot[ 0 : zind ]
+	else:
+		sedata = setot
+		
+	if dgroup != "none":
+		ckey = gtag if colflag == 1 else ""
+		skey = gtag if shapeflag == 1 else ""
+	else:
+		gind = mtags[ "name" ].index( gtag )
+		ckey = mtags[ color ][ gind ] if color != "none" else ""
+		skey = mtags[ shape ][ gind ] if shape != "none" else ""
+	
+	if ptype == "rarefaction":
+		( xdata, ydata ) = calc_rarefaction( sedata )
+		xscale = "count of reads"
+		yscale = "count of phylotypes"
+	elif ptype == "lorentz":
+		xdata = ( np.arange( len( sedata ), dtype = 'float' ) / len( sedata ) ).tolist()
+		ydata = []
+		ysum = 0
+		ynorm = float( sum( sedata ) )
+		for k in range( len( sedata ) ):
+			ysum += sedata[ -( k + 1 ) ]
+			ydata.append( ysum / ynorm ) 
+		xscale = "relative rank"
+		yscale = "relative cumulative abundance"
+	else:
+		ydata = np.log( sedata ).tolist()
+		xrdata = range( 1, len( ydata ) + 1 )
+		if ptype == "log-log":
+			xdata = np.log( xrdata ).tolist()
+			xscale = "log(rank)"
+		elif xscale == "log-sqrlog":
+			xdata = np.sqr( np.log( xrdata ) ).tolist()
+			xscale = "sqr(log(rank))"
+		else: 
+			xdata = xrdata
+			xscake = "rank"
+		( rx, ry ) = ( [], [] )
+		( r2x, r2y ) = ( [], [] )
+		if regression != "no":
+			( rx, ry ) = calc_regression( edata[ gscnt ] )
+			rdata.append( [ rx, ry, r2x, r2y ] )
+		yscale = "log(count)"
 
-print "];"
-print "var xaxtype = \"%s\";" % xscale
-print "var yaxtype = \"%s\";" % yscale
+	ldata.append( [ xdata[:], ydata[:], ckey, skey ]  )
+	
+			   
+
+print "var ldata = %s;" % json.dumps( ldata )
+print "var rdata = %s;" % json.dumps( rdata )
+
+print "var xaxtitle = \"%s\";" % xscale
+print "var yaxtitle = \"%s\";" % yscale
 
 print """
 var margin = {top: 100, right: 100, bottom: 100, left: 100};
 var svg0 = d3.select( "#normal" );
 var diameter = +svg0.attr("width") - margin.top - margin.bottom;
-var svg = svg0.append("g")
+var chart = svg0.append("g")
 	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 var fs = diameter / 80;
 var width = +svg0.attr( "width" ) - margin.top - margin.bottom;;
 var height = +svg0.attr( "height" ) - margin.left - margin.right;
 
-var xaxtitles = { "linear" : "Rank", "logarithmic" : "Log( Rank )", "sqr-log" : "Sqr( Log( Rank ) )" };
-var yaxtitles = { "linear" : "Count", "logarithmic" : "Log( Count )" };
-var xaxtitle = xaxtitles[ xaxtype ];
-var yaxtitle = yaxtitles[ yaxtype ];
+//var xaxtitles = { "linear" : "Rank", "logarithmic" : "Log( Rank )", "sqr-log" : "Sqr( Log( Rank ) )" };
+//var yaxtitles = { "linear" : "Count", "logarithmic" : "Log( Count )" };
     
-var xscale = d3.scaleLinear().range([0,width - fs * 8 ]);
-var yscale = d3.scaleLinear().range([0,height - fs * 8 ]);
-var xmin = d3.min(data, function(d) { return d[0]; } );
-var xmax = d3.max(data, function(d) { return d[0]; } );
-var ymin = d3.min(data, function(d) { return d[1]; } );
-var ymax = d3.max(data, function(d) { return d[1]; } );
+var xscale = d3.scaleLinear().range( [ 0, width - fs * 8 ] );
+var yscale = d3.scaleLinear().range( [ height - fs * 8, 0 ] );
+var xmin = d3.min( ldata, function(d) { return d3.min( d[0] ); } );
+var xmax = d3.max( ldata, function(d) { return d3.max( d[0] ); } );
+var ymin = d3.min( ldata, function(d) { return d3.min( d[1] ); } );
+var ymax = d3.max( ldata, function(d) { return d3.max( d[1] ); } );
 var xmargin = 0.1 * ( xmax - xmin );
 var ymargin = 0.1 * ( ymax - ymin );
 
-xscale.domain( [ xmax + xmargin, xmin - xmargin] );	
-yscale.domain( [ ymax + ymargin, ymin - ymargin ] );	
-//yscale.domain([d3.min(data, function(d) { return d[1]; } )-0.2, d3.max(data, function(d) { return d[1]; } )+0.2]);	
-//yscale.domain([d3.max(data, function(d) { return d[1]; } ) * 1.1, d3.min(data, function(d) { return d[1]; } ) - 1000 ]);	
+xscale.domain( [ xmin - xmargin, xmax + xmargin] );	
+yscale.domain( [ ymin - ymargin, ymax + ymargin ] );	
+//yscale.domain([d3.min(ldata, function(d) { return d[1]; } )-0.2, d3.max(data, function(d) { return d[1]; } )+0.2]);	
+//yscale.domain([d3.max(ldata, function(d) { return d[1]; } ) * 1.1, d3.min(data, function(d) { return d[1]; } ) - 1000 ]);	
 	
-var cValue = function(d) { return d[2]; };
+//var cValue = function(d) { return d[2]; };
 var color = d3.scaleOrdinal(d3.schemeCategory10);
-	
-var slabels = d3.set(data.map(function(d) { return d[3];})).values();	
+var clabels = d3.set( ldata.map(function(d) { return d[2];})).values();
+var slabels = d3.set( ldata.map(function(d) { return d[3];})).values();	
 var shapeScale = d3.scaleOrdinal()
 			.domain(slabels)
-            .range([ d3.symbolCircle, d3.symbolCross, d3.symbolDiamond, d3.symbolSquare, d3.symbolTrianle ]);
+            .range([ d3.symbolCircle, d3.symbolCross, d3.symbolDiamond, d3.symbolSquare, d3.symbolTriangle ]);
+//var sValue = function(d) { return d[3];};
 
            
 var valueline = d3.line()
@@ -299,9 +325,9 @@ var valueline = d3.line()
 		
 for ( i = 0; i < rdata.length; i++ )
 {
-	var rline = "M" + xscale( rdata[i].rx[0] ) + " " + yscale( rdata[i].ry[0] ) + " L" + xscale( rdata[i].rx[1] ) + " " + yscale( rdata[i].ry[1] );	
-	svg.append( "path" ).attr("d", rline).style("stroke-width", "2px").style("stroke","black" );
-	if ( rdata[i].r2x.length > 1 )
+	var rline = "M" + xscale( rdata[i][0][0] ) + " " + yscale( rdata[i][1][0] ) + " L" + xscale( rdata[i][0][1] ) + " " + yscale( rdata[i][1][1] );	
+	chart.append( "path" ).attr("d", rline).style("stroke-width", "2px").style("stroke","black" );
+	if ( rdata[i][2].length > 1 )
 	{
 		//var r2line = "M " + xscale( rdata[i].r2x[0] ) + " " + yscale( rdata[i].r2y[0] );
 		var k;
@@ -313,56 +339,52 @@ for ( i = 0; i < rdata.length; i++ )
 		{
 			var r2step = "M " + xscale( rdata[i].r2x[ k - sv2 ] ) + " " + yscale( rdata[i].r2y[ k - sv2 ] ) + " L " + xscale( rdata[i].r2x[k] ) + " " + yscale( rdata[i].r2y[k] );
 			//r2line += " L " + xscale( rdata[i].r2x[k] ) + " " + yscale( rdata[i].r2y[k] );
-			svg.append( "path" ).attr("d", r2step).style("stroke-width", fs * 0.2 + "px" ).style("stroke","black" ).style( "fill", "none" );
+			chart.append( "path" ).attr("d", r2step).style("stroke-width", fs * 0.2 + "px" ).style("stroke","black" ).style( "fill", "none" );
 			//console.log( r2step );
 		}
 		//console.log( r2line )
-		//svg.append( "path" ).attr("d", r2line).style("stroke-width", fs * 0.2 + "px" ).style("stroke","black" ).style( "fill", "none" );
+		//chart.append( "path" ).attr("d", r2line).style("stroke-width", fs * 0.2 + "px" ).style("stroke","black" ).style( "fill", "none" );
 	}
 }
 	
 var symbol = d3.symbol();
 
-svg.selectAll("dot")
-	.data(data)
-	.enter().append("path")
-	.attr("r", 5.)
-	.attr("transform", function(d) { return "translate(" + xscale( d[0] ) + "," + yscale( d[1] ) + ")"; })
-	.attr("d", symbol.type( function(d){ 
-	return shapeScale( d[3] );
-		} ).size( 0.5 * fs * fs ) ) 
-	.attr("cx", function( d ) { return xscale( d[0] ); } )
-	.attr("cy", function( d ) { return yscale( d[1] ); } )
-	.style("fill", function(d) { return color( cValue( d ) ); } )
-	;
 	
-k = 0;
-var dline = "";
 
-for ( i = 0; i <= data.length; i++ )
+for ( k = 0; k < ldata.length; k++ )
 {
-	if ( i == 0 || i == data.length || data[i][0] > data[ i - 1 ][0] )
+	chart.selectAll("dot")
+		.data( ldata[k][0] )
+		.enter().append("path")
+		.attr("r", 5.)
+		.attr("transform", function(d,i) { return "translate(" + xscale( d ) + "," + yscale( ldata[k][1][i] ) + ")"; })
+		.attr("d", symbol.type( shapeScale( ldata[k][3] ) ).size( 0.5 * fs * fs ) ) 
+		.attr("cx", function( d ) { return xscale( d ); } )
+		.attr("cy", function( d, i ) { return yscale( ldata[k][1][i] ); } )
+		.style("fill", color( ldata[k][2] ) )
+		;
+
+	var dline = "M " + xscale( ldata[k][0][0] ) + " " + yscale( ldata[k][1][0] );
+	for ( i = 0; i < ldata[k][0].length; i++ )
 	{
-		if ( i != 0 ) svg.append( "path" ).attr("d", dline ).style("stroke-width", fs * 0.1 + "px" ).style("stroke", color( data[ i - 1 ][2] ) ).style( "fill", "none" );
-		if ( i != data.length ) dline = "M " + xscale( data[i][0] ) + " " + yscale( data[i][1] );
+		dline += " L " + xscale( ldata[k][0][i] ) + " " + yscale( ldata[k][1][i] );
 	}
-	else
-	{
-		dline += " L " + xscale( data[i][0] ) + " " + yscale( data[i][1] );
-	}
+	chart.append( "path" ).attr("d", dline ).style( "stroke-width", fs * 0.1 + "px" ).style( "stroke", color( ldata[ k ][2] ) ).style( "fill", "none" );
 }
 
-var xax = svg.append("g").attr("transform", "translate(0," + ( height - fs * 8 ) + ")").call(d3.axisBottom(xscale));
+var xax = chart.append("g").attr("transform", "translate(0," + ( height - fs * 8 ) + ")").call(d3.axisBottom(xscale));
 xax.selectAll("text").style("text-anchor", "middle").style("font", 1.5 * fs + "px sans-serif" );
 xax.selectAll("line").style("stroke-width", "3px");
 xax.selectAll("path").style("stroke-width", "3px");
 
-var yax = svg.append("g").call(d3.axisLeft(yscale));
+var yax = chart.append("g").call(d3.axisLeft(yscale));
 yax.selectAll("text").style("text-anchor", "left").style("font", 1.5 * fs + "px sans-serif" );
 yax.selectAll("line").style("stroke-width", "3px");
 yax.selectAll("path").style("stroke-width", "3px");
 
-svg.append("text")             
+var tfont = fs * 1.4 + "px sans-serif";
+
+chart.append("text")             
 	.attr("transform",
 		"translate(" + (width/2) + " ," + 
 						(height - 3 * fs ) + ")")
@@ -370,7 +392,7 @@ svg.append("text")
 	.style("font", 2 * fs + "px sans-serif" )
 	.text( xaxtitle );
 
-svg.append("text")
+chart.append("text")
 	.attr("transform", "rotate(-90)")
 	.attr("y", 0 - margin.left + fs * 5 )
 	.attr("x",0 - (height / 2))
@@ -379,6 +401,53 @@ svg.append("text")
 	.style("font", 2 * fs + "px sans-serif" )
 	.text( yaxtitle );      
 
+var l2t = 0;
+var lheight = fs * 2
+if ( clabels.length > 1 )
+{
+	var legend = chart.selectAll(".legend")
+		.data( color.domain() )
+		.enter().append("g")
+			.attr("class", "legend")
+			.attr("transform", function(d, i) { return "translate(0," + i * lheight + ")"; });
+
+	legend.append("rect")
+		.attr("x", width - 0.9 * lheight )
+		.attr("width", 0.9 * lheight )
+		.attr("height", 0.9 * lheight )
+		.style("fill", color); 
+
+	legend.append("text")
+		.attr("x", width - lheight * 1.2 )
+		.attr("y", lheight * 0.6 )
+		.style("text-anchor", "end")
+		.style("font", tfont )
+		.text(function(d) { return d;});
+	
+	l2t = color.domain().length;
+}
+
+if ( slabels.length > 1 )
+{
+	var slegend = chart.selectAll(".slegend")
+		.data( shapeScale.domain() )
+		.enter().append("g")
+			.attr("class", "slegend")
+			.attr("transform", function(d, i) { return "translate(0," + ( i + l2t ) * lheight + ")"; });
+
+	slegend.append("path")
+		.attr('stroke', 'black')
+		.attr('stroke-width', 1)
+		.attr('transform', 'translate(' + ( width - lheight * 0.4 ) + ',' + lheight * 0.4  + ')')
+		.attr("d", symbol.type( function(d,i){ 	return shapeScale( d ); } ) );
+	
+	slegend.append("text")
+		.attr("x", width - lheight * 1.2 )
+		.attr("y", lheight * 0.6 )
+		.style("text-anchor", "end")
+		.style("font", tfont )
+		.text(function(d) { return d;});
+}
 
 
 """
@@ -386,10 +455,3 @@ svg.append("text")
 
 print "</script>"
 
-if len( npres ) > 0:
-	print "<br><br>"
-	for gkey in npres:
-		print "%s %d %d %g<br>" % ( gkey, npres[gkey][0], npres[gkey][1], npres[gkey][2] )
-	print "<br>"
-#	print dbest
-	

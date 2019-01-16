@@ -9,7 +9,9 @@ from . import controls
 from . import forms as dforms
 import json
 import urllib
+import re
 
+# Create your views here.
 jvenn_site = "http://jvenn.toulouse.inra.fr/app/"
 jvenn_css = ""
 #"\n".join( [ "<link href=\"" + jvenn_site + "css/" + css + ".css\" rel=\"stylesheet\">" for css in [ "bootstrap",  "bootstrap-responsive", "bootstrap-colorpicker.min" ] ] )
@@ -25,7 +27,7 @@ def new(request):
 	if request.method == 'POST':
 		form = dforms.UploadFile(request.POST, request.FILES)
 		if form.is_valid():
-			job = controls.submit_job( request.FILES, form.data[ 'name' ] )
+			job = controls.submit_job( request.FILES, form.data[ 'name' ], form.data[ 'transform' ] )
 			return HttpResponseRedirect( '/summary/' + job )
 	else:
 		form = dforms.UploadFile()
@@ -81,13 +83,13 @@ def generic_view( request, job, service, formclass, **kwargs ):
 				pngres = controls.render_png( format_params( form ), job, script, host, jscripts )
 				if len( pngres ) > 0:
 					response = HttpResponse( pngres, content_type="image/png")
-					response[ 'Content-Disposition' ] = 'attachment; filename="%s.png"' % outname
+					response[ 'Content-Disposition' ] = 'attachment; filename="%s.png"' % outname.replace( "\n", "_" )
 					return response
 			if form.data[ "command" ] == "Download as SVG":
 				svgres = controls.render_svg( format_params( form ), job, script, host, jscripts )
 				if len( svgres ) > 0:
 					response = HttpResponse( svgres, content_type="image/svg+xml")
-					response[ 'Content-Disposition' ] = 'attachment; filename="%s.svg"' % outname
+					response[ 'Content-Disposition' ] = 'attachment; filename="%s.svg"' % outname.replace( "\n", "_" )
 					return response
 		print script
 		result = run_script( form, job, script  )
@@ -106,7 +108,11 @@ def tags(request,job):
 	servicename = 'Define tags'
 	tags = controls.run_script( "", job, "tags" )
 	if request.method == 'POST':
-		newtags = controls.run_script( "newtags=" + urllib.unquote_plus( request.POST[ 'jstags' ] ), job, "tags" )
+		re_pattern = re.compile(u'[^\u0000-\uD7FF\uE000-\uFFFF]', re.UNICODE)
+		ntstr = re_pattern.sub( '_', u''.join( [ urllib.unquote_plus( request.POST[ 'jstags' ] ) ] ) )
+		ntstr = "".join( [ uc if uc < u"\u00ff" else "_" for uc in urllib.unquote_plus( request.POST[ 'jstags' ] ) ] )
+		print ntstr
+		newtags = controls.run_script( "newtags=" + ntstr, job, "tags" )
 		tags = newtags.replace( "u'", "'" )
 	ptags = json.loads( tags )
 	ptkeys = ptags.keys()
@@ -167,6 +173,20 @@ def bubbles(request,job):
 def whittaker(request,job):
 	return generic_view( request, job, "whittaker", dforms.Whittaker, jscripts = [ "d3.v4.min.js" ] )
 
+def rarefunction(request,job):
+	return generic_view( request, job, "whittaker", dforms.Rarefunction, jscripts = [ "d3.v4.min.js" ] )
+
 def pca_sp(request,job):
 	return generic_view( request, job, "pca_sp", dforms.PCA2P, servicename = "Two-panel PCA", jscripts = [ "d3.v3.min.js" ] )
 
+if False:
+	jobtitle = job_name( job )
+	result = ""
+	if request.method == 'POST':
+		form = dforms.BubbleChart(request.POST, request.FILES)
+		result = run_script( form, job, "bubble"  )
+	else:
+		form = dforms.BubbleChart()
+	template = loader.get_template('bubbles.html')
+	context = { 'job': job, 'title' : jobtitle, 'service' :  'bubbles', 'servicename' : 'Bubble chart', 'result' : result, 'form' : form  }
+#	return HttpResponse( template.render( context, request ) )

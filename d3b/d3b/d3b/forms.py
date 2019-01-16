@@ -5,6 +5,7 @@ from . import controls
 
 class UploadFile( forms.Form ):
 	name = forms.CharField(max_length=50, label="Dataset name")
+	transform = forms.ChoiceField( label="Transform", choices = [ ( "none", "none" ), ( "scale 1000", "scale from 0 to 1000" ), ( "erf 1000", "erf 1000" ) ], initial = [ "none" ] ) 
 	file = forms.FileField( label="File (tab-delimited / biom format)" )
 	
 	
@@ -53,7 +54,7 @@ class GenericForm( forms.Form ):
 		for fieldname in [ 'dmethod' ]:
 			if fieldname in self.fields:
 				self.fields[ fieldname ].widget.choices += cdmeasures
-		for fieldname in [ 'dfilter', 'color', 'shape', 'dgroup', 'order1', 'order2', 'labels' ]:
+		for fieldname in [ 'dfilter', 'color', 'shape', 'dgroup', 'order1', 'order2', 'labels', 'shisttag' ]:
 			if fieldname in self.fields:
 				self.fields[ fieldname ].widget.choices += ctags
 				if fieldname in [ 'labels' ]:
@@ -75,8 +76,11 @@ class GenericForm( forms.Form ):
 			snames = set( tags[ ctag ] )
 			print snames
 			self.fields[ 'samples' ].widget.choices = [ ( v, v ) for v in snames ]
-			self.fields[ fieldname ].widget.initial = ( 'name', 'name' )
+			self.initial[ 'dgroup' ] = [ 'name' ]
 			
+					
+			
+				
 
 class Table( GenericForm ):
 	level = VChoiceField()
@@ -85,12 +89,14 @@ class Table( GenericForm ):
 	dfilter = VChoiceField( label="Samples filter" )
 	spfilter = VChoiceField( label="Taxonomy filter" )
 	dgroup = VChoiceField( label="Samples grouping" )
-	numbest = forms.ChoiceField( label = "Number of best species / units", choices = [ ( "all", "all" ), ( "10", "10" ), ( "25", "25"), ( "50", "50" ), ( "100", "100" ) ] )
+	numbest = forms.ChoiceField( label = "Number of best species / units", choices = [ ( "all", "all" ), ( "10", "10" ), ( "15", "15" ), ( "25", "25"), ( "50", "50" ), ( "100", "100" ) ] )
 
 class Indices( GenericForm ):
 	dfilter = VChoiceField( label="Samples filter" )
 	spfilter = VChoiceField( label="Taxonomy filter" )
 	dgroup = VChoiceField( label="Samples grouping" )
+	mmethod = forms.ChoiceField( label="Subset of estimators", choices = [ ( "all", "Major subset" ), ( "mm-fit", "Rarefaction" ) ] )
+	level = VChoiceField( choices = [ ( "all", "All" ) ] )
 	
 class Anova( GenericForm ):
 	dfilter = VChoiceField( label="Samples filter" )
@@ -106,6 +112,8 @@ class Permanova( GenericForm ):
 	dgroup = VChoiceField( label="Samples grouping" )
 	pmethod = forms.ChoiceField( label="Method", choices = [ ( "permanova", "Permanova" ), ( "anosim", "Anosim" ) ] )
 	cunits = forms.ChoiceField( label = "Units", choices = [ ( "probability", "p-value" ), ( "log-probability", "-log( p-value )" ) ] )
+	permutations = forms.ChoiceField( label = "Permutations", choices = [ ( v, v ) for v in [ "999", "3999", "9999", "39999" ] ] )
+
 
 class PCA( GenericForm ):
 	level = VChoiceField()
@@ -128,16 +136,19 @@ class Tree( GenericForm ):
 
 class Heatmap( GenericForm ):
 	level = VChoiceField()
-	dtype = forms.ChoiceField( label = "Units", choices = [ ( "count", "Counts" ), ( "percent", "Percents" ), ( "z-score", "Z-Score" ) ] )
+	dtype = forms.ChoiceField( label = "Units", choices = [ ( "count", "Counts" ), ( "percent", "Percents" ), ( "z-score", "Z-Score" ), ( "percent-quantile", "Percents-Quantile" ) ] )
 	dfilter = VChoiceField( label="Samples filter" )
 	spfilter = VChoiceField( label="Taxonomy filter" )
-	order1 = VChoiceField( label="Sort order (primary)" )
-	order2 = VChoiceField( label="Sort order (secondary)" )
-	labels = VChoiceField( label="Labels for samples" )
-	numbest = forms.ChoiceField( label = "Number of best species / units", choices = [ ( "all", "all" ), ( "10", "10" ), ( "25", "25"), ( "50", "50" ), ( "100", "100" ) ] )
-	numhighligtht = forms.ChoiceField( label = "Highlight best species/units", choices = [ ( v, v ) for v in [ "all", "20%", "10%", "7.5%", "5%", "2%" ] ] )
+	dgroup = VChoiceField( label="- Samples grouping - excludes sorting (*)" )
+	order1 = VChoiceField( label="* Sort order (primary)" )
+	order2 = VChoiceField( label="* Sort order (secondary)" )
+	labels = VChoiceField( label="* Labels for samples" )
+	numbest = forms.ChoiceField( label = "Number of best species / units", choices = [ ( "all", "all" ), ( "10", "10" ), ( "15", "15" ), ( "25", "25"), ( "50", "50" ), ( "100", "100" ) ] )
+	numhighlight = forms.ChoiceField( label = "Highlight best species/units", choices = [ ( v, v ) for v in [ "all", "20%", "10%", "7.5%", "5%", "2%" ] ] )
 	spshow = VChoiceField( label="Show taxonomy", choices = [ ( "custom", "Custom" ) ] )
 	taxlabels = forms.ChoiceField( label = "Labels for taxonomy", choices = [ ( "no", "No" ), ( "yes", "Yes" ) ] )
+	shist = forms.ChoiceField( label = "Histogram of significance", choices = [ ( "none", "none" ), ( "best-fisher", "Exact Fisher (best pair)" ), ( "anova", "Anova" ), ( "best-wilcoxon", "Ranked (best pair)" ), ( "best-ttest", "T-Test (best pair)" ), ( "best-chisquare", "Chi-square (best pair)" ) ] )
+	shisttag = VChoiceField( label = "Groups for histogram" )
 	spcustom = forms.CharField( widget=forms.HiddenInput() )
 	
 class BubbleChart( GenericForm ):
@@ -145,18 +156,18 @@ class BubbleChart( GenericForm ):
 	dfilter = VChoiceField( label="Samples filter" )
 	spfilter = VChoiceField( label="Taxonomy filter" )
 	dgroup = VChoiceField( label="Samples grouping" )
-	dnorm = forms.ChoiceField( label = "Units", choices = [ ( "percent", "Percents" ), ( "count", "Counts" ) ] )
+	dnorm = forms.ChoiceField( label = "Units", choices = [ ( "percent", "Percents" ), ( "count", "Counts" ), ( "percent-quantile", "Percents-Quantile" ) ] )
 	dglabels = forms.ChoiceField( label = "Group labels", choices = [ ( "no", "No" ), ( "yes", "Yes" ) ] )
 	dtlabels = forms.ChoiceField( label = "Percent labels", choices = [ ( "no", "No" ), ( "yes", "Yes" ) ] )
 	dlegend = forms.ChoiceField( label = "Show legend", choices = [ ( "no", "No" ), ( "yes", "Yes" ) ] )
-	dprestype = forms.ChoiceField( label = "Presentation type", choices = [ ( "bubble", "Bubble chart" ), ( "treemap", "Treemap" ) ] )
+	dprestype = forms.ChoiceField( label = "Presentation type", choices = [ ( "bubble", "Bubble chart" ), ( "treemap", "Treemap" ), ( "bars", "Bars" ) ] )
 
 class Ternary( GenericForm ):
 	level = VChoiceField()
 	dfilter = VChoiceField( label="Samples filter" )
 	spfilter = VChoiceField( label="Taxonomy filter" )
 	dgroup = VChoiceField( label="Samples grouping", widget=forms.Select( attrs={ 'onchange': 'settagvalues();' } ) )
-	numbest = forms.ChoiceField( label = "Number of best species / units", choices = [ ( "10", "10" ), ( "25", "25"), ( "50", "50" ), ( "100", "100" ) ] )
+	numbest = forms.ChoiceField( label = "Number of best species / units", choices = [ ( "10", "10" ), ( "15", "15" ), ( "25", "25"), ( "50", "50" ), ( "100", "100" ) ] )
 	samples = VMChoiceField( widget=forms.SelectMultiple, choices = [] )
 	
 class Whittaker( GenericForm ):
@@ -164,9 +175,12 @@ class Whittaker( GenericForm ):
 	dfilter = VChoiceField( label="Samples filter" )
 	spfilter = VChoiceField( label="Taxonomy filter" )
 	dgroup = VChoiceField( label="Samples grouping" )
-	xscale = forms.ChoiceField( label = "Ranks scale", choices = [ ( v, v ) for v in [ "linear", "logarithmic", "sqr-log" ] ] )
-	yscale = forms.ChoiceField( label = "Abundance scale", choices = [ ( v, v ) for v in [ "linear", "logarithmic" ] ] )
+	#xscale = forms.ChoiceField( label = "Ranks scale", choices = [ ( v, v ) for v in [ "linear", "logarithmic", "sqr-log" ] ] )
+	#yscale = forms.ChoiceField( label = "Abundance scale", choices = [ ( v, v ) for v in [ "linear", "logarithmic" ] ] )
+	ptype = forms.ChoiceField( label = "Presentation", choices = [ ( v, v ) for v in [ "log-log", "log-sqrlog", "log-linear", "lorentz", "rarefaction" ] ] ) 
 	dmarks = forms.ChoiceField( label = "Groups separation", choices = [ ( v, v ) for v in [ "none", "color", "shape", "both" ] ] )
+	color = VChoiceField( label="Color" )
+	shape = VChoiceField( label="Shape" )
 	regression = forms.ChoiceField( label = "Include regression line", choices = [ ( v, v ) for v in [ "no", "yes", "2 parts" ] ] )
 
 class Venn( GenericForm ):

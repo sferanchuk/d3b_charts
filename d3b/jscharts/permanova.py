@@ -28,7 +28,7 @@ level = form.getvalue( "level" )
 spfilter = d3bf.loadfilters( "emap_filters.txt", form.getvalue( "spfilter", "none" ) )
 cunits = form.getvalue( "cunits", "probability" )
 pmethod = form.getvalue( "pmethod", "permanova" )
-
+npermutations = form.getvalue( "permutations", "999" )
 
 if dgroup == "none" or dgroup == "name":
 	sys.exit( 0 )
@@ -63,9 +63,9 @@ if True:
 		#M = pd.DataFrame( np.array( cdata ), site_ids, site_ids )
 		dm = DistanceMatrix( cdata, site_ids )
 		if pmethod == "permanova":
-			dmres = skbiostats.distance.permanova( dm, mtags[ dgroup ] )
+			dmres = skbiostats.distance.permanova( dm, mtags[ dgroup ], permutations = int( npermutations ) )
 		if pmethod == "anosim":
-			dmres = skbiostats.distance.anosim( dm, mtags[ dgroup ] )
+			dmres = skbiostats.distance.anosim( dm, mtags[ dgroup ], permutations = int( npermutations ) )
 		pv = dmres.get( "p-value" ) 
 		if cunits == "probability":
 			print pv

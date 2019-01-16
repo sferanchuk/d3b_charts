@@ -16,6 +16,7 @@ import math
 import re
 import skbio
 import skbio.diversity as skdiv
+import copy
 
 def chdir( datapath ):
 	os.chdir( datapath )
@@ -145,14 +146,14 @@ def loadtaxonomy( data, ml, spfilter, ilevel ):
 		cgname = d[0]
 		exflag = reverse
 		if len( excludelist ) > 0:
-			for k in range( ml ):
+			for k in range( ml + 1 ):
 				if len( d[k] ) > 0 and d[k] in excludelist:
 					exflag = 1 - reverse
 					break
 		if exflag == 1:
 			continue
 		for k in range( ilevel - 1, -1, -1 ):
-			if len( d[k] ) > 0 and d[k] != "*" and d[k] != "Unknown":
+			if len( d[k] ) > 0 and d[k] != "*" and d[k] != "Unknown" and d[k] != "uncultured" and ( len( d[k] ) < 5 or d[k][2:5] != "tu_" ):
 				ckname = d[k]
 				break
 		if ml > 0 and len( d[1] ) > 0:
@@ -178,7 +179,7 @@ def loadtaxonomy( data, ml, spfilter, ilevel ):
 def select_toptax( edata, kdict, num_best ):
 	if num_best > 0 and num_best < len( edata[0] ):
 		aedata = np.array( edata, dtype=float )
-		aenorm = np.sum( aedata, axis=1 )
+		aenorm = np.maximum( np.sum( aedata, axis=1 ), np.array( [ 1. / len( edata[0] ) ] * len( edata ) ) )
 		aedata /= aenorm.reshape( len(edata), 1 )
 		ssum = np.sum( aedata, axis=0 )
 		ssorted = sorted( ssum.tolist(), reverse=True )
@@ -235,7 +236,21 @@ def load_edata_m( data, ilevel, mn, ml, kdict, volumes, findex, kdnames ):
 			edata.append( crow )
 	return ( edata, site_ids, species_ids )
 
-
+def quantileNormalize( matrix ):
+    df = copy.copy( matrix )
+    #compute rank
+    dic = {}
+    for col in range( len( df ) ):
+        dic.update({col : sorted(df[col])})
+    rank = [ 0 ] * len( df[0] )
+    for i in range( len( rank ) ):
+		rank[ i ] = np.average( [ dic[ col ][ i ] for col in range( len( df ) ) ] )
+    #sorted_df = pd.DataFrame(dic)
+    #rank = sorted_df.mean(axis = 1).tolist()
+    for col in range( len( df ) ):
+        t = np.searchsorted( np.sort(df[col]), df[col] )
+        df[col] = [ rank[i] for i in t ]
+    return df
 	
 def morisitaHorn(data1, data2):
     X = sum(data1)
@@ -365,8 +380,8 @@ def print_drawscatter():
 		var yscale = d3.scale.linear().range([ height, 0 ]);
 		var xAxis = d3.svg.axis().scale(xscale).orient('bottom').ticks(2);
 		var yAxis = d3.svg.axis().scale(yscale).orient('left').ticks(2);
-		var xValue = function(d) { return d[1];}; 
-		var yValue = function(d) { return d[0];};
+		var xValue = function(d) { return d[0];}; 
+		var yValue = function(d) { return d[1];};
 		var cValue = function(d) { return d[2];};
 		var color = d3.scale.category10();
 		var vmax = Math.max( -d3.min(data, xValue), d3.max(data, xValue), -d3.min(data, yValue), d3.max(data, yValue) ) * 1.6;
