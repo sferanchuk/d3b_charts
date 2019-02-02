@@ -313,7 +313,8 @@ function drawbars()
 	var width = +chart.attr( "width" ) - margin.right - margin.left;
 	var gwidth = width / 5;
 	var fs = width / 110.; 
-	for ( i = 0; i < spdata.length; i++ )
+	console.log( "bbb" );
+	for ( var i = 0; i < spdata.length; i++ )
 	{
 		var bclass = ".dodo" + i;
 		var tclass = ".coco" + i;
@@ -356,7 +357,6 @@ function drawbars()
 				.text(function(d) { return "PC " + ( d.ind + 1 ) + " (" + d.pc + ")";})
 				.style("font-size", fs * 1.2 + "px"); 
 }
-
 drawbars();
 """
 

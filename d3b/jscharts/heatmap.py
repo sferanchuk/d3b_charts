@@ -34,13 +34,16 @@ dgroup = form.getvalue( "dgroup", "none" )
 spfilter = d3bf.loadfilters( "emap_filters.txt", form.getvalue( "spfilter", "none" ) )
 datatype = form.getvalue( "dtype", "count" )
 level = form.getvalue( "level" )
-numbest = form.getvalue( "numbest", "inf" )
+numbest = form.getvalue( "numbest", "all" )
+percentbest = form.getvalue( "percentbest", "all" )
 numhighlight = form.getvalue( "numhighlight", "all" )
 spshow = form.getvalue( "spshow", "none" )
 customtax = form.getvalue( "spcustom", "[]" )
 shist = form.getvalue( "shist", "none" )
 shisttag = form.getvalue( "shisttag", "none" )
 resolution = form.getvalue( "resolution", "low" )
+cscale = form.getvalue( "cscale", "threshold" )
+cpalette = form.getvalue( "cpalette", "pink/brown" )
 splist = customtax if spshow == "custom" else json.dumps( d3bf.loadfilters( "emap_filters.txt", spshow )[0] )
 
 ( data, volumes, mn, ml ) = d3bf.loaddata( "emap.txt" )
@@ -100,21 +103,21 @@ for i in findex:
 			if v > 0:
 				nzdict[ ckey ] = 1
 
-inumbest = 0
+inumbest = None
+ipercentbest = None
 if numbest.isdigit():
 	inumbest = int( numbest )
-if ( inumbest > 0 and inumbest < len( kdict ) ):
-	( nedata, nkdict ) = d3bf.select_toptax( edata, kdict, inumbest )
+if percentbest[:-1].isdigit():
+	ipercentbest = int( percentbest[:-1] )
+if ( inumbest != None and inumbest < len( kdict ) ) or ipercentbest != None:
+	( nedata, naedata, nkdict ) = d3bf.select_toptax( edata, kdict, num_best=inumbest, percent_best=ipercentbest )
 	edata = nedata
+	aedata = naedata
 	nknorder = []
-	naedata = [ [] for k in xrange( len( nkdict ) ) ]
-	taedata = aedata.transpose()
 	for cknum in range( len( knorder ) ):
 		ckey = knorder[ cknum ]
 		if ckey in nkdict:
 			nknorder.append( ckey )
-			naedata[ nkdict[ ckey ] ] = taedata[ kdict[ ckey ] ].tolist()
-	aedata = np.array( naedata ).transpose()
 	kdict = nkdict
 	knorder = nknorder
 
@@ -284,12 +287,15 @@ for ikey in knindex.keys():
 print "};"
 
 if datatype == "z-score":
-	print "var cdomain = [ -10., -1.2, -0.5, 0., 0.9, 2.2, 10. ]; var cdscale = 1;"
+	print "var cdomain = [ -10., -1.2, -0.5, 0., 0.9, 2.2, 10. ]; var cdscale = 2;"
 elif datatype == "percent" or datatype == "percent-quantile":
 	print "var cdomain = [ 0., 0.01, 0.25, 1., 5., 25., 100. ]; var cdscale = 1;"
 else:
 	print "var cdomain = [ 0, 1, 3, 10, 50, 200, 50000 ]; var cdscale = 0;"
-	
+
+print "var cscale = \"%s\";" % cscale;	
+print "var cpalette = \"%s\";" % cpalette;	
+
 print "var smallrect = %s;" % json.dumps( smallrect )
 print "var splist = %s;" % splist
 
@@ -534,9 +540,9 @@ function update(source) {
 	if ( d.title == "Bacteria" ) taxroot = d.depth;
   });
   
-  var chue = 0.3;
-  var csat = 0.3;
-  var labelSize = 0;
+	var chue = { "pink/brown" : 0, "blue/green" : 200, "yellow/blue" : 230, "green/red" : 0, "blue/green" : 0 } [ cpalette ];
+	var csat = 0.3;
+	var labelSize = 0;
 
   // Declare the nodes
   var node = svg.selectAll("g.node")
@@ -630,33 +636,62 @@ function update(source) {
 	var rectw = ( width - hmbeg ) / nsamples;
 	if ( rectw > minrectsize ) rectw = minrectsize;
 	
-	var cgenerator = d3.scale.linear()
-		.domain([0, 3, cdomain.length-1 ])
-		.range([
-			d3.hsl( 0, 0, 1),
-			d3.hsl( 0, 0, 0.8),
-			d3.hsl( 0, 0, 0)]
-		);
-		//.interpolate(d3.interpolateCubehelix);
-		
-	var crange = d3.range( cdomain.length ).map(cgenerator);
-
-	var chue = 0.3;
-	var csat = 0.3;
-	var colorScale = d3.scale.threshold()
-        .domain( cdomain )
-		.range([
+	var palettes = { 
+		"pink/brown" : [
 			d3.hsl( chue, csat, 1),
 			d3.hsl( chue, csat, 1),
 			d3.hsl( chue, csat, 0.9),
 			d3.hsl( chue, csat, 0.8),
 			d3.hsl( chue, csat, 0.6),
 			d3.hsl( chue, csat, 0.3),
-			d3.hsl( chue, csat, 0.1)]
-		);
+			d3.hsl( chue, csat, 0.1) ],
+		"blue/green" : [
+			d3.hsl( 205, csat, 1),
+			d3.hsl( 205, csat, 1),
+			d3.hsl( 205, csat, 0.9),
+			d3.hsl( 200, csat, 0.8),
+			d3.hsl( 195, csat, 0.6),
+			d3.hsl( 180, csat, 0.3),
+			d3.hsl( 165, csat, 0.1) ],
+		"yellow/blue" : [
+			d3.hsl( 51, csat, 1),
+			d3.hsl( 51, csat, 1),
+			d3.hsl( 51, csat, 0.82),
+			d3.hsl( 51, csat, 0.75),
+			d3.hsl( 230, csat, 0.62),
+			d3.hsl( 225, csat, 0.32),
+			d3.hsl( 225, csat, 0.18) ],
+		"green/red" : [
+			d3.hsl( 100, 0.5, 0.5 ),
+			d3.hsl( 100, 0.5, 0.5 ),
+			d3.hsl( 100, 0.5, 0.2 ),
+			d3.hsl( 100, 0.5, 0.05 ),
+			d3.hsl( 0, 0.8, 0.1 ),
+			d3.hsl( 0, 0.8, 0.4 ),
+			d3.hsl( 0, 0.8, 0.5) ],
+		"blue/red" : [
+			d3.hsl( 230, 0, 1 ),
+			d3.hsl( 230, 0, 1 ),
+			d3.hsl( 230, 0, 0.8 ),
+			d3.hsl( 230, 0.3, 0.8 ),
+			d3.hsl( 230, 0.5, 0.7 ),
+			d3.hsl( 0, 0.4, 0.7 ),
+			d3.hsl( 0, 0.8, 0.75 ) ],
+			};
 
-   var div = d3.select("#tt");
- 	
+	
+	/*var colorScale = d3.scale.linear()
+		.domain( cdomain )
+		.interpolate(d3.interpolatePuBu);
+		
+	var crange = d3.range( cdomain.length ).map(cgenerator);
+	*/
+	var colorScale = ( cscale == "threshold" ) ? d3.scale.threshold() : d3.scale.linear();
+	colorScale.domain( cdomain ).range( palettes[ cpalette ] );
+	
+
+	var div = d3.select("#tt");
+
 	svg.selectAll(".bobo")
       .data(ndata)
       .enter().append("rect")
@@ -724,27 +759,50 @@ function update(source) {
 		var md = cdomain[ i + 1 ];
 		if ( i + 2 == cdomain.length && cdscale == 0 )
 		{
-			md = maxdata + 1;
+			md = maxdata;
 		}
 		vcdata.push( [ i - 1, cdomain[i], md ] );
+		//if ( cdscale == 0 && i + 1 == cdomain.length - 1 ) vcdata[ i ][ 2 ] --;
 	}
-	svg.selectAll(".coco1")
-      .data( vcdata )
-      .enter().append("text")
-      .attr("class", "coco1")
-      .attr("x", function(d) { return d[0] * vcrect; })
-      .attr("y", height + vcheight * 2 )
-      .style("font", fs * 1.2 + "px sans-serif" )
-	  .text(function(d) { return d[1];});      
+	
+	if ( cscale == "threshold" )
+	{
+		svg.selectAll(".coco1")
+		.data( vcdata )
+		.enter().append( "text" )
+		.attr( "class", "coco1" )
+		.attr( "x", function(d) { return d[0] * vcrect; } )
+		.attr( "y", height + vcheight * 2 )
+		.style( "font", fs * 1.2 + "px sans-serif" )
+		.text( function(d) { return d[1];} );      
 
-	svg.selectAll(".coco2")
-      .data( vcdata )
-      .enter().append("text")
-    .attr("class", "coco2")
-      .attr("x", function(d) { return d[0] * vcrect; })
-      .attr("y", height + 4.3 * vcheight )
-      .style("font", fs * 1.2 + "px sans-serif" )
-	  .text(function(d) { return ( cdscale == 0 ) ? ( d[2] - 1 ) : d[2]; });      
+		svg.selectAll(".coco2")
+		.data( vcdata )
+		.enter().append( "text" )
+		.attr( "class", "coco2" )
+		.attr( "x", function(d) { return d[0] * vcrect + vcrect; } )
+		.attr( "y", height + 4.3 * vcheight )
+		.style( "font", fs * 1.2 + "px sans-serif" )
+		.style( "text-anchor", "end" )
+		.text( function(d) { return d[2]; } );      
+	}
+	else
+	{
+		svg.selectAll(".coco2")
+		.data( vcdata )
+		.enter().append( "text" )
+		.attr( "class", "coco2" )
+		.attr( "x", function(d) { return d[0] * vcrect; } )
+		.attr( "y", height + 4.3 * vcheight )
+		.style( "font", fs * 1.2 + "px sans-serif" )
+		.style( "text-anchor", "end" )
+		.text(function(d) { return d[1]; } );      
+		
+		svg.append( "text" ).attr( "x", ( vcdata.length - 1 ) * vcrect ).attr( "y", height + 4.3 * vcheight ).style( "font", fs * 1.2 + "px sans-serif" ).style( "text-anchor", "end" ).text( vcdata[ vcdata.length - 1  ][2] );
+	}
+	
+	svg.append( "text" ).attr( "x", ( vcdata.length - 0.7 ) * vcrect ).attr( "y", height + 3.1 * vcheight ).style( "font", fs * 1.2 + "px sans-serif" ).style( "text-anchor", "start" ).text( [ "In Reads", "in Percents", "In Z-score Units" ] [ cdscale ] );
+	
 	
     
 	svg.selectAll(".coco3")
@@ -758,7 +816,7 @@ function update(source) {
 	  //.attr("dx", ".71em")
       //.attr("dy", ".35em")
       .style("stroke", "black")
-      .style("fill", function(d) { return colorScale( d[1] ); } );
+      .style("fill", function(d) { return colorScale( 0.5 * ( d[1] + d[2] ) ); } );
 
 	if ( pvData )
 	{

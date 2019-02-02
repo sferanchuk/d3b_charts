@@ -43,17 +43,13 @@ if True:
 	if numbest.isdigit():
 		inumbest = int( numbest )
 	if ( inumbest > 0 and inumbest < len( kdict ) ):
-		( nedata, nkdict ) = d3bf.select_toptax( edata, kdict, inumbest )
+		( nedata, aedata, nkdict ) = d3bf.select_toptax( edata, kdict, num_best=inumbest )
 		edata = nedata
 		nknorder = []
-		naedata = []#[ [] for k in xrange( len( nkdict ) ) ]
-		taedata = aedata.transpose()
 		for cknum in range( len( knorder ) ):
 			ckey = knorder[ cknum ]
 			if ckey in nkdict:
 				nknorder.append( ckey )
-				naedata.append( taedata[ kdict[ ckey ] ].tolist() )
-		aedata = np.array( naedata ).transpose()
 		kdict = nkdict
 		knorder = nknorder
 

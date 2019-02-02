@@ -1,7 +1,7 @@
 #!/bin/bash
 
-pip2 install virtualenv
-virtualenv d3b_py2
+#pip2 install virtualenv
+virtualenv -p python2.7 d3b_py2
 source d3b_py2/bin/activate
 pip install requests
 pip install .
@@ -9,6 +9,8 @@ pip install biom-format
 pip install h5py
 
 deactivate
+
+mkdir d3b/static
 
 for file in d3.v3.min.js d3.v4.min.js
 do

@@ -16,7 +16,7 @@ tempdir = "tmp/"
 
 archivepath = "/var/www/html/server/pool/"
 
-def submit_job( reqf, jobname, transform_type ):
+def submit_job( reqf, jobname ):
 	abspath = settings.BASE_DIR + '/'
 	job = hashlib.md5( str( time.time() ) ).hexdigest()
 	os.mkdir( abspath + dataroot + job )
@@ -29,13 +29,9 @@ def submit_job( reqf, jobname, transform_type ):
 		cmd = "python " + abspath + scriptsroot + "biom2emap.py emap.biom >emap.txt 2>convert.err"
 		os.system( cmd )
 	else:
-		with open( abspath + dataroot + job + '/emap_raw.txt', 'wt+') as destination:
+		with open( abspath + dataroot + job + '/emap.txt', 'wt+') as destination:
 			for chunk in f.chunks():
 				destination.write(chunk)
-		if transform_type == "none":
-			os.system( "mv emap_raw.txt emap.txt" )
-		else:
-			os.system( "python " + abspath + scriptsroot + "transform_emap.py emap_raw.txt emap.txt \"" + transform_type + "\" >transform.out 2> tramsform.log" ) 
 	with open( abspath + dataroot + job + '/name', 'wt+') as destination:
 		destination.write( jobname )
 	os.chdir( abspath )

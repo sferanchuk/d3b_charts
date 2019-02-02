@@ -2,10 +2,23 @@
 
 {% block serviceform %}
 
+<script>
+function copylink() {
+  var copyText = document.getElementById("location");
+  copyText.select();
+  document.execCommand("copy");
+}
+</script>
+
+<i>{{title}}</i><br>
+
+{{ result | safe }}
+
+
 {% endblock %}
 
 {% block serviceresult %}
 
-{{ result | safe }}
+
 
 {% endblock %}

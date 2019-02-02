@@ -5,7 +5,6 @@ from . import controls
 
 class UploadFile( forms.Form ):
 	name = forms.CharField(max_length=50, label="Dataset name")
-	transform = forms.ChoiceField( label="Transform", choices = [ ( "none", "none" ), ( "scale 1000", "scale from 0 to 1000" ), ( "erf 1000", "erf 1000" ) ], initial = [ "none" ] ) 
 	file = forms.FileField( label="File (tab-delimited / biom format)" )
 	
 	
@@ -144,11 +143,14 @@ class Heatmap( GenericForm ):
 	order2 = VChoiceField( label="* Sort order (secondary)" )
 	labels = VChoiceField( label="* Labels for samples" )
 	numbest = forms.ChoiceField( label = "Number of best species / units", choices = [ ( "all", "all" ), ( "10", "10" ), ( "15", "15" ), ( "25", "25"), ( "50", "50" ), ( "100", "100" ) ] )
-	numhighlight = forms.ChoiceField( label = "Highlight best species/units", choices = [ ( v, v ) for v in [ "all", "20%", "10%", "7.5%", "5%", "2%" ] ] )
-	spshow = VChoiceField( label="Show taxonomy", choices = [ ( "custom", "Custom" ) ] )
-	taxlabels = forms.ChoiceField( label = "Labels for taxonomy", choices = [ ( "no", "No" ), ( "yes", "Yes" ) ] )
+	percentbest = forms.ChoiceField( label = "Minimal average abundance", choices = [ ( "all", "all" ), ( "1%", "1%" ), ( "2%", "2%" ), ( "3%", "3%" ), ( "5%", "5%"), ( "10%", "10%" ) ] )
 	shist = forms.ChoiceField( label = "Histogram of significance", choices = [ ( "none", "none" ), ( "best-fisher", "Exact Fisher (best pair)" ), ( "anova", "Anova" ), ( "best-wilcoxon", "Ranked (best pair)" ), ( "best-ttest", "T-Test (best pair)" ), ( "best-chisquare", "Chi-square (best pair)" ) ] )
 	shisttag = VChoiceField( label = "Groups for histogram" )
+	spshow = VChoiceField( label="Show taxonomy", choices = [ ( "custom", "Custom" ) ] )
+	cscale = forms.ChoiceField( label = "Color scale", choices = [ ( "threshold", "threshold" ), ( "linear", "linear" ) ] ) 
+	cpalette = forms.ChoiceField( label = "Color palette", choices = [ ( v, v ) for v in [ "pink/brown", "blue/green", "yellow/blue", "green/red", "blue/red" ] ] ) 
+	numhighlight = forms.ChoiceField( label = "Highlight best species/units", choices = [ ( v, v ) for v in [ "all", "20%", "10%", "7.5%", "5%", "2%" ] ] )
+	taxlabels = forms.ChoiceField( label = "Labels for taxonomy", choices = [ ( "no", "No" ), ( "yes", "Yes" ) ] )
 	spcustom = forms.CharField( widget=forms.HiddenInput() )
 	
 class BubbleChart( GenericForm ):

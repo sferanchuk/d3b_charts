@@ -176,28 +176,37 @@ def loadtaxonomy( data, ml, spfilter, ilevel ):
 	return ( kdict, kdnames, nkgnames[ k ], knorder, kdata )
 	#return ( kdict, kdnames, kgnames, knorder, kdata )
 
-def select_toptax( edata, kdict, num_best ):
-	if num_best > 0 and num_best < len( edata[0] ):
+def select_toptax( edata, kdict, **kwargs ):
+	percent_best = kwargs.get( "percent_best", None ) 
+	num_best = kwargs.get( "num_best", None ) 
+	if ( num_best > None and num_best < len( edata[0] ) ) or percent_best != None:
 		aedata = np.array( edata, dtype=float )
-		aenorm = np.maximum( np.sum( aedata, axis=1 ), np.array( [ 1. / len( edata[0] ) ] * len( edata ) ) )
+		aenorm = np.sum( aedata, axis=1 ) #np.maximum( np.sum( aedata, axis=1 ), np.array( [ 1. / len( edata[0] ) ] * len( edata ) ) )
 		aedata /= aenorm.reshape( len(edata), 1 )
 		ssum = np.sum( aedata, axis=0 )
 		ssorted = sorted( ssum.tolist(), reverse=True )
-		smax = ssorted[ num_best ]
+		smax = 0
+		if num_best != None:
+			smax = ssorted[ num_best ]
+		if percent_best != None:
+			smax = max( smax, 0.01 * len( edata ) * percent_best )
 		nkdict = {}
 		nedata = []
+		naedata = []
 		tcnt = 0
 		for key in kdict:
-			if ssum[ kdict[key] ] > smax and tcnt < num_best:
+			if ( num_best == None or tcnt < num_best ) and ssum[ kdict[ key ] ] > smax:
 				for k in range( len( edata ) ):
 					if tcnt == 0:
 						nedata.append( [] )
+						naedata.append( [] )
 					nedata[k].append( edata[k][ kdict[key] ] )
+					naedata[k].append( aedata[k][ kdict[key] ] )
 				nkdict[ key ] = tcnt
 				tcnt += 1
-		return ( nedata, nkdict )
+		return ( nedata, naedata, nkdict )
 	else:
-		return ( edata, kdict )
+		return ( edata, aedata, kdict )
 		
 def load_edata( data, ilevel, ml, kdict, findex, gtags ):
 	edata = []

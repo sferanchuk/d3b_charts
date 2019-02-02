@@ -27,7 +27,7 @@ def new(request):
 	if request.method == 'POST':
 		form = dforms.UploadFile(request.POST, request.FILES)
 		if form.is_valid():
-			job = controls.submit_job( request.FILES, form.data[ 'name' ], form.data[ 'transform' ] )
+			job = controls.submit_job( request.FILES, form.data[ 'name' ] )
 			return HttpResponseRedirect( '/summary/' + job )
 	else:
 		form = dforms.UploadFile()

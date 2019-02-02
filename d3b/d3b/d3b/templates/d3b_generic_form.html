@@ -3,21 +3,17 @@
 {% block bodytitle %}
 
 <i>dataset:</i> {{title}}
+<span id=location class="datasetheader"></span>
 <br>
 <i>page:</i> {{ servicename }} 
-<br>
-<div style="font-size: 80%;">
-<br>
-<i>Link to the page:</i>
-<input type= text readonly id=location style="background-color:#ebdebe;color:#38332f;border: 0px solid #898989;font-size: 100%;" size="60">
-<br><button type="button" onclick="copylink()" class="auxbutton">Copy link</button>
-<br>
-<br>
-</div>
 <script>
 var clname = document.getElementById( "location" );
-clname.value = window.location.href;
+//var location = window.location;
+var port = ( window.location.port.length > 0 ) ? ":" + window.location.port : "";
+path = window.location.protocol + "//" + window.location.hostname + port + "/summary/{{job}}";
+clname.innerHTML = "<a href=\"" + path + "\">" + "(permanent link)" + "</a>";
 </script>
+
 {% endblock %}
 
 {% block bodycontent %}

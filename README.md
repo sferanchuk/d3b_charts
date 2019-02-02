@@ -11,6 +11,10 @@ The interactive vizulalization tools are implemented with the use of D3.js softw
 Most of the functionality specific to microbial ecology is implemented with the use of scikit-bio python package, 
 in the conjunction with other python packages intended to be used in big data analysis.
 
+## Prerequisites
+
+python 2.7, virtualenv package innstalled
+
 ## Installation
 
 after copyng the distribution package, under Linux, cd to installation directory (d3b_charts),
