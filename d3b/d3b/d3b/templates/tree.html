@@ -1,0 +1,75 @@
+{% extends "d3b_generic_chart.html" %}
+
+{% block serviceform %}
+
+<script>
+
+/*
+function downloadNewick( newick, filename) {
+    
+    var ofile;
+    var downloadLink;
+    var newick = document.getElementById( "id_treedata" ).value;
+    if ( newick.length == 0 ) return;
+
+    ofile = new Blob( [newick], {type: "text/plain"});
+	downloadLink = document.createElement("a");
+    downloadLink.download = filename;
+    downloadLink.href = window.URL.createObjectURL( ofile);
+    downloadLink.style.display = "none";
+    document.body.appendChild(downloadLink);
+    downloadLink.click();
+}
+
+function settreedata( val )
+{
+	document.getElementById( "id_treedata" ).value = val;
+}
+*/
+var jobname="{{outname}}";
+</script>
+
+<form action="/{{service}}/{{ job }}/" method="post" novalidate>
+    {% csrf_token %} 
+    {{ form.as_p }}
+    <br>
+    <input type=hidden name="treedata" value="">
+    <input type="submit" name="command" value="Submit" class="submitbutton" /><br><br>
+    <input type="submit" name="command" value="Download as PNG" class="auxbutton"/>
+    <input type="submit" name="command" value="Download as SVG" class="auxbutton"/>
+    <button type="button" class="auxbutton" id="gnewick">Export to Newick</button><br><br>
+    
+</form>
+
+
+{% endblock %}
+
+
+{% block serviceresult %}
+
+
+<script>
+var ctaxlist = [];
+function addcustomtax( val )
+{
+	if ( ctaxlist.indexOf( val ) == -1 ) 
+	{
+		ctaxlist.push( val );
+		document.getElementById( "id_spcustom" ).value = JSON.stringify( ctaxlist );
+	}
+}
+function removecustomtax( val )
+{
+	var cind = ctaxlist.indexOf( val );
+	if ( cind != -1 ) 
+	{
+		ctaxlist.splice( cind, 1 );
+		document.getElementById( "id_spcustom" ).value = JSON.stringify( ctaxlist );
+	}
+}
+</script>
+
+
+{{ result | safe }}
+
+{% endblock %}

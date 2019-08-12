@@ -100,16 +100,16 @@ for rilevel in range( maxlevel + 1 ):
 			undef_list.append( kdict[ ckey ] )
 
 	edata = d3bf.load_edata( data, ilevel, ml, kdict, findex, gtags )
-	print "<p><br><br><span class=\"levellabel\">Level %d</span><br>" % ilevel
+	print("<p><br><br><span class=\"levellabel\">Level %d</span><br>" % ilevel)
 
-	print "<table class=\"indextable\"><tr><td>*"
-	for cgtag in d3bf.sorted_alnum( gtags.keys() ):
-		print "<td class=\"columnheader\">" + cgtag
+	print("<table class=\"indextable\"><tr><td>*")
+	for cgtag in d3bf.sorted_alnum( list(gtags.keys()) ):
+		print("<td class=\"columnheader\">" + cgtag)
 		
-	krange = range( len( slist ) - 1 ) if mmethod != "mm-fit" else [ slist.index( "mm-fit" ) ]
+	krange = list(range( len( slist ) - 1)) if mmethod != "mm-fit" else [ slist.index( "mm-fit" ) ]
 	for k in krange:
-		print "<tr><td class=\"rowheader\">" + slnames[k]
-		for cgtag in d3bf.sorted_alnum( gtags.keys() ):
+		print("<tr><td class=\"rowheader\">" + slnames[k])
+		for cgtag in d3bf.sorted_alnum( list(gtags.keys()) ):
 			sitot = sorted( edata[ gtags[ cgtag ] ], reverse=True )
 			if 0 in sitot:
 				zind = sitot.index( 0 )
@@ -141,9 +141,9 @@ for rilevel in range( maxlevel + 1 ):
 						ssi = skstats.subsample_counts( si, i )
 						return np.count_nonzero( ssi )
 
-					i_step = max( n_indiv / 200, 1 )
-					num_repeats = max( 2000 / i_step, 1 ) 
-					print >>sys.stderr, ( i_step, num_repeats )
+					i_step = max( n_indiv // 200, 1 )
+					num_repeats = max( 2000 // i_step, 1 ) 
+					print(( i_step, num_repeats ), file=sys.stderr)
 					S_max_guess = n_otu
 					B_guess = int( round( n_otu / 2 ) )
 					params_guess = ( S_max_guess, B_guess )
@@ -156,8 +156,8 @@ for rilevel in range( maxlevel + 1 ):
 						return ( ( ( p[0] * n / (p[1] + n ) ) - y ) ** 2 ).sum()
 						#return ( ( p[0] * ( 1. - np.exp( n / p[1] ) ) - y ) ** 2 ).sum()
 					params_guess = ( n_otu,  int( round( n_otu / 2 ) ) )
-					print >>sys.stderr, yvals
-					print >>sys.stderr, xvals
+					print(yvals, file=sys.stderr)
+					print(xvals, file=sys.stderr)
 
 					mparams = fmin_powell( errfn, params_guess, ftol=1e-5, args=(xvals, yvals),	disp = False )
 					ef = 2
@@ -175,11 +175,11 @@ for rilevel in range( maxlevel + 1 ):
 				sv = "%.2f" % v
 				if v == float( int( v ) ):
 					sv = "%d" % int( v )
-				print "<td>" + sv
+				print("<td>" + sv)
 			elif ef == 1:
-				print "<td>??"
-				print >>sys.stderr, estr
+				print("<td>??")
+				print(estr, file=sys.stderr)
 			elif ef == 2:
-				print "<td>" + sv
-	print "</table>"
+				print("<td>" + sv)
+	print("</table>")
 

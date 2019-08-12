@@ -14,7 +14,7 @@ import collections
 from operator import itemgetter
 import hashlib
 import time
-import d3bf
+from . import d3bf
 
 
 
@@ -51,7 +51,7 @@ tprefix = [ "k", "p", "c", "o", "f", "g", "s" ]
 fpr = tempname()
 tf = open( fpr + ".txt", "w" )
 tf.write( "#OTU ID\t" )
-gsorted = d3bf.sorted_alnum( gtags.keys() )
+gsorted = d3bf.sorted_alnum( list(gtags.keys()) )
 for cgtag in gsorted:
 	tf.write( cgtag + "\t" )
 tf.write( "taxonomy\n" )
@@ -79,7 +79,7 @@ for ind in range( len( knorder ) ):
 			tf.write( "; " )
 	tf.write( "\n" )
 tf.close()
-os.system( "../../programs/biom convert -i %s.txt -o %s.biom --to-json --table-type=\"OTU table\" --process-obs-metadata taxonomy" % ( fpr, fpr ) )
+os.system( "/home/sergey/server/programs/biom convert -i %s.txt -o %s.biom --to-json --table-type=\"OTU table\" --process-obs-metadata taxonomy >c_err 2>c_out" % ( fpr, fpr ) )
 #os.system( "../../programs/biom convert -i %s.txt -o %s.biom --to-hdf5 --table-type=\"OTU table\" --process-obs-metadata taxonomy" % ( fpr, fpr ) )
 if task == "biom":
 	bf = open( fpr + ".biom" )
@@ -89,10 +89,10 @@ if task == "biom":
 if task == "picrust-kegg":
 	ppath = "/home/sergey/soft/picrust-1.1.2/"
 	os.putenv( "PYTHONPATH", ppath )
-	os.system( ppath + "scripts/normalize_by_copy_number.py -i %s.biom -o %s_n.biom" % ( fpr, fpr ) )
+	os.system( ppath + "scripts/normalize_by_copy_number.py -i %s.biom -o %s_n.biom >p_out 2>p_err" % ( fpr, fpr ) )
 	os.system( ppath + "scripts/predict_metagenomes.py -i %s_n.biom -o %s_p.biom" % ( fpr, fpr ) )
 	os.system( ppath + "scripts/categorize_by_function.py -i %s_p.biom -c KEGG_Pathways -l 3 -o %s_f.biom" % ( fpr, fpr ) )
-	os.system( "../../programs/biom convert -i %s_f.biom -o %s_c.biom --to-json" % ( fpr, fpr ) )
+	os.system( "/home/sergey/programs/biom convert -i %s_f.biom -o %s_c.biom --to-json" % ( fpr, fpr ) )
 	bf = open( fpr + "_c.biom" )
 	bdata = bf.read()
 	sys.stdout.write( bdata )

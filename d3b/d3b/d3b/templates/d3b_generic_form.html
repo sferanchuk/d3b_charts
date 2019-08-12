@@ -8,9 +8,7 @@
 <i>page:</i> {{ servicename }} 
 <script>
 var clname = document.getElementById( "location" );
-//var location = window.location;
-var port = ( window.location.port.length > 0 ) ? ":" + window.location.port : "";
-path = window.location.protocol + "//" + window.location.hostname + port + "/summary/{{job}}";
+var path = siteurl + "/summary/{{job}}";
 clname.innerHTML = "<a href=\"" + path + "\">" + "(permanent link)" + "</a>";
 </script>
 
@@ -24,7 +22,7 @@ clname.innerHTML = "<a href=\"" + path + "\">" + "(permanent link)" + "</a>";
 <a href=/tags/{{job}}>Subsets of samples ("tags")</a><br>
 <a href=/taxonomy/{{job}}>Taxonomic groups</a><br><br>
 <i>Tables:</i><br>
-<a href=/table/{{job}}>Matrix of abundancies</a><br>
+<a href=/table/{{job}}>Matrix of abundances</a><br>
 <a href=/indices/{{job}}>Alpha-diversity</a><br>
 <a href=/anova/{{job}}>Variance of diversity</a><br>
 <a href=/permanova/{{job}}>Variance of distances</a><br><br>
@@ -36,6 +34,7 @@ clname.innerHTML = "<a href=\"" + path + "\">" + "(permanent link)" + "</a>";
 <a href=/ternary/{{job}}>Ternary diagramm</a><br>
 <a href=/bubbles/{{job}}>Bubble chart</a><br>
 <a href=/whittaker/{{job}}>Whittaker chart</a><br>
+<a href=/volcano/{{job}}>Volcano chart</a><br>
 <a href=/pca_sp/{{job}}>Two-panel PCA</a><br>
 <td valign="top">
 {% block serviceform %}{% endblock %}

@@ -76,7 +76,7 @@ def calc_regression( cedata ):
 		datax.append( vx )
 		datay.append( vy )
 	nmin = 3
-	nmax = len( distr ) / 3
+	nmax = len( distr ) // 3
 	pvbest = 1
 	nbest = nmax
 	abest = 0
@@ -112,7 +112,7 @@ def calc_jakovenko( cedata, cmaxx ):
 		datax.append( vx )
 		datay.append( vy )
 	nmin = 3
-	nmax = len( distr ) / 3
+	nmax = len( distr ) // 3
 	pvbest = 1
 	nbest = nmax
 	for cnsegm in range( nmin, nmax ):
@@ -130,8 +130,8 @@ def calc_jakovenko( cedata, cmaxx ):
 	abest = 0
 	bbest = 0
 	npc = 0
-	for cpbest in range( nbest + 1, npmax - 2, ( npmax - nbest ) / 8 ):
-		for npc in range( npcmin, npcmax, ( npcmax - npcmin ) / 8 ):
+	for cpbest in range( nbest + 1, npmax - 2, ( npmax - nbest ) // 8 ):
+		for npc in range( npcmin, npcmax, ( npcmax - npcmin ) // 8 ):
 			cdx = []
 			for cx in range( cpbest, npmax ):
 				cdx.append( math.log( npmax + npc ) - math.log( npc + npmax - cx ) )
@@ -190,11 +190,11 @@ def calc_rarefaction( si ):
 	#	return ( ( ( p[0] * n / (p[1] + n ) ) - y ) ** 2 ).sum()
 	#	#return ( ( p[0] * ( 1. - np.exp( n / p[1] ) ) - y ) ** 2 ).sum()
 	
-	i_step = max( n_indiv / 200, 1 )
-	num_repeats = max( 2000 / i_step, 1 ) 
-	print >>sys.stderr, ( i_step, num_repeats )
+	i_step = max( n_indiv // 200, 1 )
+	num_repeats = max( 2000 // i_step, 1 ) 
+	print(( i_step, num_repeats ), file=sys.stderr)
 	S_max_guess = n_otu
-	B_guess = int( round( n_otu / 2 ) )
+	B_guess = int( round( n_otu // 2 ) )
 	params_guess = ( S_max_guess, B_guess )
 	xvals = np.arange( 1, n_indiv, i_step )
 	ymtx = np.empty( ( num_repeats, len( xvals ) ), dtype=int )
@@ -209,10 +209,10 @@ shapeflag = 1 if ( ( dmarks == "shape" or dmarks == "both" ) and len( edata ) <=
 #(a,b) = calc_regression( edata[0] )		
 #curvetupe = "direct"
 if resolution == "high":
-	print "<svg width=\"1800\" height=\"1800\" id=\"normal\"></svg>"
+	print("<svg width=\"1800\" height=\"1800\" id=\"normal\"></svg>")
 else:
-	print "<svg width=\"800\" height=\"800\" id=\"normal\"></svg>"
-print "<script type=\"text/javascript\">"
+	print("<svg width=\"800\" height=\"800\" id=\"normal\"></svg>")
+print("<script type=\"text/javascript\">")
 
 ldata = []
 rdata = []
@@ -223,7 +223,7 @@ yscale = "---"
 gtvalues = sorted( gtags.values() )
 for gscnt in range( len( gtvalues ) ):
 	gnum = gtvalues[ gscnt ]
-	gtag = gtags.keys()[ gtags.values().index( gnum ) ]
+	gtag = list(gtags.keys())[ list(gtags.values()).index( gnum ) ]
 	setot = sorted( edata[ gscnt ], reverse=True )
 	if 0 in setot:
 		zind = setot.index( 0 )
@@ -255,7 +255,7 @@ for gscnt in range( len( gtvalues ) ):
 		yscale = "relative cumulative abundance"
 	else:
 		ydata = np.log( sedata ).tolist()
-		xrdata = range( 1, len( ydata ) + 1 )
+		xrdata = list(range( 1, len( ydata ) + 1))
 		if ptype == "log-log":
 			xdata = np.log( xrdata ).tolist()
 			xscale = "log(rank)"
@@ -276,13 +276,13 @@ for gscnt in range( len( gtvalues ) ):
 	
 			   
 
-print "var ldata = %s;" % json.dumps( ldata )
-print "var rdata = %s;" % json.dumps( rdata )
+print("var ldata = %s;" % json.dumps( ldata ))
+print("var rdata = %s;" % json.dumps( rdata ))
 
-print "var xaxtitle = \"%s\";" % xscale
-print "var yaxtitle = \"%s\";" % yscale
+print("var xaxtitle = \"%s\";" % xscale)
+print("var yaxtitle = \"%s\";" % yscale)
 
-print """
+print("""
 var margin = {top: 100, right: 100, bottom: 100, left: 100};
 var svg0 = d3.select( "#normal" );
 var diameter = +svg0.attr("width") - margin.top - margin.bottom;
@@ -450,8 +450,8 @@ if ( slabels.length > 1 )
 }
 
 
-"""
+""")
 
 
-print "</script>"
+print("</script>")
 

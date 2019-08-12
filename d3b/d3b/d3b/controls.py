@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals
+
 
 import os
 import time
@@ -16,9 +16,9 @@ tempdir = "tmp/"
 
 archivepath = "/var/www/html/server/pool/"
 
-def submit_job( reqf, jobname ):
+def submit_job( reqf, jobname, transform_type ):
 	abspath = settings.BASE_DIR + '/'
-	job = hashlib.md5( str( time.time() ) ).hexdigest()
+	job = str( hashlib.md5( str( time.time() ).encode() ).hexdigest() )
 	os.mkdir( abspath + dataroot + job )
 	os.chdir( abspath + dataroot + job )
 	f = reqf[ 'file' ]
@@ -29,9 +29,13 @@ def submit_job( reqf, jobname ):
 		cmd = "python " + abspath + scriptsroot + "biom2emap.py emap.biom >emap.txt 2>convert.err"
 		os.system( cmd )
 	else:
-		with open( abspath + dataroot + job + '/emap.txt', 'wt+') as destination:
+		with open( abspath + dataroot + job + '/emap_raw.txt', 'wb+') as destination:
 			for chunk in f.chunks():
 				destination.write(chunk)
+		if transform_type == "none":
+			os.system( "mv emap_raw.txt emap.txt" )
+		else:
+			os.system( "python " + abspath + scriptsroot + "transform_emap.py emap_raw.txt emap.txt \"" + transform_type + "\" >transform.out 2> tramsform.log" ) 
 	with open( abspath + dataroot + job + '/name', 'wt+') as destination:
 		destination.write( jobname )
 	os.chdir( abspath )
@@ -50,13 +54,12 @@ def run_script( params, job, script ):
 	if False:
 		cmd = abspath + scriptsroot + "runscript.py " + jobpath + " " + script + " regular"
 		res = os.popen( cmd ).read()
-	#cmd = abspath + env + "/bin/python2 " + abspath + scriptsroot + script + ".py"
 	cmd = "python " + abspath + scriptsroot + script + ".py" + " 2>python.err"
 	res = os.popen( cmd ).read()
-	print res
+	#print(res)
 	if os.path.isfile( "python.err" ):
 		errres = open( "python.err" ).read()
-		print errres
+		print( errres )
 		
 	#with open( "python.err" ) as f:
 	#	res += f.read()
@@ -81,11 +84,11 @@ def render_png( params, job, script, host, jscripts ):
 	fo.write( "</body></html>" )
 	fo.close()
 	cmd = abspath + phantomjs + "phantomjs " + abspath + phantomjs + "d3b_render.js %s.html %s.png" % ( tempname, tempname )
-	print cmd
+	print( cmd )
 	os.system( cmd )
 	pngres = ""
 	if os.path.isfile( tempname + ".png" ):
-		with open( tempname + ".png" ) as f:
+		with open( tempname + ".png", "rb" ) as f:
 			pngres = f.read()
 		os.remove( tempname + ".png" )
 	return pngres
@@ -107,8 +110,8 @@ def render_svg( params, job, script, host, jscripts ):
 	fo.write( res )
 	fo.write( "</body></html>" )
 	fo.close()
-	cmd = abspath + phantomjs + "phantomjs " + abspath + phantomjs + "d3b_savepage.js %s.html %s_rendered.html >phantom.log" % ( tempname, tempname )
-	print cmd
+	cmd = abspath + phantomjs + "phantomjs " + abspath + phantomjs + "d3b_savepage.js %s.html %s_rendered.html" % ( tempname, tempname )
+	print( cmd )
 	os.system( cmd )
 	svgres = ""
 	if os.path.isfile( tempname + "_rendered.html" ):

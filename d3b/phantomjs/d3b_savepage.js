@@ -9,6 +9,19 @@ page.onError = function (msg, trace) {
     trace.forEach(function(item) {
         console.log('  ', item.file, ':', item.line);
     });
+  phantom.exit(1);
+};
+
+page.onConsoleMessage = function(msg, lineNum, sourceId) {
+  console.log('CONSOLE: ' + msg + ' (from line #' + lineNum + ' in "' + sourceId + '")');
+};
+
+phantom.onError = function(msg, trace) {
+  console.log( msg );
+    trace.forEach(function(item) {
+        console.log('  ', item.file, ':', item.line);
+    });
+  phantom.exit(1);
 };
 
 function getFileUrl(str) {

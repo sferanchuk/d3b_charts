@@ -1,14 +1,12 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
 
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader
 from django import forms
-from . import controls
-from . import forms as dforms
+import controls
+import dforms
 import json
-import urllib
+import urllib.request, urllib.parse, urllib.error
 import re
 
 # Create your views here.
@@ -27,7 +25,7 @@ def new(request):
 	if request.method == 'POST':
 		form = dforms.UploadFile(request.POST, request.FILES)
 		if form.is_valid():
-			job = controls.submit_job( request.FILES, form.data[ 'name' ] )
+			job = controls.submit_job( request.FILES, form.data[ 'name' ], form.data[ 'transform' ] )
 			return HttpResponseRedirect( '/summary/' + job )
 	else:
 		form = dforms.UploadFile()
@@ -37,7 +35,7 @@ def new(request):
 
 def format_params( form ):
 	params = ""
-	print form.data
+	print(form.data)
 	for field in list( form.declared_fields ):
 		values = form.data.getlist( field )
 		for value in values:
@@ -55,11 +53,11 @@ def job_name( job ):
 def summary(request,job):
 	summary = json.loads( controls.run_script( "", job, "summary" ) )
 	tags = json.loads( controls.run_script( "", job, "tags" ) )
-	jobtitle = summary[ u'name' ]
+	jobtitle = summary[ 'name' ]
 	template = loader.get_template('summary.html')
 	vollist = ", ".join( summary[ 'volumes' ] )
-	result = '<br>'.join( [ "maxlevel: " + str( summary[ 'maxlevel' ] ), "taxonomy type: " + summary[ 'taxtype' ], "num_volumes: " + str( summary[ 'numvolumes' ] ), "volumes: " + vollist ] )
-	context = { 'job': job, 'title' : jobtitle, 'service' :  'summary', 'servicename' : 'Summary of the dataset', 'result' : result  }
+	result = '<br>'.join( [ "maxlevel: " + str( summary[ 'maxlevel' ] ), "taxonomy type: " + summary[ 'taxtype' ], "num_volumes: " + str( summary[ 'numvolumes' ] ), "num_records: " + str( summary[ 'numrecords' ] ), "volumes: " + vollist ] )
+	context = { 'job': job, 'title' : jobtitle, 'service' :  'summary', 'servicename' : 'summary of the dataset', 'result' : result  }
 	return HttpResponse( template.render( context, request ) )
 
 def generic_view( request, job, service, formclass, **kwargs ):
@@ -77,7 +75,7 @@ def generic_view( request, job, service, formclass, **kwargs ):
 			outname += "_" + form.data[ 'level' ]
 		if "command" in form.data and form.data[ "command" ] != "Submit":
 			host = "http://secure.bri-shur.com:%s/static" % request.META[ 'SERVER_PORT' ]
-			print form.data[ "command" ]
+			print(form.data[ "command" ])
 			#host = "http://bri-shur.com/javascripts"
 			if form.data[ "command" ] == "Download as PNG":
 				pngres = controls.render_png( format_params( form ), job, script, host, jscripts )
@@ -91,7 +89,7 @@ def generic_view( request, job, service, formclass, **kwargs ):
 					response = HttpResponse( svgres, content_type="image/svg+xml")
 					response[ 'Content-Disposition' ] = 'attachment; filename="%s.svg"' % outname.replace( "\n", "_" )
 					return response
-		print script
+		print(script)
 		result = run_script( form, job, script  )
 	else:
 		form = formclass( job_id=job, tags_dict = tags )
@@ -105,17 +103,17 @@ def generic_view( request, job, service, formclass, **kwargs ):
 def tags(request,job):
 	jobtitle = job_name( job )
 	service = 'tags'
-	servicename = 'Define tags'
+	servicename = 'subsets of samples'
 	tags = controls.run_script( "", job, "tags" )
 	if request.method == 'POST':
-		re_pattern = re.compile(u'[^\u0000-\uD7FF\uE000-\uFFFF]', re.UNICODE)
-		ntstr = re_pattern.sub( '_', u''.join( [ urllib.unquote_plus( request.POST[ 'jstags' ] ) ] ) )
-		ntstr = "".join( [ uc if uc < u"\u00ff" else "_" for uc in urllib.unquote_plus( request.POST[ 'jstags' ] ) ] )
-		print ntstr
+		re_pattern = re.compile('[^\u0000-\uD7FF\uE000-\uFFFF]', re.UNICODE)
+		ntstr = re_pattern.sub( '_', ''.join( [ urllib.parse.unquote_plus( request.POST[ 'jstags' ] ) ] ) )
+		ntstr = "".join( [ uc if uc < "\u00ff" else "_" for uc in urllib.parse.unquote_plus( request.POST[ 'jstags' ] ) ] )
+		print(ntstr)
 		newtags = controls.run_script( "newtags=" + ntstr, job, "tags" )
 		tags = newtags.replace( "u'", "'" )
 	ptags = json.loads( tags )
-	ptkeys = ptags.keys()
+	ptkeys = list(ptags.keys())
 	ptkeys.remove( "name" )
 	ptkeys.remove( "none" )
 	volumes = ptags[ 'name' ]
@@ -126,58 +124,58 @@ def tags(request,job):
 def taxonomy(request,job):
 	jobtitle = job_name( job )
 	service = 'taxonomy'
-	servicename = 'Define taxonomy filters'
+	servicename = 'taxonomic groups'
 	taxfilters = controls.run_script( "", job, "taxonomy" )
 	treedata = controls.run_script( "", job, "get_taxonomy" )
 	if request.method == 'POST':
-		print request.POST[ 'jsfilters' ]
-		newfilters = controls.run_script( "newfilters=" + urllib.unquote_plus( request.POST[ 'jsfilters' ] ), job, "taxonomy" )
+		print(request.POST[ 'jsfilters' ])
+		newfilters = controls.run_script( "newfilters=" + urllib.parse.unquote_plus( request.POST[ 'jsfilters' ] ), job, "taxonomy" )
 		taxfilters = newfilters.replace( "u'", "'" )
 	pfilters = json.loads( taxfilters )
-	pfkeys = pfilters.keys()
+	pfkeys = list(pfilters.keys())
 	pfkeys.remove( "none" )
 	template = loader.get_template( 'taxonomy.html' )
 	context = { 'job': job, 'title' : jobtitle, 'service' : service, 'servicename' : servicename, 'taxfilters' : taxfilters, 'pfkeys' : pfkeys, 'treedata' : treedata, 'jscripts' : [ "d3.v3.min.js" ] }
 	return HttpResponse( template.render( context, request ) )
 
 def table(request,job):
-	return generic_view( request, job, "table", dforms.Table, template = "table" )
+	return generic_view( request, job, "table", dforms.Table, template = "table", servicename = "matrix of abundance values" )
 
 def indices(request,job):
-	return generic_view( request, job, "indices", dforms.Indices )
+	return generic_view( request, job, "indices", dforms.Indices, servicename = "alpha-diversity indices" )
 
 def anova(request,job):
-	return generic_view( request, job, "anova", dforms.Anova, servicename = "Variance of alpha-diversity indices" )
+	return generic_view( request, job, "anova", dforms.Anova, servicename = "variance of alpha-diversity indices" )
 
 def permanova(request,job):
-	return generic_view( request, job, "permanova", dforms.Permanova, servicename = "Variance of distances" )
+	return generic_view( request, job, "permanova", dforms.Permanova, servicename = "variance of distances" )
 
 def pca(request,job):
-	return generic_view( request, job, "pca", dforms.PCA, jscripts = [ "d3.v3.min.js" ]  )
+	return generic_view( request, job, "pca", dforms.PCA, jscripts = [ "d3.v3.min.js" ], servicename = "PCA / constrained ordination"  )
 
 def tree(request,job):
-	return generic_view( request, job, "tree", dforms.Tree, jscripts = [ "d3.v3.min.js" ] )
+	return generic_view( request, job, "tree", dforms.Tree, jscripts = [ "d3.v3.min.js" ], template = "tree", servicename = "dendrogramm of distances"  )
 
 def heatmap(request,job):
-	return generic_view( request, job, "heatmap", dforms.Heatmap, template="heatmap", jscripts = [ "d3.v3.min.js" ] )
+	return generic_view( request, job, "heatmap", dforms.Heatmap, template="heatmap", jscripts = [ "d3.v3.min.js" ], servicename = "heatmap presentation"  )
 
 def venn(request,job):
-	return generic_view( request, job, "venn", dforms.Venn, template = "mchoice_chart", jscripts = [ "d3.v3.min.js", "venn.js" ] )
+	return generic_view( request, job, "venn", dforms.Venn, template = "mchoice_chart", jscripts = [ "d3.v3.min.js", "venn.js" ], servicename = "venn diagramm"  )
 
 def ternary(request,job):
-	return generic_view( request, job, "ternary", dforms.Ternary, template = "mchoice_chart", jscripts = [ "d3.v3.min.js" ] )
+	return generic_view( request, job, "ternary", dforms.Ternary, template = "mchoice_chart", jscripts = [ "d3.v3.min.js" ], servicename = "ternary chart"  )
 
 def bubbles(request,job):
-	return generic_view( request, job, "bubbles", dforms.BubbleChart, script="bubble", jscripts = [ "d3.v4.min.js" ] )
+	return generic_view( request, job, "bubbles", dforms.BubbleChart, script="bubble", jscripts = [ "d3.v4.min.js" ], servicename = "bubble chart"  )
 
 def whittaker(request,job):
-	return generic_view( request, job, "whittaker", dforms.Whittaker, jscripts = [ "d3.v4.min.js" ] )
+	return generic_view( request, job, "whittaker", dforms.Whittaker, jscripts = [ "d3.v4.min.js" ], servicename = "whittaker chart / rarefaction curve"  )
 
-def rarefunction(request,job):
-	return generic_view( request, job, "whittaker", dforms.Rarefunction, jscripts = [ "d3.v4.min.js" ] )
+def volcano(request,job):
+	return generic_view( request, job, "volcano", dforms.Volcano, template = "mchoice_chart", jscripts = [ "d3.v4.min.js" ], servicename = "volcano chart / MD-plot"  )
 
 def pca_sp(request,job):
-	return generic_view( request, job, "pca_sp", dforms.PCA2P, servicename = "Two-panel PCA", jscripts = [ "d3.v3.min.js" ] )
+	return generic_view( request, job, "pca_sp", dforms.PCA2P, jscripts = [ "d3.v3.min.js" ], servicename = "two-panel PCA"  )
 
 if False:
 	jobtitle = job_name( job )

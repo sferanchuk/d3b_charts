@@ -41,7 +41,7 @@ edata = d3bf.load_edata( data, ilevel, ml, kdict, findex, gtags )
 ptnum = [ "proportional-presence", "proportional-abundance", "interactive-presence" ].index( ptype )
 
 if ( ptnum == 0 or ptnum == 1 ) and not ( len( samples ) == 2 or len( samples ) == 3 ):
-	print "2 or 3 samples should be selected for proportional Venn diagram"
+	print("2 or 3 samples should be selected for proportional Venn diagram")
 	sys.exit( 0 )
 
 if ( ptnum == 0 or ptnum == 1 ) and ( len( samples ) == 2 or len( samples ) == 3 ):
@@ -49,7 +49,7 @@ if ( ptnum == 0 or ptnum == 1 ) and ( len( samples ) == 2 or len( samples ) == 3
 		aedata = np.array( edata, dtype=float )
 		aenorm = np.sum( aedata, axis=1 )
 		aedata /= aenorm.reshape( len(edata), 1 )
-	npair = len( samples ) * ( len( samples ) - 1 ) / 2
+	npair = len( samples ) * ( len( samples ) - 1 ) // 2
 	sscores = [ 0. ] * len( samples )
 	pscores = [ 0. ] * npair
 	psets = []
@@ -76,7 +76,7 @@ if ( ptnum == 0 or ptnum == 1 ) and ( len( samples ) == 2 or len( samples ) == 3
 						v += 1
 					else:
 						v += 0.5 * ( aedata[ gtags[ samples[ i ] ] ][ k ] + aedata[ gtags[ samples[ j ] ] ][ k ] ) * vscale
-			pn = i * ( i - 1 ) / 2 + j
+			pn = i * ( i - 1 ) // 2 + j
 			pscores[ pn ] = int( v )
 			psets.append( json.dumps( [ samples[i], samples[j] ] ) )
 		for k in range( len( kdict ) ):
@@ -97,21 +97,21 @@ if ( ptnum == 0 or ptnum == 1 ) and ( len( samples ) == 2 or len( samples ) == 3
 		jscore = int ( v * vscale )
 
 	if resolution == "high":
-		print "<svg width=\"1200\" height=\"1200\" id=\"normal\"></svg>"
+		print("<svg width=\"1200\" height=\"1200\" id=\"normal\"></svg>")
 	else:
-		print "<svg width=\"600\" height=\"600\" id=\"normal\"></svg>" 
-	print "<script>"
-	print "var vareas = [ "
+		print("<svg width=\"600\" height=\"600\" id=\"normal\"></svg>") 
+	print("<script>")
+	print("var vareas = [ ")
 	for i in range( len( samples ) ):
-		print "{ sets: [ \"" + samples[i] + "\" ], size: " + str( sscores[i] ) + "}, "
+		print("{ sets: [ \"" + samples[i] + "\" ], size: " + str( sscores[i] ) + "}, ")
 	for i in range( npair ):
-		print "{ sets: " + psets[i]  + ", size: " + str( pscores[i] ) + "}"
+		print("{ sets: " + psets[i]  + ", size: " + str( pscores[i] ) + "}")
 		if len( samples ) == 3:
-			print ","
+			print(",")
 	if len( samples ) == 3:
-		print "{ sets: " + json.dumps( samples ) + ", size: " + str( jscore ) + "}"
-	print "];"
-	print """
+		print("{ sets: " + json.dumps( samples ) + ", size: " + str( jscore ) + "}")
+	print("];")
+	print("""
 
 
 	//function getSetIntersections() {
@@ -143,22 +143,22 @@ if ( ptnum == 0 or ptnum == 1 ) and ( len( samples ) == 2 or len( samples ) == 3
 	//});
 
 	</script>
-	"""
+	""")
 	sys.exit( 0 )
 elif ptnum == 2 and len( samples ) >= 2 and len( samples ) < 7:
-	print "<script>"
-	print "$(document).ready(function(){"
-	print "$('#jvenn-container').jvenn({"
-	print "series: [";
+	print("<script>")
+	print("$(document).ready(function(){")
+	print("$('#jvenn-container').jvenn({")
+	print("series: [");
 	for i in range( len( samples ) ):
-		print "{ name: '" + samples[ i ] + "', \ndata: [";
+		print("{ name: '" + samples[ i ] + "', \ndata: [");
 		for k in range( len( kdict ) ):
 			if edata[ gtags[ samples[i] ] ][k] > 0:
-				print "'" + kdnames[ knorder[k] ] + "',"
-		print "] } "
+				print("'" + kdnames[ knorder[k] ] + "',")
+		print("] } ")
 		if i + 1 < len( samples ):
-			print ","
-	print """
+			print(",")
+	print("""
 	],
 	fnClickCallback: function() {
 				var value = "";
@@ -191,11 +191,11 @@ elif ptnum == 2 and len( samples ) >= 2 and len( samples ) < 7:
 		<textarea readonly id="names" cols="60" style="background-color:#ddd; color: black;" wrap="off" rows="10"></textarea>
 	</div>
 
-	"""
+	""")
 	sys.exit(0)
 else:
 	sys.exit(0)
-print """
+print("""
 <?php
 echo "</head><body>";
 echo "<a href=\"emap.php?id=$id\">back</a><br>\n";
@@ -232,5 +232,5 @@ if ( sizeof( $slist ) < 2 )
 	exit();
 }
 ?>
-"""
+""")
 	

@@ -56,10 +56,13 @@ if dgroup != "none":
 	( findex, gtags ) = d3bf.processtags( volumes, tags, dfilter, dgroup )
 	edata = d3bf.load_edata( data, ilevel, ml, kdict, findex, gtags )
 	stags = gtags
-	site_ids = sorted( gtags.keys(), key = lambda k: gtags[k] )
+	site_ids = sorted( list(gtags.keys()), key = lambda k: gtags[k] )
 else:
 	( findex, mtags ) = d3bf.processtags_m( volumes, tags, dfilter )
-	( edata, site_ids, species_ids ) = d3bf.load_edata_m( data, ilevel, mn, ml, kdict, volumes, findex, kdnames )
+	if datatype != "raw":
+		( edata, site_ids, species_ids ) = d3bf.load_edata_m( data, ilevel, mn, ml, kdict, volumes, findex, kdnames )
+	else:
+		( edata, site_ids, species_ids ) = d3bf.load_edata_m_fp( data, ilevel, mn, ml, kdict, volumes, findex, kdnames )
 	stags = {}
 	for j in range( len( edata ) ):
 		key = ""
@@ -75,13 +78,14 @@ else:
 aedata = np.array( edata, dtype=float )
 aenorm = np.sum( aedata, axis=1 )
 maxdata = np.amax( aedata )
+mindata = np.amin( aedata )
 aedata /= aenorm.reshape( len(edata), 1 )
 
 	
 ftlist = []
 ftindex = []
 ostags = collections.OrderedDict( sorted( stags.items() ) )
-for k, j in ostags.iteritems():
+for k, j in ostags.items():
 	if dgroup == "none" and labels != "none":
 		ftlist.append( mtags[ labels ][ j ] )
 	else:
@@ -179,7 +183,7 @@ for d in data[1:]:
 			nodecnt = nodecnt + 1
 		cd = cd[val]
 	cd[ "leaf" ] = { "title": kdnames[ cs ], "node": "n" + str( nodecnt ) }
-	kdabund[ "n" + str( nodecnt ) ] = ataxsum[ kdict[ cs ] ] 
+	kdabund[ "n" + str( nodecnt ) ] = ataxsum[ kdict[ cs ] ]
 	knindex[ "n" + str( nodecnt + 1 ) ] = cs
 	kdused.append( cs )
 	nodecnt = nodecnt + 1
@@ -191,7 +195,7 @@ def taxabund( d ):
 	if isinstance( d, dict ):
 		if "leaf" in d:
 			return kdabund[ d[ "leaf" ][ "node" ] ]
-		for k, v in d.iteritems():
+		for k, v in d.items():
 			if isinstance( v, dict ):
 				if not "leaf" in v:
 					rv += taxabund( v )
@@ -207,63 +211,66 @@ def printtax( d, parent ):
 	ncnt = 0
 	nlen = len( d ) - 1 if ( parent != "root" and parent != "null" ) else len( d )
 	sklist = []
-	for k, v in d.iteritems():
+	for k, v in d.items():
 		sklist.append( ( k, v ) )
-	sklist.sort( reverse = True, key = lambda k: taxabund( k[1] ) )
+	if datatype != "raw":
+		sklist.sort( reverse = True, key = lambda k: taxabund( k[1] ) )
+	else:
+		sklist.sort( key = lambda k: k[0] )
 	for k, v in sklist:
 		if isinstance( v, dict ):
 			kn = k if len( k ) > 0 else "n/a"
 			abund = taxabund( v )
 			if not "leaf" in v:
-				print "{ name: \"" + v[ nname ] + "\", title: \"" + kn + "\", parent :\"" + parent + "\", abund : \"" + str( abund ) + "\",  children: [ "
+				print("{ name: \"" + v[ nname ] + "\", title: \"" + kn + "\", parent :\"" + parent + "\", abund : \"" + str( abund ) + "\",  children: [ ")
 				printtax( v, v[ nname ] )
-				print "] }"
+				print("] }")
 			else:
-				print "{ name: \"" + v[ nname ] + "\", title: \"" + v[ "leaf" ][ "title" ] + "\", parent :\"" + parent +  "\", abund : \"" + str( abund ) + "\" }"
+				print("{ name: \"" + v[ nname ] + "\", title: \"" + v[ "leaf" ][ "title" ] + "\", parent :\"" + parent +  "\", abund : \"" + str( abund ) + "\" }")
 			if ncnt + 1 < nlen:
-				print ","
+				print(",")
 			ncnt = ncnt + 1
 				
 maxidsize = 0
-for cid in kdnames.values():
+for cid in list(kdnames.values()):
 	if len( cid ) > maxidsize:
 		maxidsize = len( cid )
 smallrect = []
 
 d3bf.print_popupstyle()
 
-print "<div id=\"tt\" class=\"tooltip\" style=\"opacity:0; position: absolute; text-align: center; width: 100px; height: 16px; padding: 2px; font: 12px sans-serif; background: #f4f2ec; border: 1px solid #7E713D; border-radius: 8px; pointer-events: none;\"></div>"
+print("<div id=\"tt\" class=\"tooltip\" style=\"opacity:0; position: absolute; text-align: center; width: 100px; height: 16px; padding: 2px; font: 12px sans-serif; background: #f4f2ec; border: 1px solid #7E713D; border-radius: 8px; pointer-events: none;\"></div>")
 if resolution == "high":
-	print "<svg width=\"2400\" height=\"%d\" id=\"normal\"></svg>" % ( len( kdict ) * 40 + 600 )
+	print("<svg width=\"2400\" height=\"%d\" id=\"normal\"></svg>" % ( len( kdict ) * 40 + 600 ))
 else:
-	print "<svg width=\"1200\" height=\"%d\" id=\"normal\"></svg>" % ( len( kdict ) * 20 + 300 )
-print "<script>"
-print "var ilevel = " + str( ilevel ) + ";"
-print "var maxdata = " + str( int( maxdata ) ) + ";"
-print "var nsamples = " + str( len( edata) ) + ";"
-print "var maxidsize = " + str( maxidsize ) + ";"
-print "var taxlabels = \"" + taxlabels + "\";"
-print "var datal =  %s;" % json.dumps( ftlist )
-print "var datatype =  \"%s\";" % datatype 
-print "var htnorm =  %s;" % json.dumps( aesnorm )
+	print("<svg width=\"1200\" height=\"%d\" id=\"normal\"></svg>" % ( len( kdict ) * 20 + 300 ))
+print("<script>")
+print("var ilevel = " + str( ilevel ) + ";")
+print("var maxdata = " + str( int( maxdata ) ) + ";")
+print("var nsamples = " + str( len( edata) ) + ";")
+print("var maxidsize = " + str( maxidsize ) + ";")
+print("var taxlabels = \"" + taxlabels + "\";")
+print("var datal =  %s;" % json.dumps( ftlist ))
+print("var datatype =  \"%s\";" % datatype) 
+print("var htnorm =  %s;" % json.dumps( aesnorm ))
 if resolution == "high":
-	print "var minrectsize = 30;"
+	print("var minrectsize = 30;")
 else:
-	print "var minrectsize = 15;"
+	print("var minrectsize = 15;")
 
 if len( treedict ) > 1:
-	print "var treeData = [ { name: \"root\", title: \"\", parent: \"null\", children: [ "
+	print("var treeData = [ { name: \"root\", title: \"\", parent: \"null\", children: [ ")
 	printtax( treedict, "root" )
-	print " ] } ];"
-	print "var multipleroots = 1;"
+	print(" ] } ];")
+	print("var multipleroots = 1;")
 else:
-	print "var treeData = [ "
+	print("var treeData = [ ")
 	printtax( treedict, "null" )
-	print " ];"
-	print "var multipleroots = 0;"
-print "var hmData = { "
+	print(" ];")
+	print("var multipleroots = 0;")
+print("var hmData = { ")
 ikcnt = 0
-for ikey in knindex.keys():
+for ikey in list(knindex.keys()):
 	
 	inum = kdict[ knindex[ ikey ] ]
 	olst = []
@@ -278,39 +285,59 @@ for ikey in knindex.keys():
 			v = edata[ ii ][ inum ]
 		olst.append( edata[ ii ][ inum ] )
 		atsum += aedata[ ii ][ inum ]
-	print "\"" + ikey + "\": " + json.dumps( olst )
-	if atsum / len( edata ) < valhighlight:
+	print("\"" + ikey + "\": " + json.dumps( olst ))
+	if datatype != "raw" and atsum / len( edata ) < valhighlight:
 		smallrect.append( ikey )
 	if ikcnt + 1 < len( knindex ):
-		print ","
+		print(",")
 	ikcnt = ikcnt + 1
-print "};"
+print("};")
 
 if datatype == "z-score":
-	print "var cdomain = [ -10., -1.2, -0.5, 0., 0.9, 2.2, 10. ]; var cdscale = 2;"
+	print("var cdomain = [ -10., -1.5, -0.5, 0., 0.5, 1.5, 10. ]; var cdscale = 2;")
 elif datatype == "percent" or datatype == "percent-quantile":
-	print "var cdomain = [ 0., 0.01, 0.25, 1., 5., 25., 100. ]; var cdscale = 1;"
-else:
-	print "var cdomain = [ 0, 1, 3, 10, 50, 200, 50000 ]; var cdscale = 0;"
+	print("var cdomain = [ 0., 0.01, 0.25, 1., 5., 25., 100. ]; var cdscale = 1;")
+elif datatype == "count":
+	if maxdata < 10000:
+		print("var cdomain = [ 0, 1, 3, 10, 50, 200, 10000 ];")
+	elif maxdata < 50000:
+		print("var cdomain = [ 0, 5, 20, 100, 500, 2000, 50000 ];")
+	elif maxdata < 200000:
+		print("var cdomain = [ 0, 20, 100, 500, 2000, 10000, 200000 ];")
+	else:
+		print("var cdomain = [ 0, 1000, 10000, 50000, 200000, 500000, 5000000 ];")
+	print("var cdscale = 0;")
+elif datatype == "raw":
+	if mindata < 0:
+		cdomain = [ mindata, 0.5 * mindata, 0.25 * mindata, 0, 0.25 * maxdata, 0.5 * maxdata, maxdata ]
+	else:
+		interval = maxdata - mindata
+		cdomain = [ 0, mindata, mindata + 0.01 * interval, mindata + 0.05 * interval, mindata + 0.2 * interval, mindata + 0.5 * interval, maxdata ] 
+	print("var cdomain = %s;" % json.dumps( cdomain ))
+	print("var cdscale = 3;")
+	
+print("var cscale = \"%s\";" % cscale);	
+print("var cpalette = \"%s\";" % cpalette);	
 
-print "var cscale = \"%s\";" % cscale;	
-print "var cpalette = \"%s\";" % cpalette;	
-
-print "var smallrect = %s;" % json.dumps( smallrect )
-print "var splist = %s;" % splist
+print("var smallrect = %s;" % json.dumps( smallrect ))
+print("var splist = %s;" % splist)
 
 
 if shist != "none":
 	if dgroup != "none":
 		( dummy, mtags ) = d3bf.processtags_m( volumes, tags, dfilter )
 		( dedata, dsite_ids, dspecies_ids ) = d3bf.load_edata_m( data, ilevel, mn, ml, kdict, volumes, findex, kdnames )
-		daedata = np.array( dedata, dtype=float )
-		daenorm = np.sum( daedata, axis=1 )
-		daedata /= daenorm.reshape( len(dedata), 1 )
 	else:
 		dedata = edata
-		daedata = aedata
-		daenorm = aenorm
+	daedata = np.array( dedata, dtype=float )
+	if spfilter != "none":
+		( tkdict, tkdnames, tkgnames, tknorder, tkdata ) = d3bf.loadtaxonomy( data, ml, "none", ilevel )
+		( tedata, tsite_ids, tspecies_ids ) = d3bf.load_edata_m( data, ilevel, mn, ml, tkdict, volumes, findex, tkdnames )
+		taedata = np.array( tedata, dtype=float )
+		daenorm = np.sum( taedata, axis=1 )
+	else:
+		daenorm = np.sum( daedata, axis=1 )
+	daedata /= daenorm.reshape( len(dedata), 1 )
 	pvdata = {}
 	shtag = mtags[ shisttag ]
 	shvalues = list( set( shtag ) )
@@ -323,10 +350,10 @@ if shist != "none":
 		if itn == "":
 			continue
 		tsums[ shvalues.index( itn ) ] += int( daenorm[i] )
-	for ikey in knindex.keys():
+	for ikey in list(knindex.keys()):
 		inum = kdict[ knindex[ ikey ] ]
-		tlists = [ [] for k in xrange( len( shvalues ) ) ]
-		tnlists = [ [] for k in xrange( len( shvalues ) ) ]
+		tlists = [ [] for k in range( len( shvalues ) ) ]
+		tnlists = [ [] for k in range( len( shvalues ) ) ]
 		for i in range( len( dedata ) ):
 			itn = shtag[ i ]
 			if itn == "":
@@ -407,6 +434,15 @@ if shist != "none":
 							score = tpvalue 
 			except:
 				score = 0
+		elif shist == "best-logfc":
+			try:
+				for i in range( len( tnlists ) ):
+					for j in range( i ):
+						logfc = math.log( sum( tnlists[ i ] ) ) - math.log( sum( tnlists[ j ] ) )
+						if abs( logfc ) > abs( score ):
+							score = logfc 
+			except:
+				score = 0
 
 
 		pvdata[ ikey ] = score
@@ -414,11 +450,13 @@ if shist != "none":
 	npvdata = {}
 	for key in pvdata:
 		npvdata[ key ] = pvdata[ key ] / pvnorm
-	print "var pvData = %s;" % json.dumps( npvdata )
-	print "var pvNorm = %g;" % pvnorm;
+	print("var pvData = %s;" % json.dumps( npvdata ))
+	print("var pvNorm = %g;" % pvnorm);
+else:
+	print("var pvData = false;")
 	
 
-print """
+print("""
 // ************** Generate the tree diagram	 *****************
 //var margin = {top: 100, right: 15, bottom: 100, left: 60}
 //      , width = 1200 - margin.left - margin.right;
@@ -489,6 +527,8 @@ function update(source) {
   var nindex = {};
   var ndata = [];
   var taxroot = 0;
+  var maxcoldata = 0;
+  var mincoldata = 0;
    
   
   // Normalize for fixed-depth.
@@ -529,6 +569,8 @@ function update(source) {
 				if ( datatype == "percent" || datatype == "percent-quantile" ) v = ( 100 * crow[ii] ) / htnorm[ii];
 				else if ( datatype == "z-score" ) v = ( ( crow[ii] / htnorm[ii] )  - mean ) / mdisp;
 				ndata.push( [ d.x, ii, v, "", crow[ii], sfactor ] );
+				maxcoldata = Math.max( maxcoldata, v );
+				mincoldata = Math.min( mincoldata, v );
 			}
 		}
 		else
@@ -636,7 +678,7 @@ function update(source) {
 	var rectw = ( width - hmbeg ) / nsamples;
 	if ( rectw > minrectsize ) rectw = minrectsize;
 	
-	var palettes = { 
+	var palettes = { "threshold" : { 
 		"pink/brown" : [
 			d3.hsl( chue, csat, 1),
 			d3.hsl( chue, csat, 1),
@@ -653,32 +695,60 @@ function update(source) {
 			d3.hsl( 195, csat, 0.6),
 			d3.hsl( 180, csat, 0.3),
 			d3.hsl( 165, csat, 0.1) ],
-		"yellow/blue" : [
-			d3.hsl( 51, csat, 1),
-			d3.hsl( 51, csat, 1),
-			d3.hsl( 51, csat, 0.82),
-			d3.hsl( 51, csat, 0.75),
-			d3.hsl( 230, csat, 0.62),
-			d3.hsl( 225, csat, 0.32),
-			d3.hsl( 225, csat, 0.18) ],
-		"green/red" : [
-			d3.hsl( 100, 0.5, 0.5 ),
-			d3.hsl( 100, 0.5, 0.5 ),
-			d3.hsl( 100, 0.5, 0.2 ),
-			d3.hsl( 100, 0.5, 0.05 ),
-			d3.hsl( 0, 0.8, 0.1 ),
-			d3.hsl( 0, 0.8, 0.4 ),
-			d3.hsl( 0, 0.8, 0.5) ],
-		"blue/red" : [
-			d3.hsl( 230, 0, 1 ),
-			d3.hsl( 230, 0, 1 ),
-			d3.hsl( 230, 0, 0.8 ),
-			d3.hsl( 230, 0.3, 0.8 ),
-			d3.hsl( 230, 0.5, 0.7 ),
-			d3.hsl( 0, 0.4, 0.7 ),
-			d3.hsl( 0, 0.8, 0.75 ) ],
-			};
+		"red/black/green" : [
+			d3.rgb( 255, 0, 0 ),
+			d3.rgb( 170, 0, 0 ),
+			d3.rgb( 128, 0, 0 ),
+			d3.rgb( 85, 0, 0 ),
+			d3.rgb( 27, 48, 16 ),
+			d3.rgb( 75, 134, 45 ),
+			d3.rgb( 85, 212, 0 ) ],
+		"red/white/blue" : [
+			d3.rgb( 255, 42, 42 ),
+			d3.rgb( 255, 128, 128 ),
+			d3.rgb( 255, 213, 213 ),
+			d3.rgb( 255, 255, 255 ),
+			d3.rgb( 215, 227, 244 ),
+			d3.rgb( 135, 170, 222 ),
+			d3.rgb( 55, 113, 200 ) ],
+			},
 
+		"linear" : { 
+		"pink/brown" : [
+			d3.hsl( chue, csat, 1),
+			d3.hsl( chue, csat, 1),
+			d3.hsl( chue, csat, 0.9),
+			d3.hsl( chue, csat, 0.8),
+			d3.hsl( chue, csat, 0.6),
+			d3.hsl( chue, csat, 0.3),
+			d3.hsl( chue, csat, 0.1) ],
+		"blue/green" : [
+			d3.hsl( 205, csat, 1),
+			d3.hsl( 205, csat, 1),
+			d3.hsl( 205, csat, 0.9),
+			d3.hsl( 200, csat, 0.8),
+			d3.hsl( 195, csat, 0.6),
+			d3.hsl( 180, csat, 0.3),
+			d3.hsl( 165, csat, 0.1) ],
+		"red/black/green" : [
+			d3.rgb( 255, 85, 85 ),
+			d3.rgb( 255, 0, 0 ),
+			d3.rgb( 170, 0, 0 ),
+			d3.rgb( 0, 0, 0 ),
+			d3.rgb( 51, 128, 0 ),
+			d3.rgb( 85, 212, 0 ),
+			d3.rgb( 102, 255, 0 ) ],
+		"red/white/blue" : [
+			d3.rgb( 255, 42, 42 ),
+			d3.rgb( 255, 85, 85 ),
+			d3.rgb( 255, 213, 213 ),
+			d3.rgb( 255, 255, 255 ),
+			d3.rgb( 215, 227, 244 ),
+			d3.rgb( 95, 141, 211 ),
+			d3.rgb( 55, 113, 200 ) ],
+			} };
+
+	pvpalette = { "pink/brown" : [ d3.hsl( 0, 0.3, 0.8 ),  d3.hsl( 0, 0.3, 0.3 ) ], "blue/green" : [ d3.hsl( 205, 0.3, 0.8 ), d3.hsl( 180, 0.3, 0.3 ) ], "red/black/green" : [ d3.rgb( 255, 42, 42 ),d3.rgb( 85, 212, 0 ) ], "red/white/blue" : [ d3.rgb( 255, 42, 42 ), d3.rgb( 55, 113, 200 ) ] };
 	
 	/*var colorScale = d3.scale.linear()
 		.domain( cdomain )
@@ -686,8 +756,13 @@ function update(source) {
 		
 	var crange = d3.range( cdomain.length ).map(cgenerator);
 	*/
+	if ( cscale == "linear" )
+	{
+		cdomain[ cdomain.length - 1 ] = Math.max( cdomain[ cdomain.length - 2 ], maxcoldata );
+		cdomain[ 0 ] = Math.min( cdomain[1], mincoldata );
+	}
 	var colorScale = ( cscale == "threshold" ) ? d3.scale.threshold() : d3.scale.linear();
-	colorScale.domain( cdomain ).range( palettes[ cpalette ] );
+	colorScale.domain( cdomain ).range( palettes[ cscale ][ cpalette ] );
 	
 
 	var div = d3.select("#tt");
@@ -796,12 +871,12 @@ function update(source) {
 		.attr( "y", height + 4.3 * vcheight )
 		.style( "font", fs * 1.2 + "px sans-serif" )
 		.style( "text-anchor", "end" )
-		.text(function(d) { return d[1]; } );      
+		.text(function(d) { return d[1].toFixed( 1 ); } );      
 		
-		svg.append( "text" ).attr( "x", ( vcdata.length - 1 ) * vcrect ).attr( "y", height + 4.3 * vcheight ).style( "font", fs * 1.2 + "px sans-serif" ).style( "text-anchor", "end" ).text( vcdata[ vcdata.length - 1  ][2] );
+		svg.append( "text" ).attr( "x", ( vcdata.length - 1 ) * vcrect ).attr( "y", height + 4.3 * vcheight ).style( "font", fs * 1.2 + "px sans-serif" ).style( "text-anchor", "end" ).text( vcdata[ vcdata.length - 1  ][2].toFixed( 1 ) );
 	}
 	
-	svg.append( "text" ).attr( "x", ( vcdata.length - 0.7 ) * vcrect ).attr( "y", height + 3.1 * vcheight ).style( "font", fs * 1.2 + "px sans-serif" ).style( "text-anchor", "start" ).text( [ "In Reads", "in Percents", "In Z-score Units" ] [ cdscale ] );
+	svg.append( "text" ).attr( "x", ( vcdata.length - 0.7 ) * vcrect ).attr( "y", height + 3.1 * vcheight ).style( "font", fs * 1.2 + "px sans-serif" ).style( "text-anchor", "start" ).text( [ "In Reads", "in Percents", "In Z-score Units", "In A.U." ] [ cdscale ] );
 	
 	
     
@@ -824,6 +899,8 @@ function update(source) {
 		var pvsize = 3 * fs;
 		var phdata = [];
 		var pvheight = 0.3 * recth;
+		var cplus = pvpalette[ cpalette ][ 0 ];
+		var cminus = pvpalette[ cpalette ][ 1 ];
 		nodes.forEach(function(d) 
 		{ 
 			if ( d.depth == maxlevel )
@@ -847,7 +924,7 @@ function update(source) {
 			  //.attr("dx", ".71em")
 		      //.attr( "dy", -0.5 * pvheight )
 		      .style("stroke", "black")
-		      .style("fill", function( d ) { return ( d[1] > 0 ) ? d3.hsl( chue, csat, 0.8) : d3.hsl( chue, csat, 0.3 ); } )
+		      .style("fill", function( d ) { return ( d[1] > 0 ) ? cplus : cminus; } )
 			.on("mouseover", function(d) {		
 				div.transition()		
 					.duration(200)		
@@ -862,7 +939,7 @@ function update(source) {
 					.style("opacity", 0);	
 			});
 		var pvmax = d3.max( phdata, function(d) { return Math.abs( d[1] * pvNorm ); } );
-		var pvthresholds = [ 0.05, 0.01, 0.001 ];
+		var pvthresholds = [ 0.5, 0.05, 0.01, 0.001 ];
 		var refpv = pvthresholds[0];
 		for ( var pi = 1; pi < pvthresholds.length; pi++  )
 		{
@@ -900,4 +977,4 @@ function click(d) {
 update(root);
 
  </script>
-"""
+""")

@@ -80,16 +80,16 @@ def LogSqrLog( distr ):
 		return 0
 	return a_s
 
-print "<table class=\"indextable\"><tr><td class=\"columnheader\"><b>Level</b>"
+print("<table class=\"indextable\"><tr><td class=\"columnheader\"><b>Level</b>")
 for k in range( len( slist ) ):
-	print "<td class=\"columnheader\">" + slnames[k]
+	print("<td class=\"columnheader\">" + slnames[k])
 
 
 for rilevel in range( maxlevel + 1 ):
 	ilevel = maxlevel + 1 - rilevel
 	( kdict, kdnames, kgnames, knorder, kdata ) = d3bf.loadtaxonomy( data, ml, spfilter, ilevel )
 	( edata, site_ids, species_ids ) = d3bf.load_edata_m( data, ilevel, mn, ml, kdict, volumes, findex, kdnames )
-	print "<tr><td class=\"rowheader\">" + str( ilevel )
+	print("<tr><td class=\"rowheader\">" + str( ilevel ))
 	for k in range( len( slist ) ):
 		#print "<tr><td class=\"rowheader\">" + slnames[k]
 		rlist = [ [] for i in range( len( gtags ) ) ]
@@ -151,7 +151,7 @@ for rilevel in range( maxlevel + 1 ):
 					strval = "%5.2f" % -math.log( pvalue )
 			else:
 				strval = "%5.3f" % pvalue
-		print "<td>" + strval
+		print("<td>" + strval)
 			
-print "</table>"
+print("</table>")
 

@@ -61,7 +61,7 @@ for rnum in range( len( edata ) ):
 		minsize = csrow[ rind ] 
 	minsizes.append( minsize )
 
-print """
+print("""
 <style>
 circle {
   fill: rgb(31, 119, 180);
@@ -88,41 +88,41 @@ text {
   text-indent: 2px;
 }
 </style>
-"""
+""")
 
 if dprestype == "bubble" or dprestype == "bars":
 	if resolution == "high":
-		print "<svg width=\"2400\" height=\"2400\" id=\"normal\"></svg>"
+		print("<svg width=\"2400\" height=\"2400\" id=\"normal\"></svg>")
 	else:
-		print "<svg width=\"960\" height=\"960\" id=\"normal\"></svg>"
+		print("<svg width=\"960\" height=\"960\" id=\"normal\"></svg>")
 #	print "<svg width=2400 height=2400 id=highres></svg>"
 else:
 	if resolution == "high":
-		print "<div width=\"2400\" height=\"2400\" id=\"normal\"></div>"
+		print("<div width=\"2400\" height=\"2400\" id=\"normal\"></div>")
 	else:
-		print "<div width=\"960\" height=\"960\" id=\"normal\"></div>"
+		print("<div width=\"960\" height=\"960\" id=\"normal\"></div>")
 #	print "<div width=960 height=500 id=normal></div>"
 #	print "<div width=2000 height=1200 id=highres></div>"
 
-print "<script type=\"text/javascript\">"
-print "var height = 600;"
-print "var outfn = \"bubble_%s_%d_%s\";" % ( id, ilevel, dgroup ) 
-print "var tfont = \"12px sans-serif\";"
-print "var ilevel = " + str( ilevel ) + ";"
-print "var dglabels = \"" + dglabels + "\";"
-print "var dtlabels = \"" + dtlabels + "\";"
-print "var dlegend = \"" + dlegend + "\";"
+print("<script type=\"text/javascript\">")
+print("var height = 600;")
+print("var outfn = \"bubble_%s_%d_%s\";" % ( id, ilevel, dgroup )) 
+print("var tfont = \"12px sans-serif\";")
+print("var ilevel = " + str( ilevel ) + ";")
+print("var dglabels = \"" + dglabels + "\";")
+print("var dtlabels = \"" + dtlabels + "\";")
+print("var dlegend = \"" + dlegend + "\";")
 #print "var maxdata = " + str( int( aenorm ) ) + ";"
 #print "var nsamples = " + str( len( edata) ) + ";"
 #print "var maxidsize = " + str( maxidsize ) + ";"
-print "var rroot =  { name: \"root\", children: ["
+print("var rroot =  { name: \"root\", children: [")
 gsize = len( gtags )
 gscnt = 0
 ksize = len( edata[0] )
 ordlist = []
 for gnum in sorted( gtags.values() ):
-	gkey = gtags.keys()[ gtags.values().index( gnum ) ]
-	print "{ sname: \"%s\", children: [ " % gkey
+	gkey = list(gtags.keys())[ list(gtags.values()).index( gnum ) ]
+	print("{ sname: \"%s\", children: [ " % gkey)
 	kcnt = 0
 	others_sum = 0.
 	for ckey in kdnames:
@@ -136,9 +136,9 @@ for gnum in sorted( gtags.values() ):
 			dratio = aedata[ gscnt ][ kdict[ ckey ] ]
 			percent = "%4.1f %%" % ( dratio * 100. )
 			#pdig = [ch.isdigit() for ch in dname].index( True )
-			print "{ name: \"%s\", sname: \"%s\", order: \"%s\", size: %d, percent: \"%s\" } " % ( kdnames[ ckey ] + "\\n" + percent, kdnames[ ckey ], kgnames[ ckey ], csize, percent  )
+			print("{ name: \"%s\", sname: \"%s\", order: \"%s\", size: %d, percent: \"%s\" } " % ( kdnames[ ckey ] + "\\n" + percent, kdnames[ ckey ], kgnames[ ckey ], csize, percent  ))
 			if kcnt + 1 < ksize or others_sum > 0:
-				print ","
+				print(",")
 			if not kgnames[ ckey ] in ordlist and dratio > 0.01:
 				ordlist.append( kgnames[ ckey ] )
 		kcnt = kcnt + 1
@@ -149,14 +149,14 @@ for gnum in sorted( gtags.values() ):
 			csize = others_sum
 		percent = "%4.1f %%" % ( others_sum * 100. / aenorm[ gscnt ] )
 		#pdig = [ch.isdigit() for ch in dname].index( True )
-		print "{ name: \"Others\\n%s\", sname: \"Others\", order: \"Mixed\", size: %d, percent: \"%s\" } " % ( percent, csize, percent  )
-	print "] }"
+		print("{ name: \"Others\\n%s\", sname: \"Others\", order: \"Mixed\", size: %d, percent: \"%s\" } " % ( percent, csize, percent  ))
+	print("] }")
 	if gscnt + 1 < gsize:
-		print ","
+		print(",")
 	gscnt = gscnt + 1
-print "] };"
-print "var ordlist = %s;" % json.dumps( ordlist )
-print """
+print("] };")
+print("var ordlist = %s;" % json.dumps( ordlist ))
+print("""
 
 //var margin = {top: 100, right: 15, bottom: 100, left: 60};
 
@@ -168,9 +168,9 @@ var color = d3.scaleOrdinal(d3.schemeCategory20);
 
 function draw( val_id ) {
 
-"""
+""")
 if dprestype == "bubble":
-	print """
+	print("""
 
 	var svg0 = d3.select( val_id );
 	var diameter = +svg0.attr("width") * 0.75;
@@ -327,9 +327,9 @@ if dprestype == "bubble":
 	}
 
       
-"""
+""")
 elif dprestype == "bars":
-	print """
+	print("""
 
 	var svg0 = d3.select( val_id );
 	var diameter = +svg0.attr("width") * 0.75;
@@ -441,9 +441,9 @@ elif dprestype == "bars":
 	}
 
       
-"""
+""")
 elif dprestype == "treemapslice":
-	print """
+	print("""
 
 	var svg0 = d3.select( val_id );
 	var diameter = +svg0.attr("width") * 0.75;
@@ -613,9 +613,9 @@ elif dprestype == "treemapslice":
 	}
 
       
-"""
+""")
 else:
-	print """
+	print("""
        
   var div = d3.select( val_id )
     //.attr('id', "mainsvg" )
@@ -666,10 +666,10 @@ else:
 
 
 
-"""
+""")
 
     
-print """
+print("""
 
 
 }
@@ -694,4 +694,4 @@ function click(d) {
 
 	
  </script>
-"""
+""")

@@ -67,7 +67,7 @@ def loadtags( tfname, volumes ):
 	else:
 		tags[ "name" ] = volumes
 		tags[ "none" ] = [ "" ] * len( volumes )
-	tkeys = sorted_alnum( tags.keys() )
+	tkeys = sorted_alnum( list(tags.keys()) )
 	return ( tags, tkeys )
 
 def loadfilters( sfname, spfilter ):
@@ -102,7 +102,7 @@ def processtags( volumes, tags, dfilter, dgroup ):
 
 def processtags_m( volumes, tags, dfilter ):
 	if dfilter == "none":
-		findex = range( 0, len( volumes ) )
+		findex = list(range( 0, len( volumes )))
 		mtags = tags
 	else:
 		findex = []
@@ -125,7 +125,7 @@ def loadtaxonomy( data, ml, spfilter, ilevel ):
 	cm = 0
 	knorder = []
 	kdata = {}
-	if isinstance( spfilter, (list,)):
+	if isinstance( spfilter, list):
 		excludelist = []
 		reverse = 0
 	else:
@@ -134,8 +134,8 @@ def loadtaxonomy( data, ml, spfilter, ilevel ):
 	dgnames = []
 	minglevel = 0 if ml < 2 else 1
 	maxglevel = max( 7, ilevel - 2 )
-	nkgnames = [ {} for x in xrange( minglevel, maxglevel ) ]
-	ndgnames = [ [] for x in xrange( minglevel, maxglevel ) ]
+	nkgnames = [ {} for x in range( minglevel, maxglevel ) ]
+	ndgnames = [ [] for x in range( minglevel, maxglevel ) ]
 	
 	
 	for d in data[1:]:
@@ -211,7 +211,7 @@ def select_toptax( edata, kdict, **kwargs ):
 def load_edata( data, ilevel, ml, kdict, findex, gtags ):
 	edata = []
 	for tagnum in sorted( gtags.values() ):
-		cgtag = gtags.keys()[ gtags.values().index( tagnum ) ]
+		cgtag = list(gtags.keys())[ list(gtags.values()).index( tagnum ) ]
 		crow = [ 0 ] * len( kdict )
 		for i in sorted( findex ):
 			if findex[i] == cgtag:
@@ -245,21 +245,37 @@ def load_edata_m( data, ilevel, mn, ml, kdict, volumes, findex, kdnames ):
 			edata.append( crow )
 	return ( edata, site_ids, species_ids )
 
+def load_edata_m_fp( data, ilevel, mn, ml, kdict, volumes, findex, kdnames ):
+	edata = []
+	site_ids = []
+	species_ids = [ "" ] * len( kdict )
+	dim2_ids = species_ids
+	for i in range( ml + 1, mn + 1 ):
+		if ( i - ml - 1 ) in findex:
+			crow = [ 0 ] * len( kdict )
+			site_ids.append( volumes[ i - ml - 1 ] )
+			for d in data[1:]:
+				ckey = "".join( d[0:ilevel] )
+				if ckey in kdict:
+					cind = kdict[ ckey ]
+					crow[ cind ] += float( d[i] )
+					if len( site_ids ) == 1:
+						species_ids[ cind ] = kdnames[ ckey ] 
+			edata.append( crow )
+	return ( edata, site_ids, species_ids )
+
 def quantileNormalize( matrix ):
-    df = copy.copy( matrix )
-    #compute rank
-    dic = {}
-    for col in range( len( df ) ):
-        dic.update({col : sorted(df[col])})
-    rank = [ 0 ] * len( df[0] )
-    for i in range( len( rank ) ):
+	df = copy.copy( matrix )
+	dic = {}
+	for col in range( len( df ) ):
+		dic.update({col : sorted(df[col])})
+	rank = [ 0 ] * len( df[0] )
+	for i in range( len( rank ) ):
 		rank[ i ] = np.average( [ dic[ col ][ i ] for col in range( len( df ) ) ] )
-    #sorted_df = pd.DataFrame(dic)
-    #rank = sorted_df.mean(axis = 1).tolist()
-    for col in range( len( df ) ):
-        t = np.searchsorted( np.sort(df[col]), df[col] )
-        df[col] = [ rank[i] for i in t ]
-    return df
+	for col in range( len( df ) ):
+		t = np.searchsorted( np.sort(df[col]), df[col] )
+		df[col] = [ rank[i] for i in t ]
+	return df
 	
 def morisitaHorn(data1, data2):
     X = sum(data1)
@@ -293,7 +309,7 @@ def calc_distances( edata, aedata, dmethod, kdata, knorder, rev ):
 		mkdata = {}
 		for key in kdata:
 			mkdata[ key ] = [ "Root" ] + kdata[ key ]
-		tree = skbio.tree.TreeNode.from_taxonomy( mkdata.items() )
+		tree = skbio.tree.TreeNode.from_taxonomy( list(mkdata.items()) )
 		for node in tree.preorder():
 			node.length = 1.
 	cdata = []
@@ -343,16 +359,12 @@ def calc_distances( edata, aedata, dmethod, kdata, knorder, rev ):
 	return cdata
 
 def print_popupstyle():
-	print """
+	print("""
 <style>
 .axis line, .axis path {
     shape-rendering: crispEdges;
     stroke: black;
     fill: none;
-}
-
-circle {
-    fill: steelblue;
 }
 
 div.tooltip {	
@@ -368,16 +380,14 @@ div.tooltip {
     pointer-events: none;			
 }
 </style>
-"""
+""")
 
 	
 def print_drawscatter():
-	print """
-	function drawscatter( val_id, data )
+	print("""
+	function drawscatter( svg, data, chart_type )
 	{
 		var margin = {top: 20, right: 15, bottom: 60, left: 60};
-		var svg = d3.select( val_id )
-			.attr('background-color', 'white' );
 		var width = +svg.attr( "width" ) - margin.right - margin.left;
 		var height = +svg.attr( "height" ) - margin.top - margin.bottom;
 		var fs = Math.max( width / 100, 8 );
@@ -407,9 +417,7 @@ def print_drawscatter():
 		var tfont = fs * 1.4 + "px sans-serif";
 		var ssize = fs * fs * 0.9;
             
-   	    
-
-		chart.append('g')
+ 		chart.append('g')
 			.attr('transform', 'translate(0,' + height / 2 + ')')
 			.attr('class', 'x axis')
 			.attr('shape-rendering', 'crispEdges')
@@ -451,7 +459,7 @@ def print_drawscatter():
 			.style("font", tfont )
 			.text(function(d) { return d[3];});
 			
-		if ( data[0].length > 5 )
+		if ( chart_type == "species" )
 		{
             var div = d3.select("#tt");
             
@@ -461,13 +469,13 @@ def print_drawscatter():
 			.enter().append("circle")
 				.attr("cx", function(d) { return xMap(d); } )	
 				.attr("cy", function(d) { return yMap(d); } )	
-				.attr("r", 5 )
+				.attr("r", function(d) { return fs * 0.8 * d[5]; } )
 				.style("fill", function(d) { return color( cValue( d ) ); } )
 				.on("mouseover", function(d) {		
 					div.transition()		
 						.duration(200)		
 						.style("opacity", .9);		
-					div	.html( d[5] )	
+					div	.html( d[6] )	
 						.style("left", (d3.event.pageX) + "px")		
 						.style("top", (d3.event.pageY - 28) + "px");	
 					})					
@@ -485,7 +493,7 @@ def print_drawscatter():
 				.attr("class", "point")
 				.attr("transform", function(d) { return "translate(" + xMap(d) + "," + yMap( d ) + ")"; })
 				.attr("d", function(d,i){ 
-					return d3.svg.symbol().type( shapeScale( d[4] ) ).size( ssize )();
+					return d3.svg.symbol().type( shapeScale( d[4] ) ).size( ssize * d[5] * d[5] )();
 					} )
 				.style("fill", function(d) { return color( cValue( d ) ); } )
 				;
@@ -542,7 +550,7 @@ def print_drawscatter():
 				.text(function(d) { return d;});
 		}
 	}
-"""
+""")
 
 
 

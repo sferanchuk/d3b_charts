@@ -1,10 +1,11 @@
 
 import json
 from django import forms
-from . import controls
+import controls
 
 class UploadFile( forms.Form ):
 	name = forms.CharField(max_length=50, label="Dataset name")
+	transform = forms.ChoiceField( label="Transform", choices = [ ( "none", "none" ), ( "scale 1000", "scale from 0 to 1000" ), ( "erf 1000", "erf 1000" ) ], initial = [ "none" ] ) 
 	file = forms.FileField( label="File (tab-delimited / biom format)" )
 	
 	
@@ -38,8 +39,8 @@ class GenericForm( forms.Form ):
 			clevels = [ ( str(k), levelnames[ summary[ "taxtype" ] ][ k - 1 ] + " (" + str( k ) + ")" ) for k in range( 1, summary[ 'maxlevel' ] + 1 ) ]
 		else:
 			clevels = [ ( str(k), str(k) ) for k in range( 1, summary[ 'maxlevel' ] + 1 ) ]
-		ctags = [ ( v, v ) for v in tags.keys() ]
-		ctaxfilters = [ ( v, v ) for v in taxfilters.keys() ]
+		ctags = [ ( v, v ) for v in list(tags.keys()) ]
+		ctaxfilters = [ ( v, v ) for v in list(taxfilters.keys()) ]
 		distmeasures = [ "Pearson", "Kendall", "Spearman", "Euclidean", "Bray-Curtis", "Jaccard", "Morisita-Horn", "Unifrac-unweighted", "Unifrac-weighted" ]
 		cdmeasures = [ ( v, v ) for v in distmeasures ]
 		
@@ -73,7 +74,7 @@ class GenericForm( forms.Form ):
 					if ctag == 'none':
 						ctag = 'name'
 			snames = set( tags[ ctag ] )
-			print snames
+			print(snames)
 			self.fields[ 'samples' ].widget.choices = [ ( v, v ) for v in snames ]
 			self.initial[ 'dgroup' ] = [ 'name' ]
 			
@@ -123,6 +124,7 @@ class PCA( GenericForm ):
 	color = VChoiceField( label="Color" )
 	shape = VChoiceField( label="Shape" )
 	labels = VChoiceField( label="Labels" )
+	dsizes = forms.ChoiceField( label = "Size of points", choices = [ ( v, v ) for v in [ "equal", "linear", "-(1/2)", "-(1/4)" ] ] )
 
 class Tree( GenericForm ):
 	level = VChoiceField()
@@ -135,7 +137,7 @@ class Tree( GenericForm ):
 
 class Heatmap( GenericForm ):
 	level = VChoiceField()
-	dtype = forms.ChoiceField( label = "Units", choices = [ ( "count", "Counts" ), ( "percent", "Percents" ), ( "z-score", "Z-Score" ), ( "percent-quantile", "Percents-Quantile" ) ] )
+	dtype = forms.ChoiceField( label = "Units", choices = [ ( "count", "Counts" ), ( "percent", "Percents" ), ( "z-score", "Z-Score" ), ( "percent-quantile", "Percents-Quantile" ), ( "raw", "Raw" ) ] )
 	dfilter = VChoiceField( label="Samples filter" )
 	spfilter = VChoiceField( label="Taxonomy filter" )
 	dgroup = VChoiceField( label="- Samples grouping - excludes sorting (*)" )
@@ -144,11 +146,11 @@ class Heatmap( GenericForm ):
 	labels = VChoiceField( label="* Labels for samples" )
 	numbest = forms.ChoiceField( label = "Number of best species / units", choices = [ ( "all", "all" ), ( "10", "10" ), ( "15", "15" ), ( "25", "25"), ( "50", "50" ), ( "100", "100" ) ] )
 	percentbest = forms.ChoiceField( label = "Minimal average abundance", choices = [ ( "all", "all" ), ( "1%", "1%" ), ( "2%", "2%" ), ( "3%", "3%" ), ( "5%", "5%"), ( "10%", "10%" ) ] )
-	shist = forms.ChoiceField( label = "Histogram of significance", choices = [ ( "none", "none" ), ( "best-fisher", "Exact Fisher (best pair)" ), ( "anova", "Anova" ), ( "best-wilcoxon", "Ranked (best pair)" ), ( "best-ttest", "T-Test (best pair)" ), ( "best-chisquare", "Chi-square (best pair)" ) ] )
+	shist = forms.ChoiceField( label = "Histogram of variations", choices = [ ( "none", "none" ), ( "best-fisher", "Exact Fisher (best pair)" ), ( "anova", "Anova" ), ( "best-wilcoxon", "Ranked (best pair)" ), ( "best-ttest", "T-Test (best pair)" ), ( "best-chisquare", "Chi-square (best pair)" ), ( "best-logfc", "Fold Count (best pair)" ) ] )
 	shisttag = VChoiceField( label = "Groups for histogram" )
 	spshow = VChoiceField( label="Show taxonomy", choices = [ ( "custom", "Custom" ) ] )
 	cscale = forms.ChoiceField( label = "Color scale", choices = [ ( "threshold", "threshold" ), ( "linear", "linear" ) ] ) 
-	cpalette = forms.ChoiceField( label = "Color palette", choices = [ ( v, v ) for v in [ "pink/brown", "blue/green", "yellow/blue", "green/red", "blue/red" ] ] ) 
+	cpalette = forms.ChoiceField( label = "Color palette", choices = [ ( "pink/brown", "pink/brown" ),  ( "blue/green", "blue/green" ), ( "red/black/green", "red/black/green (two-sided)" ), ( "red/white/blue", "red/white/blue (two-sided)" ) ] ) 
 	numhighlight = forms.ChoiceField( label = "Highlight best species/units", choices = [ ( v, v ) for v in [ "all", "20%", "10%", "7.5%", "5%", "2%" ] ] )
 	taxlabels = forms.ChoiceField( label = "Labels for taxonomy", choices = [ ( "no", "No" ), ( "yes", "Yes" ) ] )
 	spcustom = forms.CharField( widget=forms.HiddenInput() )
@@ -185,6 +187,15 @@ class Whittaker( GenericForm ):
 	shape = VChoiceField( label="Shape" )
 	regression = forms.ChoiceField( label = "Include regression line", choices = [ ( v, v ) for v in [ "no", "yes", "2 parts" ] ] )
 
+class Volcano( GenericForm ):
+	level = VChoiceField()
+	dfilter = VChoiceField( label="Samples filter" )
+	spfilter = VChoiceField( label="Taxonomy filter" )
+	dgroup = VChoiceField( label="Samples grouping", widget=forms.Select( attrs={ 'onchange': 'settagvalues();' } ) )
+	samples = VMChoiceField( widget=forms.SelectMultiple, choices = [] )
+	ptype = forms.ChoiceField( label = "Presentation", choices = [ ( "volcano", "Volcano chart" ), ( "mdplot", "Mean-Difference chart" ) ] ) 
+	cmethod = forms.ChoiceField( label = "Criterion", choices = [ ( "anova", "Anova" ), ( "wilcoxon", "Ranked" ), ( "ttest", "T-Test" ) ] )
+
 class Venn( GenericForm ):
 	level = VChoiceField()
 	dfilter = VChoiceField( label="Samples filter" )
@@ -200,7 +211,11 @@ class PCA2P( GenericForm ):
 	color = VChoiceField( label="Color" )
 	shape = VChoiceField( label="Shape" )
 	labels = VChoiceField( label="Labels" )
+	dsizes = forms.ChoiceField( label = "Size of points for samples", choices = [ ( v, v ) for v in [ "equal", "linear", "-(1/2)", "-(1/4)" ] ] )
+	spsizes = forms.ChoiceField( label = "Size of points for species", choices = [ ( v, v ) for v in [ "equal", "linear", "-(1/2)", "-(1/4)" ] ] )
 	pc1 = forms.ChoiceField( label = "PC1", choices = [ ( str( v ), str( v ) ) for v in range( 1, 5 ) ] )
 	pc2 = forms.ChoiceField( label = "PC2", choices = [ ( str( v ), str( v ) ) for v in range( 2, 6 ) ] )
+	axis = forms.ChoiceField( label = "Axis to scale", choices = [ ( str( v ), str( v ) ) for v in [ "default", "1" ] ] )
+	
 
 						 

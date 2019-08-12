@@ -34,4 +34,4 @@ if os.path.isfile( sfname ):
 	for j in range( 0, len( sfdata ) ):
 		if len( sfdata[j] ) == 3:
 			reslist[ sfdata[j][0] ] = [ sfdata[j][ 1 ], sfdata[j][2].replace( ";", "\n" ) ]
-print json.dumps( reslist )
+print(json.dumps( reslist ))

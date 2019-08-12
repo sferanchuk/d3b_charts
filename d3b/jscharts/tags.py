@@ -23,7 +23,7 @@ if len( tagdata ) > 0:
 	volumes = newtags[ 'name' ]
 	with open( "emap_tags.txt", "w" ) as f:
 		f.write( "name\t" )
-		tkeys = newtags.keys()
+		tkeys = list(newtags.keys())
 		for tag in tkeys:
 			if tag != "name" and tag != "none":
 				f.write( tag + "\t" )
@@ -37,4 +37,4 @@ if len( tagdata ) > 0:
 
 ( data, volumes, mn, ml ) = d3bf.loaddata( "emap.txt" )
 ( tags, tkeys ) = d3bf.loadtags( "emap_tags.txt", volumes )
-print json.dumps( tags )
+print(json.dumps( tags ))

@@ -49,7 +49,7 @@ aedata /= aenorm.reshape( len(edata), 1 )
 rev = 0
 cdata = d3bf.calc_distances( edata, aedata, dmethod, kdata, knorder, rev )
 
-print """
+print("""
 <style>
 .axis line, .axis path {
     shape-rendering: crispEdges;
@@ -77,22 +77,22 @@ print """
     fill: none;
 }
 </style>
-"""
+""")
 if resolution == "high":
-	print "<svg width=\"2400\" height=\"%d\" id=\"normal\"></svg>" % ( len( kdict ) * 40 )
+	print("<svg width=\"2400\" height=\"%d\" id=\"normal\"></svg>" % ( len( kdict ) * 40 ))
 else:
-	print "<svg width=\"1200\" height=\"%d\" id=\"normal\"></svg>" % ( len( kdict ) * 20 )
-print "<script>"
-print "var tmethod = \"" + tmethod + "\";"
-print "var lmethod = \"" + lmethod + "\";"
-print "var jobname = \"" + jobname + "\";"
-print "var dist = ["
+	print("<svg width=\"1200\" height=\"%d\" id=\"normal\"></svg>" % ( len( kdict ) * 20 ))
+print("<script>")
+print("var tmethod = \"" + tmethod + "\";")
+print("var lmethod = \"" + lmethod + "\";")
+#print "var jobname = \"" + jobname + "\";"
+print("var dist = [")
 for i in range( len( cdata ) ):
 	ch = "," if i + 1 < len( cdata ) else "];"
-	print json.dumps( cdata[i] ) + ch
-print "var datal =  %s;" % json.dumps( mtags[ labels ] )
+	print(json.dumps( cdata[i] ) + ch)
+print("var datal =  %s;" % json.dumps( mtags[ labels ] ))
 
-print """
+print("""
 
 console.log( datal.length )
 
@@ -207,6 +207,18 @@ console.log( datal.length )
         return clusters;
     };
 
+	/*
+	function export_newick( clusters )
+	{
+		if ( clusters[ "children" ] )
+		{
+			var s1 = export_newick( clusters[ "children" ][0] );
+			var s2 = export_newick( clusters[ "children" ][1] );
+			return "(" + s1 + "," + s2 + ")" ;
+		}
+		else return clusters[ "name" ];
+	}
+	*/
 
    var margin = {top: 20, right: 15, bottom: 100, left: 100}
       , width = 1200 - margin.left - margin.right
@@ -278,6 +290,7 @@ var link = svg.selectAll(".link")
       .attr("text-anchor", function(d) { return d.children ? "end" : "start"; })
       .style("font", fs + "px sans-serif" )
       .text(function(d) { return d.label; });
+   
 
 d3.select("#gpng")
 		.on("click", writeDownloadPng);
@@ -315,7 +328,15 @@ d3.select("#gnewick")
 		return subtree;
 	}
 
-	
+	function saveAs( ofile, filename ) 
+	{
+		downloadLink = document.createElement("a");
+		downloadLink.download = filename;
+		downloadLink.href = window.URL.createObjectURL( ofile);
+		downloadLink.style.display = "none";
+		document.body.appendChild(downloadLink);
+		downloadLink.click();
+	}
 	function writeDownloadPng(){
 		var element = document.getElementById('svg1');
 		element.style.background="white";
@@ -334,4 +355,4 @@ d3.select("#gnewick")
 
 
 </script>
-"""
+""")

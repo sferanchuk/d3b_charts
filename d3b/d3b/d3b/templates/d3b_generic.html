@@ -39,11 +39,20 @@
    
 </head>
 
+
 <body>
 <div class="siteheader">
-<a href="http://secure.bri-shur.com:8000/">D3b charts</a>
+<span id="sitelocation"></span>
 <br>
 </div>
+<script>
+var sitename = document.getElementById( "sitelocation" );
+//var location = window.location;
+var port = ( window.location.port.length > 0 ) ? ":" + window.location.port : "";
+var siteurl = window.location.protocol + "//" + window.location.hostname + port
+sitename.innerHTML = "<a href=\"" + siteurl + "\">" + "D3b charts" + "</a>";
+</script>
+
 <div style="font-size:140%; padding:5px; color: #473827;">
 {% block bodytitle %}{% endblock %} 
 </div>

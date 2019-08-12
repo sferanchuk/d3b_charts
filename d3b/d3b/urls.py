@@ -13,12 +13,14 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url, include
+from django.conf.urls import url
 from django.contrib import admin
-#from django.urls import include, path
+#import sys
+#sys.path.insert(0, './d3b')
+import views
 
-from d3b import views
 urlpatterns = [
+	
 	url( r'^$', views.new, name='new' ),
 	url( r'^summary/(?P<job>[0-9a-f]+)/$', views.summary, name='summary' ),
 	url( r'^tags/(?P<job>[0-9a-f]+)/$', views.tags, name='tags' ),
@@ -34,5 +36,7 @@ urlpatterns = [
 	url( r'^venn/(?P<job>[0-9a-f]+)/$', views.venn, name='venn' ),
 	url( r'^ternary/(?P<job>[0-9a-f]+)/$', views.ternary, name='ternary' ),
 	url( r'^whittaker/(?P<job>[0-9a-f]+)/$', views.whittaker, name='whittaker' ),
+	url( r'^volcano/(?P<job>[0-9a-f]+)/$', views.volcano, name='volcano' ),
 	url( r'^pca_sp/(?P<job>[0-9a-f]+)/$', views.pca_sp, name='pca_sp' ),
 ]
+

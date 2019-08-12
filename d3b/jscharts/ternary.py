@@ -42,7 +42,7 @@ aenorm = np.sum( aedata, axis=1 )
 aedata /= aenorm.reshape( len(edata), 1 )
 
 if len( samples ) != 3:
-	print "Exactly 3 samples should be selected"
+	print("Exactly 3 samples should be selected")
 	sys.exit( 1 )
 s = [ [], [], [] ]
 s[0] = aedata[ gtags[ samples[0] ] ]
@@ -69,18 +69,18 @@ for k in range( len( ssum ) ):
 d3bf.print_popupstyle()
 	
 if resolution == "high":
-	print "<svg width=\"2400\" height=\"2400\" id=\"normal\"></svg>"
+	print("<svg width=\"2400\" height=\"2400\" id=\"normal\"></svg>")
 else:
-	print "<div id=\"tt\" class=\"tooltip\" style=\"opacity:0;\"></div><svg width=\"960\" height=\"960\" id=\"normal\"></svg>"
-print "<script>"
-print "var data1 =  %s;" % json.dumps( sval[0] )
-print "var data2 =  %s;" % json.dumps( sval[1] )
-print "var data3 =  %s;" % json.dumps( sval[2] )
-print "var alabels = %s;" % json.dumps( snames ) 
-print "var agroups = %s;" % json.dumps( [ gn if len( gn ) > 0 else "Unassigned" for gn in sgnames ] ) 
-print "var tlabels = %s;" % json.dumps( samples ) 
+	print("<div id=\"tt\" class=\"tooltip\" style=\"opacity:0;\"></div><svg width=\"960\" height=\"960\" id=\"normal\"></svg>")
+print("<script>")
+print("var data1 =  %s;" % json.dumps( sval[0] ))
+print("var data2 =  %s;" % json.dumps( sval[1] ))
+print("var data3 =  %s;" % json.dumps( sval[2] ))
+print("var alabels = %s;" % json.dumps( snames )) 
+print("var agroups = %s;" % json.dumps( [ gn if len( gn ) > 0 else "Unassigned" for gn in sgnames ] )) 
+print("var tlabels = %s;" % json.dumps( samples )) 
 
-print """
+print("""
 	
 	
 (function() {
@@ -274,4 +274,4 @@ var fs = width / 110.;
 
  	
  </script>
-"""	
+""")	

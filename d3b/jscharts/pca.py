@@ -38,6 +38,7 @@ fmethod = form.getvalue( "fmethod", "PCA" )
 color = form.getvalue( "color", "none" )
 shape = form.getvalue( "shape", "none" )
 labels = form.getvalue( "labels", "none" )
+dsizes = form.getvalue( "dsizes", "equal" )
 resolution = form.getvalue( "resolution", "low" )
 
 ilevel = int( level ) 
@@ -51,6 +52,18 @@ ilevel = int( level )
 aedata = np.array( edata, dtype=float )
 aenorm = np.sum( aedata, axis=1 )
 aedata /= aenorm.reshape( len(edata), 1 )
+
+if dsizes == "equal":
+	sizes_data = [ 1. ] * len( aenorm )
+else:
+	mean_norm = np.mean( aenorm )
+	tsdata = ( aenorm / mean_norm )
+	if dsizes == "linear":
+		sizes_data = tsdata.tolist()
+	elif dsizes == "-(1/2)":
+		sizes_data = [ -math.sqrt( v ) for v in tsdata ]
+	elif dsizes == "-(1/4)":
+		sizes_data = [ -math.sqrt( math.sqrt( v ) ) for v in tsdata ]
 
 rev = 0
 if fmethod == "PCA (sklearn)": #or fmethod == "MDS (sklearn)":
@@ -85,7 +98,7 @@ elif fmethod == "CA (skbio)":
 	alabels = [ "%5.3f" % ordres.eigvals[ "CA1" ], "%5.3f" % ordres.eigvals[ "CA2" ] ]
 	lcoords = [ ordres.samples[ "CA1" ].tolist(), ordres.samples[ "CA2" ].tolist() ]
 	
-print """
+print("""
 <style>
 .axis line, .axis path {
     shape-rendering: crispEdges;
@@ -110,35 +123,38 @@ div.tooltip {
     pointer-events: none;			
 }
 </style>
-"""
+""")
 
 
 
 		
 if resolution == "high":
-	print "<svg width=\"2400\" height=\"2400\" id=\"normal\"></svg>"
+	print("<svg width=\"2400\" height=\"2400\" id=\"normal\"></svg>")
 else:
-	print "<svg width=\"960\" height=\"960\" id=\"normal\"></svg>"
-print "<script>"
-print "var datax =  %s;" % json.dumps( lcoords[0] )
-print "var datay =  %s;" % json.dumps( lcoords[1] )
-print "var datac =  %s;" % json.dumps( mtags[ color ] )
-print "var datal =  %s;" % json.dumps( mtags[ labels ] )
-print "var datas =  %s;" % json.dumps( mtags[ shape ] )
-print "var atitle = '%s';" % ( "dim" if fmethod == "MDS" else "PC" )
-print "var alabels = %s;" % json.dumps( alabels ) 
-
-print """
-    var pdata = [];
-    var i;
-    for ( i = 0; i < datax.length; i++ )
-    {
-		pdata.push( [ datax[i], datay[i], datac[i], datal[i], datas[i] ] );
-	}
-"""
+	print("<svg width=\"960\" height=\"960\" id=\"normal\"></svg>")
+print("<script>")
+print("var datax =  %s;" % json.dumps( lcoords[0] ))
+print("var datay =  %s;" % json.dumps( lcoords[1] ))
+print("var datac =  %s;" % json.dumps( mtags[ color ] ))
+print("var datal =  %s;" % json.dumps( mtags[ labels ] ))
+print("var datas =  %s;" % json.dumps( mtags[ shape ] ))
+print("var sizes_data =  %s;" % json.dumps( sizes_data )) 
+print("var atitle = '%s';" % ( "dim" if fmethod == "MDS" else "PC" ))
+print("var alabels = %s;" % json.dumps( alabels )) 
 
 d3bf.print_drawscatter()
 
-print "drawscatter( \"#normal\", pdata );"
-print "</script>"	
+print("""
+var pdata = [];
+var i;
+for ( i = 0; i < datax.length; i++ )
+{
+	pdata.push( [ datax[i], datay[i], datac[i], datal[i], datas[i], sizes_data[i] ] );
+}
+
+var svg = d3.select( \"#normal\" ).attr('background-color', 'white' );
+drawscatter( svg, pdata, "samples" );
+</script>
+""")
+
  

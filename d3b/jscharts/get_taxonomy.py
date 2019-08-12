@@ -81,24 +81,24 @@ def printtax( d, parent ):
 		nn = d[ nname ]
 	ncnt = 0
 	nlen = len( d ) - 1 if ( parent != "root" and parent != "null" ) else len( d )
-	for k, v in d.iteritems():
+	for k, v in d.items():
 		if isinstance( v, dict ):
 			kn = k if len( k ) > 0 else "n/a"
 			if not "leaf" in v:
-				print "{ name: \"" + v[ nname ] + "\", title: \"" + kn + "\", parent :\"" + parent + "\", children: [ "
+				print("{ name: \"" + v[ nname ] + "\", title: \"" + kn + "\", parent :\"" + parent + "\", children: [ ")
 				printtax( v, v[ nname ] )
-				print "] }"
+				print("] }")
 			else:
-				print "{ name: \"" + v[ nname ] + "\", title: \"" + v[ "leaf" ][ "title" ] + "\", parent :\"" + parent + "\" }"
+				print("{ name: \"" + v[ nname ] + "\", title: \"" + v[ "leaf" ][ "title" ] + "\", parent :\"" + parent + "\" }")
 			if ncnt + 1 < nlen:
-				print ","
+				print(",")
 			ncnt = ncnt + 1
 
 if len( treedict ) > 1:
-	print "[ { name: \"root\", title: \"\", parent: \"null\", children: [ "
+	print("[ { name: \"root\", title: \"\", parent: \"null\", children: [ ")
 	printtax( treedict, "root" )
-	print " ] } ]"
+	print(" ] } ]")
 else:
-	print "[ "
+	print("[ ")
 	printtax( treedict, "null" )
-	print " ]"
+	print(" ]")

@@ -54,27 +54,27 @@ if True:
 		knorder = nknorder
 
 	if dorder == "taxonomy":
-		korder = map( itemgetter(1), sorted( kdict.items() ) )
+		korder = list(map( itemgetter(1), sorted( kdict.items() ) ))
 	elif dorder in gtags:
-		korder = sorted(range(len(kdict)), key=lambda k: aedata[ gtags[ dorder ] ][k], reverse=True )
+		korder = sorted(list(range(len(kdict))), key=lambda k: aedata[ gtags[ dorder ] ][k], reverse=True )
 	else:
-		korder = range( len( kdict ) )
+		korder = list(range( len( kdict )))
 		
-	print "<table id=\"restable\" class=\"indextable\"><tr>"
+	print("<table id=\"restable\" class=\"indextable\"><tr>")
 	for si in range( ilevel ):
-		print "<td class=\"columnheader\">" + str( si + 1 )
-	for cgtag in d3bf.sorted_alnum( gtags.keys() ):
-		print "<td class=\"columnheader\">" + cgtag
+		print("<td class=\"columnheader\">" + str( si + 1 ))
+	for cgtag in d3bf.sorted_alnum( list(gtags.keys()) ):
+		print("<td class=\"columnheader\">" + cgtag)
 		
 	for ind in korder:
 		ckey = knorder[ ind ]
-		print "<tr>"
+		print("<tr>")
 		for si in range( ilevel ):
-			print "<td class=\"speciesrow\">" + kdata[ ckey ][ si ]
-		for cgtag in d3bf.sorted_alnum( gtags.keys() ):
+			print("<td class=\"speciesrow\">" + kdata[ ckey ][ si ])
+		for cgtag in d3bf.sorted_alnum( list(gtags.keys()) ):
 			if dnorm == "percent":
-				print "<td>" + "%.1f" % ( 100. * aedata[ gtags[ cgtag ] ][ ind ] )
+				print("<td>" + "%.1f" % ( 100. * aedata[ gtags[ cgtag ] ][ ind ] ))
 			else:
-				print "<td>" + str( edata[ gtags[ cgtag ] ][ kdict[ ckey ] ] )
-	print "</table>"
+				print("<td>" + str( edata[ gtags[ cgtag ] ][ kdict[ ckey ] ] ))
+	print("</table>")
 

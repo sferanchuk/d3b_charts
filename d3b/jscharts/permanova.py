@@ -40,9 +40,9 @@ maxlevel = ml
 
 dmeasures = [ "Pearson", "Kendall", "Spearman", "Euclidean", "Bray-Curtis", "Jaccard", "Morisita-Horn", "Unifrac-unweighted", "Unifrac-weighted" ]
 
-print "<table class=\"indextable\"><tr><td class=\"columnheader\"><b>Level</b>"
+print("<table class=\"indextable\"><tr><td class=\"columnheader\"><b>Level</b>")
 for k in range( len( dmeasures ) ):
-	print "<td class=\"columnheader\">" + dmeasures[k]
+	print("<td class=\"columnheader\">" + dmeasures[k])
 
 
 #for rilevel in range( maxlevel + 1 ):
@@ -56,9 +56,9 @@ if True:
 	aenorm = np.sum( aedata, axis=1 )
 	aedata /= aenorm.reshape( len(edata), 1 )
 	
-	print "<tr><td class=\"rowheader\">" + str( ilevel )
+	print("<tr><td class=\"rowheader\">" + str( ilevel ))
 	for k in range( len( dmeasures ) ):
-		print "<td>"
+		print("<td>")
 		cdata = d3bf.calc_distances( edata, aedata, dmeasures[k], kdata, knorder, 0 )
 		#M = pd.DataFrame( np.array( cdata ), site_ids, site_ids )
 		dm = DistanceMatrix( cdata, site_ids )
@@ -68,11 +68,11 @@ if True:
 			dmres = skbiostats.distance.anosim( dm, mtags[ dgroup ], permutations = int( npermutations ) )
 		pv = dmres.get( "p-value" ) 
 		if cunits == "probability":
-			print pv
+			print(pv)
 		if cunits == "log-probability":
-			print "%6.2f" % -math.log( float( pv ) )
+			print("%6.2f" % -math.log( float( pv ) ))
 		
 			 
 			
-print "</table>"
+print("</table>")
 

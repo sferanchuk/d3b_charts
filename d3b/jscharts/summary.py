@@ -18,11 +18,11 @@ form = cgi.FieldStorage()
 d3bf.chdir( form.getvalue( "datapath" ) )
 
 if os.path.isfile( "summary.txt" ):
-    with open( "summary.txt" ) as f:
-	print f.read()
-	sys.exit( 0 )
+	with open( "summary.txt" ) as f:
+		print( f.read() )
+		sys.exit( 0 )
 
-print >>sys.stderr, form.getvalue( "datapath" )
+print(form.getvalue( "datapath" ), file=sys.stderr)
 
 with open( "name" ) as f:
     name=f.read()
@@ -46,9 +46,9 @@ resolution = form.getvalue( "resolution", "low" )
 ( findex, gtags ) = d3bf.processtags( volumes, tags, dfilter, dgroup )
 ( kdict, kdnames, kgnames, knorder, kdata ) = d3bf.loadtaxonomy( data, ml, spfilter, 1 )
 taxtype = "none"
-if ml == 7 and "Bacteria" in kdnames.values():
+if ml == 7 and "Bacteria" in list(kdnames.values()):
     taxtype = "qiime"
-rv = json.dumps( { "name": name, "maxlevel": ml + 1, "taxtype": taxtype, "numvolumes": len( volumes ), "volumes": volumes } )
+rv = json.dumps( { "name": name, "maxlevel": ml + 1, "taxtype": taxtype, "numvolumes": len( volumes ), "numrecords": len( data ) - 1, "volumes": volumes } )
 with open( "summary.txt", "w" ) as f:
     f.write( rv )
-print rv
+print( rv )
