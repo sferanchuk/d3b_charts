@@ -9,11 +9,8 @@ import json
 import urllib.request, urllib.parse, urllib.error
 import re
 
-# Create your views here.
 jvenn_site = "http://jvenn.toulouse.inra.fr/app/"
 jvenn_css = ""
-#"\n".join( [ "<link href=\"" + jvenn_site + "css/" + css + ".css\" rel=\"stylesheet\">" for css in [ "bootstrap",  "bootstrap-responsive", "bootstrap-colorpicker.min" ] ] )
-#jvenn_css = "\n".join( [ "<link href=\"" + jvenn_site + "css/" + css + ".css\" rel=\"stylesheet\">" for css in [ "bootstrap", "prettify", "bootstrap-responsive", "bootstrap-colorpicker.min" ] ] )
 jvenn_js = "\n".join( [	"<script type=\"text/javascript\" src=\"" + jvenn_site + "js/" + js + ".js\"></script>" for js in [ "jquery.min", "bootstrap.min", "bootstrap-colorpicker.min", "canvas2svg", "jvenn.min" ] ] )
 
 def handle_uploaded_file(f):
@@ -30,7 +27,7 @@ def new(request):
 	else:
 		form = dforms.UploadFile()
 	template = loader.get_template('new.html')
-	context = { 'header': "Submit new matrix", 'form' : form, 'title' : 'submit'  }
+	context = { 'header': "Starting page", 'form' : form, 'title' : 'submit'  }
 	return HttpResponse( template.render( context, request )  )
 
 def format_params( form ):
@@ -177,6 +174,9 @@ def volcano(request,job):
 def pca_sp(request,job):
 	return generic_view( request, job, "pca_sp", dforms.PCA2P, jscripts = [ "d3.v3.min.js" ], servicename = "two-panel PCA"  )
 
+def network(request,job):
+	return generic_view( request, job, "network", dforms.Network, jscripts = [ "d3.v3.min.js" ], servicename = "network of species"  )
+	
 if False:
 	jobtitle = job_name( job )
 	result = ""

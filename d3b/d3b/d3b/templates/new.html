@@ -25,6 +25,10 @@ function setuploadname( evt )
 
 
 </script>
+<br><br>
+<div class="sectionheader">
+Submit new matrix 
+</div>
 
 <form action="/" method="post" enctype="multipart/form-data">
     {% csrf_token %} 
@@ -35,8 +39,78 @@ function setuploadname( evt )
 document.getElementById('id_file').addEventListener('change', setuploadname, false);
 </script>
 
-<p>
-links to test datasets: [ <a href="summary/00000001">osteomyelitis (QIIME)</a> ] [ <a href="summary/00000000">arthritis_euk (custom)</a> ]
+<br><br>
+<div class="sectionheader">
+Links to sample datasets 
+</div>
+<a href="summary/00000001">osteomyelitis</a> [QIIME1]
+<br>
+<a href="summary/00000000">arthritis_euk</a> [custom]
+
+<br><br>
+<div class="sectionheader">
+Description 
+</div>
+<script>
+function expand_description()
+{
+ document.getElementById( "description" ).style.display = "block";
+}
+</script>
+[<span onclick="expand_description()" style="cursor:pointer"><i><b>click to expand</b></i>]
+<div id="description" style="display:none">
+<p>The online services availavle in the site are developed for the extensive analysis of tables with estimates of bacteria abundance levels in environmental samples.Most the microbial ecology-specific functionality is implemented by the scikit-bio Python package, together with the other Python packages intended for big data analysis. The interactive visualisation tools are implemented by the D3.js software library, therefore, the software project is named D3b. The source codes are available at github as an installable package (sferanchuk/d3b_charts)</p>
+<h2>Installation</h2>
+<p>An installation process may require skills of system administrator, in a case of incompatibilities in the python3 environment and the software dependencies.</p>
+<p>Suggested installation via conda:</p>
+
+<p>- Create virtual environment:
+<br><span class="monospace">conda create -n d3b python=3.6 anaconda</span>
+<br><span class="monospace">source activate d3b</span>
+<p>- Run setup.py</p>
+<p>- Download phantomjs package, extract the executable file from the archive and move it to 'phantomjs' subdirectory. Suggested URLs to obtain phantomjs:
+<a href="https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-windows.zip" rel="nofollow">Windows</a>;
+<a href="https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2" rel="nofollow">Linux x86_64</a>;
+<a href="https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-i686.tar.bz2" rel="nofollow">Linux i686</a>;
+<a href="https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-macosx.zip" rel="nofollow">"Apple"</a>.
+
+<br>This step is optional; phantomjs is used to render graphics on a server side and is required to export PNG and SVG images. Other packages external to python environment, like d3.js, are already included into the distribution.</p>
+<p>- Run django server (runserver.sh) in console. Point the browser to URL '<a href="http://localhost:8000" rel="nofollow">http://localhost:8000</a>'. Modify ALLOWED_HOSTS variable in d3b/settings.py to resolve the problems with a remote access to pages.</p>
+<h2>Getting started</h2>
+<p>Use two sample datasets included into the distribution to explore the abilities of d3b system. The links to the sample datasets are provoded in the start page. On each link, the menu provides the tools to analyse a dataset in various representations.</p>
+<p>For each tool, the result becomes available in the browser after pressing 'Submit' button. The input parameters should be specified before submitting the task. For the sample datasets, the default settings may be often used on first steps to become familiar with the design and conventions of the d3b system.</p>
+<p>By an intention, a dataset is composed from abundances of annotated OTUs in microbial comminities. The two sample datasets are estimates by 454 amplicon sequencing followed by QIIME1 pipeline, and by a whole metagenome seqiencing followed by a custom pipeline.</p>
+<p>Anyway, all the datasets are represented as matrices of abundance counts. To allow the specification of traits and taxonomic groups, the descriptors for rows and columns of the matrix could be modified and saved. The tools which allow to specify both kinds of descriptors (Subsets of samples / Taxonomic groups) also available in the sidebar menu for any dataset.</p>
+<h2>Usage</h2>
+<p>To apply the tools from d3b system to a custom data, a dataset in a form of a matrix should be loaded to the server side of the system. After that, a permanent link to the processed dataset becomes available. It should be kept and could be accessed at any time when a whole system is up-running.</p>
+<p>The two formats of input matrix are accepted. First is tab-delimited format (TSV) and second is BIOM format. In both formats, abundance counts for OTU are combined with taxonomic annotation of the OTU and identifiers of samples.</p>
+<p>A tab-delimited file exported from spreadsheet using packages like MS Excel or LibreOfiice Calc is suitable for the system, if the conventions for a content of rows and columns are followed. And the processed dataset could be exported back to tab-delimited format, as it is provided in the tool 'matrix of abundances'.</p>
+<p>The output obtained from that tool applied to one of the sample datasets can provide an example of a correctly composed tab-delimited file. In that file, each line begins from a complete taxonomic annotation for the OTU, in a fixed number of cells, followed by absolute counts of abundances for this OTU in all of the samples. In the first line, cells wuth numbers from 1 to 2, 3, etc., used to specify fixed levels of hierarchy in taxonomic system, and they are followed by cells with identifiers of the samples.</p>
+<p>The data in BIOM format ("biological observation matrix") is also suitable for an import into d3b. This format is often used to keep the intermediate output results in software systems for microbiologists. But due to flexibility of BIOM format specification, the import from a paticilar BIOM-formatted file may fail or may give wrong results. In that case, the python script 'biom2emap.py' from the source codes of d3b system could be used as a template for a user-defined script, to convert any biom-formatted dataset to a correct tab-delimited file.</p>
+
+<h2>Overview of tools</h2>
+
+<p>The tabular presentations of the data include a table of abundances, just as it is loaded into the system, and with various options for sorting the rows, merging the columns, reducing the level of taxonomic hierarchy, and others. Namely, most of the input forms include the choice of level of taxonomic hierarchy, the possibility to restrict the analysis or data presentation to certain taxonomic groups, and the possibility to merge samples into pre-defined groups.<p>
+
+<p>The tabular presentations also include:
+
+<br>1) the values of alpha-diversity calculated using several of the most informative estimators, 
+<br>2) the significance of differences for alpha-diversity values between several groups, calculated following the methods described in [18],
+<br>3) the significance of differences between groups of samples calculated using the distances between samples, with several alternative measures of distance.
+
+</p>
+
+<p>The graphical presentations, implemented with the use of d3.js library, currenly include following charts:
+<br>1) A bubble chart and heatmap, to represent absolute/relative abundances. 
+<br>2) 2D scatter charts, to represent the results of several data ordination methods, such as principal component analysis (PCA) or multi-dimensional scaling (MDS). The choice of several measures is available here to calculate distances between the samples.
+<br>3) A dendrogram (tree) to represent the degree of proximity between samples.
+<br>4) A Venn diagram to represent the unique and shared taxonomic units for the samples, implemented with the use of the jVenn [22] plugin and venn.js library.
+<br>5) Two kind of diagrams to present distributions which describe a sample or a group of samples: a rank-abundance chart (Whittaker plot) to represent the distribution of relative species abundance, and a rarefaction curve to estimate the effect of insufficient coverage and sample size.
+<br>6) A ternary chart, to represent the relative abundances of bacterial phylotypes for the three samples or groups of samples. 
+<br>7) Volcano chart and mean-distance plot, to represent distribution of abundances and differentiation between traits. 
+<br>8) Two combined 2D charts, to represent the results of PCA decomposition applied directly to a non-square matrix of abundances. One chart is for the samples in the survey and the second adjacent chart is for bacterial species in the rows of the submitted matrix.
+</p>
+</div>
 {% endblock %}
 
 

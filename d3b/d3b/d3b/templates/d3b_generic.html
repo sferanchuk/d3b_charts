@@ -24,10 +24,16 @@
 	.taginputlabel { font-size: 120%; background-color: #ebdebe; border: 0px solid #898989; color: #38332f; font-weight: bold; }
 	.tagmodlabel { font-size: 100%; background-color: #ebdebe; border: 0px solid #898989; color: #a14120; font-weight: bold; }
 	.siteheader a { color: #085d91; font-size:160%; padding:5px;  }
+	.pageheader { font-size:140%; padding:5px; color: #473827; }
+	.sectionheader { font-size:140%; padding:0px; color: #473827; font-style:oblique; }
 	.datasetheader a { color: black; font-size:80%; padding:5px;  }
 	.servicedupl { font-size: 110%; color: #085d91; }
 	#id_samples { font-size: 80%; background-color: #d5dade; }
 	.description { font-size:90%; color:#8b5b37; }
+	.monospace { font-family: Courier; }
+	h1 { font-size: 100%; }
+	h2 { font-size: 100%; font-style:oblique; }
+
 	
 	</style>
    
@@ -53,7 +59,7 @@ var siteurl = window.location.protocol + "//" + window.location.hostname + port
 sitename.innerHTML = "<a href=\"" + siteurl + "\">" + "D3b charts" + "</a>";
 </script>
 
-<div style="font-size:140%; padding:5px; color: #473827;">
+<div class="pageheader">
 {% block bodytitle %}{% endblock %} 
 </div>
 <div style="padding:5px; color: #38332f;">

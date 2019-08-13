@@ -162,8 +162,10 @@ def loadtaxonomy( data, ml, spfilter, ilevel ):
 			kdict[ ckey ] = cm
 			kdnames[ ckey ] = ckname
 			kgnames[ ckey ] = cgname
+			dkey = "n/a"
 			for k in range( min( maxglevel, len( d ) ) - minglevel ):
-				dkey = d[ k + minglevel ]
+				if len( d[ k + minglevel ] ) > 0:
+					dkey = d[ k + minglevel ]
 				nkgnames[ k ][ ckey ] = dkey
 				if not dkey in ndgnames[k]:
 					ndgnames[k].append( dkey )
@@ -179,7 +181,7 @@ def loadtaxonomy( data, ml, spfilter, ilevel ):
 def select_toptax( edata, kdict, **kwargs ):
 	percent_best = kwargs.get( "percent_best", None ) 
 	num_best = kwargs.get( "num_best", None ) 
-	if ( num_best > None and num_best < len( edata[0] ) ) or percent_best != None:
+	if ( num_best != None and num_best < len( edata[0] ) ) or percent_best != None:
 		aedata = np.array( edata, dtype=float )
 		aenorm = np.sum( aedata, axis=1 ) #np.maximum( np.sum( aedata, axis=1 ), np.array( [ 1. / len( edata[0] ) ] * len( edata ) ) )
 		aedata /= aenorm.reshape( len(edata), 1 )
