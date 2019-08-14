@@ -1,5 +1,0 @@
-django<2
-numpy
-scipy
-scikit-learn
-scikit-bio<0.5

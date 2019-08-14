@@ -209,15 +209,3 @@ class PCA2P( GenericForm ):
 	pc2 = forms.ChoiceField( label = "PC2", choices = [ ( str( v ), str( v ) ) for v in range( 2, 6 ) ] )
 	axis = forms.ChoiceField( label = "Axis to scale", choices = [ ( str( v ), str( v ) ) for v in [ "default", "1" ] ] )
 	
-class Network( GenericForm ):
-	level = VChoiceField()
-	dfilter = VChoiceField( label="Samples filter" )
-	spfilter = VChoiceField( label="Taxonomy filter" )
-	numbest = forms.ChoiceField( label = "Number of best species / units", choices = [ ( "all", "all" ), ( "10", "10" ), ( "15", "15" ), ( "25", "25"), ( "50", "50" ), ( "100", "100" ) ] )
-	cmethod =  forms.ChoiceField( label = "Measure of correlation", choices = [ ( str( v ), str( v ) ) for v in [ "Pearson", "Spearman", "Kendall", "Binary" ] ] )
-	cthreshold = forms.ChoiceField( label = "Threshold of correlation", choices = [ ( v, v ) for v in [ "0.5", "0.7", "0.9" ] ] )
-	psizes = forms.ChoiceField( label = "Size of points", choices = [ ( v, v ) for v in [ "equal", "propotional" ] ] )
-
-	
-
-						 

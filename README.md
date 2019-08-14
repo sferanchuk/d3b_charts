@@ -23,7 +23,9 @@ conda create -n d3b python=3.6 anaconda
 
 source activate d3b
 
-2. run setup.py
+2. run setup:
+
+pip install .
 
 3. download phantomjs package, extract the executable file from the archive and move it to 'phantomjs' subdirectory. Suggested URLs to obtain phantomjs:
 
