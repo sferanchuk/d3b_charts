@@ -1,0 +1,10 @@
+name	disease	
+ostPr01	Pr	
+ostBR17	BR	
+ostBR18	BR	
+ostBR19	BR	
+ostPr21	Pr	
+ostBR14	BR	
+ostBR15	BR	
+ostPr22	Pr	
+ostPr10	Pr	

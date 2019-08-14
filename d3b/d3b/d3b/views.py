@@ -22,7 +22,7 @@ def new(request):
 	if request.method == 'POST':
 		form = dforms.UploadFile(request.POST, request.FILES)
 		if form.is_valid():
-			job = controls.submit_job( request.FILES, form.data[ 'name' ], form.data[ 'transform' ] )
+			job = controls.submit_job( request.FILES, form.data[ 'name' ] )
 			return HttpResponseRedirect( '/summary/' + job )
 	else:
 		form = dforms.UploadFile()
@@ -174,3 +174,17 @@ def volcano(request,job):
 def pca_sp(request,job):
 	return generic_view( request, job, "pca_sp", dforms.PCA2P, jscripts = [ "d3.v3.min.js" ], servicename = "two-panel PCA"  )
 
+def network(request,job):
+	return generic_view( request, job, "network", dforms.Network, jscripts = [ "d3.v3.min.js" ], servicename = "network of species"  )
+	
+if False:
+	jobtitle = job_name( job )
+	result = ""
+	if request.method == 'POST':
+		form = dforms.BubbleChart(request.POST, request.FILES)
+		result = run_script( form, job, "bubble"  )
+	else:
+		form = dforms.BubbleChart()
+	template = loader.get_template('bubbles.html')
+	context = { 'job': job, 'title' : jobtitle, 'service' :  'bubbles', 'servicename' : 'Bubble chart', 'result' : result, 'form' : form  }
+#	return HttpResponse( template.render( context, request ) )

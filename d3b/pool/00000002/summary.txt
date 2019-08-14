@@ -1,0 +1,1 @@
+{"name": "aqr_emap", "maxlevel": 8, "taxtype": "qiime", "numvolumes": 9, "numrecords": 4083, "volumes": ["anser6", "anser4", "anser1", "anser3", "anser8", "anser5", "anser9", "anser7", "anser2"]}

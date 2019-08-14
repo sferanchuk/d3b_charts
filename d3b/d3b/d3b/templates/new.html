@@ -43,10 +43,13 @@ document.getElementById('id_file').addEventListener('change', setuploadname, fal
 <div class="sectionheader">
 Links to sample datasets 
 </div>
-<a href="summary/00000001">osteomyelitis</a> [QIIME1]
-<br>
-<a href="summary/00000000">arthritis_euk</a> [custom]
-
+<table>
+<tr><td><a href="summary/00000001">marine sponges</a><td class="sampledescription"> [Roche 454, 15 samples, original study: <a href="http://dx.doi.org/10.1007/s12526-017-0697-0">doi:10.1007/s12526-017-0697-0</a>, QIIME1 open reference pipeline: <a href="http://dx.doi.org/10.1016/j.resmic.2018.03.004">doi:10.1016/j.resmic.2018.03.004</a>]
+<tr><td><a href="summary/00000002">goose gut microbiome</a><td class="sampledescription"> [Illumina MiSeq, 9 samples, original study: <a href="https://doi.org/10.1016/j.micres.2015.10.003">doi:10.1016/j.micres.2015.10.003</a>, QIIME1 open reference pipeline: <a href="http://dx.doi.org/10.1016/j.resmic.2018.03.004">doi:10.1016/j.resmic.2018.03.004</a> ]
+<tr><td><a href="summary/00000003">osteomyelitis in jaw bones</a><td class="sampledescription"> [Roche 454, 9 samples, oroginal study: <a href="https://doi.org/10.1111/1469-0691.12400">doi:10.1111/1469-0691.12400</a>, QIIME1 open reference pipeline: <a href="http://dx.doi.org/10.1016/j.resmic.2018.03.004">doi:10.1016/j.resmic.2018.03.004</a> ]
+<tr><td><a href="summary/00000004">sponges in Baikal lake</a><td class="sampledescription"> [Roche 454, 23 samples, oroginal study: <a href="https://doi.org/10.1007/s00248-017-1097-5">doi:10.1007/s00248-017-1097-5</a>, QIIME1 closed reference pipeline: <a href="http://bri-shur.com/downloads/feranchuk-limnolfwbiol-fractalmodels.pdf">pdf</a>, doi:10.31951/2658-3518-2018-A-2-122 ]
+<tr><td><a href="summary/00000005">counts of marine molluscs</a><td class="sampledescription"> [original data: <a href="http://www.iobis.org/">OBIS site</a>, custom pipeline: <a href="http://dx.doi.org/10.1016/j.resmic.2018.03.004">doi:10.1016/j.resmic.2018.03.004</a> ]
+</table>
 <br><br>
 <div class="sectionheader">
 Description 
@@ -59,7 +62,7 @@ function expand_description()
 </script>
 [<span onclick="expand_description()" style="cursor:pointer"><i><b>click to expand</b></i>]
 <div id="description" style="display:none">
-<p>The online services availavle in the site are developed for the extensive analysis of tables with estimates of bacteria abundance levels in environmental samples.Most the microbial ecology-specific functionality is implemented by the scikit-bio Python package, together with the other Python packages intended for big data analysis. The interactive visualisation tools are implemented by the D3.js software library, therefore, the software project is named D3b. The source codes are available at github as an installable package (sferanchuk/d3b_charts)</p>
+<p>The online services availavle in the site are developed for the extensive analysis of tables with estimates of bacteria abundance levels in environmental samples.Most the microbial ecology-specific functionality is implemented by the scikit-bio Python package, together with the other Python packages intended for big data analysis. The interactive visualisation tools are implemented by the D3.js software library, therefore, the software project is named D3b. The source codes are available at github as an installable package.</p>
 <h2>Installation</h2>
 <p>An installation process may require skills of system administrator, in a case of incompatibilities in the python3 environment and the software dependencies.</p>
 <p>Suggested installation via conda:</p>
@@ -67,8 +70,12 @@ function expand_description()
 <p>- Create virtual environment:
 <br><span class="monospace">conda create -n d3b python=3.6 anaconda</span>
 <br><span class="monospace">source activate d3b</span>
-<p>- Run setup:
-<br><span class="monospace">conda create -n d3b python=3.6 anaconda</span></p>
+</p>
+<p>- Download the package and run setup.py:
+<br><span class="monospace">git clone https://github.com/sferanchuk/d3b_charts.git</span>
+<br><span class="monospace">cd d3b_charts/d3b</span>
+<br><span class="monospace">pip install .</span>
+</p>
 <p>- Download phantomjs package, extract the executable file from the archive and move it to 'phantomjs' subdirectory. Suggested URLs to obtain phantomjs:
 <a href="https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-windows.zip" rel="nofollow">Windows</a>;
 <a href="https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2" rel="nofollow">Linux x86_64</a>;
@@ -78,9 +85,9 @@ function expand_description()
 <br>This step is optional; phantomjs is used to render graphics on a server side and is required to export PNG and SVG images. Other packages external to python environment, like d3.js, are already included into the distribution.</p>
 <p>- Run django server (runserver.sh) in console. Point the browser to URL '<a href="http://localhost:8000" rel="nofollow">http://localhost:8000</a>'. Modify ALLOWED_HOSTS variable in d3b/settings.py to resolve the problems with a remote access to pages.</p>
 <h2>Getting started</h2>
-<p>Use two sample datasets included into the distribution to explore the abilities of d3b system. The links to the sample datasets are provoded in the start page. On each link, the menu provides the tools to analyse a dataset in various representations.</p>
+<p>Use links to sample datasets on a start page to explore the abilities of d3b system. On each link, the menu provides the tools to analyse a dataset in various representations.</p>
 <p>For each tool, the result becomes available in the browser after pressing 'Submit' button. The input parameters should be specified before submitting the task. For the sample datasets, the default settings may be often used on first steps to become familiar with the design and conventions of the d3b system.</p>
-<p>By an intention, a dataset is composed from abundances of annotated OTUs in microbial comminities. The two sample datasets are estimates by 454 amplicon sequencing followed by QIIME1 pipeline, and by a whole metagenome seqiencing followed by a custom pipeline.</p>
+<p>By an intention, a dataset is composed from abundances of annotated OTUs in microbial comminities. Four of thw sample datasets are estimates amplicon sequencing followed by QIIME1 pipeline, and one dataset represent a selection from a custom ecological community.</p>
 <p>Anyway, all the datasets are represented as matrices of abundance counts. To allow the specification of traits and taxonomic groups, the descriptors for rows and columns of the matrix could be modified and saved. The tools which allow to specify both kinds of descriptors (Subsets of samples / Taxonomic groups) also available in the sidebar menu for any dataset.</p>
 <h2>Usage</h2>
 <p>To apply the tools from d3b system to a custom data, a dataset in a form of a matrix should be loaded to the server side of the system. After that, a permanent link to the processed dataset becomes available. It should be kept and could be accessed at any time when a whole system is up-running.</p>

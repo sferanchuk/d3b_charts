@@ -1,0 +1,24 @@
+name	hdis	h-d-r	geo	
+T2	diseased		t	
+T5	diseased		t	
+T7	diseased		t	
+L6	diseased		l	
+OV5	diseased	r	ov	
+L3	healthy		l	
+L1	healthy		l	
+L7	healthy		l	
+OV2	diseased		ov	
+OV7	diseased		ov	
+T3	diseased		t	
+OV8	diseased	d	ov	
+L5	diseased		l	
+L4	diseased		l	
+T1	healthy		t	
+T4	healthy		t	
+T6	healthy		t	
+OV4	healthy	h	ov	
+OV6	healthy		ov	
+OV1	healthy		ov	
+OV3	healthy		ov	
+L2	healthy		l	
+L8	healthy		l	

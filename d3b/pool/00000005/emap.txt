@@ -1,0 +1,18 @@
+1	2	3	y2005_0	y2005_1	y2006_0	y2006_1	y2007_0	y2007_1	y2008_0	y2008_1	y2009_0	y2009_1	y2010_0	y2010_1	
+Semelidae	Abra	Abra alba	461	14	674	14	911	35	678	18	998	4	745	8	
+Semelidae	Abra	Abra nitida	163	53	444	117	451	134	494	51	538	54	420	29	
+Semelidae	Abra	Abra prismatica	5	9	38	6	54	67	102	19	141	5	176	1	
+Semelidae	Abra	Abra tenuis	0	1	0	0	2	0	6	0	30	0	14	0	
+Semelidae	Ervilia	Ervilia concentrica	0	0	0	0	2	0	0	0	0	0	0	0	
+Semelidae	Scrobicularia	Scrobicularia plana	8	0	4	0	2	0	3	0	8	0	7	0	
+Semelidae	Semelina	Semelina nuculoides	0	0	0	0	0	0	0	0	0	0	0	0	
+Semelidae	Theora	Theora lubrica	0	0	0	0	0	0	0	0	0	0	0	0	
+Semelidae	Semele	Semele lamellosa	2	0	0	0	0	0	0	0	1	0	0	0	
+Semelidae	Abra	Abra aequalis	1	0	0	0	0	0	0	0	0	0	0	0	
+Semelidae	Abra	Abra renieri	4	0	0	0	0	0	0	0	1	0	0	0	
+Semelidae	Semele	Semele amabilis	0	1	0	0	0	0	0	0	0	0	0	0	
+Semelidae	Abra	Abra segmentum	1	0	0	0	1	0	0	0	1	1	0	0	
+Semelidae	Leptomya	Leptomya trigonalis	0	7	0	0	0	0	0	0	0	0	0	0	
+Semelidae	Abra	Abra longicallus	0	0	0	0	0	6	0	11	0	4	0	34	
+Semelidae	Leptomya	Leptomya gravida	0	0	0	0	0	0	1	0	0	0	0	0	
+Semelidae	Theora	Theora lata	0	0	0	0	0	3	0	0	0	0	0	0	

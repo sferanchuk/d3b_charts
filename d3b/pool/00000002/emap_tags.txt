@@ -1,0 +1,10 @@
+name	breeding	
+anser6	w	
+anser4	w	
+anser1	a	
+anser3	a	
+anser8	sa	
+anser5	w	
+anser9	sa	
+anser7	sa	
+anser2	a	

@@ -1,0 +1,1 @@
+{"name": "iobis_emap", "maxlevel": 3, "taxtype": "none", "numvolumes": 12, "numrecords": 17, "volumes": ["y2005_0", "y2005_1", "y2006_0", "y2006_1", "y2007_0", "y2007_1", "y2008_0", "y2008_1", "y2009_0", "y2009_1", "y2010_0", "y2010_1"]}

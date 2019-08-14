@@ -1,1 +1,1 @@
-{"name": "osteomyelitis", "maxlevel": 8, "taxtype": "qiime", "numvolumes": 9, "numrecords": 501, "volumes": ["ostPr01", "ostBR17", "ostBR18", "ostBR19", "ostPr21", "ostBR14", "ostBR15", "ostPr22", "ostPr10"]}
+{"name": "mqs_emap", "maxlevel": 8, "taxtype": "qiime", "numvolumes": 15, "numrecords": 822, "volumes": ["PapBSCn2Kr02", "PapBSCn1Kr02", "PapBSCn1Ms17", "PapBSCn3Ms17", "PapBSCn2Ms17", "PapBSCn3Kr02", "PapBSSc1Mer5", "PapBSAp1Mer1", "PapBSXt1Mer2", "PapBSAp1Mer2", "PapBSAp1Mer5", "PapBSXt2Mer1", "PapBSSc1Mer1", "PapBSSc1Mer2", "PapBSXt1Mer5"]}

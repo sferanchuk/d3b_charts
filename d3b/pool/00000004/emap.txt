@@ -1,0 +1,1481 @@
+1	2	3	4	5	6	7	8	T2	T5	T7	L6	OV5	L3	L1	L7	OV2	OV7	T3	OV8	L5	L4	T1	T4	T6	OV4	OV6	OV1	OV3	L2	L8	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			973124	2	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae			318609	0	0	4	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bdellovibrionaceae	Bdellovibrio		213370	1	0	0	0	1	3	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales				818633	1	1	6	0	0	0	0	0	1	8	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			561647	0	43	29	3	0	0	0	0	2	34	0	3	12	2	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				869513	1	2	1	0	2	1	0	0	0	0	2	2	1	0	0	2	5	1	1	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales				410905	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		1108960	11	0	0	33	0	2	10	0	6	1	1	1	6	26	36	1	2	0	0	19	4	1	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Hyphomonadaceae			544561	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Emticicia		4310715	0	2	4	0	0	0	2	0	0	5	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Flectobacillus		580222	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Nitrosomonadales	Nitrosomonadaceae			3950303	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	stygium	580916	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bacteriovoracaceae			554390	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales				251255	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae			610433	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		266040	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		141302	0	0	0	0	0	0	0	0	0	0	1	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			551438	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Rhodoplanes		555387	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Verrucomicrobia	[Pedosphaerae]	[Pedosphaerales]	R4-41B			4343749	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Ralstonia		287547	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	succinicans	1138568	0	0	1	0	4	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella		838066	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		807329	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			578572	2	3	24	5	9	0	0	1	3	31	2	6	1	6	0	4	9	2	4	1	1	0	0	
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Leuconostocaceae	Leuconostoc		766563	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			105395	0	0	0	0	0	1	0	0	1	0	2	0	0	0	3	5	8	4	9	2	2	2	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae	Pseudanabaena		16700	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales				277867	0	0	4	0	0	0	0	0	0	0	1	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae			514449	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		548887	1	1	7	0	15	0	0	1	2	2	4	1	6	1	0	1	14	0	0	0	0	0	2	
+Bacteria	Cyanobacteria	Chloroplast	Chlorophyta				2743763	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	1	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				309271	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium		573135	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			114076	0	0	0	0	0	0	0	0	0	7	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae			371510	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	mitochondria			1646259	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Prosthecobacter		4471434	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Polaromonas		4411183	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales				1048850	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Polaromonas		448038	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales				632342	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		2792167	1	0	0	0	0	2	0	5	0	0	2	0	0	0	0	1	6	3	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			670656	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	8	0	4	0	1	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		251173	0	1	3	0	3	0	0	0	0	2	0	0	1	1	0	0	0	0	1	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			697222	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae	Leptolyngbya		255101	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				754800	0	0	1	0	0	0	3	0	4	0	0	0	0	0	1	0	1	1	4	0	2	0	0	
+Bacteria	Actinobacteria	Thermoleophilia	Solirubrobacterales				285591	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				326232	0	1	5	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Streptophyta				432284	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		719681	1	1	4	0	0	0	0	0	0	4	1	3	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Verrucomicrobia	Opitutae	[Cerasicoccales]	[Cerasicoccaceae]			4423752	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae	Pseudanabaena		226126	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Crenotrichaceae	Crenothrix		236725	1	0	0	0	0	2	0	3	0	0	2	0	0	0	3	0	3	0	0	0	0	0	1	
+Bacteria	Planctomycetes	vadinHA49	PHOS-HE93				881637	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		4449609	0	0	0	2	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0	1	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae			820370	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Crenotrichaceae	Crenothrix		2400246	0	0	0	0	0	3	0	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	OD1	ZB2					4352345	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				2400243	0	0	0	0	0	3	0	0	0	0	0	0	0	0	2	0	6	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Acidobacteria-6					4349553	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		743755	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Acidovorax		86562	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae			830893	0	0	2	0	0	0	0	0	0	1	4	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Methylibium		810167	4	0	1	2	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			720353	3	0	5	1	2	1	4	3	4	2	2	2	3	3	4	3	8	1	4	1	3	0	0	
+Bacteria	Verrucomicrobia	[Pedosphaerae]	[Pedosphaerales]	auto67_4W			810360	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus		1071699	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			341259	1	0	4	1	1	1	1	0	1	9	2	0	2	1	0	1	2	0	1	0	0	0	0	
+Bacteria	Verrucomicrobia	Opitutae	Opitutales	Opitutaceae			809256	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	marcusii	812921	0	0	12	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae			1137597	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				587648	0	5	7	0	10	0	0	0	0	0	11	7	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales				202381	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Propionibacteriaceae	Propionibacterium	acnes	4425358	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			517116	0	1	0	0	0	0	0	0	1	2	1	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Halomonadaceae			805785	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			798634	5	4	31	4	17	1	4	0	7	14	3	6	6	6	4	8	9	4	4	0	4	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			805542	1	0	0	0	0	2	0	0	0	0	2	0	0	0	4	4	11	1	3	2	3	3	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	johnsonii	1512104	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				4392826	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Limnohabitans		346376	1	0	1	0	0	1	0	0	1	6	0	0	0	0	2	3	9	1	5	0	5	0	2	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter		282928	0	2	1	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				340298	0	5	1	0	3	0	0	0	0	0	4	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae	Leptolyngbya		815062	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Spirochaetes	[Leptospirae]	[Leptospirales]	Leptospiraceae	Turneriella		4017244	2	0	12	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	3	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		217266	0	0	0	0	0	1	0	0	0	0	0	0	0	2	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Nitrosomonadales	Nitrosomonadaceae			752778	0	0	5	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae			848824	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	Anaerolineae	SBR1031	A4b			4461637	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Beijerinckia		711776	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Polynucleobacter		304787	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		540412	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Sinobacteraceae			332574	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae			4305672	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas		815480	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Limnohabitans		1040114	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			360124	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					532912	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			789394	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae			216805	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			1637549	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		594168	5	1	18	0	0	0	0	0	0	0	97	0	0	0	54	42	259	0	2	1	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			327512	1	28	2	1	14	0	0	0	11	25	6	5	6	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales				151384	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae			1108282	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				361839	0	5	16	0	6	0	0	0	0	0	2	16	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			2641600	3	0	1	2	0	0	0	0	1	23	0	1	6	22	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae			228207	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Pedosphaerae]	[Pedosphaerales]	auto67_4W			533650	0	0	6	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	OM27			2734215	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			238503	0	122	60	0	1	0	0	0	0	52	0	3	10	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Rhodoplanes		4402900	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				592846	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				873518	0	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	[Paraprevotellaceae]	[Prevotella]		1008348	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				1068936	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		1126359	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1083591	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Flectobacillus		972719	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae			4379318	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			1108099	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Ellin6067				593511	0	0	5	0	0	0	0	0	3	1	0	1	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		773008	0	0	1	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales				545550	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Methylibium		1108726	1	0	2	1	0	0	0	0	1	0	0	0	0	2	0	0	0	0	1	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Chlorophyta	Trebouxiophyceae			4365343	2033	4	161	524	22	721	1114	208	1291	114	124	47	317	153	2176	373	464	176	197	1985	482	1616	634	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				348903	0	0	0	0	2	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		1074801	0	0	0	26	0	0	0	0	0	0	0	0	6	12	0	0	0	0	0	0	8	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae			768463	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	2	6	1	1	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			806314	1	1	1	0	0	0	0	3	0	0	3	0	0	0	7	8	27	4	13	1	9	0	1	
+Bacteria	Elusimicrobia	Elusimicrobia	FAC88				218152	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae			4151703	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			551647	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			783719	0	0	2	2	0	1	0	0	0	0	1	0	2	5	0	0	0	0	0	0	2	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			821362	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			81611	0	0	2	0	0	0	0	0	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae			802011	1	0	2	0	1	1	0	1	0	1	0	0	1	1	0	0	3	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria					4187380	0	0	4	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			791738	44	3	83	32	7	0	5	0	82	69	0	3	16	3	5	5	8	0	2	0	1	0	1	
+Bacteria	Verrucomicrobia	[Spartobacteria]	[Chthoniobacterales]	[Chthoniobacteraceae]	Chthoniobacter		251499	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			325206	0	1	3	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae			639449	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			61836	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		141447	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1117222	0	0	0	0	1	0	0	0	0	0	0	4	6	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				873645	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			81764	0	0	0	0	0	0	0	0	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	[Thermi]	Deinococci	Deinococcales	Deinococcaceae	Deinococcus		128604	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		1109744	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Herminiimonas		944197	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			539206	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	C111			4458460	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		821584	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			81969	0	2	1	0	0	0	0	0	0	4	0	2	0	0	0	1	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		146007	4	0	0	6	0	1	0	0	1	0	0	0	2	2	14	0	0	0	0	6	0	0	0	
+Bacteria	Planctomycetes	Phycisphaerae	Phycisphaerales				36013	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	1	6	1	2	0	2	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		8619	0	0	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			586230	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae	Aquicella		4384753	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		2400250	26	3	1	0	8	0	0	0	0	1	0	0	0	0	0	0	1	0	1	0	0	0	0	
+Bacteria	Chloroflexi	SL56					346142	0	0	2	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	1	1	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		70346	3	1	4	3	7	128	58	136	3	0	40	2	1	2	19	22	152	87	59	13	48	10	145	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Alteromonadaceae	Cellvibrio		2967255	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Opitutae	Opitutales	Opitutaceae	Opitutus		4348899	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae			1098634	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Ramlibacter		317424	0	0	1	0	0	0	0	0	0	0	0	3	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		734945	3	0	0	5	0	0	0	0	0	0	0	0	2	3	3	0	0	0	0	3	3	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			1127748	0	0	2	0	0	1	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Pelagibacteraceae			342277	1	0	0	0	0	9	2	11	2	0	13	0	0	0	7	14	85	14	6	10	16	1	3	
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Salinicoccus		416994	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium		484304	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae			583130	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		168456	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Rhodoferax		823187	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylocystaceae			106732	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae			285497	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		552287	40	2	1	2	9	1	0	0	0	1	2	2	2	1	0	2	10	0	3	1	2	0	1	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		868791	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		638661	1	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	C111			814257	0	0	0	0	0	1	0	1	6	0	0	0	0	0	2	1	2	1	0	0	0	0	1	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			636845	8	0	2	2	2	0	0	0	2	10	2	2	3	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			143187	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Prosthecobacter	debontii	950620	0	1	0	0	0	0	0	0	1	1	3	3	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae			822874	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				242136	0	252	31	0	1	0	0	0	0	8	0	47	3	13	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			1127576	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1119063	0	0	0	0	10	0	0	0	0	0	0	11	11	2	0	0	0	0	0	0	0	0	1	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			725727	0	1	16	1	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		325694	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		544313	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Comamonas		4453998	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Limnohabitans		332569	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				549656	0	2	2	0	0	0	0	0	0	0	12	3	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter		1080100	0	0	2	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Flectobacillus		77560	14	4	7	1	4	0	0	0	0	0	0	1	0	0	0	0	0	2	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales				726414	0	0	0	0	0	0	0	0	1	0	0	0	0	0	2	0	1	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			230672	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Verrucomicrobia	Opitutae	Opitutales	Opitutaceae			209628	0	0	1	0	0	1	0	1	0	0	2	0	0	0	1	2	6	2	4	0	0	1	3	
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus		716006	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SL56					3719109	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	2	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Prosthecobacter		516569	1	1	1	2	0	0	0	0	0	2	2	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		187390	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				702015	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Armatimonadetes	Armatimonadia	Armatimonadales	Armatimonadaceae			729833	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]				239600	0	8	1	0	1	0	0	0	0	0	2	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Pelagibacteraceae			339445	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	2	10	1	2	1	1	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales				279180	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			782472	0	0	4	0	0	0	0	0	0	2	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae			228077	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Coriobacteriaceae			366392	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria					835236	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Acidobacteria-6	CCU21				357743	0	0	5	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Beijerinckia		934235	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1134918	0	0	0	2	4	0	0	0	0	0	0	1	4	0	0	0	0	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bosea	genosp.	111553	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		907206	0	0	0	20	0	0	0	0	0	0	0	0	1	7	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	[Chloracidobacteria]	RB41	Ellin6075			244863	0	0	1	0	0	0	0	0	0	0	25	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae			370788	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	4C0d-2	MLE1-12				89151	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Variovorax	paradoxus	819037	9	1	4	3	0	0	1	0	3	5	0	0	0	1	1	1	3	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		1047041	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				817038	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	C111			813287	0	0	2	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	2	1	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bosea	genosp.	567840	0	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	[Entotheonellales]				567841	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			4322804	0	30	2	0	1	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		782872	0	2	0	6	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylocystaceae			1108830	0	0	0	0	0	0	0	0	1	0	1	0	0	0	2	1	0	0	0	2	0	0	0	
+Bacteria	Acidobacteria	Acidobacteria-6	iii1-15	mb2424			815859	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Rhodoplanes		572097	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Diaphorobacter		846104	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Segetibacter		721822	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter		1088120	0	8	36	9	10	0	0	0	1	11	0	0	2	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Methylacidiphilae]	Methylacidiphilales	LD19			1114933	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Acidobacteria	Sva0725	Sva0725				73910	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		922724	3	1	5	1	1	0	0	0	0	0	21	5	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales				578551	0	0	6	0	0	0	0	0	1	4	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				660336	0	1	0	0	5	4	0	1	0	0	4	4	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter		952082	1	4	19	7	3	0	0	0	0	6	0	0	2	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Paucibacter		593163	1	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			145000	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Nocardiaceae	Rhodococcus		241543	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			821956	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Gemmatimonadetes	Gemmatimonadetes	Gemmatimonadales	Gemmatimonadaceae	Gemmatimonas		578951	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Planctomycetia	Pirellulales	Pirellulaceae			931895	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Chlorophyta				806548	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			581409	0	224	175	13	0	0	0	0	3	170	0	12	84	30	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			257386	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			766347	0	1	2	0	0	0	0	0	1	0	1	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chlamydiae	Chlamydiia	Chlamydiales				4326875	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae			141856	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		140859	1	1	2	1	4	0	0	0	0	1	5	1	0	2	0	0	5	1	0	0	0	0	1	
+Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus		153131	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1107749	2	0	1	0	0	0	0	0	0	0	4	2	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Acidithiobacillales				817349	0	0	6	0	0	0	2	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			1106617	40	1	39	5	20	0	34	1	23	37	2	11	4	9	7	4	11	0	4	7	5	0	5	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			152842	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			665869	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Planctomycetia	Planctomycetales	Planctomycetaceae	Planctomyces		4365794	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Rhodoferax		587804	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			821579	0	4	1	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Pedosphaerae]	[Pedosphaerales]	auto67_4W			125736	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	C111			152199	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Opitutae	[Cerasicoccales]	[Cerasicoccaceae]			821602	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Sinobacteraceae			564301	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			850135	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Streptophyta				3536	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			955582	0	0	0	1	0	0	0	0	0	3	0	0	2	5	0	0	0	0	0	0	0	0	0	
+Bacteria	GN02	BD1-5					200762	0	0	0	0	0	0	1	0	0	1	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			352485	0	2	1	3	0	0	0	0	4	0	1	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				222765	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Spartobacteria]	[Chthoniobacterales]	[Chthoniobacteraceae]	Candidatus Xiphinematobacter		221896	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			141075	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae			872014	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		619602	1	1	5	0	1	0	0	0	0	1	0	0	1	2	0	0	0	0	1	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			211598	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Ellin6067				826742	0	0	15	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia						818177	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		737951	0	0	1	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	[Weeksellaceae]	Cloacibacterium		1052264	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			1139084	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				928574	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			805093	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter		891054	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			354682	0	0	1	0	1	0	0	0	0	2	0	0	0	1	0	1	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Haptophyceae				829438	0	0	0	0	0	0	2	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Sva0725	Sva0725				3501894	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Ramlibacter		895220	2	1	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		202619	6	0	1	0	0	0	0	0	9	1	0	0	1	0	10	6	0	4	3	10	2	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Hyphomonadaceae			837424	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				564163	0	0	6	0	0	0	3	0	7	0	1	0	0	0	2	4	6	15	3	1	17	0	2	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella		147181	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		211062	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			157722	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			828254	0	0	14	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			849642	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			4369970	0	8	9	0	0	0	0	0	0	20	0	3	6	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Opitutae	Opitutales	Opitutaceae	Opitutus		231447	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Propionibacteriaceae	Propionibacterium	acnes	1088265	0	0	0	1	0	1	0	0	0	2	0	1	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	mitochondria			3366304	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			225259	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	SBla14				368348	0	3	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	succinicans	976319	0	1	1	0	5	0	0	0	0	2	3	3	0	0	0	0	0	0	0	0	0	0	1	
+Bacteria	Acidobacteria	[Chloracidobacteria]	RB41	Ellin6075			696105	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Roseococcus		144291	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		747857	0	2	3	2	5	0	0	0	0	1	17	10	1	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			848608	8	1	2	8	7	71	173	82	57	13	111	0	0	2	49	149	471	101	85	117	11	62	154	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae			3744574	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter		562084	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Haliangiaceae			283637	7	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			107275	0	0	37	0	0	0	0	0	0	18	0	0	1	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Actinobacteria	Thermoleophilia	Gaiellales				541327	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Alcaligenaceae			673343	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae			245495	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				560101	0	11	6	0	0	0	0	0	0	7	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	mitochondria			661946	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter		866365	0	0	0	7	0	0	0	0	0	0	0	0	5	16	0	0	1	0	0	0	2	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		551717	0	0	1	0	0	0	0	0	0	0	3	0	0	0	1	1	10	2	0	0	0	0	0	
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus		1078207	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Acidovorax	caeni	419448	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Phenylobacterium		209762	0	0	1	2	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			4332298	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			735569	15	51	47	1	3	0	0	0	5	170	5	10	13	18	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			712798	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			445860	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae			22253	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			213238	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		4433485	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Planctomycetes	Phycisphaerae	Phycisphaerales				1645783	0	0	1	0	1	4	5	1	2	0	4	0	0	0	3	12	20	11	23	2	10	1	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		1040713	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			792520	1	0	0	0	0	2	0	1	6	0	4	0	0	0	5	5	10	5	7	6	4	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cyclobacteriaceae			382140	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	4	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales				729513	0	0	5	0	0	0	0	0	0	5	1	0	0	0	0	1	3	1	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		3458188	3	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		646052	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Planctomycetes	Planctomycetia	Pirellulales	Pirellulaceae			628299	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					249034	0	1	2	0	0	0	1	0	3	2	0	0	3	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				607386	0	5	1	1	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Nitrosomonadales	Nitrosomonadaceae			692284	2	1	4	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Archaea	Crenarchaeota	Thaumarchaeota	Cenarchaeales	Cenarchaeaceae	Nitrosopumilus		730684	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			579946	0	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				614872	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	TM7	SC3					807173	1	0	0	0	0	1	2	0	1	0	0	0	0	0	3	0	0	0	1	6	2	2	2	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			617099	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium		998071	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			436550	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Ellin6067				224900	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chlamydiae	Chlamydiia	Chlamydiales	Rhabdochlamydiaceae	Candidatus Rhabdochlamydia		583949	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			835591	0	0	4	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Planctomycetia	Pirellulales	Pirellulaceae			4444048	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Streptophyta				733241	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria					4383956	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae			559211	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1116398	0	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			635410	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	[Chloracidobacteria]	RB41	Ellin6075			254706	0	0	0	0	0	0	0	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			539242	0	0	9	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		104742	0	0	0	4	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			329744	1	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Haliangiaceae			4409615	11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		4400096	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		4400097	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				4325369	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			875704	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Niabella		578831	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				2775220	0	7	0	0	0	0	0	0	0	0	2	0	0	0	0	1	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			141461	32	0	3	4	0	0	1	0	0	117	0	5	44	147	1	0	1	0	1	2	0	2	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1055322	5	7	13	11	24	0	1	0	2	4	5	5	16	0	4	3	11	2	0	0	0	0	1	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			559328	1	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus		927720	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		85662	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	1	1	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Pedosphaerae]	[Pedosphaerales]	R4-41B			134130	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			105504	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	succinicans	84396	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			567683	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Polyangiaceae			808919	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Alteromonadaceae	Cellvibrio		222753	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Hydrogenophaga		546165	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			820291	0	0	1	0	0	0	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		364120	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			536916	6	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			564004	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		818854	17	4	31	6	10	0	0	0	1	33	2	4	17	16	0	0	1	1	1	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Saprospiraceae			4415232	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Chlorophyta				4466028	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				1087471	0	132	18	0	6	0	0	0	0	4	2	15	3	6	0	0	1	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Runella		818344	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				509530	0	0	1	0	0	0	0	0	0	1	0	0	0	0	1	1	1	4	0	1	7	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		808597	144	7	3	2	23	0	0	0	2	3	8	2	1	2	0	1	12	0	4	0	0	0	1	
+Bacteria	Verrucomicrobia	[Spartobacteria]	[Chthoniobacterales]	[Chthoniobacteraceae]	Candidatus Xiphinematobacter		3394215	0	0	0	0	0	1	0	0	1	0	0	0	0	0	3	2	0	1	3	4	3	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Gallionellales	Gallionellaceae			254645	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				85393	0	0	0	1	0	0	0	0	0	0	4	1	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Chlorophyta	Trebouxiophyceae			1118847	812	2	125	548	12	1901	574	296	534	92	118	42	648	315	895	313	336	124	153	813	408	2616	596	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				317660	0	16	15	0	7	0	0	0	0	1	9	15	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1114156	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter		987696	0	1	0	0	1	0	0	0	0	1	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				1110462	0	0	0	0	0	0	0	0	0	0	0	5	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Acidovorax		7046	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Methylibium		4035617	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Cryptophyta				827773	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	3	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			219059	1	4	6	0	0	0	0	0	0	13	0	1	0	5	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Micromonosporaceae	Pilimelia		731014	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Delftia		637901	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			40205	0	0	1	0	0	0	1	2	0	1	1	0	0	1	0	0	1	0	2	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		876714	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae			797229	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				611144	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			537205	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			907683	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		179461	0	1	0	0	41	0	0	0	2	0	0	4	1	0	0	1	0	0	2	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae			315805	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	1	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		439462	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	2	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				313351	0	0	0	0	2	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	[Weeksellaceae]	Chryseobacterium		1144747	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	[Weeksellaceae]	Wautersiella		4028105	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae			532928	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	2	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Hyphomonadaceae			589946	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		564810	0	0	0	0	2	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Saprospiraceae			278664	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		886673	2	5	1	0	6	0	2	0	0	4	1	0	3	0	0	0	0	1	0	0	2	0	2	
+Bacteria	Acidobacteria	[Chloracidobacteria]	RB41	Ellin6075			279436	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Segetibacter		257602	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		4334907	3	0	3	2	13	0	0	0	0	0	2	5	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1116424	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	henricii	161154	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				4296910	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae			788632	0	0	0	1	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Paludibacter		575486	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Phycisphaerae	WD2101				862250	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		992510	0	0	0	1	0	0	0	1	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Hyphomonadaceae			111797	6	0	0	6	0	0	0	0	1	5	0	0	14	5	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Propionibacteriaceae	Propionibacterium	acnes	933896	0	0	0	0	0	0	0	0	0	0	1	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae	KD1-23		4297396	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	EB1017			155186	0	0	2	0	0	2	1	0	0	0	0	0	0	0	2	4	1	0	3	0	4	0	1	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			511659	2	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales				213535	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Solibacteres	Solibacterales				103580	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		590099	0	0	0	9	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	4	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				1939847	0	0	6	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Pelosinus		1100798	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			580578	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Acidobacteria-6	CCU21				760955	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		358766	0	0	0	0	0	2	0	0	0	0	0	0	2	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	C111			318243	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	1	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria					331849	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				4465419	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	OM60			1111819	0	1	10	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales				1132275	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	SBR1093	VHS-B5-50					615608	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			672695	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae			326603	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	2	0	0	1	1	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		748462	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		974249	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			813668	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	3	5	0	3	3	3	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		580312	0	0	0	2	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	2	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	[Weeksellaceae]	Cloacibacterium		904885	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	guillouiae	938794	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae			19930	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		253914	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		327084	0	0	0	0	16	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	MND1				532139	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		684965	1	1	0	0	0	0	0	9	1	0	12	0	0	0	4	9	47	3	13	6	5	0	2	
+Bacteria	Verrucomicrobia	[Methylacidiphilae]	Methylacidiphilales	LD19			846011	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	3	0	0	1	0	1	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	[Weeksellaceae]	Cloacibacterium		1092833	0	0	0	0	0	0	0	0	0	1	0	0	0	5	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		840888	64	2	27	8	22	1031	1225	831	46	1	341	21	4	12	314	191	941	721	505	141	442	116	1343	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			873090	2	4	9	0	0	0	0	0	1	19	0	1	4	4	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	Anaerolineae	H39				51154	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			807614	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			1932541	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Solibacteres	Solibacterales	Solibacteraceae			578443	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			4367975	10	7	10	1	0	0	0	0	0	17	0	2	0	4	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Haptophyceae				837749	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			353224	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter		106242	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		332304	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Saprospiraceae			716473	0	0	0	3	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Desulfobacterales	Desulfobacteraceae	Desulfococcus		4404744	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		579829	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			833853	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Saprospiraceae			2534	0	0	1	0	0	0	0	0	0	1	0	4	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae			1009440	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bdellovibrionaceae	Bdellovibrio		967069	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			1135155	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			981179	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					362188	1	0	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		996519	0	2	0	4	2	0	0	0	1	0	6	8	1	1	0	0	2	1	7	1	2	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae			204335	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		20456	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	8	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Rhodoferax		27485	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Flavihumibacter		4370361	5	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales				682355	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		347847	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	1	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae			4388776	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Aminobacter		24111	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria					589449	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae			820713	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		772410	0	0	0	0	0	1	1	5	0	1	0	0	1	0	1	0	4	2	3	0	1	0	4	
+Bacteria	OP3	PBS-25					512654	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		539763	0	1	0	0	0	0	0	0	0	2	1	0	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Pedosphaerae]	[Pedosphaerales]	R4-41B			28520	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Polynucleobacter		340581	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	1	0	2	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae			343284	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	OM27			143882	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Polynucleobacter		348675	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		99774	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				549805	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	succinicans	264229	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				1128417	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Devosia		849118	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		621278	3	0	5	1	0	0	1	0	8	3	1	0	7	4	15	22	10	4	3	9	6	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		656520	5	1	9	3	1	0	0	0	0	5	1	1	4	3	0	0	0	0	0	0	2	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				331020	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Micrococcaceae	Micrococcus		564586	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Leptothrix		694869	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Mycoplana		998905	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			353491	1	0	1	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	2	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		1693982	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales				559843	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	0	
+Bacteria	TM6	SJA-4					692603	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			756100	0	0	0	0	0	0	0	1	0	0	1	0	0	0	1	1	2	0	2	1	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae			1108643	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1064852	0	0	0	0	0	0	0	0	0	0	2	0	0	0	6	2	13	2	2	0	0	0	2	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			758613	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella		1011361	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		212724	3	1	6	2	3	128	24	150	1	1	43	3	1	0	7	32	188	115	91	2	57	13	148	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae			548754	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria					1117947	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		662742	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Phycisphaerae	Phycisphaerales				28705	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			585689	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Micrococcaceae			765979	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			4306989	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Hyphomonadaceae			838180	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	thermoamylovorans	322136	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter		811257	0	0	0	4	0	1	0	0	0	0	0	0	2	5	0	0	1	0	0	0	4	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Propionibacteriaceae	Propionibacterium	acnes	1098184	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			2742255	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Nitrospirae	Nitrospira	Nitrospirales	Nitrospiraceae	Nitrospira		628318	0	0	3	3	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				576419	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			2194877	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			103802	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	3	1	0	2	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae			838293	0	0	0	0	0	0	5	0	1	1	0	0	0	0	4	0	0	0	0	3	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Cryptophyta				708851	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	2	6	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			211089	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			776787	2	1	18	3	0	0	0	0	14	10	0	0	3	1	1	0	0	0	0	1	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter		4339351	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			762760	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Acidobacteria-6	iii1-15	mb2424			1753826	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			253908	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	MIZ46				4375292	0	68	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Methylibium		277521	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Tepidimonas		697479	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae			813418	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]				209573	0	2	0	0	2	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			590601	0	2	5	1	0	0	0	0	0	4	0	1	5	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Lysobacter		1021820	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			545460	0	0	0	0	0	1	0	0	6	0	3	0	0	0	1	6	12	4	11	11	5	0	1	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		704995	0	0	0	1	1	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae			499851	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter		889025	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				527601	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Rhodoferax		82365	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				307622	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Planctomycetes	Planctomycetia	Pirellulales	Pirellulaceae			4323373	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae			4348692	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Haliangiaceae			824406	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae			832113	0	1	1	0	0	0	0	0	0	3	0	0	0	0	10	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	[Chloracidobacteria]	RB41	Ellin6075			281593	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	TM6	SJA-4					4422320	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Curvibacter		610486	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Saprospiraceae			773575	0	0	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae			4441383	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				929908	0	24	3	1	19	0	0	0	2	0	0	30	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales				101880	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				219243	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				718321	0	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Leadbetterella		534401	2	6	20	0	0	0	1	0	0	0	1	5	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Hyphomonadaceae			1116881	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Roseococcus		4404	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Ellin6067				194191	2	1	45	4	0	0	0	0	2	32	4	12	2	7	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Chlorophyta				2030964	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	5	0	0	0	0	1	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			759916	0	0	0	2	0	0	0	2	0	0	0	0	2	1	2	0	1	0	0	0	2	0	3	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				1110391	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Gallionellales	Gallionellaceae	Gallionella		520139	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				83959	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		269203	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Emticicia		236066	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		1096010	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			4422321	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			2881877	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			412392	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		565425	0	0	0	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Aquabacterium		805044	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		324677	168	2	3	1	17	0	0	0	0	1	5	0	0	0	0	0	6	0	5	0	0	0	0	
+Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales				2990433	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		58374	0	0	1	0	0	0	0	0	0	0	2	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Mycoplana		413173	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas		591708	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		371295	2	4	2	0	2	0	0	0	0	0	6	1	3	1	0	0	0	0	0	0	0	0	3	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			781055	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae			356304	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				1006099	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae			555683	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			892370	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	3	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				254805	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				549748	0	6	0	0	7	0	0	0	0	1	2	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	C111			811000	0	0	0	0	0	0	0	0	5	0	1	0	0	0	4	2	6	1	1	4	2	0	1	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			330540	0	0	0	0	0	0	0	0	0	0	0	2	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		699027	2	0	2	2	14	0	2	0	0	0	14	1	4	0	0	0	2	2	4	0	0	0	1	
+Bacteria	Planctomycetes	Planctomycetia	Pirellulales	Pirellulaceae			2193695	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	1	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Alcaligenaceae			316483	1	0	0	0	0	0	0	0	1	0	0	0	0	0	10	0	0	0	0	4	0	0	0	
+Bacteria	Verrucomicrobia	[Spartobacteria]	[Chthoniobacterales]	[Chthoniobacteraceae]	Candidatus Xiphinematobacter		3996107	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	1	2	1	1	1	0	
+Bacteria	Planctomycetes	Planctomycetia	Pirellulales	Pirellulaceae	A17		208621	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	OP3	koll11	GIF10	kpj58rc			992372	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		1028953	9	0	5	2	0	0	0	0	13	2	1	0	12	5	37	9	6	3	3	15	4	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae			645729	7	1	24	1	0	0	0	0	0	17	2	2	4	5	2	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				349311	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Flectobacillus		144973	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Microbacteriaceae	Salinibacterium		876170	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Limnohabitans		339773	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				106991	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			3926677	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Deefgea		137097	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria					341843	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter		562618	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			205855	0	7	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Planctomycetia	Pirellulales	Pirellulaceae			579129	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		461206	0	0	0	0	0	3	1	3	0	0	6	0	0	2	1	5	21	0	2	1	2	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				91725	0	5	1	0	2	0	0	0	0	0	1	8	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	SBla14				234236	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	NB1-j	MND4			170623	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Limnohabitans		1108275	1	0	3	0	1	0	1	0	2	2	1	1	6	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Opitutae	[Cerasicoccales]	[Cerasicoccaceae]			305871	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	1	1	1	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			208805	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		425968	0	0	1	0	0	0	0	0	0	0	0	0	2	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				2345806	0	4	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Haliangiaceae			279567	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					929489	0	1	0	0	0	0	0	0	2	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		2242061	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				4315885	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			500937	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Sinobacteraceae			807901	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		973942	17	4	45	2	0	0	0	0	2	102	0	5	14	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	[Chloracidobacteria]	PK29				817766	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae	Methyloversatilis		140382	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		977222	1	0	1	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			161947	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			831179	0	0	8	1	8	0	0	0	0	1	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium		1105814	3	0	1	15	0	0	1	1	0	0	2	0	2	1	6	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales				570614	0	1	13	0	0	0	0	0	0	18	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Rhodoplanes		235789	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		184737	0	0	4	1	0	0	0	0	0	4	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			568617	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae			251664	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				817300	0	29	4	0	36	0	0	0	0	0	4	24	0	0	0	1	1	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		754088	0	0	1	0	0	0	0	0	0	0	0	0	1	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]				2554	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		4369129	2	0	8	0	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Dietziaceae	Dietzia		1126467	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter		1048701	1	1	4	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		558797	8	1	1	0	0	1	0	2	0	3	1	0	28	2	0	1	6	0	0	0	0	0	2	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae			559317	3	0	0	1	0	0	0	0	0	0	0	0	0	1	4	0	1	0	0	2	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			717874	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]				352992	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Kaistobacter		790545	0	0	0	6	0	0	0	0	0	0	0	0	1	3	0	0	0	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae	Aquicella		320125	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				550146	0	0	0	0	0	0	1	0	2	0	0	0	0	0	3	1	0	2	1	2	2	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Streptophyta				1787644	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		4422913	1	0	5	2	0	0	0	0	2	2	0	0	3	4	0	0	0	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			739220	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Armatimonadetes	Armatimonadia	Armatimonadales	Armatimonadaceae	Armatimonas		141815	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Rubrivivax		574991	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				113261	0	0	2	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Propionibacteriaceae	Propionibacterium	acnes	870106	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bdellovibrionaceae	Bdellovibrio		1131272	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Nocardiaceae	Rhodococcus		573976	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Saprospiraceae			790438	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Chamaesiphonaceae			3261	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae	Aquicella		574974	2	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				1109647	0	0	3	0	0	0	0	0	0	0	2	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	TM7	TM7-1					216604	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Pelagibacteraceae			321727	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		53331	2	0	0	0	0	0	0	0	2	0	2	0	0	0	5	1	5	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Polaromonas		278887	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		4463045	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae			4463047	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae	Pseudanabaena		564123	0	3	1	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter	cryoconitis	826144	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Bradyrhizobium		676066	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				3843953	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae	Aquicella		884762	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			349828	2	0	3	0	0	0	0	0	1	7	4	0	1	0	6	9	7	2	5	5	6	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		869850	0	0	1	0	0	0	0	0	0	1	1	0	0	0	1	0	1	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae	Methylotenera	mobilis	540616	0	0	0	1	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Rhodoferax		4332795	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	0	0	0	1	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Ralstonia		437105	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Planctomycetia	Pirellulales	Pirellulaceae			1117031	0	0	2	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			966231	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Haliangiaceae			269875	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Chlorophyta				2813895	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales				148878	0	0	0	0	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			945478	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Planctomycetia	Pirellulales	Pirellulaceae			529067	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Methylibium		79085	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Rubrivivax		672144	3	1	11	0	0	0	1	0	3	2	6	6	3	0	0	0	0	2	0	0	0	0	0	
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Paludibacter		830545	0	0	0	0	0	0	8	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			763765	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			564638	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	epidermidis	993769	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Pelagibacteraceae			1016465	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	5	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Haptophyceae				155941	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae			1111294	2	0	0	0	0	0	2	0	1	0	0	0	0	0	3	0	0	0	0	2	0	0	0	
+Bacteria	Acidobacteria	Acidobacteria-6	iii1-15	mb2424			805676	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Phycisphaerae	Phycisphaerales				4407332	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			142247	0	199	1	4	0	0	0	0	0	1	6	6	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Gemmatimonadetes	Gemmatimonadetes	Gemmatimonadales	A1-B1			440096	2	0	4	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales				840045	3	1	9	0	5	14	53	19	9	20	3	0	0	0	17	5	34	32	22	65	22	2	19	
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Crenotrichaceae	Crenothrix		840041	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			940737	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		963825	0	1	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae			342749	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Solibacteres	Solibacterales				1115183	0	0	8	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Opitutae	Opitutales	Opitutaceae	Opitutus		136998	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	[Weeksellaceae]			111295	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					691190	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			147674	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae			352699	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		156413	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			329664	1	0	3	1	0	0	1	0	1	2	0	0	0	1	0	1	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		190782	2	0	2	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SL56					4345059	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					4408741	0	1	0	0	0	0	1	0	1	2	1	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales				4319691	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				340216	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			823732	2	0	2	0	0	0	1	2	5	0	4	0	0	0	9	7	14	3	13	7	2	2	2	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		570086	0	0	0	0	2	0	0	0	0	0	1	0	0	0	0	0	2	0	0	0	0	0	2	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Acidovorax		575562	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					843811	7	0	0	5	2	45	140	34	34	22	43	32	2	0	10	14	82	66	28	140	93	17	145	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		4402671	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	[Weeksellaceae]	Cloacibacterium		921131	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				103868	0	0	3	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Solibacteres	Solibacterales	[Bryobacteraceae]			526228	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Paludibacter		822517	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			688133	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	OM60			699854	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	ML635J-21					897649	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Phenylobacterium		279358	0	0	4	3	0	0	0	0	0	0	2	3	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Sinobacteraceae	Steroidobacter		1954099	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1041956	0	2	0	0	0	0	0	0	0	0	0	2	0	0	0	0	1	0	1	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				358682	0	4	1	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			1051459	4	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Thermoleophilia	Gaiellales				235064	0	0	1	0	0	1	0	0	1	0	0	0	0	0	3	1	1	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				795504	0	39	6	1	28	0	0	0	0	0	14	18	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			2818167	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	[Weeksellaceae]	Chryseobacterium		573326	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		150673	5	0	0	4	0	0	4	0	0	0	0	0	0	3	10	0	0	0	0	9	0	1	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Hyphomicrobium		1098922	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae			4316017	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		253814	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus		1083194	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			304640	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	22	0	8	0	1	0	1	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Aquabacterium		1023564	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Microbacteriaceae			838940	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Emticicia		1126475	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Ellin6067				806094	0	0	9	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Haliangiaceae			253255	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae	Aquicella		633535	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	C111			46548	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	2	4	0	1	0	2	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		4346564	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			556657	0	0	0	0	1	1	2	8	0	7	0	1	0	1	0	2	2	1	0	0	0	1	7	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			670156	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			350458	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	1	2	1	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae	Pseudanabaena		1105975	0	24	7	0	1	0	0	0	0	0	0	65	11	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				951794	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			560704	0	1	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae	Pseudanabaena		754783	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		909170	6	0	1	0	0	0	1	0	1	1	1	1	4	2	3	0	0	1	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		801568	0	0	0	1	0	0	0	0	0	0	4	1	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales				277768	0	29	30	0	0	0	0	0	1	24	0	1	11	8	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			320002	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Polaromonas		4349320	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			320222	0	0	1	0	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		810353	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		1003206	7	0	0	19	0	2	6	0	2	0	0	0	5	16	7	0	0	0	0	12	3	1	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			830978	0	0	0	0	0	0	0	1	1	0	0	0	0	0	4	0	1	0	1	2	1	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingobium		346056	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			4340506	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cyclobacteriaceae			567712	0	0	0	0	0	1	0	0	0	0	5	0	0	0	0	0	9	0	7	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae			211658	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				583758	0	5	2	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		4318989	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			278562	0	0	0	0	10	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		4422872	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			4328903	0	7	10	1	0	0	0	0	0	8	0	1	6	5	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Pelagibacteraceae			1144814	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	C111			731058	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				618303	3	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				1114591	0	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Flectobacillus		610107	82	19	23	0	35	0	1	0	2	20	2	6	6	0	0	0	2	7	1	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			1908796	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter		757229	1	9	34	4	5	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	[Chromatiaceae]	Rheinheimera		143704	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		814832	0	0	0	0	0	0	0	1	0	0	2	0	0	0	0	0	3	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae			1054903	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			590960	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					824826	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Sinobacteraceae			284413	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		256046	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		189882	2	0	0	1	0	1	2	0	2	0	0	0	0	0	7	0	0	0	0	3	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			4170464	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Haptophyceae				30150	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		1715193	0	0	1	0	0	6	0	3	1	0	1	0	0	0	21	1	16	0	2	1	4	0	1	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		4416103	0	0	0	4	3	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		822723	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Halomonadaceae			4428396	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		372941	0	5	0	0	0	0	0	0	0	1	2	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales				1120593	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter		976441	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			766989	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae			769643	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	diminuta	268353	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Halomonadaceae			4461200	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	succinicans	1020921	0	3	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			513989	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			4475718	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	BME43					913399	0	1	2	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Rhodoferax		340208	0	1	0	0	0	0	0	0	1	4	0	0	0	0	0	0	0	2	1	0	1	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae			5583	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			1147899	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	4	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Variovorax	paradoxus	1048878	1	3	7	5	5	0	0	0	2	2	1	1	4	4	3	0	2	4	0	0	0	0	1	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae			826270	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	SBla14				591211	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		4354277	0	0	0	2	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0	1	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				1065350	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	Chloroflexi	[Roseiflexales]				541046	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			867624	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			1108850	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				1616780	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Kiloniellales				704831	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Saprospiraceae			279589	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			740154	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			829266	0	5	9	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Neisseria		934651	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]				819699	0	3	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae			580625	0	0	0	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Granulicatella		993647	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		366311	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			825183	1	0	1	2	0	0	1	0	1	0	0	1	0	3	0	0	1	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			1116348	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		580992	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			760913	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	2	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			355367	0	0	2	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		486085	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				4378898	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae			4253231	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		579465	2	1	3	0	0	0	0	0	1	2	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			4370713	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				2224034	0	1	4	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Geodermatophilaceae	Modestobacter		4325519	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Paludibacter		704655	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			4426763	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Sinobacteraceae	Nevskia	ramosa	104155	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		891941	1	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		4396025	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae			671300	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Methylacidiphilae]	Methylacidiphilales	LD19			806676	0	0	0	0	0	10	9	0	0	0	2	0	0	0	1	10	8	7	2	6	1	0	1	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		550168	10	0	7	0	0	0	1	0	5	0	18	0	0	0	140	39	70	1	1	10	3	0	0	
+Bacteria	Cyanobacteria	Oscillatoriophycideae	Oscillatoriales	Phormidiaceae	Phormidium		208315	39	1	3	86	0	0	0	0	222	11	0	1	0	19	4	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Janthinobacterium	lividum	237591	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Acidocella		240252	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				679178	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		690451	0	0	0	0	0	0	0	0	0	0	9	0	0	0	1	1	24	1	4	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		104795	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae			578409	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			20428	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			329517	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Phenylobacterium		389854	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			809127	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			764906	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				537493	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Microbacteriaceae	Candidatus Rhodoluna		810672	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Planctomycetes	OM190	CL500-15				4098424	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Nitrospirae	Nitrospira	Nitrospirales	Nitrospiraceae	Nitrospira		537655	6	0	37	47	0	0	0	0	0	0	3	0	0	0	5	1	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria					511370	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus		1084865	0	0	0	0	1	1	0	0	0	0	0	0	0	3	0	0	1	0	0	0	1	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			655438	0	1	4	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			281360	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			4324234	0	10	14	0	0	0	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			715163	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			719608	0	0	1	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				800713	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	fragi	930834	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Ralstonia		321451	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				227169	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales				804011	1	0	0	10	0	0	2	0	3	15	0	2	20	13	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Haliangiaceae			3702099	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Acidobacteria-6	iii1-15	RB40			4448576	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Procabacteriales	Procabacteriaceae			155812	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				38733	0	4	0	0	0	0	0	0	1	0	3	0	1	1	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			1111342	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			576928	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Leuconostocaceae	Leuconostoc		540940	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	TM7	SC3					4419793	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	0	1	1	
+Bacteria	Planctomycetes	OM190	CL500-15				37264	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Haliangiaceae			810076	6	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Haliangiaceae			1104505	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	succinicans	626519	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Rhodoferax		534216	1	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			943138	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			137007	4	2	5	1	4	12	49	23	0	22	8	2	3	1	2	11	11	2	9	0	0	4	25	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae			288283	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			808055	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			234802	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		827051	0	0	0	0	0	0	0	3	0	0	2	2	0	2	1	0	0	0	0	1	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	adolescentis	359098	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Saprospiraceae			4170478	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	5	0	1	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Saprospiraceae			252788	0	0	5	0	0	0	0	0	0	0	1	1	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Spartobacteria]	[Chthoniobacterales]	[Chthoniobacteraceae]	Candidatus Xiphinematobacter		781318	1	0	1	0	0	1	1	0	5	0	0	1	0	0	10	4	3	4	2	7	2	0	1	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			322506	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas	geniculata	967275	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae			565413	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		660633	0	2	0	1	0	0	0	0	0	0	2	0	0	0	0	1	2	0	1	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		143021	0	1	0	1	1	1	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		132529	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			584177	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		511461	12	6	1	0	12	0	3	0	0	2	13	3	2	0	3	3	20	3	11	1	5	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter		3547593	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			4470872	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				721132	0	0	1	0	0	0	0	0	0	0	2	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Chlorophyta				545380	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			305915	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Acidobacteria-6	iii1-15	mb2424			4377639	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					233268	0	0	0	0	0	0	0	0	0	5	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			511866	0	15	1	1	7	0	0	0	3	10	3	1	3	4	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	SBla14				813906	0	0	2	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	TM6	SJA-4					834663	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			572138	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		319505	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1034645	1	0	1	1	1	0	0	0	0	0	1	3	2	0	0	2	2	0	1	0	1	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Polaromonas		84980	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			111258	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		829851	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				4434039	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1081614	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae			4330856	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	3	0	0	
+Bacteria	Verrucomicrobia	[Spartobacteria]	[Chthoniobacterales]	[Chthoniobacteraceae]	Candidatus Xiphinematobacter		1120477	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	TM6	SJA-4					1105592	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		918337	4	0	1	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Nitrospirae	Nitrospira	Nitrospirales	Nitrospiraceae	Nitrospira		4360284	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		50765	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	[Weeksellaceae]	Chryseobacterium		1010721	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Hydrogenophaga		1708706	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	succinicans	711843	0	0	4	4	3	0	0	0	0	5	1	0	3	1	0	0	0	0	0	0	0	0	2	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			589483	0	1	0	0	4	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			2195501	0	1	5	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				544669	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	2	1	1	0	3	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales				552685	1	0	2	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	3	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter		543942	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	
+Bacteria	SR1						1133369	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae			629320	6	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Erwinia		1078373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Gemmatimonadetes	Gemmatimonadetes	Gemmatimonadales	Gemmatimonadaceae	Gemmatimonas		207957	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Devosia		573054	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Phycisphaerae	Phycisphaerales				807421	0	0	0	0	0	5	2	3	0	0	7	0	0	0	0	9	23	14	23	4	7	1	6	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			136395	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Methylibium		358068	8	0	3	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter	sphaeroides	532163	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Arenimonas		815996	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Jeotgalicoccus		889661	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			737260	0	0	0	0	0	1	0	0	0	0	4	1	0	0	0	1	4	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter	henricii	154174	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			544711	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		230812	0	8	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Hyphomonadaceae			4475526	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			537914	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1059509	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Archaea	Crenarchaeota	Thaumarchaeota	Cenarchaeales	Cenarchaeaceae	Nitrosopumilus		4362613	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Spirobacillales				806467	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Leptothrix		250274	1	0	0	0	0	0	0	0	0	0	0	1	5	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Elusimicrobia	Elusimicrobia	FAC88				250278	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae	Propionivibrio		831193	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bacteriovoracaceae			218005	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Phycisphaerae	Phycisphaerales				4432933	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		971457	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Devosia		573013	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Rhodoferax		32083	0	0	1	0	1	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae			240087	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Geodermatophilaceae	Blastococcus	aggregatus	11427	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			874477	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales				578307	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	1	2	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Geodermatophilaceae	Modestobacter		1110021	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Phenylobacterium		541299	0	0	0	2	0	0	0	0	1	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Roseococcus		169755	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales				531332	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		836096	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			809485	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Micrococcaceae	Micrococcus		1101451	0	1	0	0	0	1	0	0	0	2	0	0	0	1	0	0	1	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				796406	0	3	11	0	0	0	0	0	0	0	0	2	0	0	0	0	1	0	0	0	0	0	0	
+Archaea	Crenarchaeota	Thaumarchaeota	Cenarchaeales	Cenarchaeaceae	Nitrosopumilus		4369009	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Nitrospirae	Nitrospira	Nitrospirales	Nitrospiraceae	Nitrospira		321513	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Promicromonosporaceae			732609	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			614969	5	8	50	3	16	0	1	1	3	25	2	21	5	11	0	3	6	2	4	0	1	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Saprospiraceae			4404464	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			823671	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Planctomycetia	Pirellulales	Pirellulaceae			586939	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bacteriovoracaceae			4315253	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		1130519	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	[Weeksellaceae]	Chryseobacterium		106019	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			537643	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				3439	0	0	2	0	2	0	0	0	0	0	4	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				588707	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	RF32				4299126	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Solibacteres	Solibacterales	[Bryobacteraceae]	Bryobacter		540593	0	0	4	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Niabella		62965	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales				944113	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			823231	0	1	1	1	1	0	0	0	0	5	1	1	0	0	0	2	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Alteromonadaceae	Cellvibrio		2481704	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Pelagibacteraceae			683707	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Saprospiraceae			271492	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Planctomycetia	Pirellulales	Pirellulaceae			204219	1	0	0	0	0	0	0	0	2	0	1	0	0	0	6	0	1	3	0	1	4	1	1	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			313241	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		495067	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae			1111373	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	SBla14				587096	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				325174	0	1	2	0	0	0	0	0	0	0	2	4	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium		68458	1	0	0	0	1	0	1	0	0	0	0	3	0	2	0	0	1	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			871956	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae			133044	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae			254127	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1116759	0	0	0	2	0	0	0	0	0	0	0	0	0	1	0	0	1	2	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Rhodoferax		71078	0	0	8	0	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Nitrosomonadales	Nitrosomonadaceae			265873	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			813339	3	1	4	0	0	3	1	9	9	0	6	0	0	0	22	17	52	12	33	23	23	0	3	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		960076	6	19	30	4	53	0	0	0	2	25	3	8	38	4	0	0	1	1	0	0	0	0	8	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			814363	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Spartobacteria]	[Chthoniobacterales]	[Chthoniobacteraceae]			1115406	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]				1117404	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae			828311	0	0	1	0	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter		248395	0	0	0	1	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			336824	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	1	0	0	0	1	0	0	
+Bacteria	Gemmatimonadetes	Gemmatimonadetes					724343	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales				252003	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Pedosphaerae]	[Pedosphaerales]	R4-41B			337426	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae			811449	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			803885	0	0	2	3	0	0	1	0	2	0	0	1	0	1	0	1	0	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Limnohabitans		823696	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	3	0	3	0	0	0	0	
+Bacteria	[Thermi]	Deinococci	Deinococcales	Deinococcaceae	CM44		615236	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales				136741	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae			353731	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Prosthecobacter		585360	0	0	1	2	0	0	0	0	0	1	0	5	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			4478586	0	0	0	0	0	1	0	1	3	0	0	0	0	0	0	0	2	0	2	1	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				812243	1	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				4402734	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	succinus	4312974	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae			147648	0	1	5	0	0	0	0	0	0	43	1	1	0	0	3	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Methylacidiphilae]	S-BQ2-57				1110769	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Pedosphaerae]	[Pedosphaerales]	auto67_4W			569628	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae			1110763	1	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	3	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter		1009894	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		355768	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Hyphomonadaceae			4436003	15	0	14	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			882681	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Crocinitomix		688140	0	3	0	0	0	0	1	0	0	0	3	1	2	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		267759	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Phycisphaerae	Phycisphaerales				585030	0	0	1	0	0	2	1	0	1	0	4	0	0	0	0	19	19	19	28	1	14	3	2	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				863942	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			1094923	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		1009362	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	[Chloracidobacteria]	RB41	Ellin6075			103211	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Planctomycetia	Pirellulales	Pirellulaceae	Pirellula		1124589	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			223097	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			807415	2	5	45	4	0	0	0	0	0	24	1	6	9	12	0	0	0	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			4343658	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Rhodoplanes		98457	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae	Methylotenera	mobilis	577152	2	0	4	0	1	0	1	2	1	1	2	0	2	0	0	0	1	0	0	0	1	0	1	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Saprospiraceae	Haliscomenobacter		248404	0	0	0	0	1	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		81685	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Elusimicrobia	Elusimicrobia	FAC88				357721	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Planctomycetia	Pirellulales	Pirellulaceae			1119422	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		873036	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Aeromonadales	Aeromonadaceae			837283	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		5784	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae			4455978	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			1083508	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	3	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Nitrosomonadales	Nitrosomonadaceae			897527	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		991740	0	1	1	2	0	3	0	7	0	0	1	0	2	0	0	0	3	2	0	0	1	0	2	
+Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae			832166	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	succinicans	970921	0	8	4	0	6	0	0	1	0	9	1	4	12	0	0	0	0	0	0	0	1	0	1	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			3487653	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		4324048	21	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	1	4	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				1040768	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		402252	1	1	1	6	0	11	1	12	0	0	28	0	0	0	5	16	106	0	6	2	2	3	3	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			4203048	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Enhydrobacter		963344	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	MIZ46				816425	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Micromonosporaceae			940828	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae	Sulfuritalea		1011857	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			4441793	2	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae	Afipia		441256	0	0	0	3	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Saprospiraceae			952959	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Brevundimonas	diminuta	509047	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	
+Bacteria	Verrucomicrobia	[Spartobacteria]	[Chthoniobacterales]	[Chthoniobacteraceae]	Candidatus Xiphinematobacter		509040	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales				1554680	0	0	2	0	0	0	0	0	0	4	1	0	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	lwoffii	1097359	0	0	0	4	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		1132781	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Thermoleophilia	Solirubrobacterales				154342	0	0	0	0	0	0	0	1	0	0	0	0	0	0	3	1	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae			353271	0	0	0	0	0	2	0	2	0	0	1	0	0	0	1	4	16	1	2	0	0	0	1	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			3017023	0	0	1	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			570436	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Sinobacteraceae			814705	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Cryptophyta				579331	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			1106674	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			823826	0	3	6	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			1091635	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				3050215	0	22	5	0	0	0	0	0	0	0	1	3	0	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Spartobacteria]	[Chthoniobacterales]	[Chthoniobacteraceae]	Candidatus Xiphinematobacter		1114786	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			4457283	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter		1053703	1	0	18	2	7	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Polynucleobacter		564411	4	0	1	0	0	0	0	1	9	0	2	0	0	0	37	5	3	2	1	14	8	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Rubrivivax		557756	0	2	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		4399781	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				347931	0	30	3	0	11	0	0	0	1	0	7	12	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Chlorobi	SJA-28					4434044	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]				327821	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales				142681	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	2	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Ralstonia		331752	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Niabella		257780	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	4C0d-2	SM2F09				38040	0	0	7	0	0	0	0	0	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Rhodoplanes		112992	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Opitutae	Opitutales	Opitutaceae	Opitutus		156210	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			207153	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae	Aquicella		3471582	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae			979941	0	0	0	0	1	0	0	0	0	1	0	0	3	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			1019914	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Rickettsiaceae	Rickettsia		332714	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		583388	0	0	1	0	3	0	0	0	0	0	4	0	0	0	2	1	6	1	5	0	3	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			846710	1	0	1	0	0	0	0	0	1	0	1	0	0	1	0	0	0	0	0	0	1	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		655011	0	0	2	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			1104733	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Spirochaetes	[Leptospirae]	[Leptospirales]	Leptospiraceae	Leptospira		574140	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		781203	7	2	11	8	2	79	21	85	1	2	22	1	1	4	30	31	128	65	36	11	38	6	76	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		4438761	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		808071	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	1	0	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales				788519	0	1	0	0	0	0	0	0	0	1	0	1	6	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			704110	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella		218751	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Polaromonas		238109	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae			1026231	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Chlorophyta				3244303	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Paludibacter		590243	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			814594	1	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae			4322043	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		4322041	0	2	3	3	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Salinimicrobium		836539	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			840484	5	0	0	1	2	32	21	68	22	11	20	0	2	1	10	14	253	29	27	47	18	4	39	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			887484	2	25	46	6	1	0	0	0	22	65	0	5	3	6	0	1	0	0	0	0	0	0	0	
+Bacteria	Gemmatimonadetes	Gemmatimonadetes	Gemmatimonadales	Gemmatimonadaceae	Gemmatimonas		593915	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	[Chromatiaceae]	Rheinheimera		580077	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				1133891	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Phenylobacterium		46818	0	0	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		144059	0	0	0	0	5	0	0	0	2	0	0	0	1	0	0	0	1	0	1	0	0	0	0	
+Bacteria	Verrucomicrobia	Opitutae	[Cerasicoccales]	[Cerasicoccaceae]			819537	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		783224	7	5	9	2	3	0	2	0	2	5	1	0	5	1	0	1	0	0	0	0	0	0	1	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				995583	0	0	0	0	0	0	0	0	1	0	0	12	1	0	1	0	0	0	1	1	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Prosthecobacter		4444335	0	0	2	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		1111553	0	0	1	0	0	12	6	17	0	0	0	0	0	0	8	5	17	10	3	1	17	3	14	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		1108886	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			1068847	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Nitrosomonadales	Nitrosomonadaceae			105866	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		103229	0	0	0	0	3	1	0	0	0	0	1	0	0	0	0	1	3	0	4	1	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		562021	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	PB19				336493	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		683891	14	2	18	7	4	0	0	0	4	32	2	4	12	12	0	0	1	2	0	0	1	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			4356713	0	0	10	2	1	0	0	0	0	6	0	0	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Hydrogenophaga		838837	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1107270	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Mycoplana		1108959	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Niabella		4359957	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				786086	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	3	2	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		994982	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			576785	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales				690867	0	0	1	0	0	0	0	0	0	1	1	0	0	1	1	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Aquabacterium		942852	1	0	1	0	1	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		140683	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Armatimonadetes	[Fimbriimonadia]	[Fimbriimonadales]	[Fimbriimonadaceae]	Fimbriimonas		57713	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales				828546	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	1	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria					4409397	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		559612	3	2	4	0	1	0	0	0	0	0	2	3	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		744207	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus		806566	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			97567	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Alteromonadaceae	Cellvibrio		741010	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae			936354	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	[Amoebophilaceae]	SC3-56		148599	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			617766	3	4	15	2	8	0	1	0	0	13	1	5	0	3	1	3	1	3	4	2	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			1106324	12	2	10	4	6	0	12	0	9	2	1	4	3	7	3	1	5	0	5	3	2	1	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Niabella		324205	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Thermomonas		740831	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Aurantimonadaceae			662915	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Chitinophaga	arvensicola	1129515	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			518380	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			512840	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		682857	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			539423	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			321793	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	5	0	1	0	1	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales				703584	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		901183	12	1	14	3	0	0	2	0	16	2	5	1	21	2	27	35	20	8	10	31	9	0	0	
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus		4315958	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Alcaligenaceae			644938	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				574920	0	0	3	0	0	0	0	0	0	0	5	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			766159	0	1	1	0	0	0	0	0	0	0	0	0	2	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae			396244	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	2	4	0	1	0	0	0	2	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae	Pseudanabaena		683529	4	0	0	0	2	0	0	0	0	2	0	1	0	4	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		321409	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae			342096	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	
+Bacteria	Cyanobacteria	Chloroplast	Haptophyceae				358538	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	125ds10			176744	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Phenylobacterium		254401	0	0	3	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				800292	1	0	17	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		676616	0	26	0	0	168	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Spirobacillales				4456106	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			343239	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae	Leptolyngbya		763271	0	0	3	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella		855812	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae			4296691	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	1	0	0	1	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		367523	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Hyphomonadaceae			590926	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				1006382	0	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Planctomycetia	Gemmatales	Gemmataceae	Gemmata		278656	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Leadbetterella		1079671	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Pelagibacteraceae			341222	0	0	0	0	0	2	0	5	0	0	6	0	0	0	0	4	26	2	4	0	4	0	4	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				840275	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Mycoplana		4304512	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				812978	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				40351	0	248	0	0	13	0	2	0	0	1	12	7	1	10	0	1	5	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Agrobacterium		243829	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Oscillatoriophycideae	Oscillatoriales	Phormidiaceae	Phormidium		4322321	0	0	0	4	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae			489457	0	0	3	0	0	0	0	0	0	1	0	0	2	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Acidobacteriia	Acidobacteriales	Acidobacteriaceae			279129	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	GN02	BD1-5					4021961	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		328847	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus		941096	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Haptophyceae				229165	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			355947	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			584832	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			584835	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae			771632	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Pseudonocardiaceae	Actinomycetospora		538093	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			803752	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter		1068470	0	2	4	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Haliangiaceae			114341	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Oscillatoriophycideae	Oscillatoriales	Phormidiaceae	Phormidium		35188	1	0	1	32	2	0	0	0	13	5	0	1	0	6	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		549293	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae	Leptolyngbya		279010	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Pedosphaerae]	[Pedosphaerales]	auto67_4W			1107044	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	[Thermi]	Deinococci	Deinococcales	Deinococcaceae	Deinococcus		241895	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		574686	7	0	3	2	2	0	0	0	0	1	2	0	9	0	0	0	0	1	0	0	0	0	2	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			775954	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	C111			822095	0	0	1	0	0	1	0	1	4	0	0	0	0	0	5	1	12	1	2	4	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Caulobacter		5547	0	0	0	2	0	0	0	0	0	0	0	0	4	5	0	0	0	0	0	0	3	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	[Chromatiaceae]	Rheinheimera		263149	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Polyangiaceae			222900	0	1	0	2	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		572079	0	0	1	0	2	0	0	0	0	2	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	iners	133075	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	C111			356618	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales				729588	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Pedosphaerae]	[Pedosphaerales]	R4-41B			846892	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	1	2	0	0	0	1	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		1088305	0	0	0	4	0	2	0	0	0	0	2	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				588125	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		334370	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		469382	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			156710	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Mycobacteriaceae	Mycobacterium		735466	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			640918	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bacteriovoracaceae			239066	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		1000161	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		834366	1	3	11	0	0	0	0	0	0	6	0	1	4	5	0	0	0	0	0	0	0	0	0	
+Archaea	Crenarchaeota	Thaumarchaeota	Cenarchaeales	Cenarchaeaceae	Nitrosopumilus		544745	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Planctomycetia	Gemmatales	Gemmataceae			2801322	0	0	0	0	0	0	0	0	2	0	1	0	0	0	5	0	1	3	0	2	3	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	[Weeksellaceae]	Chryseobacterium		258175	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			536238	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				792078	2	0	5	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			807278	0	1	2	0	0	0	0	0	3	0	3	0	0	0	3	5	19	1	11	10	3	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			545997	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			1102554	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			332835	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Planctomycetia	Pirellulales	Pirellulaceae			583233	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			592301	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				537944	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	johnsonii	988314	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	1	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				575885	1	0	3	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					210024	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		536521	0	1	5	0	0	0	0	0	0	8	0	0	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bacteriovoracaceae			22594	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				984175	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Sinobacteraceae			565900	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Promicromonosporaceae	Promicromonospora		581821	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		923105	0	7	5	0	4	0	0	0	0	5	3	4	4	1	0	0	2	0	0	0	1	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Crenotrichaceae	Crenothrix		658233	0	0	0	0	0	2	1	2	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae			344861	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Erwinia		922761	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			737649	1	0	0	0	0	0	0	0	4	0	0	0	0	0	6	3	2	0	0	7	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				737645	3	0	0	9	0	0	0	0	0	0	0	1	7	4	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae	Azovibrio		1106733	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		831098	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae			152978	0	0	0	3	0	2	0	0	0	0	0	0	2	8	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Nannocystaceae	Nannocystis		1023267	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				1131545	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium		820313	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae			303643	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Opitutae	Opitutales	Opitutaceae	Opitutus		592129	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Microbacteriaceae			790384	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Opitutae	[Cerasicoccales]	[Cerasicoccaceae]			1054065	0	0	0	0	0	1	0	4	0	0	3	0	0	0	4	10	17	2	7	3	3	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae			313734	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				219369	0	0	0	1	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			683530	0	1	3	5	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		249417	0	0	0	0	1	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Saprospiraceae			765455	0	0	0	0	0	0	0	0	1	5	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Thermoleophilia	Solirubrobacterales				512148	0	0	0	4	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		44265	0	0	0	0	0	0	1	0	0	1	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		519625	0	0	0	0	1	1	0	2	0	0	10	0	0	0	2	12	37	4	2	1	0	1	4	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae			4456113	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Nocardiaceae	Rhodococcus		278795	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Rubrivivax	gelatinosus	252876	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			996483	0	2	5	0	0	0	0	0	0	12	1	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae			576960	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	1	3	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		278225	3	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				569835	0	7	2	0	9	0	0	0	0	1	16	1	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales				570344	0	0	0	0	0	0	0	0	0	2	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae	Pseudanabaena		655364	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Hydrogenophaga		1131789	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		512705	1	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Geodermatophilaceae	Modestobacter		966091	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			779725	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Polynucleobacter		316341	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	1	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Flectobacillus		659078	3	3	2	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		1131767	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	2	1	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		4422519	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			107738	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Archaea	Crenarchaeota	Thaumarchaeota	Cenarchaeales	Cenarchaeaceae	Nitrosopumilus		1005844	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				591337	0	239	21	0	1	0	0	0	1	2	0	27	4	27	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae			1099772	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	Anaerolineae	SBR1031	A4b			811434	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Sporichthyaceae			243367	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae	Leptolyngbya		805760	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter		4042106	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				532888	0	9	3	0	6	0	1	0	0	0	20	3	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		4367455	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		243743	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		182912	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			582894	13	135	132	3	6	0	0	0	4	371	11	20	12	49	0	0	1	0	1	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				245345	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Chamaesiphonaceae			192970	0	0	10	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae			329876	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	1	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	C111			695055	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Nitrospirae	Nitrospira	Nitrospirales	Nitrospiraceae	Nitrospira		4298513	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		814133	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		549666	0	1	0	0	3	0	0	0	0	2	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae			4361536	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae	Dechloromonas		993270	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales				585063	0	0	0	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	1	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			114481	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Nitrospirae	Nitrospira	Nitrospirales	Nitrospiraceae	Nitrospira		110103	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		680564	0	0	5	3	5	0	0	0	1	0	0	0	5	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			1039594	2	1	1	7	3	0	0	3	2	4	0	1	4	13	6	0	0	0	0	2	2	0	1	
+Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae			777498	0	1	2	1	0	0	14	1	1	0	2	0	1	1	0	1	2	0	1	1	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae			279663	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Thermoleophilia	Solirubrobacterales				1044581	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Spartobacteria]	[Chthoniobacterales]	[Chthoniobacteraceae]	Candidatus Xiphinematobacter		735693	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	2	1	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		228555	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		818602	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			547824	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		816282	0	0	0	2	7	0	0	0	0	0	1	2	1	0	0	2	3	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	[Pedosphaerae]	[Pedosphaerales]	R4-41B			843251	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	3	0	3	1	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae			3189294	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae	Runella		4453762	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		682601	4	2	5	1	0	0	0	0	12	9	1	0	6	4	0	0	0	0	0	0	0	0	0	
+Bacteria	[Thermi]	Deinococci	Deinococcales	Deinococcaceae	CM44		277690	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			358280	1	0	4	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales				1083335	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		548853	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella		813548	2	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Microbacteriaceae			1074625	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria					4011130	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Acidobacteria-6	iii1-15	mb2424			579633	0	0	0	0	0	1	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			576693	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas		4430952	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Chamaesiphonaceae			683188	1	0	2	0	0	0	0	0	0	1	37	2	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales				1032692	1	0	0	2	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				2140618	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		4458675	2	0	2	0	0	0	0	0	0	0	0	0	2	1	0	0	0	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			2690238	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Haptophyceae				587965	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	2	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			4424805	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Alcaligenaceae			661229	1	0	0	0	0	0	0	0	3	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			4433029	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		1072673	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Ellin6067				101392	0	0	0	0	0	0	0	0	1	5	0	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		646549	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		2255	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		209595	0	1	0	3	0	0	0	0	1	1	0	0	3	3	1	0	0	0	0	0	2	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	johnsonii	873972	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	ACK-M1			645965	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		669978	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae			311942	0	0	0	0	0	0	0	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		535159	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			427028	0	1	0	0	0	0	0	2	0	3	0	0	0	0	0	1	7	0	1	0	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae			510591	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	[Weeksellaceae]	Chryseobacterium		408706	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Nocardioidaceae	Nocardioides		973424	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Bacteria	Acidobacteria	Acidobacteria-6	iii1-15				1107738	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		559891	0	2	12	2	0	0	0	0	1	14	0	1	3	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Rhodocyclales	Rhodocyclaceae	C39		149154	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae			255112	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Hyphomonadaceae			311380	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus		854272	0	0	4	0	0	0	0	0	0	0	0	0	2	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		362621	1	1	0	0	0	0	0	0	0	0	5	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		736504	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		4481484	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			616971	0	5	3	1	2	0	0	0	0	1	6	13	5	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Gemmatimonadetes	Gemmatimonadetes	Gemmatimonadales	A1-B1			219226	3	0	6	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			278251	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae			610753	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Legionellaceae	Legionella		21751	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae	Methylotenera	mobilis	653071	1	1	2	1	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Luteimonas		1052930	0	5	11	0	0	0	0	0	0	9	2	0	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Chamaesiphonaceae			805684	0	0	1	0	0	0	0	0	0	0	21	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Leptothrix		3514716	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Zymomonas		278075	9	0	2	0	0	0	2	0	0	5	0	1	6	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Oxalobacter		591499	0	3	3	0	0	0	0	0	1	5	0	0	18	10	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			306159	0	0	4	0	5	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae			349981	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales				4319059	0	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Gemmatimonadetes	Gemmatimonadetes	Gemmatimonadales	Gemmatimonadaceae	Gemmatimonas		1044938	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			719367	7	7	39	4	10	1	5	1	3	12	8	5	2	0	0	2	4	0	4	0	3	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Chitinophagaceae	Sediminibacterium		1062909	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae	Pseudanabaena		822929	0	10	3	0	32	0	0	0	0	0	0	9	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales				384499	0	1	1	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	[Barnesiellaceae]			315846	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Dokdonella		569066	0	1	6	16	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales				2994818	0	0	6	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		710745	105	0	0	0	1	0	0	0	0	0	6	0	0	0	0	0	7	1	3	2	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales				798621	2	2	9	1	0	0	0	0	1	13	2	0	2	1	1	1	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		585850	0	0	0	1	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Methylophilales	Methylophilaceae	Methylotenera	mobilis	356568	0	0	0	0	0	0	3	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			914789	3	0	2	0	3	0	1	0	1	5	1	0	1	0	1	3	1	3	0	0	1	0	1	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Polynucleobacter		789011	1	0	0	0	0	0	0	0	4	0	0	0	0	0	3	1	2	3	1	10	3	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				367949	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		339084	1	5	0	17	3	0	0	0	4	1	7	13	0	4	0	4	7	1	15	2	11	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		3259008	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	2	0	4	0	1	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		579073	2	1	9	0	0	0	0	0	0	0	52	0	0	0	14	21	103	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Chamaesiphonaceae			782521	0	0	7	0	0	0	0	0	3	22	11	2	2	1	0	0	0	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			79659	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales				1117845	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	4	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			72607	3	0	5	0	3	20	106	38	0	8	17	1	1	0	3	10	13	8	14	1	3	7	29	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		746799	1	2	17	0	1	0	0	0	0	6	0	2	4	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		961783	1	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			325947	0	1	2	0	0	0	0	0	0	1	0	0	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales				330902	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast					1789520	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Ramlibacter		1898675	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		217320	0	6	33	1	1	0	0	0	0	28	0	4	11	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae	Luteolibacter		540464	3	0	19	0	0	0	0	0	2	1	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae	Pseudanabaena		241071	0	66	15	0	93	0	0	0	0	1	7	18	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		607212	0	0	0	0	0	0	0	0	1	0	0	0	0	0	5	0	0	0	0	2	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae	Rickettsiella		1064392	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Pelagibacteraceae			323645	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Rubrivivax		721703	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Pelagibacteraceae			556020	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Cryptophyta				209603	0	0	0	0	0	3	0	2	0	0	9	0	0	0	1	2	5	0	3	0	0	1	1	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				337487	0	10	1	0	5	0	0	0	1	0	1	4	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae	Fluviicola		2484049	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Rhodobacter		4480061	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Haptophyceae				832816	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Verrucomicrobiales	Verrucomicrobiaceae			1109142	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			1634029	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Cytophagaceae			2063454	0	0	2	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	

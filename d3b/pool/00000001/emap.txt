@@ -1,502 +1,823 @@
-1	2	3	4	5	6	7	8	ostPr01	ostBR17	ostBR18	ostBR19	ostPr21	ostBR14	ostBR15	ostPr22	ostPr10	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	reuteri	851733	2	0	0	0	0	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium		4372795	53	3	1	5	3	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		295103	0	0	0	2	1	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		243956	0	0	0	2	0	0	0	0	0	
-Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema		63015	0	0	4	0	4	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		55854	0	2	0	0	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	endodontalis	308956	0	2	0	0	5	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Tissierellaceae]			4408771	0	4	0	0	3	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium		4322998	0	0	248	0	0	9	4	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Selenomonas		4307790	0	0	0	0	2	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		4406303	0	0	0	0	56	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		4359222	2	2	0	2	17	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			4093791	0	2	0	0	13	0	0	0	0	
-Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema	socranskii	4459671	0	7	0	0	17	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		4306356	0	0	0	0	5	0	1	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	anginosus	1888677	0	0	0	0	18	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium		2614328	40	4	235	2	4	0	0	8	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides		3407052	0	6	1	0	4	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	[Odoribacteraceae]	Odoribacter		1030652	0	0	0	0	42	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Selenomonas		4421864	0	0	0	0	2	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		594026	0	0	0	2	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales				4373301	0	0	0	0	47	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	BS11			4396325	0	0	0	9	6	0	0	0	0	
-Bacteria	Proteobacteria	Deltaproteobacteria	Desulfobacterales	Desulfobulbaceae	Desulfobulbus		151814	0	1	0	0	5	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Dialister		336228	1	0	0	0	7	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		74407	0	0	2	0	0	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		787709	0	0	0	0	4	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Peptococcaceae	Peptococcus		4310024	0	0	0	0	2	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	melaninogenica	4307782	0	0	0	3	0	0	0	0	0	
-Bacteria	Spirochaetes	Spirochaetes	Sphaerochaetales	Sphaerochaetaceae	Sphaerochaeta		4465900	0	0	0	0	1	0	4	0	0	
-Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		102915	0	0	0	0	3	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	intermedia	611110	0	0	0	0	11	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Paludibacter		4446973	0	0	0	0	9	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium		3221156	0	0	105	0	0	4	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		867184	0	0	0	0	2	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		760967	0	0	0	0	0	0	0	6	0	
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter		3453734	0	0	0	0	0	0	0	2	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	anginosus	4416763	0	0	0	0	0	25	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		4383052	0	6	0	0	1	0	0	0	0	
-Bacteria	Synergistetes	Synergistia	Synergistales	Dethiosulfovibrionaceae	TG5		4307230	0	2	0	0	1	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus		146935	4	0	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Dialister		4318284	0	9	0	0	15	0	0	0	0	
-Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	ochracea	168817	0	0	0	2	6	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		4302472	0	0	0	0	2	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Micrococcaceae	Renibacterium		12394	0	0	0	0	2	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium		2217385	0	0	0	0	4	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Bacillales	Alicyclobacillaceae	Alicyclobacillus		573035	0	0	0	0	3	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales				4313608	0	1	0	0	42	0	0	0	0	
-Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Neisseria		1007399	0	0	0	0	2	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Bacillales	Planococcaceae			377874	0	0	0	0	0	0	0	2	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	melaninogenica	4479603	0	0	0	3	1	0	0	0	0	
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter		699789	0	0	0	0	0	0	0	0	10	
-Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Coriobacteriaceae			942880	0	1	0	0	10	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	S24-7			1115121	0	0	0	0	0	0	0	3	0	
-Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema		2372755	0	5	0	0	27	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Tissierellaceae]	Parvimonas		851704	0	0	0	0	0	7	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus		802262	0	0	0	1	5	0	0	0	0	
-Bacteria	Tenericutes	Mollicutes	Mycoplasmatales	Mycoplasmataceae	Mycoplasma		4422512	0	0	42	0	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales				23709	0	0	0	0	7	0	1	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus		137580	0	0	0	0	0	0	0	3	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Butyrivibrio		4298060	0	0	0	0	6	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas		2613485	0	242	0	0	137	1	141	3	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		4475231	0	1	0	0	34	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Pseudoramibacter_Eubacterium		20221	1	1	0	0	41	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	[Paraprevotellaceae]	[Prevotella]	tannerae	4448497	0	3	0	0	24	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Tannerella		4406621	0	2	0	0	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		4307006	0	26	0	4	15	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		88035	9	0	0	2	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Syntrophomonadaceae	Syntrophomonas		92321	0	0	0	1	7	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium		4448731	5	2	0	0	0	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium		4415943	2	0	0	0	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		127545	0	2	0	0	15	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Selenomonas		4425172	0	0	0	0	2	0	0	0	0	
-Bacteria	TM7	TM7-3	I025	Rs-045			1887414	0	8	0	0	17	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Oribacterium		237945	0	2	0	0	23	0	0	0	0	
-Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga		4451646	0	0	0	0	47	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		1089121	0	0	0	1	1	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Paludibacter		4305935	0	0	0	0	6	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			2901960	0	2	0	0	11	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium		4335928	0	0	185	0	0	647	0	0	0	
-Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Bradyrhizobiaceae			1806981	0	0	0	0	0	0	0	3	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		4418243	163	4	0	0	1	0	0	0	0	
-Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	ochracea	87442	0	0	0	0	5	0	0	0	0	
-Bacteria	Firmicutes	Erysipelotrichi	Erysipelotrichales	Erysipelotrichaceae	Sharpea		840905	0	0	0	0	2	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus		1126851	0	0	0	0	12	0	0	0	77	
-Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus	humi	155997	0	0	0	0	0	0	0	2	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	nigrescens	4332410	0	0	0	38	2	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus		322250	5	0	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	reuteri	536754	0	0	0	2	0	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium		553611	0	2	0	0	3	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		851961	0	7	0	3	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		4426163	0	0	0	0	2	0	0	0	0	
-Bacteria	Tenericutes	Mollicutes	Mycoplasmatales	Mycoplasmataceae	Mycoplasma		594001	0	0	123	0	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	[Paraprevotellaceae]	[Prevotella]	tannerae	2783638	1	1	0	0	13	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium		4452538	1	0	6	0	0	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium		4391463	3	0	4	0	1	0	0	0	0	
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter		143362	0	0	0	0	0	0	0	3	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			72513	0	0	0	0	0	0	2	0	0	
-Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema		565720	0	0	0	0	6	0	0	0	0	
-Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Coriobacteriaceae	Atopobium		524725	0	1	0	0	6	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		4323490	21	1	0	0	3	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		4306166	0	6	0	0	1	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	melaninogenica	935742	1	0	0	12	1	0	0	0	0	
-Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema		2055565	0	0	0	0	3	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus		669486	0	0	0	0	0	0	0	0	13	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium		444857	0	2	1	1	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	intermedia	246785	0	111	0	0	9	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		12543	0	12	0	0	3	0	0	0	0	
-Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema		4340454	0	0	3	0	2	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	melaninogenica	535359	0	0	0	2	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		851935	0	0	0	0	5	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium		4466659	2	0	38	2	0	1	0	0	0	
-Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Campylobacter		4442127	0	0	0	0	9	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]	Anaerovorax		790466	0	0	2	0	0	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus		3678349	0	0	0	0	18	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus		523025	0	0	0	0	21	0	0	0	1	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Tannerella		4459021	0	24	0	8	94	2	921	0	0	
-Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium		677165	0	0	0	0	0	0	0	3	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			14157	0	0	0	0	0	2	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		610111	1	0	0	2	7	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		254099	0	0	0	2	3	0	0	0	0	
-Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfomicrobiaceae	Desulfomicrobium		654665	0	0	0	0	9	1	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	[Odoribacteraceae]	Odoribacter		4371072	0	0	0	1	68	0	3	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus		292057	2	0	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			59564	0	0	0	0	2	0	0	0	0	
-Bacteria	TM7	TM7-3	CW040	F16			39443	0	0	0	0	3	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	intermedia	72112	0	0	0	0	10	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales				44257	0	0	0	0	86	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		4382476	0	0	0	8	1	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		977756	0	0	0	0	4	0	0	0	0	
-Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Neisseria		4373910	0	0	0	23	2	0	0	0	0	
-Bacteria	TM7	TM7-3					578756	0	5	0	0	6	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus		356733	0	0	0	0	0	0	0	3	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Tissierellaceae]			3361011	0	4	0	0	18	0	0	0	0	
-Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema	socranskii	2836861	0	1	1	0	4	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		851923	1	0	0	0	1	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	[Paraprevotellaceae]	[Prevotella]	tannerae	2714267	0	11	0	0	21	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		4315804	0	0	0	0	6	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Tissierellaceae]			4320423	0	10	0	0	69	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		4468662	0	0	0	0	33	0	0	0	0	
-Bacteria	Synergistetes	Synergistia	Synergistales	Dethiosulfovibrionaceae	Pyramidobacter	piscolens	259097	0	1	0	0	23	0	426	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Filifactor		4406781	0	0	0	0	2	0	0	0	0	
-Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				643544	0	0	0	0	0	0	0	5	0	
-Bacteria	Firmicutes	Erysipelotrichi	Erysipelotrichales	Erysipelotrichaceae	Bulleidia		4419380	0	0	0	0	2	0	0	0	0	
-Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Coriobacteriaceae			1106384	0	0	0	0	17	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		851822	0	0	0	3	1	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Porphyromonas	endodontalis	4303759	0	21	0	0	95	0	0	0	0	
-Bacteria	TM7	TM7-3					4385420	0	9	0	0	8	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		1541939	0	3	0	0	2	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Selenomonas		4477547	0	0	0	0	2	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	[Paraprevotellaceae]			New.CleanUp.ReferenceOTU349	0	1	0	1	4	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		New.CleanUp.ReferenceOTU426	0	0	0	0	0	0	0	0	4	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU424	0	6	0	0	1	0	0	0	0	
-Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema	socranskii	New.CleanUp.ReferenceOTU425	0	0	8	3	1	0	0	1	0	
-Unassigned							New.CleanUp.ReferenceOTU342	0	3	0	0	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	intermedia	New.CleanUp.ReferenceOTU341	0	5	0	0	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU347	3	0	0	0	2	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Leuconostocaceae			New.CleanUp.ReferenceOTU345	0	0	0	0	0	0	0	0	15	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU291	0	0	0	0	14	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Selenomonas		New.CleanUp.ReferenceOTU99	0	1	0	4	27	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Moryella		New.CleanUp.ReferenceOTU336	0	2	0	0	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU334	0	4	0	0	0	0	0	0	2	
-Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Haemophilus	parainfluenzae	New.CleanUp.ReferenceOTU332	0	0	0	0	0	4	1	0	1	
-Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Delftia		New.CleanUp.ReferenceOTU330	0	0	0	0	0	0	0	0	5	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia		New.CleanUp.ReferenceOTU331	0	0	0	0	5	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales				New.CleanUp.ReferenceOTU90	0	2	0	16	33	0	0	2	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU91	28	2	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU92	0	0	0	10	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU93	26	0	0	4	0	0	0	0	0	
-Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae	Phenylobacterium		New.CleanUp.ReferenceOTU94	0	0	0	0	0	0	0	2	14	
-Bacteria	Synergistetes	Synergistia	Synergistales	Dethiosulfovibrionaceae	Pyramidobacter	piscolens	New.CleanUp.ReferenceOTU420	0	0	0	0	0	0	2	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	nigrescens	New.CleanUp.ReferenceOTU95	13	0	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Tissierellaceae]	Parvimonas		New.CleanUp.ReferenceOTU97	0	0	0	0	0	17	1	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Veillonella	dispar	New.CleanUp.ReferenceOTU539	0	0	0	0	0	6	1	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus		New.CleanUp.ReferenceOTU10	1070	0	0	0	0	0	0	13	17	
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae			New.CleanUp.ReferenceOTU12	0	0	0	1	0	0	0	1	224	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	intermedia	New.CleanUp.ReferenceOTU14	2	376	0	12	121	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	anginosus	New.CleanUp.ReferenceOTU15	0	0	0	0	9	328	0	0	0	
-Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Methylobacteriaceae	Methylobacterium		New.CleanUp.ReferenceOTU16	0	0	0	0	0	0	0	653	0	
-Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	ochracea	New.CleanUp.ReferenceOTU19	0	0	0	275	3	0	0	6	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			New.CleanUp.ReferenceOTU831	0	3	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			New.CleanUp.ReferenceOTU429	0	1	0	1	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			New.CleanUp.ReferenceOTU60	2	7	0	8	65	0	1	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Butyrivibrio		New.CleanUp.ReferenceOTU63	0	9	0	3	38	0	0	4	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	reuteri	New.CleanUp.ReferenceOTU281	0	0	0	3	0	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU67	11	5	0	10	23	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU746	0	0	0	0	0	3	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Mycobacteriaceae	Mycobacterium		New.CleanUp.ReferenceOTU69	0	0	0	0	0	0	0	0	50	
-Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga		New.CleanUp.ReferenceOTU566	0	0	0	3	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU565	0	0	0	2	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales				New.CleanUp.ReferenceOTU68	0	0	0	0	0	0	0	0	77	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	melaninogenica	New.CleanUp.ReferenceOTU569	0	0	0	3	0	0	0	0	1	
-Unassigned							New.CleanUp.ReferenceOTU516	0	0	0	4	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU515	0	2	0	0	0	0	0	0	0	
-Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales	Coxiellaceae	Rickettsiella		New.CleanUp.ReferenceOTU512	0	0	0	0	0	0	0	0	2	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Granulicatella		New.CleanUp.ReferenceOTU510	0	0	0	3	3	0	0	0	0	
-Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Coriobacteriaceae			New.CleanUp.ReferenceOTU339	8	4	1	14	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Tissierellaceae]	Parvimonas		New.CleanUp.ReferenceOTU370	0	0	0	0	0	0	6	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium		New.CleanUp.ReferenceOTU518	0	0	0	2	0	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Nocardiaceae	Rhodococcus		New.CleanUp.ReferenceOTU286	0	0	0	0	0	0	0	0	13	
-Unassigned							New.CleanUp.ReferenceOTU284	0	0	0	0	0	5	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Oribacterium		New.CleanUp.ReferenceOTU88	0	1	0	59	5	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	nigrescens	New.CleanUp.ReferenceOTU87	0	0	0	18	0	0	0	0	1	
-Unassigned							New.CleanUp.ReferenceOTU86	0	0	0	0	0	4	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Selenomonas		New.CleanUp.ReferenceOTU164	0	0	0	1	0	0	0	0	13	
-Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema		New.CleanUp.ReferenceOTU82	0	0	6	0	0	0	0	0	36	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		New.CleanUp.ReferenceOTU161	0	0	0	7	19	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	melaninogenica	New.CleanUp.ReferenceOTU333	0	0	0	0	0	5	0	2	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Tissierellaceae]	Parvimonas		New.CleanUp.ReferenceOTU306	0	0	0	0	0	0	3	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU305	2	0	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU304	1	0	0	0	0	5	0	0	0	
-Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae			New.CleanUp.ReferenceOTU264	0	0	0	0	0	0	0	3	0	
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae			New.CleanUp.ReferenceOTU265	0	0	0	0	0	0	0	17	0	
-Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Caulobacteraceae			New.CleanUp.ReferenceOTU266	0	0	0	0	0	0	0	4	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Peptococcaceae	Peptococcus		New.CleanUp.ReferenceOTU267	0	0	0	0	28	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Tissierellaceae]	WAL_1855D		New.CleanUp.ReferenceOTU169	7	0	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU600	0	0	0	2	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU607	2	0	0	0	0	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		New.CleanUp.ReferenceOTU605	0	0	0	0	0	0	0	0	7	
-Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Eikenella		New.CleanUp.ReferenceOTU419	0	0	0	4	0	2	0	0	0	
-Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Eikenella		New.CleanUp.ReferenceOTU418	0	0	0	0	0	2	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium		New.CleanUp.ReferenceOTU413	0	0	0	2	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU412	0	0	0	0	0	3	0	0	0	
-Bacteria	Firmicutes	Bacilli	Bacillales	Paenibacillaceae	Cohnella		New.CleanUp.ReferenceOTU410	0	0	0	0	0	0	0	2	0	
-Unassigned							New.CleanUp.ReferenceOTU416	0	0	0	4	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU415	0	0	0	2	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Tissierellaceae]	Parvimonas		New.CleanUp.ReferenceOTU414	0	0	0	0	0	3	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	[Paraprevotellaceae]	[Prevotella]		New.CleanUp.ReferenceOTU465	2	0	0	0	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU463	0	0	0	3	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU460	0	4	0	0	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU461	0	0	0	2	0	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium		New.CleanUp.ReferenceOTU715	0	0	0	2	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU288	0	0	0	0	0	2	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU632	0	0	0	2	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Veillonella	dispar	New.CleanUp.ReferenceOTU49	0	0	0	0	0	0	0	0	35	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU48	0	1	0	103	1	0	0	0	20	
-Unassigned							New.CleanUp.ReferenceOTU41	0	0	0	21	0	0	0	0	38	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU46	0	51	0	19	195	0	0	0	53	
-Bacteria	Bacteroidetes	Sphingobacteriia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter		New.CleanUp.ReferenceOTU45	0	0	0	0	0	0	0	0	49	
-Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		New.CleanUp.ReferenceOTU44	0	0	0	0	0	0	0	40	173	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae			New.CleanUp.ReferenceOTU163	0	6	0	0	19	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia		New.CleanUp.ReferenceOTU624	0	0	0	3	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU704	0	0	0	3	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU626	0	0	2	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU224	0	0	5	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU225	0	0	0	2	1	0	0	0	0	
-Bacteria	TM7	TM7-3					New.CleanUp.ReferenceOTU189	0	8	0	0	4	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus		New.CleanUp.ReferenceOTU222	0	0	0	0	0	1	1	4	0	
-Bacteria	Spirochaetes	Spirochaetes	Sphaerochaetales	Sphaerochaetaceae	Sphaerochaeta		New.CleanUp.ReferenceOTU223	0	0	0	6	0	0	6	0	0	
-Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema		New.CleanUp.ReferenceOTU186	6	0	6	1	1	0	4	0	0	
-Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae			New.CleanUp.ReferenceOTU181	0	0	0	0	0	0	0	3	5	
-Unassigned							New.CleanUp.ReferenceOTU180	0	0	0	3	0	0	0	0	0	
-Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfomicrobiaceae	Desulfomicrobium		New.CleanUp.ReferenceOTU183	0	0	0	7	2	0	0	0	0	
-Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Campylobacter		New.CleanUp.ReferenceOTU182	0	0	0	1	5	0	1	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			New.CleanUp.ReferenceOTU131	0	0	0	0	0	38	1	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Tissierellaceae]			New.CleanUp.ReferenceOTU132	0	13	3	11	6	0	0	3	0	
-Unassigned							New.CleanUp.ReferenceOTU133	0	0	3	1	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	intermedia	New.CleanUp.ReferenceOTU138	0	2	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Oribacterium		New.CleanUp.ReferenceOTU525	0	0	0	1	1	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU521	0	0	0	2	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU160	0	3	0	0	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	BS11			New.CleanUp.ReferenceOTU455	0	0	0	2	0	0	0	0	4	
-Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae	Ralstonia		New.CleanUp.ReferenceOTU454	0	0	0	0	0	0	0	0	6	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			New.CleanUp.ReferenceOTU452	0	0	0	0	0	0	2	0	0	
-Unassigned							New.CleanUp.ReferenceOTU351	0	0	0	2	0	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		New.CleanUp.ReferenceOTU354	0	0	0	6	0	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU355	0	0	0	0	8	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU570	2	0	0	0	0	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		New.CleanUp.ReferenceOTU733	0	0	0	0	0	0	0	2	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU572	2	0	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Megasphaera		New.CleanUp.ReferenceOTU577	0	0	0	0	0	0	0	7	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Pseudoramibacter_Eubacterium		New.CleanUp.ReferenceOTU582	3	0	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU801	0	0	2	0	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	[Paraprevotellaceae]	[Prevotella]		New.CleanUp.ReferenceOTU639	0	0	0	2	2	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium		New.CleanUp.ReferenceOTU6	419	637	335	395	267	155	321	0	281	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus		New.CleanUp.ReferenceOTU4	0	0	0	31	3	0	0	2	304	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU5	1589	128	0	54	150	0	0	0	0	
-Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema		New.CleanUp.ReferenceOTU2	0	0	1088	0	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Tissierellaceae]	Parvimonas		New.CleanUp.ReferenceOTU3	0	11	0	22	26	1190	75	0	0	
-Bacteria	Firmicutes	Bacilli	Bacillales	Alicyclobacillaceae	Alicyclobacillus		New.CleanUp.ReferenceOTU1	0	0	0	0	3	0	0	37	969	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	intermedia	New.CleanUp.ReferenceOTU579	0	2	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			New.CleanUp.ReferenceOTU8	0	19	0	0	59	600	17	0	52	
-Bacteria	Tenericutes	Mollicutes	Mycoplasmatales	Mycoplasmataceae	Mycoplasma		New.CleanUp.ReferenceOTU9	0	0	509	0	7	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Dialister		New.CleanUp.ReferenceOTU430	0	2	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Eubacteriaceae	Pseudoramibacter_Eubacterium		New.CleanUp.ReferenceOTU72	78	6	0	7	13	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			New.CleanUp.ReferenceOTU73	0	1	0	23	0	0	1	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Dialister		New.CleanUp.ReferenceOTU70	0	7	1	0	15	0	6	6	0	
-Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Sinobacteraceae			New.CleanUp.ReferenceOTU71	0	0	0	0	0	0	0	0	61	
-Bacteria	Proteobacteria	Gammaproteobacteria	Cardiobacteriales	Cardiobacteriaceae	Cardiobacterium		New.CleanUp.ReferenceOTU179	0	0	0	0	1	0	0	0	6	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU75	0	0	0	2	5	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium		New.CleanUp.ReferenceOTU76	34	4	14	21	6	0	0	0	75	
-Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema		New.CleanUp.ReferenceOTU79	0	0	0	1	8	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Tissierellaceae]	Sporanaerobacter		New.CleanUp.ReferenceOTU170	0	7	0	0	3	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia		New.CleanUp.ReferenceOTU77	0	3	0	26	0	0	0	0	29	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU489	0	0	0	2	0	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae			New.CleanUp.ReferenceOTU481	0	0	0	0	0	3	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU314	0	0	0	2	0	0	0	0	0	
-Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas		New.CleanUp.ReferenceOTU315	0	0	0	0	0	0	0	10	0	
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Serratia	marcescens	New.CleanUp.ReferenceOTU316	0	0	0	0	0	0	0	5	0	
-Bacteria	TM7	TM7-3	I025	Rs-045			New.CleanUp.ReferenceOTU317	0	2	0	0	0	0	0	0	0	
-Bacteria	TM7	TM7-3					New.CleanUp.ReferenceOTU258	0	1	0	1	0	0	0	0	0	
-Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				New.CleanUp.ReferenceOTU312	0	0	0	0	0	0	0	3	0	
-Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Coriobacteriaceae	Atopobium		New.CleanUp.ReferenceOTU255	0	1	0	18	4	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU254	0	0	0	0	0	14	2	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	intermedia	New.CleanUp.ReferenceOTU257	0	2	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU250	0	0	0	0	0	3	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Selenomonas		New.CleanUp.ReferenceOTU298	0	0	0	4	3	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus		New.CleanUp.ReferenceOTU675	2	0	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus		New.CleanUp.ReferenceOTU673	0	0	0	0	0	0	0	4	0	
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	johnsonii	New.CleanUp.ReferenceOTU386	0	0	0	0	0	0	0	3	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Oribacterium		New.CleanUp.ReferenceOTU385	0	3	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			New.CleanUp.ReferenceOTU173	0	0	2	4	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]	Anaerovorax		New.CleanUp.ReferenceOTU382	0	0	0	0	3	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU381	10	0	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae			New.CleanUp.ReferenceOTU380	0	6	0	0	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU799	0	2	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU814	2	0	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU812	0	1	0	0	0	0	1	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	melaninogenica	New.CleanUp.ReferenceOTU797	0	0	0	2	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU408	0	0	0	2	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides		New.CleanUp.ReferenceOTU402	0	4	0	0	1	0	0	0	0	
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae			New.CleanUp.ReferenceOTU493	0	0	0	0	0	0	0	5	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU491	0	6	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae			New.CleanUp.ReferenceOTU490	0	0	0	0	7	0	0	0	0	
-Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	[Chromatiaceae]	Rheinheimera		New.CleanUp.ReferenceOTU497	0	0	0	0	0	0	0	6	0	
-Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				New.CleanUp.ReferenceOTU494	0	0	0	0	0	0	0	3	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]	Mogibacterium		New.CleanUp.ReferenceOTU499	0	0	0	0	0	0	5	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Schwartzia		New.CleanUp.ReferenceOTU498	0	0	0	0	8	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae			New.CleanUp.ReferenceOTU449	0	0	0	0	0	0	0	2	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU210	0	0	0	5	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU310	0	0	2	0	0	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU311	6	0	0	0	0	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia		New.CleanUp.ReferenceOTU36	0	1	0	0	99	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	[Paraprevotellaceae]	[Prevotella]	tannerae	New.CleanUp.ReferenceOTU37	100	45	0	1	186	0	0	0	25	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Oribacterium		New.CleanUp.ReferenceOTU35	24	20	0	31	114	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU32	513	12	0	23	15	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Dialister		New.CleanUp.ReferenceOTU33	264	11	0	0	63	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU30	22	0	0	123	2	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Micrococcaceae	Renibacterium		New.CleanUp.ReferenceOTU31	0	0	0	0	0	0	0	26	177	
-Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				New.CleanUp.ReferenceOTU251	0	0	0	0	0	0	0	3	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium		New.CleanUp.ReferenceOTU319	0	0	1	6	0	0	0	0	1	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			New.CleanUp.ReferenceOTU371	0	0	0	0	0	2	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU192	0	1	0	9	0	4	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU193	2	0	0	0	0	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Streptomycetaceae	Streptomyces		New.CleanUp.ReferenceOTU196	0	0	0	0	0	0	0	0	8	
-Unassigned							New.CleanUp.ReferenceOTU194	0	0	0	1	1	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			New.CleanUp.ReferenceOTU581	0	0	0	0	3	0	0	0	0	
-Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Coriobacteriaceae			New.CleanUp.ReferenceOTU198	0	7	0	0	0	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		New.CleanUp.ReferenceOTU199	0	0	0	4	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU585	0	0	0	2	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae			New.CleanUp.ReferenceOTU104	3	0	0	0	25	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU101	46	0	0	12	1	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Dialister		New.CleanUp.ReferenceOTU103	0	1	0	0	0	0	4	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Filifactor		New.CleanUp.ReferenceOTU102	0	0	5	9	68	0	0	0	0	
-Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Aggregatibacter		New.CleanUp.ReferenceOTU537	0	0	0	0	0	0	0	0	3	
-Unassigned							New.CleanUp.ReferenceOTU109	0	0	0	0	0	0	6	0	0	
-Unassigned							New.CleanUp.ReferenceOTU532	0	0	0	0	0	0	0	0	6	
-Unassigned							New.CleanUp.ReferenceOTU630	0	0	0	0	0	4	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU220	0	0	0	0	0	2	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Syntrophomonadaceae	Syntrophomonas		New.CleanUp.ReferenceOTU221	0	0	0	8	5	0	0	0	0	
-Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			New.CleanUp.ReferenceOTU693	0	0	0	0	0	0	0	0	2	
-Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Kingella		New.CleanUp.ReferenceOTU445	0	0	0	2	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	nigrescens	New.CleanUp.ReferenceOTU313	0	0	0	2	0	0	0	0	0	
-Bacteria	[Thermi]	Deinococci	Deinococcales	Deinococcaceae	Deinococcus		New.CleanUp.ReferenceOTU447	0	0	0	0	0	0	0	0	2	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU369	0	4	0	0	0	0	0	0	0	
-Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema		New.CleanUp.ReferenceOTU443	0	0	0	0	3	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU365	0	1	0	1	0	0	0	0	0	
-Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae			New.CleanUp.ReferenceOTU364	0	0	0	0	0	0	0	0	3	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			New.CleanUp.ReferenceOTU366	0	0	0	0	4	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU362	0	0	0	2	0	0	0	0	0	
-Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Oxalobacteraceae			New.CleanUp.ReferenceOTU219	0	0	0	0	0	0	0	0	11	
-Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Kingella		New.CleanUp.ReferenceOTU218	0	0	0	5	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU638	0	0	0	2	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU211	0	1	0	4	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	nigrescens	New.CleanUp.ReferenceOTU228	0	0	0	2	0	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU212	0	0	0	0	0	0	2	0	0	
-Unassigned							New.CleanUp.ReferenceOTU215	0	0	0	2	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU214	8	0	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU217	0	0	0	3	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Moryella		New.CleanUp.ReferenceOTU229	0	4	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU646	0	0	0	0	0	2	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Tissierellaceae]	Finegoldia		New.CleanUp.ReferenceOTU384	0	0	0	0	0	0	0	8	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU564	0	1	0	1	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU520	0	5	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU543	0	0	0	0	0	0	0	2	0	
-Unassigned							New.CleanUp.ReferenceOTU141	0	0	0	0	0	20	0	0	0	
-Bacteria	TM7	TM7-3	I025	Rs-045			New.CleanUp.ReferenceOTU64	0	5	0	26	2	0	0	0	44	
-Unassigned							New.CleanUp.ReferenceOTU147	0	0	0	2	0	0	1	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU242	0	0	0	15	0	0	0	0	5	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU241	0	0	0	0	8	0	1	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU246	0	0	0	4	0	0	0	0	0	
-Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Neisseria		New.CleanUp.ReferenceOTU247	0	0	0	1	0	11	1	1	0	
-Bacteria	Synergistetes	Synergistia	Synergistales	Dethiosulfovibrionaceae	Pyramidobacter	piscolens	New.CleanUp.ReferenceOTU244	0	0	0	0	0	0	3	0	0	
-Unassigned							New.CleanUp.ReferenceOTU245	0	0	0	0	0	0	3	0	0	
-Unassigned							New.CleanUp.ReferenceOTU718	0	1	0	1	0	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU248	0	0	0	4	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU249	0	1	0	0	0	0	1	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]	Mogibacterium		New.CleanUp.ReferenceOTU629	0	0	0	0	0	0	2	0	0	
-Unassigned							New.CleanUp.ReferenceOTU667	0	0	0	0	0	2	0	0	0	
-Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Comamonas		New.CleanUp.ReferenceOTU398	0	0	0	0	0	0	0	0	9	
-Unassigned							New.CleanUp.ReferenceOTU399	0	0	0	2	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU395	4	0	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU390	0	2	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU391	0	0	0	2	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU392	0	0	0	5	0	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus		New.CleanUp.ReferenceOTU280	10	0	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU802	0	0	0	3	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU168	0	0	0	0	0	8	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Tissierellaceae]			New.CleanUp.ReferenceOTU167	0	2	0	0	0	0	1	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales				New.CleanUp.ReferenceOTU435	0	0	0	2	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU437	0	0	0	2	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU431	2	0	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae			New.CleanUp.ReferenceOTU165	0	0	0	0	4	0	0	0	0	
-Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	ochracea	New.CleanUp.ReferenceOTU329	0	0	0	2	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Butyrivibrio		New.CleanUp.ReferenceOTU84	0	2	0	0	39	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU486	0	0	0	2	0	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Scardovia		New.CleanUp.ReferenceOTU320	2	0	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU325	0	0	0	3	0	0	0	0	0	
-Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema	socranskii	New.CleanUp.ReferenceOTU327	0	1	2	0	44	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae			New.CleanUp.ReferenceOTU326	0	0	0	1	2	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus		New.CleanUp.ReferenceOTU81	0	0	0	0	0	0	0	21	0	
-Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema		New.CleanUp.ReferenceOTU54	0	7	0	0	81	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			New.CleanUp.ReferenceOTU55	0	12	0	5	29	0	10	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]	Mogibacterium		New.CleanUp.ReferenceOTU56	0	1	0	0	14	0	44	0	0	
-Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae	Neisseria		New.CleanUp.ReferenceOTU57	0	0	0	44	1	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium		New.CleanUp.ReferenceOTU50	2	0	0	165	4	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium		New.CleanUp.ReferenceOTU458	0	0	0	3	0	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus		New.CleanUp.ReferenceOTU51	0	0	0	1	0	28	0	0	0	
-Bacteria	Proteobacteria	Betaproteobacteria	Neisseriales	Neisseriaceae			New.CleanUp.ReferenceOTU29	0	0	0	171	0	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus		New.CleanUp.ReferenceOTU28	195	0	0	0	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	[Odoribacteraceae]	Odoribacter		New.CleanUp.ReferenceOTU27	0	0	0	29	132	0	29	0	0	
-Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae	Treponema		New.CleanUp.ReferenceOTU26	0	5	76	0	122	0	0	0	46	
-Bacteria	Synergistetes	Synergistia	Synergistales	Dethiosulfovibrionaceae	Pyramidobacter	piscolens	New.CleanUp.ReferenceOTU21	0	1	0	6	3	0	320	0	0	
-Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio		New.CleanUp.ReferenceOTU615	0	0	0	2	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Tannerella		New.CleanUp.ReferenceOTU598	0	0	0	0	0	0	4	0	0	
-Unassigned							New.CleanUp.ReferenceOTU590	0	0	0	0	0	2	1	0	0	
-Unassigned							New.CleanUp.ReferenceOTU500	0	0	0	0	0	0	2	0	0	
-Bacteria	Proteobacteria	Betaproteobacteria	Burkholderiales	Comamonadaceae	Delftia		New.CleanUp.ReferenceOTU507	0	0	0	0	0	0	0	2	0	
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae			New.CleanUp.ReferenceOTU509	0	0	0	0	0	0	0	3	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces		New.CleanUp.ReferenceOTU98	7	4	0	8	30	22	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Catonella		New.CleanUp.ReferenceOTU290	0	0	0	0	2	0	0	3	0	
-Unassigned							New.CleanUp.ReferenceOTU293	1	0	1	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU292	0	2	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	Bacillus		New.CleanUp.ReferenceOTU295	0	0	0	0	0	0	0	10	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Selenomonas		New.CleanUp.ReferenceOTU296	0	0	0	0	0	3	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Tissierellaceae]			New.CleanUp.ReferenceOTU112	0	16	0	20	12	0	0	22	0	
-Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Acetobacteraceae	Roseococcus		New.CleanUp.ReferenceOTU110	0	0	0	0	0	0	0	5	0	
-Bacteria	Firmicutes	Bacilli	Gemellales	Gemellaceae			New.CleanUp.ReferenceOTU111	0	0	0	0	0	0	0	19	0	
-Unassigned							New.CleanUp.ReferenceOTU115	0	0	0	3	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU682	2	0	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU683	3	0	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU681	0	0	0	3	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae			New.CleanUp.ReferenceOTU688	0	0	0	2	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Peptostreptococcus		New.CleanUp.ReferenceOTU372	0	2	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae			New.CleanUp.ReferenceOTU279	0	0	0	0	21	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU278	0	0	0	2	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU376	1	0	0	1	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Selenomonas		New.CleanUp.ReferenceOTU374	0	0	0	0	11	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU273	0	0	0	2	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU271	0	0	0	0	0	2	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU270	0	0	0	5	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU277	0	2	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU276	0	16	0	0	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			New.CleanUp.ReferenceOTU274	0	0	0	0	3	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Oribacterium		New.CleanUp.ReferenceOTU758	0	1	0	1	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU208	0	0	0	6	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU207	0	0	0	6	0	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia		New.CleanUp.ReferenceOTU202	0	13	0	1	0	0	0	0	0	
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter		New.CleanUp.ReferenceOTU203	0	0	0	0	0	0	0	0	36	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium		New.CleanUp.ReferenceOTU200	0	3	0	8	0	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia		New.CleanUp.ReferenceOTU201	0	0	0	8	7	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium		New.CleanUp.ReferenceOTU620	0	3	0	0	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU471	0	0	0	3	0	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia		New.CleanUp.ReferenceOTU176	0	1	0	9	7	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU477	0	0	0	2	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae			New.CleanUp.ReferenceOTU476	0	0	0	6	0	0	0	0	0	
-Bacteria	TM7	TM7-3					New.CleanUp.ReferenceOTU650	0	2	0	0	1	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Corynebacteriaceae	Corynebacterium		New.CleanUp.ReferenceOTU655	0	0	0	3	0	0	0	0	0	
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Propionibacteriaceae	Propionibacterium	acnes	New.CleanUp.ReferenceOTU652	0	0	0	0	0	0	0	0	2	
-Bacteria	Firmicutes	Clostridia	Clostridiales				New.CleanUp.ReferenceOTU613	0	0	0	2	0	0	0	0	0	
-Bacteria	Synergistetes	Synergistia	Synergistales	Dethiosulfovibrionaceae	Pyramidobacter	piscolens	New.CleanUp.ReferenceOTU619	0	0	0	0	0	0	4	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Tannerella		New.CleanUp.ReferenceOTU618	0	1	0	0	0	0	4	0	0	
-Unassigned							New.CleanUp.ReferenceOTU154	0	0	1	1	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU152	0	0	0	0	5	0	0	0	0	
-Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Campylobacter		New.CleanUp.ReferenceOTU58	4	1	0	32	13	121	0	0	17	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Moryella		New.CleanUp.ReferenceOTU59	0	72	0	11	102	0	4	3	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Porphyromonadaceae	Paludibacter		New.CleanUp.ReferenceOTU158	0	1	0	0	14	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU159	0	0	0	18	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae			New.CleanUp.ReferenceOTU692	0	0	0	2	0	0	0	0	0	
-Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Capnocytophaga	ochracea	New.CleanUp.ReferenceOTU233	0	0	0	3	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU232	0	1	0	1	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Oribacterium		New.CleanUp.ReferenceOTU231	0	0	0	2	0	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU123	0	0	0	6	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	[Mogibacteriaceae]			New.CleanUp.ReferenceOTU125	0	1	0	0	11	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU552	0	0	0	2	0	0	0	0	0	
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia		New.CleanUp.ReferenceOTU553	0	2	0	1	0	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Schwartzia		New.CleanUp.ReferenceOTU129	0	0	0	0	5	0	0	0	0	
-Bacteria	Firmicutes	Clostridia	Clostridiales	Veillonellaceae	Selenomonas		New.CleanUp.ReferenceOTU128	0	0	0	0	0	2	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU556	0	0	0	2	0	0	0	0	0	
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella		New.CleanUp.ReferenceOTU557	5	0	0	0	2	0	0	0	0	
-Unassigned							New.CleanUp.ReferenceOTU628	0	0	0	0	0	0	2	0	0	
+1	2	3	4	5	6	7	8	PapBSCn2Kr02	PapBSCn1Kr02	PapBSCn1Ms17	PapBSCn3Ms17	PapBSCn2Ms17	PapBSCn3Kr02	PapBSSc1Mer5	PapBSAp1Mer1	PapBSXt1Mer2	PapBSAp1Mer2	PapBSAp1Mer5	PapBSXt2Mer1	PapBSSc1Mer1	PapBSSc1Mer2	PapBSXt1Mer5	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU2	0	0	0	4	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU5	117	141	118	45	46	4	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU7	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU8	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria					New.CleanUp.ReferenceOTU9	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Sva0725	Sva0725				New.CleanUp.ReferenceOTU11	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU12	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU14	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU15	0	0	0	0	1	1	2	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU17	0	6	1	2	0	1	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU21	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	OM60			New.CleanUp.ReferenceOTU22	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU23	1	2	2	8	11	10	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU24	0	0	0	0	0	0	0	8	10	13	3	2	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU25	0	2	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU26	2	2	13	56	69	26	1	0	0	0	1	0	5	17	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	NB1-j	NB1-i			New.CleanUp.ReferenceOTU27	0	0	0	0	0	0	85	0	0	0	0	0	17	23	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				New.CleanUp.ReferenceOTU34	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	Anaerolineae	Caldilineales	Caldilineaceae			New.CleanUp.ReferenceOTU37	0	0	0	0	0	0	0	210	25	23	250	8	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Halomonadaceae	Candidatus Portiera		New.CleanUp.ReferenceOTU38	0	0	0	0	2	4	3	0	0	0	0	0	2	11	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU39	0	0	8	30	24	7	3	0	0	0	0	0	0	1	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU42	0	0	0	0	0	0	0	0	0	2	0	0	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiohalorhabdales				New.CleanUp.ReferenceOTU46	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	OM27			New.CleanUp.ReferenceOTU47	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU49	0	4	0	0	10	37	0	0	0	0	0	0	0	1	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU52	0	1	29	69	79	31	0	1	0	1	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU53	343	219	34	173	209	60	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU54	0	0	0	0	0	0	0	4	0	2	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU55	0	4	0	0	2	4	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU58	0	0	0	0	1	7	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Flammeovirgaceae			New.CleanUp.ReferenceOTU60	0	0	0	2	1	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU63	0	1	4	0	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU64	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Alteromonadaceae			New.CleanUp.ReferenceOTU66	0	1	0	4	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales				New.CleanUp.ReferenceOTU69	11	38	15	0	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU74	0	0	0	0	0	246	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU75	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria					New.CleanUp.ReferenceOTU77	0	0	0	4	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU78	0	0	0	10	27	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU80	0	1	6	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU81	0	0	0	9	3	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU89	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU94	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU97	0	0	0	1	1	2	0	0	0	0	0	0	0	1	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU98	0	0	0	0	0	0	0	0	8	0	0	0	0	0	2	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU100	1	0	17	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU101	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU102	0	0	0	0	0	0	0	42	8	0	4	4	0	0	2	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae			New.CleanUp.ReferenceOTU103	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU105	0	0	0	0	0	0	0	25	3	3	4	2	0	0	1	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU107	0	0	0	0	0	0	0	0	1	1	2	1	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	TK06			New.CleanUp.ReferenceOTU108	0	0	0	0	0	0	0	4	7	0	0	2	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU109	0	0	0	0	0	0	0	0	3	0	2	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU110	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU112	0	0	0	0	0	0	0	1	2	1	1	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU113	0	0	0	0	0	0	0	0	4	0	1	4	0	0	1	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	ntu14			New.CleanUp.ReferenceOTU116	0	0	0	3	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU117	0	0	0	0	0	0	0	2	2	0	1	4	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU118	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU122	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU123	0	1	0	5	1	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU124	0	0	0	0	0	0	0	0	3	1	1	0	0	0	0	
+Bacteria	Nitrospirae	Nitrospira	Nitrospirales	Nitrospiraceae			New.CleanUp.ReferenceOTU125	0	0	0	0	0	0	413	0	0	0	0	0	41	150	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Oceanospirillaceae			New.CleanUp.ReferenceOTU130	1	0	0	0	5	11	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU131	7	8	7	28	37	3	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU133	3	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiohalorhabdales	Thiohalorhabdaceae			New.CleanUp.ReferenceOTU134	0	0	0	3	12	3	0	0	0	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU138	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU141	0	0	0	5	19	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU144	0	0	0	0	3	1	0	0	0	0	0	0	2	1	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU145	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	
+Unassigned							New.CleanUp.ReferenceOTU146	0	8	26	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU147	0	0	0	20	43	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Oscillatoriophycideae	Oscillatoriales	Phormidiaceae			New.CleanUp.ReferenceOTU151	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	HTCC2188	HTCC		New.CleanUp.ReferenceOTU152	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU153	0	0	0	0	0	0	0	80	68	34	28	56	0	0	11	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU156	2	0	6	25	100	7	2	0	0	0	0	0	0	1	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	NB1-j				New.CleanUp.ReferenceOTU158	0	0	0	6	1	252	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU162	0	16	23	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	koll13			New.CleanUp.ReferenceOTU163	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU165	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU166	0	0	0	0	0	0	0	1	1	4	1	0	0	0	1	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU167	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	JdFBGBact			New.CleanUp.ReferenceOTU169	3	0	0	3	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU170	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Oscillatoriophycideae	Chroococcales	Cyanobacteriaceae			New.CleanUp.ReferenceOTU172	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU173	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU176	0	3	6	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Syntrophobacterales	Syntrophobacteraceae			New.CleanUp.ReferenceOTU177	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU178	0	0	0	0	0	0	0	0	2	0	0	6	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Halomonadaceae	Candidatus Portiera		New.CleanUp.ReferenceOTU182	0	0	1	1	1	2	3	0	0	0	0	0	0	5	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU183	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU185	1	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU190	0	0	0	0	0	0	0	2	14	3	5	13	0	0	2	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU191	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU193	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU196	0	0	0	0	0	0	0	6	15	8	3	7	0	0	2	
+Bacteria	Acidobacteria	Acidobacteria-6	BPC015				New.CleanUp.ReferenceOTU198	0	0	0	0	0	0	0	20	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU202	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU203	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU206	0	0	0	0	0	0	0	0	4	5	5	2	0	0	1	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU211	0	0	0	0	0	0	0	0	1	0	0	2	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU216	0	0	0	0	1	0	0	0	0	0	0	0	2	1	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		New.CleanUp.ReferenceOTU217	0	0	2	2	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU221	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	
+Bacteria	Chloroflexi	Anaerolineae	SBR1031	A4b			New.CleanUp.ReferenceOTU222	0	0	0	0	0	0	0	0	16	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU223	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU224	0	0	0	4	5	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae			New.CleanUp.ReferenceOTU226	0	0	0	1	3	1	0	0	0	1	0	0	6	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU229	0	0	0	2	1	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU230	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Syntrophobacterales	Syntrophobacteraceae			New.CleanUp.ReferenceOTU232	0	0	0	0	0	0	0	0	21	0	0	19	0	0	1	
+Unassigned							New.CleanUp.ReferenceOTU233	1	0	8	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU234	2	2	18	39	63	19	2	0	0	0	1	0	5	7	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU235	0	0	0	0	0	0	0	32	0	2	7	28	0	0	0	
+Bacteria	Bacteroidetes	[Rhodothermi]	[Rhodothermales]	Rhodothermaceae			New.CleanUp.ReferenceOTU237	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	PB19				New.CleanUp.ReferenceOTU238	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU239	0	0	0	0	0	0	0	1	5	1	4	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU240	0	0	0	0	0	0	0	0	0	2	1	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU242	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU243	0	0	0	1	5	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bdellovibrionaceae	Bdellovibrio		New.CleanUp.ReferenceOTU246	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU252	0	0	0	0	0	0	0	0	4	0	0	11	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU254	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	C111			New.CleanUp.ReferenceOTU256	0	0	1	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	NB1-j				New.CleanUp.ReferenceOTU258	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU259	0	0	0	17	19	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	BME43					New.CleanUp.ReferenceOTU263	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Colwelliaceae			New.CleanUp.ReferenceOTU265	0	0	0	4	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU266	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bacteriovoracaceae			New.CleanUp.ReferenceOTU268	0	0	0	0	0	0	1	0	0	0	0	0	0	7	0	
+Unassigned							New.CleanUp.ReferenceOTU278	31	13	35	83	136	4	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	OM60			New.CleanUp.ReferenceOTU281	0	0	0	19	5	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Amaricoccus		New.CleanUp.ReferenceOTU286	2	6	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU287	2	10	21	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiohalorhabdales				New.CleanUp.ReferenceOTU290	0	0	0	0	0	0	1	0	0	0	0	0	0	8	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU291	0	0	1	2	2	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU297	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae			New.CleanUp.ReferenceOTU300	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	Ellin6529					New.CleanUp.ReferenceOTU306	0	0	0	0	2	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	C111			New.CleanUp.ReferenceOTU309	0	1	0	3	7	12	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae			New.CleanUp.ReferenceOTU320	0	0	0	1	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU321	0	0	0	0	0	0	0	1	4	0	1	1	0	0	1	
+Bacteria	TM7	TM7-1					New.CleanUp.ReferenceOTU323	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU325	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU326	0	0	1	3	3	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU328	0	0	0	0	0	0	0	3	2	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU329	0	0	0	0	0	0	0	1	2	0	7	4	0	0	0	
+Bacteria	Bacteroidetes	[Saprospirae]	[Saprospirales]	Saprospiraceae			New.CleanUp.ReferenceOTU330	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU331	0	1	0	0	0	7	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU332	0	3	5	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU335	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU336	0	0	0	0	0	0	0	2	0	4	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU339	0	0	0	0	1	11	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU341	0	0	0	3	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	TM7	TM7-1					New.CleanUp.ReferenceOTU342	0	0	0	0	0	0	0	2	0	0	1	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU344	0	0	1	22	11	2	0	0	0	0	0	0	1	1	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	OM60			New.CleanUp.ReferenceOTU348	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Oscillatoriophycideae	Chroococcales	Xenococcaceae			New.CleanUp.ReferenceOTU349	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU350	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	DA052	Ellin6513				New.CleanUp.ReferenceOTU354	0	0	0	0	0	0	0	0	0	0	0	0	3	1	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Sva0853				New.CleanUp.ReferenceOTU358	1	1	0	0	0	4	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU366	1	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales				New.CleanUp.ReferenceOTU369	0	0	0	0	9	5	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	[Marinicellales]	[Marinicellaceae]			New.CleanUp.ReferenceOTU372	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU375	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU379	0	0	0	4	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU380	0	0	0	0	0	0	0	21	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU382	0	0	0	0	0	0	0	12	0	2	0	0	0	0	0	
+Bacteria	Acidobacteria	Acidobacteria-6	iii1-15				New.CleanUp.ReferenceOTU384	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU386	0	0	0	0	0	0	0	0	8	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	HTCC2188	HTCC		New.CleanUp.ReferenceOTU388	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU389	0	0	0	0	0	0	0	2	0	9	11	4	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	PB19				New.CleanUp.ReferenceOTU390	0	0	0	0	2	0	1	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Sva0725	Sva0725				New.CleanUp.ReferenceOTU391	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Halomonadaceae	Candidatus Portiera		New.CleanUp.ReferenceOTU392	0	0	0	0	9	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU396	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU400	0	0	0	0	0	0	0	3	15	1	5	16	0	0	2	
+Bacteria	Chloroflexi	TK17	mle1-48				New.CleanUp.ReferenceOTU401	0	0	0	0	0	0	0	0	3	0	0	0	0	0	1	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU406	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Epulopiscium		New.CleanUp.ReferenceOTU408	0	2	0	0	0	0	2	0	0	0	0	0	0	1	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU413	0	0	0	0	0	0	0	13	12	0	1	3	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU414	0	0	0	0	0	0	0	23	1	3	4	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiohalorhabdales	Thiohalorhabdaceae			New.CleanUp.ReferenceOTU416	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium		New.CleanUp.ReferenceOTU418	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188				New.CleanUp.ReferenceOTU420	0	4	1	3	7	25	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria					New.CleanUp.ReferenceOTU421	0	0	0	0	0	0	0	2	0	1	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast					New.CleanUp.ReferenceOTU422	0	1	0	0	0	0	16	0	0	0	0	0	7	15	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Syntrophobacterales	Syntrophobacteraceae			New.CleanUp.ReferenceOTU425	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU426	0	0	0	2	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU427	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU428	0	0	0	0	0	0	0	3	1	1	1	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Alteromonadaceae	BD2-13		New.CleanUp.ReferenceOTU429	0	0	0	6	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU431	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU432	0	0	0	2	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU435	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU439	0	1	0	1	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae			New.CleanUp.ReferenceOTU442	0	0	0	1	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae			New.CleanUp.ReferenceOTU446	0	1	0	2	0	4	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU449	1	5	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU454	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU455	1	1	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales				New.CleanUp.ReferenceOTU456	0	0	0	2	0	0	1	0	0	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Alteromonadaceae			New.CleanUp.ReferenceOTU457	0	0	0	3	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU458	3	15	145	451	640	141	0	6	0	3	0	0	6	3	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU459	3	13	23	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Chlorophyta				New.CleanUp.ReferenceOTU463	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU464	0	0	0	3	1	4	0	0	0	0	0	0	0	1	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU467	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Chlorobi	OPB56					New.CleanUp.ReferenceOTU468	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Halomonadaceae	Candidatus Portiera		New.CleanUp.ReferenceOTU469	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU470	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Halomonadaceae	Candidatus Portiera		New.CleanUp.ReferenceOTU471	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU474	0	0	0	0	0	0	0	1	2	1	0	1	0	0	1	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU476	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	OM60			New.CleanUp.ReferenceOTU478	2	4	1	4	14	46	0	0	0	0	0	0	3	1	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae	Mesorhizobium		New.CleanUp.ReferenceOTU479	0	0	0	1	1	2	0	0	0	0	0	0	0	0	0	
+Bacteria	SBR1093	EC214					New.CleanUp.ReferenceOTU483	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria					New.CleanUp.ReferenceOTU485	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	[Entotheonellales]	[Entotheonellaceae]			New.CleanUp.ReferenceOTU486	0	0	0	0	0	0	0	17	0	7	1	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU488	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Chromatiaceae			New.CleanUp.ReferenceOTU489	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU493	41	95	314	0	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU494	0	0	0	0	0	0	0	1	0	0	0	3	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria					New.CleanUp.ReferenceOTU499	0	0	0	0	0	0	0	55	0	9	5	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	SC3-41			New.CleanUp.ReferenceOTU502	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU503	0	0	0	0	0	0	0	4	0	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU507	0	0	0	0	0	0	0	16	6	4	6	9	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	PB19				New.CleanUp.ReferenceOTU508	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU509	0	0	0	2	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU511	0	0	0	0	0	0	0	0	36	0	0	19	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU513	0	0	0	2	2	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU514	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Chloroflexi	TK17	TK18				New.CleanUp.ReferenceOTU517	0	0	0	0	0	0	0	0	56	0	0	37	0	0	1	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU518	0	0	0	0	0	0	0	8	2	0	1	2	0	0	1	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	SC3-41			New.CleanUp.ReferenceOTU521	0	0	0	0	2	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU522	0	0	2	110	137	35	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU524	0	0	0	0	0	0	11	0	0	0	0	0	11	33	0	
+Unassigned							New.CleanUp.ReferenceOTU532	0	4	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU533	0	0	16	48	86	14	0	0	0	2	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU535	0	0	0	2	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU539	0	2	0	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU542	17	14	40	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU545	0	0	0	0	0	0	0	7	2	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales				New.CleanUp.ReferenceOTU550	0	4	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU552	0	0	0	0	0	0	0	1	0	0	0	2	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU553	0	0	0	2	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU555	0	0	0	0	0	0	0	0	0	0	0	0	4	3	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU557	0	0	0	0	0	0	0	5	0	5	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU560	5	3	10	125	159	23	0	1	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU562	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	
+Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae			New.CleanUp.ReferenceOTU563	0	0	0	0	0	0	0	27	29	18	19	18	0	0	10	
+Unassigned							New.CleanUp.ReferenceOTU566	0	0	5	1	7	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria						New.CleanUp.ReferenceOTU567	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales				New.CleanUp.ReferenceOTU568	0	0	1	0	5	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU569	0	0	0	0	0	0	0	3	4	0	3	1	0	0	1	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	TK06			New.CleanUp.ReferenceOTU574	0	0	0	0	0	0	0	9	17	0	0	3	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU575	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	OD1	ABY1					New.CleanUp.ReferenceOTU577	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	Ellin6529					New.CleanUp.ReferenceOTU579	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU581	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Klebsiella		New.CleanUp.ReferenceOTU588	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188				New.CleanUp.ReferenceOTU594	0	0	0	6	15	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Nitrospirae	Nitrospira	Nitrospirales	Nitrospiraceae			New.CleanUp.ReferenceOTU595	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU597	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Haptophyceae				New.CleanUp.ReferenceOTU598	0	0	0	0	0	0	0	0	0	0	0	1	1	1	0	
+Unassigned							New.CleanUp.ReferenceOTU604	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU606	0	0	0	0	0	0	0	82	17	11	14	19	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU608	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU610	0	0	0	0	0	0	0	0	7	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bdellovibrionaceae	Bdellovibrio		New.CleanUp.ReferenceOTU611	1	0	4	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	Anaerolineae	Caldilineales	Caldilineaceae			New.CleanUp.ReferenceOTU617	0	0	0	0	0	0	0	22	22	6	48	14	0	0	2	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	koll13			New.CleanUp.ReferenceOTU625	0	0	0	0	0	0	0	3	7	9	11	1	0	0	4	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU629	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	
+Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae			New.CleanUp.ReferenceOTU633	0	0	0	0	0	0	0	8	3	3	5	5	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Colwelliaceae			New.CleanUp.ReferenceOTU636	0	0	0	5	2	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU637	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU638	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU640	0	3	21	49	52	56	9	0	0	0	0	1	35	66	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU644	0	0	0	0	0	0	0	198	21	16	13	3	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU646	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU649	0	0	0	0	0	0	0	2	0	1	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU650	0	0	0	0	0	0	0	3	15	3	0	3	0	0	1	
+Unassigned							New.CleanUp.ReferenceOTU652	1	1	4	0	11	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales				New.CleanUp.ReferenceOTU653	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU656	0	0	2	1	3	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU659	0	0	0	0	0	0	0	2	2	6	0	1	0	0	4	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU660	0	0	0	0	0	0	0	0	4	0	0	12	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU661	0	1	2	4	4	6	0	0	0	0	0	0	3	3	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	AEGEAN_112			New.CleanUp.ReferenceOTU666	0	0	0	0	0	0	1	0	0	0	0	0	3	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU669	0	0	0	0	0	0	0	485	0	16	3	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	NB1-j	JTB38			New.CleanUp.ReferenceOTU671	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales				New.CleanUp.ReferenceOTU674	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bdellovibrionaceae	Bdellovibrio		New.CleanUp.ReferenceOTU675	0	4	67	0	0	0	0	3	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae	Clostridium		New.CleanUp.ReferenceOTU677	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU678	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU680	0	4	14	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU684	1	2	25	65	108	49	0	0	0	0	0	0	8	7	0	
+Bacteria	Gemmatimonadetes	Gemm-1					New.CleanUp.ReferenceOTU685	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU686	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiohalorhabdales				New.CleanUp.ReferenceOTU689	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Oceanospirillaceae	Marinomonas		New.CleanUp.ReferenceOTU695	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU700	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	[Marinicellales]	[Marinicellaceae]			New.CleanUp.ReferenceOTU701	0	0	0	0	1	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU702	0	1	6	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU703	0	0	0	0	0	0	0	2	0	0	0	2	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU704	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU705	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Halomonadaceae	Candidatus Portiera		New.CleanUp.ReferenceOTU707	0	0	0	0	1	3	5	0	0	0	0	0	17	16	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU711	0	0	0	4	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Pseudoalteromonadaceae			New.CleanUp.ReferenceOTU713	0	0	0	2	2	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU714	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	C111			New.CleanUp.ReferenceOTU717	0	0	0	1	1	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	4C0d-2	SM1D11				New.CleanUp.ReferenceOTU720	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	WS3	PRR-12	wb1_H11				New.CleanUp.ReferenceOTU721	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU722	0	0	0	0	0	0	0	1	7	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU723	0	0	0	0	1	1	0	35	0	3	2	28	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria					New.CleanUp.ReferenceOTU724	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Ferrimonadaceae	Ferrimonas		New.CleanUp.ReferenceOTU727	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU728	0	0	0	0	0	0	0	82	21	54	22	12	0	0	5	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU732	0	0	2	13	14	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales				New.CleanUp.ReferenceOTU735	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU737	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU739	0	0	0	0	0	0	0	1	0	2	4	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU741	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU743	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU746	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU748	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Chromatiaceae			New.CleanUp.ReferenceOTU750	0	0	0	0	0	0	0	34	2	1	0	9	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bdellovibrionaceae	Bdellovibrio		New.CleanUp.ReferenceOTU757	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU758	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae			New.CleanUp.ReferenceOTU759	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae			New.CleanUp.ReferenceOTU760	0	0	0	3	0	3	1	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU761	0	0	0	5	6	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU763	1	2	1	4	2	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	HTCC2188	HTCC		New.CleanUp.ReferenceOTU765	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Sva0725	Sva0725				New.CleanUp.ReferenceOTU770	0	0	0	0	0	0	0	4	1	0	0	0	1	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Oceanospirillaceae			New.CleanUp.ReferenceOTU771	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Gemmatimonadetes	Gemm-4					New.CleanUp.ReferenceOTU772	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU775	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Acidobacteria-6	BPC015				New.CleanUp.ReferenceOTU776	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU777	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU778	0	0	0	0	0	0	0	0	0	0	0	0	1	3	0	
+Bacteria	Acidobacteria	Solibacteres	Solibacterales	PAUC26f			New.CleanUp.ReferenceOTU780	0	0	0	0	0	0	0	0	45	1	0	43	0	0	12	
+Unassigned							New.CleanUp.ReferenceOTU781	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	AEGEAN_112			New.CleanUp.ReferenceOTU782	0	1	0	0	0	2	0	0	0	0	0	0	22	12	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188				New.CleanUp.ReferenceOTU784	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU786	0	0	3	8	8	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	HTCC2188	HTCC		New.CleanUp.ReferenceOTU787	0	0	0	0	0	0	0	13	0	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU790	1	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU793	1	0	7	18	35	4	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU794	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU795	0	0	0	0	0	0	0	1	4	0	0	3	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU796	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	NB1-j	NB1-i			New.CleanUp.ReferenceOTU797	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU804	0	0	0	0	0	0	0	1	3	0	0	6	0	0	2	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU807	78	109	76	0	0	0	0	1	0	1	1	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Klebsiella		New.CleanUp.ReferenceOTU808	1	3	0	4	7	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU812	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Colwelliaceae	Thalassomonas		New.CleanUp.ReferenceOTU813	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales				New.CleanUp.ReferenceOTU814	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas		New.CleanUp.ReferenceOTU815	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Colwelliaceae	Thalassomonas		New.CleanUp.ReferenceOTU817	0	0	0	3	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU818	1	1	0	3	6	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU821	0	0	0	0	0	0	6	0	0	0	0	0	14	17	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	BD7-3				New.CleanUp.ReferenceOTU822	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae			New.CleanUp.ReferenceOTU823	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU826	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU840	5	43	41	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU843	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Pseudoalteromonadaceae			New.CleanUp.ReferenceOTU844	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU848	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Kiloniellales				New.CleanUp.ReferenceOTU849	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU850	0	0	0	0	0	0	0	3	12	3	2	2	0	0	2	
+Unassigned							New.CleanUp.ReferenceOTU851	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Syntrophobacterales	Syntrophobacteraceae			New.CleanUp.ReferenceOTU853	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	
+Unassigned							New.CleanUp.ReferenceOTU854	4	1	6	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU857	0	0	0	0	0	0	0	0	11	0	0	0	0	0	4	
+Unassigned							New.CleanUp.ReferenceOTU858	29	7	33	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Hahellaceae	Hahella		New.CleanUp.ReferenceOTU862	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU865	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Vibrionaceae	Vibrio		New.CleanUp.ReferenceOTU866	0	0	0	1	8	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU867	0	0	0	0	0	0	0	1	0	1	4	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU869	0	0	0	0	0	2	0	0	0	11	2	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	Rhodoplanes		New.CleanUp.ReferenceOTU870	0	2	1	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU872	0	0	0	0	0	0	0	35	4	19	13	0	0	0	2	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU874	0	0	2	6	7	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	4C0d-2	SM2F09				New.CleanUp.ReferenceOTU881	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU888	0	2	4	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU895	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU897	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU898	0	0	0	0	0	0	0	6	6	2	2	7	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU899	0	0	0	0	0	0	0	0	2	1	6	2	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU901	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU902	0	0	0	0	0	0	555	0	0	0	0	0	576	1300	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Vibrionaceae	Vibrio		New.CleanUp.ReferenceOTU910	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae			New.CleanUp.ReferenceOTU911	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU912	0	0	0	0	0	0	0	4	0	0	0	1	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU916	0	0	0	0	0	0	0	82	187	31	19	83	0	0	10	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		New.CleanUp.ReferenceOTU917	0	2	0	2	5	67	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU919	0	0	0	0	0	1	0	1	0	0	0	0	13	7	0	
+Unassigned							New.CleanUp.ReferenceOTU923	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU929	0	0	0	0	0	0	0	1	1	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU936	1	4	1	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				New.CleanUp.ReferenceOTU938	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU939	0	0	2	3	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU941	0	0	0	0	0	0	0	1	1	0	0	0	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU944	5	4	7	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU949	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria					New.CleanUp.ReferenceOTU951	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales				New.CleanUp.ReferenceOTU956	0	2	1	4	3	8	0	0	0	0	0	0	5	3	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU957	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU960	1	0	13	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU961	0	0	0	0	0	0	0	0	0	0	0	11	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	HTCC2188	HTCC		New.CleanUp.ReferenceOTU962	0	0	0	2	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Solibacteres	Solibacterales	PAUC26f			New.CleanUp.ReferenceOTU965	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria					New.CleanUp.ReferenceOTU970	0	0	0	1	8	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU971	0	0	0	0	0	0	0	312	287	15	39	182	0	0	38	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU972	2	2	3	0	0	6	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU974	0	0	0	0	0	0	0	2	126	3	1	32	0	0	5	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU975	15	27	15	105	93	37	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Kiloniellales	Kiloniellaceae	Thalassospira		New.CleanUp.ReferenceOTU982	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU985	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU986	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bdellovibrionaceae	Bdellovibrio		New.CleanUp.ReferenceOTU989	9	16	33	1	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU991	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				New.CleanUp.ReferenceOTU992	6	14	1	2	7	10	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1000	2	0	4	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	TK17	TK18				New.CleanUp.ReferenceOTU1002	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1005	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU1006	0	0	0	2	0	0	0	185	18	51	49	5	0	0	8	
+Unassigned							New.CleanUp.ReferenceOTU1008	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	C111			New.CleanUp.ReferenceOTU1009	0	0	3	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1012	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU1016	1	2	2	26	6	7	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188				New.CleanUp.ReferenceOTU1018	0	1	0	1	3	1	0	0	0	0	0	0	0	0	0	
+Bacteria	TM7	TM7-1					New.CleanUp.ReferenceOTU1022	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Alteromonadaceae	Glaciecola		New.CleanUp.ReferenceOTU1023	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Solibacteres	Solibacterales	PAUC26f			New.CleanUp.ReferenceOTU1024	0	0	0	0	0	0	0	1	0	0	0	2	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU1025	0	0	2	2	5	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	koll13			New.CleanUp.ReferenceOTU1026	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Syntrophobacterales	Syntrophobacteraceae			New.CleanUp.ReferenceOTU1028	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1029	41	40	86	77	91	37	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	Anaerolineae	SBR1031	A4b			New.CleanUp.ReferenceOTU1031	0	0	0	0	0	0	0	20	0	5	8	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Halomonadaceae	Candidatus Portiera		New.CleanUp.ReferenceOTU1033	0	0	0	0	0	5	1	0	0	0	0	0	5	9	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU1034	0	0	0	0	0	1	0	94	40	15	18	29	0	0	2	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae	Halorhodospira		New.CleanUp.ReferenceOTU1038	0	0	0	14	27	6	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1044	0	0	0	0	0	0	0	42	0	1	4	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU1045	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU1047	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1048	0	0	0	0	0	0	0	1	32	9	4	4	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1050	5	2	0	12	10	4	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae			New.CleanUp.ReferenceOTU1051	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1052	0	0	0	0	0	0	0	0	13	0	1	4	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU1056	0	0	0	0	0	0	0	0	13	0	0	0	0	0	5	
+Unassigned							New.CleanUp.ReferenceOTU1058	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales				New.CleanUp.ReferenceOTU1067	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1072	0	0	1	4	7	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	ntu14			New.CleanUp.ReferenceOTU1073	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales				New.CleanUp.ReferenceOTU1074	0	0	3	10	11	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	AEGEAN_112			New.CleanUp.ReferenceOTU1075	0	0	0	0	0	0	1	0	0	0	0	0	1	4	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU1080	7	13	10	0	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1082	6	3	3	35	58	7	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU1087	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1090	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Syntrophobacterales	Syntrophobacteraceae			New.CleanUp.ReferenceOTU1093	0	0	0	0	0	0	0	13	15	0	0	7	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1095	1	1	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1099	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1100	0	0	0	0	0	0	0	4	8	4	8	1	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1102	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1105	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Cryomorphaceae			New.CleanUp.ReferenceOTU1111	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU1114	0	0	13	17	31	6	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Endozoicimonaceae			New.CleanUp.ReferenceOTU1115	0	0	0	4	1	4	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU1118	0	0	0	0	0	0	1	0	0	0	0	0	3	2	0	
+Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae			New.CleanUp.ReferenceOTU1120	0	0	0	0	0	0	0	30	9	3	3	6	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1122	0	4	0	6	1	40	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiohalorhabdales	Thiohalorhabdaceae			New.CleanUp.ReferenceOTU1123	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	OM60			New.CleanUp.ReferenceOTU1124	0	0	0	0	1	4	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	OM60			New.CleanUp.ReferenceOTU1126	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU1128	0	0	0	0	0	0	0	5	1	0	1	2	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU1130	0	0	0	2	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bdellovibrionaceae	Bdellovibrio		New.CleanUp.ReferenceOTU1134	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	TK17	mle1-48				New.CleanUp.ReferenceOTU1135	0	0	0	0	0	0	0	381	25	13	9	12	0	0	1	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1139	0	0	0	0	0	0	0	0	2	1	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1140	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU1149	0	0	12	18	37	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU1150	1	3	8	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1151	4	3	17	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Epulopiscium		New.CleanUp.ReferenceOTU1156	0	0	0	0	4	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188				New.CleanUp.ReferenceOTU1157	0	0	1	2	0	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU1165	0	0	0	0	3	0	0	0	0	0	0	0	0	1	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1166	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	
+Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae			New.CleanUp.ReferenceOTU1167	0	0	0	0	0	0	0	53	6	13	14	1	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU1168	0	0	0	0	0	0	0	49	14	3	15	0	0	0	2	
+Bacteria	Chloroflexi	Anaerolineae	Caldilineales	Caldilineaceae			New.CleanUp.ReferenceOTU1171	0	0	0	0	0	0	0	28	13	2	2	7	0	0	4	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU1173	0	0	4	10	27	4	0	1	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU1174	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Flammeovirgaceae			New.CleanUp.ReferenceOTU1175	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria					New.CleanUp.ReferenceOTU1176	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1177	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU1178	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU1179	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Endozoicimonaceae			New.CleanUp.ReferenceOTU1180	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Haptophyceae				New.CleanUp.ReferenceOTU1181	0	3	0	0	0	0	2	0	0	0	0	0	4	1	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales				New.CleanUp.ReferenceOTU1187	0	1	1	3	9	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria					New.CleanUp.ReferenceOTU1190	0	0	0	3	1	1	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1192	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Alteromonadaceae	Alteromonas		New.CleanUp.ReferenceOTU1195	0	0	0	3	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU1199	1	3	2	5	3	16	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU1200	0	0	0	0	0	0	0	24	33	0	2	16	0	0	3	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU1202	0	0	0	3	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1203	8	14	12	4	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Acidobacteria-6	iii1-15				New.CleanUp.ReferenceOTU1208	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1209	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales				New.CleanUp.ReferenceOTU1210	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Spirobacillales				New.CleanUp.ReferenceOTU1213	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU1217	0	0	0	0	1	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1223	0	10	5	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU1225	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	OM60			New.CleanUp.ReferenceOTU1227	0	0	0	4	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1228	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1232	0	0	0	0	0	4	0	0	0	0	0	0	1	3	0	
+Bacteria	Caldithrix	Caldithrixae	Caldithrixales	BA059			New.CleanUp.ReferenceOTU1233	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1235	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Chlorophyta				New.CleanUp.ReferenceOTU1236	58	35	1	0	1	830	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	OM60			New.CleanUp.ReferenceOTU1240	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bdellovibrionaceae	Bdellovibrio		New.CleanUp.ReferenceOTU1241	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1244	4	7	7	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Vibrionaceae	Vibrio		New.CleanUp.ReferenceOTU1247	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU1249	2	2	9	28	39	22	0	2	1	1	0	0	2	3	0	
+Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Arcobacter		New.CleanUp.ReferenceOTU1251	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1254	0	0	0	0	0	0	0	143	540	141	100	219	0	0	56	
+Bacteria	Acidobacteria	Acidobacteria-6	BPC015				New.CleanUp.ReferenceOTU1257	0	0	0	0	0	0	0	0	282	9	0	101	0	0	32	
+Unassigned							New.CleanUp.ReferenceOTU1260	0	5	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1263	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1267	0	2	3	6	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1269	0	0	0	0	0	0	0	0	1	0	0	2	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU1271	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1272	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1275	0	1	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU1277	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	
+Unassigned							New.CleanUp.ReferenceOTU1278	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1280	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU1281	0	0	0	9	14	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Syntrophobacterales	Syntrophobacteraceae			New.CleanUp.ReferenceOTU1283	0	0	0	0	0	0	0	42	123	23	10	20	2	0	1	
+Unassigned							New.CleanUp.ReferenceOTU1285	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Gemmatimonadetes	Gemm-4					New.CleanUp.ReferenceOTU1290	0	0	0	0	0	0	0	0	17	0	0	14	0	0	5	
+Unassigned							New.CleanUp.ReferenceOTU1291	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Alteromonadaceae	Glaciecola		New.CleanUp.ReferenceOTU1293	0	0	0	2	9	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1294	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiohalorhabdales	Thiohalorhabdaceae			New.CleanUp.ReferenceOTU1295	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiohalorhabdales				New.CleanUp.ReferenceOTU1297	0	0	0	2	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1299	0	0	0	0	0	0	0	2	2	0	0	5	0	0	0	
+Bacteria	[Thermi]	Deinococci	Deinococcales	Trueperaceae	B-42		New.CleanUp.ReferenceOTU1301	0	0	0	0	0	0	0	6	11	5	8	9	0	0	2	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU1302	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1305	0	0	1	2	8	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU1313	0	0	0	5	1	6	0	0	0	0	0	0	5	4	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Syntrophobacterales	Syntrophobacteraceae			New.CleanUp.ReferenceOTU1315	0	0	0	0	0	0	0	53	1	7	2	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Chromatiaceae			New.CleanUp.ReferenceOTU1316	0	0	0	0	0	0	0	17	0	0	3	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	Flammeovirgaceae			New.CleanUp.ReferenceOTU1317	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1318	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	[Entotheonellales]				New.CleanUp.ReferenceOTU1319	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	
+Bacteria	Chloroflexi	TK17	TK18				New.CleanUp.ReferenceOTU1321	0	0	0	0	0	0	0	6	4	0	1	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1322	0	0	0	0	0	0	0	2	0	1	5	2	0	0	1	
+Bacteria	Proteobacteria	Deltaproteobacteria	Syntrophobacterales	Syntrophobacteraceae			New.CleanUp.ReferenceOTU1327	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU1329	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1333	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Vibrionaceae	Vibrio		New.CleanUp.ReferenceOTU1334	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Planctomycetes	Phycisphaerae	Phycisphaerales	Phycisphaeraceae			New.CleanUp.ReferenceOTU1340	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU1342	0	0	0	0	0	0	2	0	0	0	0	0	3	5	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU1344	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Haliangiaceae			New.CleanUp.ReferenceOTU1347	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	PAUC34f						New.CleanUp.ReferenceOTU1348	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bdellovibrionaceae	Bdellovibrio		New.CleanUp.ReferenceOTU1351	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1354	0	0	0	0	0	0	0	0	3	0	2	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1355	0	0	0	0	0	0	0	2	3	0	1	0	0	0	0	
+Bacteria	Cyanobacteria	4C0d-2	SM1D11				New.CleanUp.ReferenceOTU1356	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Vibrionaceae	Vibrio		New.CleanUp.ReferenceOTU1357	0	0	1	18	25	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU1358	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Betaproteobacteria	EC94				New.CleanUp.ReferenceOTU1360	11	56	42	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	Anaerolineae	SBR1031	A4b			New.CleanUp.ReferenceOTU1362	0	0	0	0	0	0	0	4	3	12	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1367	0	0	0	3	9	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU1369	0	0	1	3	0	4	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1370	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1372	0	0	0	2	5	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU1374	0	0	0	0	0	0	0	5	0	5	0	16	0	0	8	
+Unassigned							New.CleanUp.ReferenceOTU1379	3	1	4	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU1384	1	0	14	50	44	0	0	0	0	0	0	0	0	1	0	
+Bacteria	Chloroflexi	Anaerolineae	SBR1031	A4b			New.CleanUp.ReferenceOTU1388	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Colwelliaceae			New.CleanUp.ReferenceOTU1389	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1393	0	0	0	2	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1394	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU1399	0	0	1	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Oceanospirillaceae			New.CleanUp.ReferenceOTU1401	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bdellovibrionaceae	Bdellovibrio		New.CleanUp.ReferenceOTU1402	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Cytophagia	Cytophagales	[Amoebophilaceae]	SC3-56		New.CleanUp.ReferenceOTU1406	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1407	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Campylobacteraceae	Arcobacter		New.CleanUp.ReferenceOTU1419	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1420	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU1422	0	0	3	8	22	5	0	0	0	0	0	0	1	0	0	
+Bacteria	Planctomycetes	Phycisphaerae	Phycisphaerales				New.CleanUp.ReferenceOTU1423	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	[Rhodothermi]	[Rhodothermales]	Rhodothermaceae			New.CleanUp.ReferenceOTU1424	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1426	0	0	0	0	0	0	0	0	3	0	0	1	0	0	0	
+Bacteria	Bacteroidetes	[Rhodothermi]	[Rhodothermales]	Rhodothermaceae			New.CleanUp.ReferenceOTU1427	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU1430	0	0	0	0	0	2	1	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU1432	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU1433	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1435	0	0	0	3	0	1	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1437	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU1438	0	0	0	1	1	2	0	0	0	0	0	0	5	5	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1439	0	0	0	0	0	0	0	0	3	0	0	2	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU1441	0	0	0	0	0	0	0	0	0	0	2	3	0	0	0	
+Bacteria	Spirochaetes	Spirochaetes	Spirochaetales	Spirochaetaceae			New.CleanUp.ReferenceOTU1442	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Haliangiaceae			New.CleanUp.ReferenceOTU1448	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	Anaerolineae	SBR1031	A4b			New.CleanUp.ReferenceOTU1458	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Epsilonproteobacteria	Campylobacterales	Helicobacteraceae	Sulfurimonas		New.CleanUp.ReferenceOTU1459	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1460	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU1465	0	0	0	0	0	0	0	0	25	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Pseudoalteromonadaceae	Pseudoalteromonas		New.CleanUp.ReferenceOTU1467	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1468	0	0	0	0	0	0	0	0	5	0	1	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1471	0	0	0	0	0	0	0	0	3	0	3	1	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1472	0	0	0	0	0	0	0	61	2	19	11	0	0	0	3	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	TK06			New.CleanUp.ReferenceOTU1476	0	0	0	0	0	0	0	187	146	39	5	163	0	0	24	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1477	0	0	0	0	0	0	0	11	2	3	4	4	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1478	0	0	0	0	0	0	2	0	0	0	0	0	5	8	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae			New.CleanUp.ReferenceOTU1479	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1480	0	0	0	0	0	0	0	1	1	0	2	3	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU1481	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1483	4	0	7	4	5	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU1485	0	0	1	3	5	0	0	0	0	0	0	0	4	4	0	
+Unassigned							New.CleanUp.ReferenceOTU1488	0	1	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bdellovibrionaceae	Bdellovibrio		New.CleanUp.ReferenceOTU1492	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU1494	0	0	0	2	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU1499	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU1500	0	0	0	0	0	0	0	3	7	1	0	0	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1503	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1504	3	0	5	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	koll13			New.CleanUp.ReferenceOTU1506	1	0	0	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1515	0	5	1	7	12	4	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1516	0	1	1	10	2	2	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1519	0	0	0	9	18	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU1520	0	0	0	343	461	150	0	0	0	0	0	0	0	0	0	
+Bacteria	AncK6						New.CleanUp.ReferenceOTU1523	0	0	0	0	0	0	0	1	61	2	0	35	0	0	2	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1526	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU1532	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1535	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1536	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	
+Bacteria	Acidobacteria	Solibacteres	Solibacterales	PAUC26f			New.CleanUp.ReferenceOTU1537	0	0	0	0	0	0	0	7	10	0	3	2	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU1538	0	0	0	0	0	0	0	17	13	2	3	3	1	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU1540	0	0	0	0	0	0	0	0	0	0	0	0	6	4	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1541	0	0	0	0	0	0	0	7	3	4	0	6	0	0	2	
+Unassigned							New.CleanUp.ReferenceOTU1543	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1547	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales				New.CleanUp.ReferenceOTU1549	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU1551	54	74	44	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU1552	0	0	2	1	4	1	1	0	0	0	0	0	0	3	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1553	15	26	10	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU1554	0	0	4	14	9	1	0	0	0	0	0	0	0	2	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Pelagibacteraceae			New.CleanUp.ReferenceOTU1556	0	0	0	0	1	10	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	NB1-j	NB1-i			New.CleanUp.ReferenceOTU1559	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	OM60			New.CleanUp.ReferenceOTU1562	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1563	0	0	0	0	0	0	0	0	1	2	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1564	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Oscillatoriophycideae	Oscillatoriales	Phormidiaceae	Symploca		New.CleanUp.ReferenceOTU1566	0	0	0	1	13	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1567	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Alteromonadaceae			New.CleanUp.ReferenceOTU1570	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Acidobacteria	Solibacteres	Solibacterales	PAUC26f			New.CleanUp.ReferenceOTU1573	0	0	0	0	0	0	0	21	2	10	17	20	0	0	1	
+Unassigned							New.CleanUp.ReferenceOTU1574	2	2	8	0	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1575	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1577	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiohalorhabdales				New.CleanUp.ReferenceOTU1579	0	0	0	0	0	0	8	0	0	0	0	0	13	35	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU1580	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU1584	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU1586	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU1591	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU1593	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Chromatiaceae	Halochromatium		New.CleanUp.ReferenceOTU1595	0	2	1	11	10	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae			New.CleanUp.ReferenceOTU1597	0	0	0	1	0	1	0	0	0	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU1600	0	1	0	1	3	13	2	0	0	0	0	0	7	3	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales				New.CleanUp.ReferenceOTU1601	0	0	0	0	1	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1603	0	0	0	0	0	0	0	8	11	6	8	18	0	0	2	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU1604	0	0	0	0	0	0	0	6	1	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Methylococcales	Crenotrichaceae	Crenothrix		New.CleanUp.ReferenceOTU1605	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1607	75	3	82	758	1050	16	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU1608	1	0	0	13	66	1	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1611	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1612	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU1613	0	0	0	0	0	0	0	9	5	0	1	1	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1617	85	153	100	110	141	31	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1618	0	0	0	9	8	9	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Mycobacteriaceae	Mycobacterium		New.CleanUp.ReferenceOTU1619	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU1620	0	0	2	6	5	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Alteromonadales	Colwelliaceae			New.CleanUp.ReferenceOTU1629	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1630	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU1632	8	17	33	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Oscillatoriophycideae	Oscillatoriales	Phormidiaceae	Symploca		New.CleanUp.ReferenceOTU1638	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1648	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU1649	0	0	0	0	0	0	0	0	1	0	0	1	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Vibrionaceae	Photobacterium		New.CleanUp.ReferenceOTU1650	0	0	0	1	2	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Microbacteriaceae	Candidatus Aquiluna	rubra	New.CleanUp.ReferenceOTU1651	0	0	0	3	5	21	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1654	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales	Haliangiaceae			New.CleanUp.ReferenceOTU1655	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1659	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1660	0	0	0	1	0	5	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1661	6	5	3	0	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1662	0	0	0	0	0	0	0	3	16	1	1	2	0	0	2	
+Bacteria	Chloroflexi	Anaerolineae	S0208				New.CleanUp.ReferenceOTU1664	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae			New.CleanUp.ReferenceOTU1667	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1669	0	0	0	0	0	0	0	0	165	0	0	90	0	0	1	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1673	21	6	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188				New.CleanUp.ReferenceOTU1674	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1675	0	0	0	7	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Legionellales				New.CleanUp.ReferenceOTU1679	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae			New.CleanUp.ReferenceOTU1681	0	2	1	1	4	16	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU1685	1	1	26	76	151	83	2	1	2	2	0	0	13	23	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1689	0	0	0	0	0	0	0	18	20	4	7	19	2	0	7	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1690	1	0	1	6	7	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bdellovibrionaceae	Bdellovibrio		New.CleanUp.ReferenceOTU1691	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1697	21	6	9	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU1699	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1700	0	0	0	0	0	0	0	0	6	0	0	1	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU1701	0	0	0	0	0	0	0	11	2	1	0	5	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	SC3-41			New.CleanUp.ReferenceOTU1702	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1703	1	0	2	1	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1705	0	0	0	0	0	0	0	0	0	0	0	0	0	12	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1706	0	0	0	0	0	0	0	0	4	1	0	1	1	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU1709	0	0	0	0	0	0	0	2	0	5	2	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria					New.CleanUp.ReferenceOTU1710	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1712	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1713	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1715	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU1716	0	0	0	0	0	0	0	19	9	0	1	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU1717	0	2	0	9	4	8	0	0	0	0	0	0	4	2	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1719	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU1720	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Poribacteria						New.CleanUp.ReferenceOTU1723	0	0	0	0	0	0	0	1	0	1	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU1728	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU1733	0	0	2	1	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae			New.CleanUp.ReferenceOTU1735	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1736	2	1	1	4	3	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria					New.CleanUp.ReferenceOTU1737	0	0	0	2	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU1738	0	0	0	2	1	6	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Pseudoalteromonadaceae	Pseudoalteromonas		New.CleanUp.ReferenceOTU1740	0	1	0	10	62	4	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Chloroplast	Chlorophyta	Mamiellaceae			New.CleanUp.ReferenceOTU1742	0	0	0	0	0	0	9	0	0	0	0	0	18	25	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1749	0	0	0	1	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1753	0	0	0	0	0	0	0	3	2	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1754	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1755	0	0	0	0	0	0	0	6	1	4	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1759	0	0	0	3	12	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1760	0	0	0	1	4	12	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1761	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	ZB3	BS119					New.CleanUp.ReferenceOTU1762	0	0	0	0	0	28	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU1767	0	0	0	3	1	0	0	0	0	0	0	0	2	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Pseudanabaenales	Pseudanabaenaceae			New.CleanUp.ReferenceOTU1769	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1772	0	0	0	1	2	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1773	0	0	0	0	1	14	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1774	0	0	0	0	0	0	8	0	0	0	0	0	4	1	0	
+Bacteria	Cyanobacteria	Oscillatoriophycideae	Chroococcales	Cyanobacteriaceae			New.CleanUp.ReferenceOTU1775	0	1	0	20	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU1776	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1777	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU1782	0	0	0	0	0	0	0	20	38	5	9	44	0	0	6	
+Bacteria	Acidobacteria	Sva0725	Sva0725				New.CleanUp.ReferenceOTU1783	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU1784	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Vibrionales	Vibrionaceae	Vibrio	fortis	New.CleanUp.ReferenceOTU1790	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1791	0	1	0	3	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	Anaerolineae	Caldilineales	Caldilineaceae			New.CleanUp.ReferenceOTU1797	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales	Endozoicimonaceae			New.CleanUp.ReferenceOTU1798	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1800	0	0	0	0	0	0	0	4	0	8	12	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiohalorhabdales	Thiohalorhabdaceae			New.CleanUp.ReferenceOTU1801	0	0	0	1	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	TK17	TK18				New.CleanUp.ReferenceOTU1803	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae	Flavobacterium		New.CleanUp.ReferenceOTU1804	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Oceanospirillales				New.CleanUp.ReferenceOTU1805	1	9	0	0	0	25	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Spirobacillales				New.CleanUp.ReferenceOTU1807	1	0	0	0	0	3	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1808	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1809	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU1810	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	
+Bacteria	Cyanobacteria	Synechococcophycideae	Synechococcales	Synechococcaceae	Synechococcus		New.CleanUp.ReferenceOTU1811	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	OCS155			New.CleanUp.ReferenceOTU1813	0	1	1	22	6	43	0	2	0	0	0	0	0	3	0	
+Bacteria	Cyanobacteria	Chloroplast	Stramenopiles				New.CleanUp.ReferenceOTU1814	0	0	0	2	3	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae			New.CleanUp.ReferenceOTU1816	0	0	0	1	1	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1817	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae			New.CleanUp.ReferenceOTU1818	5	12	8	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Myxococcales				New.CleanUp.ReferenceOTU1820	0	5	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae			New.CleanUp.ReferenceOTU1823	0	0	0	2	2	1	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1826	0	0	0	0	0	0	0	0	6	1	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1829	0	0	0	0	0	0	0	1	6	1	1	2	0	0	1	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU1832	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bacteriovoracaceae			New.CleanUp.ReferenceOTU1833	0	0	0	0	0	0	0	0	0	0	0	0	2	4	0	
+Bacteria	Proteobacteria	Deltaproteobacteria	Bdellovibrionales	Bacteriovoracaceae	Bacteriovorax		New.CleanUp.ReferenceOTU1837	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1839	0	0	0	0	0	0	0	2	1	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	HTCC2188	HTCC2089			New.CleanUp.ReferenceOTU1842	0	0	0	0	0	0	0	1	2	0	0	0	0	0	0	
+Bacteria	Gemmatimonadetes	Gemm-4					New.CleanUp.ReferenceOTU1844	0	0	0	0	0	0	0	0	2	0	0	2	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU1847	0	0	0	3	4	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Thiotrichales	Piscirickettsiaceae			New.CleanUp.ReferenceOTU1848	0	0	0	4	1	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	wb1_P06			New.CleanUp.ReferenceOTU1849	0	0	0	0	0	0	0	0	6	0	0	5	0	0	0	
+Bacteria	Chloroflexi	Anaerolineae	Caldilineales	Caldilineaceae			New.CleanUp.ReferenceOTU1850	0	0	0	0	0	0	0	0	176	0	2	149	0	0	19	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU1858	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	C111			New.CleanUp.ReferenceOTU1859	3	11	3	11	33	88	0	0	0	0	0	0	3	1	0	
+Unassigned							New.CleanUp.ReferenceOTU1861	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales	Ectothiorhodospiraceae			New.CleanUp.ReferenceOTU1862	0	0	1	1	8	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1863	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU1865	0	0	0	1	13	1	0	0	0	0	0	0	4	6	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1866	0	0	0	1	0	0	0	26	36	5	31	12	0	0	18	
+Bacteria	Proteobacteria	Alphaproteobacteria					New.CleanUp.ReferenceOTU1870	0	0	0	0	0	1	6	0	0	0	0	0	9	6	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU1872	0	0	0	0	0	0	0	9	2	0	3	1	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1874	0	0	0	0	0	0	0	19	33	7	9	16	0	0	3	
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales				New.CleanUp.ReferenceOTU1877	0	0	0	0	0	0	0	64	30	3	17	35	0	0	5	
+Bacteria	Acidobacteria	Sva0725	Sva0725				New.CleanUp.ReferenceOTU1879	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1880	0	0	0	2	7	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	Anaerolineae	SBR1031	A4b			New.CleanUp.ReferenceOTU1883	0	0	0	0	0	0	0	0	3	0	0	1	0	0	0	
+Bacteria	Proteobacteria	Gammaproteobacteria	Chromatiales				New.CleanUp.ReferenceOTU1887	0	1	1	2	0	1	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1888	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Phyllobacteriaceae			New.CleanUp.ReferenceOTU1890	2	1	1	0	0	1	3	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodospirillaceae			New.CleanUp.ReferenceOTU1891	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1892	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	
+Bacteria	Bacteroidetes	Flavobacteriia	Flavobacteriales	Flavobacteriaceae			New.CleanUp.ReferenceOTU1894	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Unassigned							New.CleanUp.ReferenceOTU1898	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	
+Bacteria	Chloroflexi	TK17					New.CleanUp.ReferenceOTU1900	0	0	0	0	0	0	0	1	0	1	1	0	0	0	0	
+Bacteria	Chloroflexi	SAR202					New.CleanUp.ReferenceOTU1901	0	0	0	0	0	0	0	34	20	12	11	0	0	0	1	
+Unassigned							New.CleanUp.ReferenceOTU1902	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales				New.CleanUp.ReferenceOTU1903	0	0	0	0	2	1	0	0	0	0	0	0	0	0	0	

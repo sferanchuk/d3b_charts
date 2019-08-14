@@ -1,0 +1,430 @@
+<html><head>
+<script src="file:///home/sergey/work/d3b/d3b/static/d3.v3.min.js"></script>
+</head><body>
+
+<style>
+
+.main text {
+    font: 10px sans-serif;	
+}
+
+.axis line, .axis path {
+    shape-rendering: crispEdges;
+    stroke: black;
+    fill: none;
+}
+
+.node circle {
+	  fill: #899;
+	  stroke: #344;
+	  stroke-width: 1px;
+	}
+</style>
+
+<div id="tt" class="tooltip" style="opacity:0; position: absolute; text-align: center; width: 100px; height: 16px; padding: 2px; font: 12px sans-serif; background: #f4f2ec; border: 1px solid #7E713D; border-radius: 8px; pointer-events: none;"></div>
+<svg width="2400" height="680" id="normal"><rect width="100%" height="100%" fill="#f2f2f2"></rect><g transform="translate(240,240)"><path class="link" d="M0,100C12,100 12,50 24,50" stroke="black" stroke-width="4.08px" shape-rendering="auto" fill="none"></path><path class="link" d="M0,100C12,100 12,150 24,150" stroke="black" stroke-width="4.08px" shape-rendering="auto" fill="none"></path><g transform="translate(24,150)"><circle r="7.199999999999999" style="fill: #6f2a2a;"></circle><text dy="12" text-anchor="start" dx="12" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif; fill-opacity: 1;">Unassigned</text></g><g transform="translate(24,50)"><circle r="7.199999999999999" style="fill: #6f2a2a;"></circle><text dy="12" text-anchor="start" dx="12" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif; fill-opacity: 1;">Bacteria</text></g><g transform="translate(0,100)"><circle r="7.199999999999999" style="fill: #6f2a2a;"></circle><text dy="24" text-anchor="end" dx="-4.800000000000001" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif; fill-opacity: 1;"></text></g><rect class="bobo" x="207.409375" y="135" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #633636;"></rect><rect class="bobo" x="237.409375" y="135" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #b87b7a;"></rect><rect class="bobo" x="267.409375" y="135" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #b87b7a;"></rect><rect class="bobo" x="297.409375" y="135" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #b87b7a;"></rect><rect class="bobo" x="327.409375" y="135" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #633636;"></rect><rect class="bobo" x="357.409375" y="135" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #b87b7a;"></rect><rect class="bobo" x="387.409375" y="135" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #b87b7a;"></rect><rect class="bobo" x="417.409375" y="135" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #eddede;"></rect><rect class="bobo" x="447.409375" y="135" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #eddede;"></rect><rect class="bobo" x="207.409375" y="35" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #211212;"></rect><rect class="bobo" x="237.409375" y="35" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #211212;"></rect><rect class="bobo" x="267.409375" y="35" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #211212;"></rect><rect class="bobo" x="297.409375" y="35" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #211212;"></rect><rect class="bobo" x="327.409375" y="35" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #211212;"></rect><rect class="bobo" x="357.409375" y="35" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #211212;"></rect><rect class="bobo" x="387.409375" y="35" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #211212;"></rect><rect class="bobo" x="417.409375" y="35" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #211212;"></rect><rect class="bobo" x="447.409375" y="35" width="28.799999999999997" height="30" style="stroke: #000000; stroke-width: 0.6px; fill: #211212;"></rect><text class="dodo" y="231.609375" x="10" transform="rotate(-90)" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">ostBR14</text><text class="dodo" y="261.609375" x="10" transform="rotate(-90)" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">ostBR15</text><text class="dodo" y="291.609375" x="10" transform="rotate(-90)" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">ostBR17</text><text class="dodo" y="321.609375" x="10" transform="rotate(-90)" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">ostBR18</text><text class="dodo" y="351.609375" x="10" transform="rotate(-90)" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">ostBR19</text><text class="dodo" y="381.609375" x="10" transform="rotate(-90)" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">ostPr01</text><text class="dodo" y="411.609375" x="10" transform="rotate(-90)" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">ostPr10</text><text class="dodo" y="441.609375" x="10" transform="rotate(-90)" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">ostPr21</text><text class="dodo" y="471.609375" x="10" transform="rotate(-90)" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">ostPr22</text><text class="coco1" x="-96" y="267.2" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">0</text><text class="coco1" x="0" y="267.2" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">1</text><text class="coco1" x="96" y="267.2" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">3</text><text class="coco1" x="192" y="267.2" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">10</text><text class="coco1" x="288" y="267.2" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">50</text><text class="coco1" x="384" y="267.2" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">200</text><text class="coco2" x="-96" y="344.47999999999996" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">0</text><text class="coco2" x="0" y="344.47999999999996" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">2</text><text class="coco2" x="96" y="344.47999999999996" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">9</text><text class="coco2" x="192" y="344.47999999999996" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">49</text><text class="coco2" x="288" y="344.47999999999996" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">199</text><text class="coco2" x="384" y="344.47999999999996" style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 28.799999999999997px; line-height: normal; font-family: sans-serif;">4842</text><rect class="coco3" x="-96" y="277.28" width="96" height="33.599999999999994" style="stroke: #000000; fill: #ffffff;"></rect><rect class="coco3" x="0" y="277.28" width="96" height="33.599999999999994" style="stroke: #000000; fill: #eddede;"></rect><rect class="coco3" x="96" y="277.28" width="96" height="33.599999999999994" style="stroke: #000000; fill: #dbbdbd;"></rect><rect class="coco3" x="192" y="277.28" width="96" height="33.599999999999994" style="stroke: #000000; fill: #b87b7a;"></rect><rect class="coco3" x="288" y="277.28" width="96" height="33.599999999999994" style="stroke: #000000; fill: #633636;"></rect><rect class="coco3" x="384" y="277.28" width="96" height="33.599999999999994" style="stroke: #000000; fill: #211212;"></rect></g></svg>
+<script>
+var ilevel = 1;
+var maxdata = 4842;
+var nsamples = 9;
+var maxidsize = 10;
+var taxlabels = "no";
+var datal =  ["ostBR14", "ostBR15", "ostBR17", "ostBR18", "ostBR19", "ostPr01", "ostPr10", "ostPr21", "ostPr22"];
+var datatype =  "count";
+var htnorm =  [3327.0, 2410.0, 2259.0, 3074.0, 2396.0, 4870.0, 3140.0, 4092.0, 1029.0];
+var minrectsize = 30;
+var treeData = [ { name: "root", title: "", parent: "null", children: [ 
+{ name: "n2", title: "Bacteria", parent :"root", abund : "8.865586026215075" }
+,
+{ name: "n5", title: "Unassigned", parent :"root", abund : "0.13441397378492617" }
+ ] } ];
+var multipleroots = 1;
+var hmData = { 
+"n2": [3246, 2391, 2223, 3058, 2255, 4842, 3096, 4090, 1027]
+,
+"n5": [81, 19, 36, 16, 141, 28, 44, 2, 2]
+};
+var cdomain = [ 0, 1, 3, 10, 50, 200, 50000 ]; var cdscale = 0;
+var smallrect = [];
+var splist = [];
+
+// ************** Generate the tree diagram	 *****************
+//var margin = {top: 100, right: 15, bottom: 100, left: 60}
+//      , width = 1200 - margin.left - margin.right;
+//     , height = 500 - margin.top - margin.bottom;
+//var margin = {top: 20, right: 120, bottom: 20, left: 120},
+//	width = 960 - margin.right - margin.left,
+//	height = 500 - margin.top - margin.bottom;
+
+var i = 0;
+
+var val_id = "#normal";
+var svg0 = d3.select( val_id ),
+    //.attr('id', "mainsvg" ),
+    diameter = +svg0.attr("width");
+if ( diameter > 1500 )
+{
+	svg0.append("rect")
+		.attr("width", "100%")
+		.attr("height", "100%")
+		.attr("fill", d3.hsl( 0, 0, 0.95 ) );
+}
+var fs = diameter / 100;
+var margin = { top: 10 * fs, right: 1.5 * fs, bottom: 10 * fs, left: 10 * fs }
+    
+var width = diameter - margin.left - margin.right;
+var height = +svg0.attr( "height" ) - margin.top - margin.bottom;
+
+var ctreewidth = Math.min( ilevel * fs * 2, width / 3 );
+var treewidth = ctreewidth;
+var maxlevel = ilevel - 1;
+var rootshift = 0;
+if ( multipleroots == 1 ) 
+{
+	rootshift = ctreewidth / ( 2 * ilevel );
+	treewidth -= rootshift;
+	maxlevel = ilevel;
+}
+
+var tree = d3.layout.tree()
+	.size([height, ctreewidth ])
+	.separation(function(a, b) {
+			return 1;
+           });
+           
+var diagonal = d3.svg.diagonal()
+	.projection(function(d) { return [d.y, d.x]; });
+
+
+var svg = svg0.append("g")
+	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+root = treeData[ treeData.length - 1 ];
+  
+function clickcircle( d ) 
+{
+	if (d.title) {
+		//console.log( " mm " + d.title );
+		d._title = d.title;
+		d.title = null;
+		return "";
+	} else {
+		//console.log( " nn " + d._title );
+		d.title = d._title;
+		d._title = null;
+		return d.title;
+	}
+}
+
+function update(source) {
+
+  // Compute the new tree layout.
+  var nodes = tree.nodes(root).reverse(),
+	  links = tree.links(nodes);
+  
+  var nindex = {};
+  var ndata = [];
+  var taxroot = 0;
+   
+  
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d) { 
+	if ( d.depth == 0 ) 
+	{ 
+		d.y = 0 
+	} else 
+	{ 
+		d.y = d.depth * ctreewidth / maxlevel - rootshift; 
+	} 
+	if ( d.depth == maxlevel )
+	{
+		nindex[ d.name ] = d.x;
+		if ( d.name in hmData )
+		{
+			var crow = hmData[ d.name ];
+			var ii;
+			var mean;
+			var mdisp;
+			var sfactor = ( smallrect.indexOf( d.name ) != -1 ) ? 0.7 : 1.;
+			if ( datatype == "z-score" )
+			{
+				var sum = 0.;
+				var sumsq = 0.;
+				for ( ii = 0; ii < crow.length; ii++ )
+				{
+					var v = crow[ii] / htnorm[ii];
+					sum += v;
+					sumsq += v * v;
+				}
+				mean = sum / crow.length;
+				mdisp = Math.sqrt( sumsq / crow.length - mean * mean );
+			}
+			for ( ii = 0; ii < crow.length; ii++ )
+			{
+				var v = crow[ii];
+				if ( datatype == "percent" ) v = ( 100 * crow[ii] ) / htnorm[ii];
+				else if ( datatype == "z-score" ) v = ( ( crow[ii] / htnorm[ii] )  - mean ) / mdisp;
+				ndata.push( [ d.x, ii, v, "", crow[ii], sfactor ] );
+			}
+		}
+		else
+		{
+			ndata.push( [ d.x, 0, "ff", d.name, crow[ii], 1 ] );
+		}
+
+	}
+	if ( d.title == "Bacteria" ) taxroot = d.depth;
+  });
+  
+  var chue = 0.3;
+  var csat = 0.3;
+  var labelSize = 0;
+
+  // Declare the nodes
+  var node = svg.selectAll("g.node")
+	  .data(nodes, function(d) { return d.id || (d.id = ++i); });
+
+  // Enter the nodes.
+  var nodeEnter = node.enter().append("g")
+	  //.attr("class", function(d) { return "node" + (d.children ? " node--internal" : " node--leaf"); })
+	  .attr("transform", function(d) { 
+		  return "translate(" + d.y + "," + d.x + ")"; });
+
+ nodeEnter.append("circle")
+	  .attr("r", fs * 0.3 )
+	  .style("fill", d3.hsl( chue, 0.45, 0.3 ) )
+		.on("click", function()
+		{
+			d3.select(this.parentNode ).select( "text" ).text(function(d) { 
+			  if (d.title) {
+					//console.log( " mm " + d.title );
+					if ( typeof removecustomtax == "function" ) removecustomtax( d.title );
+					d._title = d.title;
+					d.title = null;
+					return "";
+				} else {
+					//console.log( " nn " + d._title );
+					d.title = d._title;
+					d._title = null;
+					if ( typeof addcustomtax == "function" ) addcustomtax( d.title );
+					return d.title;
+				}
+			} );
+		} );
+		
+
+  nodeEnter.append("text")
+	  //.attr("x", function(d) { 
+	//	  return d.children || d._children ? -13 : 13; })
+	  .attr("dy", function(d) { return d.children ? fs : 0.5 * fs; } )
+	  .attr("text-anchor", function(d) { return d.children ? "end" : "start"; } )
+	  .attr( "dx", function(d) { return d.children ? -0.2 * fs : 0.5 * fs; } ) 
+      .style("font", fs * 1.2 + "px sans-serif" )
+	  .text(function(d) { 
+		if ( d.children )
+		{
+			if ( splist.indexOf( d.title ) != -1 )
+			{
+				if ( typeof addcustomtax == "function" ) addcustomtax( d.title );
+				return d.title;
+			}
+			else
+			{
+				d._title = d.title;
+				d.title = null;
+				return ""; 
+			}
+		} else return d.title;
+		}
+		)
+	  .style("fill-opacity", 1)
+	  .each(function(d,i) {
+        var thisWidth = this.getComputedTextLength();
+        if ( labelSize < thisWidth ) labelSize = thisWidth;
+		});
+	  
+	   var nodeUpdate = node.transition()
+      .duration(750);
+      //attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+
+	nodeUpdate.select("text")
+		.style("fill-opacity", 1);
+
+
+	  
+	  
+
+  // Declare the links
+  var link = svg.selectAll("path.link")
+	  .data(links, function(d) { return d.target.id; });
+
+  // Enter the links.
+  link.enter().insert("path", "g")
+	  .attr("class", "link")
+	  .attr("d", diagonal)
+	.attr("stroke", "black")
+    .attr("stroke-width", fs * 0.17 +"px")
+    .attr("shape-rendering", "auto")
+    .attr("fill", "none");   
+
+	var recth = minrectsize;
+	var hmbeg = treewidth + labelSize + 10;
+	var rectw = ( width - hmbeg ) / nsamples;
+	if ( rectw > minrectsize ) rectw = minrectsize;
+	
+	var cgenerator = d3.scale.linear()
+		.domain([0, 3, cdomain.length-1 ])
+		.range([
+			d3.hsl( 0, 0, 1),
+			d3.hsl( 0, 0, 0.8),
+			d3.hsl( 0, 0, 0)]
+		);
+		//.interpolate(d3.interpolateCubehelix);
+		
+	var crange = d3.range( cdomain.length ).map(cgenerator);
+
+	var chue = 0.3;
+	var csat = 0.3;
+	var colorScale = d3.scale.threshold()
+        .domain( cdomain )
+		.range([
+			d3.hsl( chue, csat, 1),
+			d3.hsl( chue, csat, 1),
+			d3.hsl( chue, csat, 0.9),
+			d3.hsl( chue, csat, 0.8),
+			d3.hsl( chue, csat, 0.6),
+			d3.hsl( chue, csat, 0.3),
+			d3.hsl( chue, csat, 0.1)]
+		);
+
+   var div = d3.select("#tt");
+ 	
+	svg.selectAll(".bobo")
+      .data(ndata)
+      .enter().append("rect")
+      .attr("class", "bobo")
+      .attr("x", function(d) { return d[1] * rectw + hmbeg + 0.16 * rectw + ( 0.5 - 0.5 * d[5] ) * 0.96 * rectw; })
+      .attr("y", function(d) { return d[0] - recth * 0.5 + ( 0.5 - 0.5 * d[5] ) * recth;})
+	  .attr("width", function(d) { return rectw * 0.96 * d[5]; } )
+      .attr("height", function(d) { return recth * d[5]; } )
+      .style("stroke", "black" )
+      .style("stroke-width", 0.02 * rectw )
+      .style("fill", function(d) { return colorScale( d[2] ); } )
+      
+		.on("mouseover", function(d) {		
+			div.transition()		
+				.duration(200)		
+				.style("opacity", .9);		
+			div	.html( d[4] + " [" + ( 100 * d[4] / htnorm[ d[1] ] ).toFixed(1) + "%]" )	
+				.style("left", (d3.event.pageX) + "px")		
+				.style("top", (d3.event.pageY - 28) + "px");	
+			})					
+		.on("mouseout", function(d) {		
+			div.transition()		
+				.duration(500)		
+				.style("opacity", 0);	
+		});
+	  
+	var vldata = [];
+	for ( i = 0; i < datal.length; i++ )
+	{
+		vldata.push( [ i, datal[i] ] );
+	}
+	svg.selectAll(".dodo")
+      .data( vldata )
+      .enter().append("text")
+      .attr("class", "dodo")
+      .attr("y", function(d) { return d[0] * rectw + hmbeg + rectw - 1; })
+      .attr("x", 10 )
+      .attr("transform", "rotate(-90)")
+      .style("font", fs * 1.2 + "px sans-serif" )
+	  .text(function(d) { return d[1];});      
+
+	if ( taxlabels == "yes" )
+	{
+		var vtdata = [ "Phylum", "Class", "Order", "Family", "Genus", "Species", "Otu" ];
+		var vtaltdata = [ "Phylum", "Class", "Order", "Family", "Genus", "Species", "", "", "Reference", "", "Otu" ];
+		var cvtdata = vtdata.slice( 0, ilevel - 1 );
+		if ( ilevel > vtdata.length ) cvtdata = vtaltdata.slice( 0, ilevel - 1 );
+		svg.selectAll(".toto")
+		.data( cvtdata )
+		.enter().append("text")
+		.attr("class", "toto")
+		.attr("y", function( d, i ) { return ( i + 1 + taxroot ) * ctreewidth / maxlevel - rootshift + 0.3 * fs; })
+		.attr("x", 0.5 * fs )
+		.attr("transform", "rotate(-90)")
+		.style("font", fs * 1.2 + "px sans-serif" )
+		.style("font-style", "oblique" )
+		.text(function(d) { return d;});      
+	}
+
+	var vcdata = [];
+	var vcrect = 4 * fs;
+	var vcheight = 1.4 * fs;
+	for ( i = 0; i < cdomain.length - 1; i++ )
+	{
+		var md = cdomain[ i + 1 ];
+		if ( i + 2 == cdomain.length && cdscale == 0 )
+		{
+			md = maxdata + 1;
+		}
+		vcdata.push( [ i - 1, cdomain[i], md ] );
+	}
+	svg.selectAll(".coco1")
+      .data( vcdata )
+      .enter().append("text")
+      .attr("class", "coco1")
+      .attr("x", function(d) { return d[0] * vcrect; })
+      .attr("y", height + vcheight * 2 )
+      .style("font", fs * 1.2 + "px sans-serif" )
+	  .text(function(d) { return d[1];});      
+
+	svg.selectAll(".coco2")
+      .data( vcdata )
+      .enter().append("text")
+    .attr("class", "coco2")
+      .attr("x", function(d) { return d[0] * vcrect; })
+      .attr("y", height + 4.3 * vcheight )
+      .style("font", fs * 1.2 + "px sans-serif" )
+	  .text(function(d) { return ( cdscale == 0 ) ? ( d[2] - 1 ) : d[2]; });      
+	
+    
+	svg.selectAll(".coco3")
+      .data( vcdata )
+      .enter().append("rect")
+      .attr("class", "coco3")
+      .attr("x", function(d) { return d[0] * vcrect; })
+      .attr("y", height + vcheight * 2.3 )
+	  .attr("width", vcrect )
+      .attr("height", vcheight )
+	  //.attr("dx", ".71em")
+      //.attr("dy", ".35em")
+      .style("stroke", "black")
+      .style("fill", function(d) { return colorScale( d[1] ); } );
+
+
+}
+
+
+function click(d) {
+  console.log( "bb " );
+  if (d.title) {
+	console.log( " mm " + d.title );
+	d._title = d.title;
+    d.title = null;
+    if ( typeof removecustomtax == "function" ) removecustomtax( d.title );
+  } else {
+	console.log( " nn " + d._title );
+    d.title = d._title;
+    d._title = null;
+    if ( typeof addcustomtax == "function" ) addcustomtax( d.title );
+  }
+  update( d );
+}
+
+
+update(root);
+
+ </script>
+
+</body></html>

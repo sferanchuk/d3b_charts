@@ -1,0 +1,1 @@
+{"name": "hdim_closedref_emap", "maxlevel": 8, "taxtype": "qiime", "numvolumes": 23, "numrecords": 1480, "volumes": ["T2", "T5", "T7", "L6", "OV5", "L3", "L1", "L7", "OV2", "OV7", "T3", "OV8", "L5", "L4", "T1", "T4", "T6", "OV4", "OV6", "OV1", "OV3", "L2", "L8"]}
