@@ -13,19 +13,19 @@ in the conjunction with other python packages intended to be used in big data an
 
 ## Installation
 
-An installation process may require skills of system administrator, in a case of incompatibilities in the python3 environment and the software dependencies.
+The installation process may require the skills of a system administrator, if there are incompatibilities between the python3 environment and the software dependencies.
 
 Suggested installation via conda:
 
 1. create virtual environment:
 
-conda create -n d3b python=3.6 anaconda
+`conda create -n d3b python=3.6 anaconda`
 
-source activate d3b
+`source activate d3b`
 
 2. run setup:
 
-pip install .
+`pip install .`
 
 3. download phantomjs package, extract the executable file from the archive and move it to 'phantomjs' subdirectory. Suggested URLs to obtain phantomjs:
 
